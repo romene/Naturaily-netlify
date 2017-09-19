@@ -1,6 +1,7 @@
 
 html, body {
   margin: 0;
+  color: #3B220F;
 }
 
 body {
@@ -9,10 +10,29 @@ body {
 
 .main-container {
   position: relative;
+  overflow-x: hidden;
   display: grid;
-  grid-template-columns: 1fr 1200px 1fr;
+  grid-template-columns: 15px 1fr 15px;
+  grid-template-rows: 50px 1fr;
   grid-template-areas:
     "header  header  header"
     "left-sidebar content right-sidebar"
     "footer  footer  footer";
+
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    grid-template-columns: 1fr 540px 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .main-container {
+    grid-template-columns: 1fr 960px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .main-container {
+    grid-template-columns: 1fr 1140px 1fr;
+  }
 }
