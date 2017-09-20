@@ -1,4 +1,4 @@
-.main-wave {
+.main__wave {
   padding-top: 40%;
   grid-area: header;
   background-image: url('../assets/images/main-wave.png');
@@ -7,14 +7,14 @@
   background-repeat: no-repeat;
 }
 
-.main-baner {
+.main__baner {
   grid-column: content;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: 270px auto auto;
   grid-row-gap: 70px;
 
-  .natu-logo {
+  .natu__logo {
     max-width: 100%;
     vertical-align: middle;
     grid-column: 1 / 8;
@@ -44,9 +44,83 @@
   }
 }
 
+.last-projects {
+  grid-column: content;
+  display: grid;
+  margin-top: 15rem;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 300px);
+  grid-gap: 30px;
+
+  .project {
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+
+  }
+
+  .project__image {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    text-align: center;
+    display: grid;
+    align-items: center;
+  }
+
+  .project__text {
+    color: #FFFFFF;
+    font-weight: 300;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .project__main {
+    grid-column: 1 / 8;
+    grid-row: 1 / 3;
+    background-image: url('../assets/images/projects-background-purple.png');
+    grid-template-columns: 60px 1fr 60px;
+    grid-template-rows: 60px 1fr 40px 60px;
+    .project__text {
+      font-size: 27px;
+      line-height: 32px;
+    }
+    .project__subtext {
+      display: block;
+      color: #8564BD;
+      font-size: 14px;
+    }
+  }
+
+  .project__second {
+    grid-column: 8 / 12;
+    grid-row: 1 / 2;
+    background-image: url('../assets/images/projects-background-blue.png');
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 40px 1fr 30px 20px;
+    .project__text {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+
+  .project__third {
+    grid-column: 8 / 12;
+    grid-row: 2 / 3;
+    background-image: url('../assets/images/projects-background-green.png');
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 40px 1fr 30px 20px;
+    .project__text {
+      font-size: 22px;
+      line-height: 26px;
+    }
+  }
+
+}
+
 @media (min-width: 576px) {
-  .main-baner {
-    .natu-logo {
+  .main__baner {
+    .natu__logo {
       grid-column: 2 / 4;
     }
     .baner__text {
