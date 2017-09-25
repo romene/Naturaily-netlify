@@ -37,3 +37,8 @@ body {
     grid-template-columns: 1fr 1140px 1fr;
   }
 }
+@media (min-width: 1400px) {
+  .main-container {
+    grid-template-columns: 1fr 1400px 1fr;
+  }
+}
