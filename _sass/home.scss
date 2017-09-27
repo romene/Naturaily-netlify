@@ -267,6 +267,7 @@
     font-weight: 300;
   }
   .competences__btn {
+    display: none;
     grid-row: 3;
     grid-column: 1 / 5;
   }
@@ -313,6 +314,26 @@
       grid-row: 4 / 6;
     }
   }
+}
+
+.aboutus {
+  grid-column: content;
+  .aboutus__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    font-weight: 300;
+  }
+}
+
+.gallery {
+  margin-top: 50px;
+  grid-column: left-sidebar / right-sidebar;
+  grid-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 500px;
+  overflow: hidden;
 }
 
 @media (min-width: 576px) {
