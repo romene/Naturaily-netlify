@@ -1,7 +1,31 @@
 $color-white: #FFFFFF;
 $color-brown-font: #3B220F;
-$color-primary: #FF2C2C;
+$color-red: #FF2C2C;
+$color-orange: #FF5E45;
+$color-purple: #55368A;
+$color-blue: #71C3E3;
+$color-brown-light: #B36800;
+$color-green: #8DCB6F;
 
 @mixin red-gradient-background {
   	background: linear-gradient(270deg, #FF5E45 0%, #FF2C2C 100%);
+}
+
+.text-red {
+  color: $color-red;
+}
+.text-orane {
+  color: $color-orange;
+}
+.text-purple {
+  color: $color-purple;
+}
+.text-blue {
+  color: $color-blue;
+}
+.text-brown-light {
+  color: $color-brown-light;
+}
+.text-green {
+  color: $color-green;
 }
