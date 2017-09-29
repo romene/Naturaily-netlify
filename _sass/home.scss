@@ -266,6 +266,38 @@
   }
 }
 
+.resaults {
+  grid-column: content;
+  .resaults__title {
+    font-weight: 600;
+    font-size: 35px;
+  }
+  .resaults__assets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .asset {
+      .asset__number {
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        color: white;
+        box-shadow: 0 6px 17px 0 rgba(116,190,233,0.27);
+        text-align: center;
+        line-height: 42px;
+        margin: 20px 11px;
+      }
+      .asset__title {
+        font-weight: 600;
+        margin: 15px 0;
+      }
+      .asset__text {
+        font-weight: 300;
+      }
+    }
+  }
+
+}
+
 .competences {
   grid-column: content;
   display: grid;
