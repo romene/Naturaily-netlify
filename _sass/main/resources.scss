@@ -27,7 +27,6 @@
     font-weight: 300;
     text-align: center;
     display: grid;
-    padding: 10px 15px;
     justify-items: center;
     align-items: end;
     .tile-text {
@@ -57,9 +56,6 @@
 
 @media (min-width: 992px) {
   .resources {
-    .resources-tile {
-      margin: 20px 0;
-    }
     .resources-title {
       grid-column: 1 / 9;
       grid-row: 2 / 3;

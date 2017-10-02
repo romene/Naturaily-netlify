@@ -24,22 +24,22 @@ body {
 }
 
 @media (min-width: 576px) {
-  .main-container {
+  .l-main-container {
     grid-template-columns: 1fr 540px 1fr;
   }
 }
 @media (min-width: 992px) {
-  .main-container {
+  .l-main-container {
     grid-template-columns: 1fr 960px 1fr;
   }
 }
 @media (min-width: 1200px) {
-  .main-container {
+  .l-main-container {
     grid-template-columns: 1fr 1140px 1fr;
   }
 }
 @media (min-width: 1400px) {
-  .main-container {
-    grid-template-columns: 1fr 1400px 1fr;
+  .l-main-container {
+    grid-template-columns: 1fr 1320px 1fr;
   }
 }
