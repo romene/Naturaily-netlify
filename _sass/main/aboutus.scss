@@ -1,0 +1,18 @@
+.aboutus {
+  margin-top: 60px;
+  .aboutus-content {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 60px;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 992px) {
+  .aboutus {
+    .aboutus-content {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

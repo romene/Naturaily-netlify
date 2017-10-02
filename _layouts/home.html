@@ -3,264 +3,42 @@ layout: default
 ---
 <div class="main__wave"></div>
 
-<div class="main__baner">
-  <img class="natu__logo" src="/assets/images/logo_naturaily.png">
-  <div class="oval"></div>
-  <div class="baner__text">
-    Twoje profesjonalne wsparcie IT na żądanie. Zapewniliśmy klientom <b>30 654 godzin</b> pracy naszych programistów i projektantów.
-  </div>
-  <button type="button" name="button" class="btn btn__primary baner__btn">
-    zróbmy coś dla ciebie
-  </button>
+<div class="l-content">
+  {% include baner.html %}
 </div>
 
-<div class="latest-projects">
-  <div class="project project__main">
-    <div class="project__image">
-      <img src="/assets/images/kupiese.png">
-    </div>
-    <div class="project__text">
-      Kupie.se
-      <span class="project__subtext">Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android</span>
-    </div>
-  </div>
-  <div class="project project__second">
-    <div class="project__image">
-      <img src="/assets/images/shuttlefare.png">
-    </div>
-    <div class="project__text">
-      Shuttlefare
-    </div>
-  </div>
-  <div class="project project__third">
-    <div class="project__image">
-      <img src="/assets/images/motoceny24.png">
-    </div>
-    <div class="project__text">
-      Motoceny24
-    </div>
-  </div>
+<div class="l-content">
+  {% include projects.html %}
 </div>
 
-<div class="resources">
-  <div class="resources__title">
-    Dostępne zawsze gdy tego potrzebujesz
-  </div>
-  <div class="resources__text">
-    Bez względu na to czy potrzebujesz partnera do kompleksowej realizacji swojego pomysłu, czy też stałego lub chwilowego wsparcia zespołu developerskiego i projektowego, jesteśmy do Twojej dyspozycji, właśnie wtedy i zawsze wtedy gdy nas potrzebujesz.
-  </div>
-  <div class="web-tile tile">
-    <img src="/assets/images/icon-ruby.png" alt="">
-    <div class="tile__text">Web Developent</div>
-  </div>
-  <div class="mobile-tile tile">
-    <img src="/assets/images/icon-mobile.png" alt="">
-    <div class="tile__text">Mobile Developent</div>
-  </div>
-  <div class="ux-tile tile">
-    <img src="/assets/images/icon-multi.png" alt="">
-    <div class="tile__text">UX / UI Design</div>
-  </div>
-  <div class="resources__btn">
-    <button type="button" class="btn btn__secondary">poznaj naszą ofertę</button>
-  </div>
+<div class="l-content">
+  {% include resources.html %}
 </div>
 
-<div class="technology">
-  <div class="technology__title">
-    Tworzymy nowoczesne aplikacje webowe i mobilne
-  </div>
-  <div class="technology__text">
-    w oparciu o godne zaufania, stabilne technologie
-    i frameworki oraz o transparentną komunikację
-    i skuteczny proces realizacji.
-    <br>
-    <br>
-    Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając
-    z rozwiązań, po które sięgają najlepsi programiści
-    i architekci software’u na całym świecie
-  </div>
-  <div class="technologies">
-    <div class="item left">
-      <img src="/assets/images/rails-logo.png" alt="">
-      Ruby on Rails
-    </div>
-    <div class="item right">
-      <img src="/assets/images/ember-logo.png" alt="">
-      Ember
-    </div>
-    <div class="item left">
-      <img src="/assets/images/android-logo.png" alt="" style="margin-left: 10px;">
-      Android
-    </div>
-    <div class="item right">
-      <img src="/assets/images/ios-logo.png" alt="">
-      iOS
-    </div>
-  </div>
+<div class="l-content">
+  {% include technology.html %}
 </div>
 
-<div class="tools">
-  <img src="/assets/images/gitlab.png">
-  <img src="/assets/images/jenkins.png">
-  <img src="/assets/images/slack.png">
-  <img src="/assets/images/breeze.png">
-  <img src="/assets/images/trello.png">
+<div class="l-content">
+  {% include tools.html %}
 </div>
 
-<div class="values">
-  <div class="values__title">
-    To co ważne dla Ciebie, jest ważne dla nas!
-  </div>
-  <div class="values__nav">
-    <ul class="values__nav-list">
-      <li>Jakość <span>01</span></li>
-      <li>Transparentność <span>02</span></li>
-      <li>Fair Play <span>03</span></li>
-      <li>Komunikacja <span>04</span></li>
-    </ul>
-  </div>
+<div class="l-content">
+  {% include values.html %}
 </div>
 
-<div class="resaults">
-  <div class="resaults__title">
-    Płyniemy z nurtem…
-  </div>
-  <div class="resaults__assets">
-    <div class="asset">
-      <div class="asset__number bg-blue">
-        1
-      </div>
-      <img src="/assets/images/icon-listen.png" alt="">
-      <div class="asset__title text-blue">
-        Słuchamy
-      </div>
-      <div class="asset__text">
-        zrozumienie kontekstu, poznanie celu projektu, analiza, wycena
-      </div>
-    </div>
-    <div class="asset">
-      <div class="asset__number bg-purple">
-        2
-      </div>
-      <img src="/assets/images/icon-code.png" alt="">
-      <div class="asset__title text-purple">
-        Działamy
-      </div>
-      <div class="asset__text">
-        kodujemy, testujemy, optymalizujemy, weryfikujemy
-      </div>
-    </div>
-    <div class="asset">
-      <div class="asset__number bg-green">
-        3
-      </div>
-      <img src="/assets/images/icon-trust.png" alt="">
-      <div class="asset__title text-green">
-        Wypuszczamy i&nbsp;opiekujemy się
-      </div>
-    </div>
-  </div>
+<div class="l-content">
+  {% include resaults.html %}
 </div>
 
-<div class="competences">
-  <div class="competences__title">
-    Twoi najlepsi programiści i projektanci UX/UI na zlecenie
-  </div>
-  <div class="competences__text">
-    Skorzystaj z naszych zasobów wtedy gdy ich potrzebujesz, rozpocznij z nami wdrożenie swojej aplikacji webowej lub mobilnej, lub rozwijaj z nami istniejące już oprogramowanie. Przekonaj się o jakości naszych usług w trakcie miesiąca testowego!
-  </div>
-  <div class="competences__btn">
-    <button type="button" class="btn btn__primary">powiedz nam czego potrzebujesz</button>
-  </div>
-  <div class="competences__offers">
-    <div class="offer offer--1">
-      <img src="/assets/images/icon-analyze.png" alt="">
-      <div class="offer__text text-orane">
-        Analiza Biznesowa i Produkcja
-      </div>
-    </div>
-    <div class="offer offer--2">
-      <img src="/assets/images/icon-multi.png" alt="">
-      <div class="offer__text text-purple">
-        UX/UI Design
-      </div>
-    </div>
-    <div class="offer offer--3">
-      <img src="/assets/images/icon-architectur.png" alt="">
-      <div class="offer__text text-blue">
-        Software Architecture
-      </div>
-    </div>
-    <div class="offer offer--4">
-      <img src="/assets/images/icon-backend.png" alt="">
-      <div class="offer__text">
-        Backend Development
-      </div>
-    </div>
-    <div class="offer offer--5">
-      <img src="/assets/images/icon-mobile2.png" alt="">
-      <div class="offer__text text-brown-light">
-        Mobile Development
-      </div>
-    </div>
-    <div class="offer offer--6">
-      <img src="/assets/images/icon-frontend.png" alt="">
-      <div class="offer__text text-purple">
-        Frontent Development
-      </div>
-    </div>
-    <div class="offer offer--7 text-green">
-      <img src="/assets/images/icon-growth.png" alt="">
-      <div class="offer__text">
-        Utrzymanie i rozwój
-      </div>
-    </div>
-  </div>
+<div class="l-content">
+  {% include competence.html %}
 </div>
 
-<div class="aboutus">
-  <div class="aboutus__content">
-    <div class="">
-      <img class="natu__logo" src="/assets/images/logo_naturaily.png">
-    </div>
-    <div class="">
-      Może jeszcze nie jesteśmy najlepsi, ale każdego
-      dnia dążymy do tego, by takimi się stać :)
-      <br>
-      <br>
-      W Naturaily czerpiemy z wieloletniego doświadczenia założycieli ;) oraz wiedzy, pasji
-      i energii całego zespołu.
-    </div>
-    <div class="">
-      Inspiruje nas technologia, pasjonuje daleki
-      wschód i jego filozofia.
-      <br>
-      <br>
-      Cenimy spokój, rozwagę, szanujemy czas i ludzi, czujemy respekt wobec świata i przyrody... naturalnie.
-    </div>
-  </div>
+<div class="l-content">
+  {% include aboutus.html %}
 </div>
 
-<div class="gallery" style="justify-items: end;">
-  <div class="">
-    <img src="/assets/images/home-gallery-8.png" style="float: right;">
-    <img src="/assets/images/home-gallery-9.png" style="margin-top: 30px;">
-    <img src="/assets/images/home-gallery-7.png" style="margin-top: 30px;">
-  </div>
-  <div class="">
-    <img src="/assets/images/home-gallery-10.png" style="margin-top: 60px;">
-  </div>
-  <div class="">
-  <img src="/assets/images/home-gallery-2.png" style="margin-top: 30px;">
-  <img src="/assets/images/home-gallery-6.png" style="margin-top: 30px;">
-  </div>
-  <div class="">
-    <img src="/assets/images/home-gallery-4.png" style="float: right;">
-    <img src="/assets/images/home-gallery-3.png" style="margin-top: 30px;">
-  </div>
-  <div class="">
-    <img src="/assets/images/home-gallery-1.png">
-    <img src="/assets/images/home-gallery-5.png" style="margin-top: 30px; float: right;">
-  </div>
+<div class="l-full-page">
+  {% include gallery.html %}
 </div>

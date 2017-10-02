@@ -1,0 +1,71 @@
+@import "../variables";
+.values {
+  grid-column: content;
+  display: none;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(5, 100px) 300px 150px;
+
+  .main-point {
+    grid-column: 1 / 13;
+    grid-row: 1;
+  }
+
+  .values-title {
+    grid-column: 1 / 7;
+    grid-row: 2 / 3;
+    font-weight: 600;
+    font-size: 35px;
+  }
+
+  .values-texts {
+    grid-column: 1 / 8;
+    grid-row: 4 / 7;
+    overflow-y: auto;
+    .value-text {
+      font-weight: 300;
+      .text-number {
+        color: $color-brown-light;
+        font-size: 14px;
+      }
+      .text-title {
+        float: left;
+        width: 35%;
+        font-weight: 200;
+        font-size: 24px;
+      }
+      .text-content {
+        float: left;
+        width: 65%;
+      }
+    }
+  }
+
+  .values-nav {
+    grid-column: 9 / 12;
+    grid-row: 2 / 5;
+
+    .values-nav-list {
+      font-weight: 300;
+      list-style: none;
+      margin: 0;
+      background-color: $color-white;
+      border-radius: 5px;
+      box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+      padding: 30px 0;
+
+      li {
+        padding: 16px 30px;
+        cursor: pointer;
+        span {
+          float: right;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .values {
+    display: grid;
+  }
+}

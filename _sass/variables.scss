@@ -3,6 +3,7 @@ $color-brown-font: #3B220F;
 $color-red: #FF2C2C;
 $color-orange: #FF5E45;
 $color-purple: #55368A;
+$color-purple-light: #8564BD;
 $color-blue: #71C3E3;
 $color-brown-light: #B36800;
 $color-green: #8DCB6F;
@@ -47,4 +48,8 @@ $color-green: #8DCB6F;
 }
 .bg-green {
   background-color: $color-green;
+}
+
+.clear {
+  clear: both;
 }
