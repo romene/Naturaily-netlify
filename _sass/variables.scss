@@ -7,9 +7,10 @@ $color-purple-light: #8564BD;
 $color-blue: #71C3E3;
 $color-brown-light: #B36800;
 $color-green: #8DCB6F;
+$color-yellow: #FFB040;
 
 @mixin red-gradient-background {
-  	background: linear-gradient(270deg, #FF5E45 0%, #FF2C2C 100%);
+  	background: linear-gradient(270deg, $color-orange 0%, $color-red 100%);
 }
 
 .text-red {

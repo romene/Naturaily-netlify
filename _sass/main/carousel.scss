@@ -1,0 +1,73 @@
+.main-carousel {
+  .carousel-item {
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+    border-radius: 4px;
+    margin: 40px 0;
+    font-weight: 300;
+    padding: 0 50px 25px;
+    .item-info {
+      width: 100%;
+      float: left;
+      text-align: center;
+      .item-job {
+
+      }
+      img {
+        max-width: 150px;
+        margin: -50px auto 15px;
+        border-radius: 50%;
+        box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+      }
+    }
+    .item-opinion {
+      float: left;
+      width: 100%;
+      .item-company {
+        max-width: 100px;
+        margin: 20px 0;
+      }
+    }
+  }
+  .owl-dots {
+    .owl-dot {
+      height: 30px;
+      margin: 0 15px;
+      .dot-1 {
+        background-image: url('/assets/images/carousel-point-1-active.png');
+        width: 115px;
+      }
+      .dot-2 {
+        background-image: url('/assets/images/carousel-point-2.png');
+        width: 100px;
+      }
+      .dot-3 {
+        background-image: url('/assets/images/carousel-point-3.png');
+        width: 140px;
+      }
+      .dot-4 {
+        background-image: url('/assets/images/carousel-point-4.png');
+        width: 130px;
+      }
+      div {
+        background-position: center;
+        background-size: cover;
+        height: 30px;
+      }
+    }
+  }
+}
+.carousel-point {
+  text-align: center;
+  margin: 60px 0;
+}
+
+@media (min-width: 992px) {
+  .main-carousel .carousel-item {
+    .item-opinion {
+      width: 60%;
+    }
+    .item-info {
+      width: 40%;
+    }
+  }
+}

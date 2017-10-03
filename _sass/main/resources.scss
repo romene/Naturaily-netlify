@@ -1,3 +1,5 @@
+@import "../variables";
+
 .resources {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -21,7 +23,7 @@
     font-weight: 300;
   }
   .resources-tile {
-    background: white;
+    background: $color-white;
     box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
     border-radius: 4px;
     font-weight: 300;
@@ -36,17 +38,17 @@
   .web-tile {
     grid-column: 3 / 11;
     grid-row: 4 / 5;
-    color: #FF5E45;
+    color: $color-orange;
   }
   .mobile-tile {
     grid-column: 3 / 11;
     grid-row: 5 / 6;
-    color: #FFB040;
+    color: $color-yellow;
   }
   .ux-tile {
     grid-column: 3 / 11;
     grid-row: 6 / 7;
-    color: #55368A;
+    color: $color-purple;
   }
   .resources-btn {
     grid-column: 1 / 13;
