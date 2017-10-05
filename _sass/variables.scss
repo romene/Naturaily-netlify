@@ -58,9 +58,7 @@ $color-yellow: #FFB040;
 .wave {
   grid-column: 1 / 4;
   position: relative;
-  z-index: -1;
   .wave-tail {
-    padding-top: 100%;
     position: absolute;
     width: 100%;
     bottom: 100%;

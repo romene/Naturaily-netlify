@@ -1,5 +1,6 @@
 @import "../variables";
 .resaults {
+  grid-column: 2 / 3;
   .main-point {
     margin-bottom: 60px;
   }
@@ -21,7 +22,7 @@
         box-shadow: 0 6px 17px 0 rgba(116,190,233,0.27);
         text-align: center;
         line-height: 42px;
-        margin: 20px 11px;
+        margin: 20px auto;
       }
       .asset-title {
         font-weight: 600;
@@ -67,8 +68,44 @@
         }
       }
     }
-    .resaults-circle {    
+    .resaults-circle {
       float: right;
     }
+  }
+}
+
+.resaults-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 15px 1fr 15px;
+  .resaults-wave {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+  }
+}
+
+@media (min-width: 576px) {
+  .resaults-wrapper {
+    grid-template-columns: 1fr 540px 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .resaults-wrapper {
+    grid-template-columns: 1fr 960px 1fr;
+    .resaults-wave {
+      display: block;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .resaults-wrapper {
+    grid-template-columns: 1fr 1140px 1fr;
+  }
+}
+@media (min-width: 1400px) {
+  .resaults-wrapper {
+    grid-template-columns: 1fr 1320px 1fr;
   }
 }
