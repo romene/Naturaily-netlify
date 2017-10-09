@@ -4,7 +4,7 @@
   grid-template-rows: 270px auto auto;
   grid-row-gap: 70px;
 
-  .baner-logo {
+  &-logo {
     max-width: 100%;
     vertical-align: middle;
     grid-column: 1 / 8;
@@ -12,7 +12,7 @@
     align-self: end;
   }
 
-  .baner-oval {
+  &-oval {
     height: 270px;
     width: 270px;
     background: radial-gradient(circle, #FCC36D 0%, #FFB040 100%);
@@ -22,13 +22,13 @@
     grid-row: 1 / 2;
   }
 
-  .baner-text {
+  &-text {
     grid-column: 1 / 12;
     font-size: 35px;
     font-weight: 200;
   }
 
-  .baner-btn {
+  &-btn {
     grid-row: 3 / 4;
     grid-column: 1 / 12;
   }
@@ -36,13 +36,13 @@
 
 @media (min-width: 992px) {
   .baner {
-    .baner-logo {
+    &-logo {
       grid-column: 2 / 4;
     }
-    .baner-text {
+    &-text {
       grid-column: 2 / 9;
     }
-    .baner-btn {
+    &-btn {
       grid-column: 2 / 7;
     }
   }

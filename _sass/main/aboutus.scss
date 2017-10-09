@@ -1,6 +1,6 @@
 .aboutus {
   margin-top: 60px;
-  .aboutus-content {
+  &-content {
     margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr;
@@ -11,7 +11,7 @@
 
 @media (min-width: 992px) {
   .aboutus {
-    .aboutus-content {
+    &-content {
       grid-template-columns: repeat(3, 1fr);
     }
   }
