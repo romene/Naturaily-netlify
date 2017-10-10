@@ -1,0 +1,114 @@
+@import "../variables";
+@import "../utilities";
+
+.results {
+  grid-column: 2 / 3;
+  .main-point {
+    margin-bottom: 60px;
+  }
+  &-title {
+  }
+  &-assets {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin: 50px 0 20px 0;
+    .asset {
+      &-number {
+        height: 42px;
+        width: 42px;
+        border-radius: 50%;
+        color: white;
+        box-shadow: 0 6px 17px 0 rgba(116,190,233,0.27);
+        text-align: center;
+        line-height: 42px;
+        margin: 20px auto;
+      }
+      &-title {
+        font-weight: 600;
+        margin: 15px 0;
+      }
+      &-text {
+        font-weight: 300;
+      }
+      i {
+        margin: auto;
+      }
+    }
+  }
+  &-circle {
+    @include red-gradient-background();
+    color: $color-white;
+    font-weight: 300;
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+    margin: auto;
+    .results-circle__content {
+      padding: 60px 15px;
+      text-align: center;
+      button {
+        font-size: 0.75rem;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .results {
+    &-assets {
+      grid-template-columns: repeat(4, 1fr);
+      .asset {
+        &-listen {
+          margin-top: 30px;
+        }
+        &-act {
+          margin-top: 60px;
+        }
+        &-care {
+          margin-top: 0px;
+        }
+      }
+    }
+    &-circle {
+      float: right;
+    }
+  }
+}
+
+.results-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 15px 1fr 15px;
+  .results-wave {
+    display: none;
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+  }
+}
+
+@media (min-width: 576px) {
+  .results-wrapper {
+    grid-template-columns: 1fr 540px 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .results-wrapper {
+    grid-template-columns: 1fr 960px 1fr;
+    .results-wave {
+      display: block;
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .results-wrapper {
+    grid-template-columns: 1fr 1140px 1fr;
+  }
+}
+@media (min-width: 1400px) {
+  .results-wrapper {
+    grid-template-columns: 1fr 1320px 1fr;
+  }
+}
