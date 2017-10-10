@@ -1,77 +1,55 @@
+@import "utilities";
+
 .sprite {
-    background-image: url(images/icons.png);
-    background-repeat: no-repeat;
-    display: block;
+  background-image: url(images/icons.png);
+  background-repeat: no-repeat;
+  display: block;
 }
 
 .sprite-icon-analyze {
-    width: 60px;
-    height: 65px;
-    background-position: -5px -5px;
+  @include icon(60px, 65px, -5px, -5px);
 }
 
 .sprite-icon-architectur {
-    width: 60px;
-    height: 56px;
-    background-position: -75px -5px;
+    @include icon(60px, 56px, -75px, -5px);
 }
 
 .sprite-icon-backend {
-    width: 65px;
-    height: 71px;
-    background-position: -145px -5px;
+    @include icon(65px, 71px, -145px, -5px);
 }
 
 .sprite-icon-code {
-    width: 64px;
-    height: 54px;
-    background-position: -5px -86px;
+    @include icon(64px, 54px, -5px, -86px);
 }
 
 .sprite-icon-frontend {
-    width: 66px;
-    height: 54px;
-    background-position: -79px -86px;
+    @include icon(66px, 54px, -79px , -86px);
 }
 
 .sprite-icon-growth {
-    width: 70px;
-    height: 63px;
-    background-position: -155px -86px;
+    @include icon(70px, 63px, -155px, -86px);
 }
 
 .sprite-icon-listen {
-    width: 59px;
-    height: 62px;
-    background-position: -5px -159px;
+    @include icon(59px, 62px, -5px, -159px);
 }
 
 .sprite-icon-mobile {
-    width: 60px;
-    height: 60px;
-    background-position: -74px -159px;
+    @include icon(60px, 60px, -74px, -159px);
 }
 
 .sprite-icon-mobile2 {
-    width: 60px;
-    height: 60px;
-    background-position: -144px -159px;
+    @include icon(60px, 60px, -144px, -159px);
 }
 
 .sprite-icon-multi {
-    width: 70px;
-    height: 70px;
-    background-position: -220px -5px;
+    @include icon(70px, 70px, -220px, -5px);
 }
 
 .sprite-icon-ruby {
-    width: 60px;
-    height: 60px;
-    background-position: -235px -85px;
+    @include icon(60px, 60px, -235px, -85px);
 }
 
 .sprite-icon-trust {
-    width: 67px;
-    height: 62px;
-    background-position: -235px -155px;
+    @include icon(67px, 62px, -235px, -155px);
 }

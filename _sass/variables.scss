@@ -1,54 +1,42 @@
 $color-white: #FFFFFF;
-$color-brown-font: #3B220F;
-$color-red: #FF2C2C;
-$color-orange: #FF5E45;
-$color-purple: #55368A;
-$color-purple-light: #8564BD;
-$color-blue: #71C3E3;
-$color-brown-light: #B36800;
-$color-green: #8DCB6F;
-$color-yellow: #FFB040;
+$color-global-font: #3B220F;
+$color-primary: #FF2C2C;
+$color-secondary: #FF5E45;
+$color-main-project-muted: #8564BD;
+$color-accent-purple: #55368A;
+$color-accent-blue: #71C3E3;
+$color-accent-gold: #B36800;
+$color-accent-green: #8DCB6F;
+$color-accent-yellow: #FFB040;
 
-@mixin red-gradient-background {
-  	background: linear-gradient(270deg, $color-orange 0%, $color-red 100%);
+.text-primary {
+  color: $color-primary;
 }
-
-.text-red {
-  color: $color-red;
+.text-secondary {
+  color: $color-secondary;
 }
-.text-orane {
-  color: $color-orange;
+.text-accent-purple {
+  color: $color-accent-purple;
 }
-.text-purple {
-  color: $color-purple;
+.text-accent-blue {
+  color: $color-accent-blue;
 }
-.text-blue {
-  color: $color-blue;
+.text-accent-gold {
+  color: $color-accent-gold;
 }
-.text-brown-light {
-  color: $color-brown-light;
-}
-.text-green {
-  color: $color-green;
+.text-accent-green {
+  color: $color-accent-green;
 }
 
-.bg-red {
-  background-color: $color-red;
+
+.bg-accent-purple {
+  background-color: $color-accent-purple;
 }
-.bg-orane {
-  background-color: $color-orange;
+.bg-accent-blue {
+  background-color: $color-accent-blue;
 }
-.bg-purple {
-  background-color: $color-purple;
-}
-.bg-blue {
-  background-color: $color-blue;
-}
-.bg-brown-light {
-  background-color: $color-brown-light;
-}
-.bg-green {
-  background-color: $color-green;
+.bg-accent-green {
+  background-color: $color-accent-green;
 }
 
 .clear {
