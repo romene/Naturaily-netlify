@@ -10,12 +10,17 @@ body {
   font-family: acumin-pro;
 }
 
+h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
 .l-main-container {
   position: relative;
   overflow-x: hidden;
   display: grid;
   grid-template-columns: 15px 1fr 15px;
-  grid-template-rows: 100px 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas:
     "header  header  header"
     "left-sidebar content right-sidebar"

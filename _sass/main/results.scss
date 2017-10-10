@@ -5,8 +5,6 @@
     margin-bottom: 60px;
   }
   &-title {
-    font-weight: 600;
-    font-size: 35px;
   }
   &-assets {
     display: grid;
@@ -31,6 +29,9 @@
       &-text {
         font-weight: 300;
       }
+      i {
+        margin: auto;
+      }
     }
   }
   &-circle {
@@ -45,7 +46,7 @@
       padding: 60px 15px;
       text-align: center;
       button {
-        font-size: 12px;
+        font-size: 0.75rem;
         margin-top: 15px;
       }
     }
