@@ -1,26 +1,66 @@
 ---
 layout: default
 ---
+<div class="main__wave"></div>
 
-<div class="home">
+<div class="l-content">
+  {% include banner.html %}
+</div>
 
-  <h1 class="page-heading">Posts</h1>
-  
-  {{ content }}
+<div class="l-content">
+  {% include projects.html %}
+</div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+<div class="l-content">
+  {% include resources.html %}
+</div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="wave main-wave-1">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/cream-wave2.png" alt="">
+</div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+<div class="l-content">
+  {% include technology.html %}
+</div>
+<div class="l-content">
+  {% include tools.html %}
+</div>
 
+<div class="wave main-wave-2">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/blue-wave.png" alt="">
+</div>
+
+<div class="l-content">
+  {% include values.html %}
+</div>
+
+<div class="l-full-page">
+  {% include results.html %}
+</div>
+
+<div class="l-content">
+  {% include competence.html %}
+</div>
+
+<div class="wave main-wave-3">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/cream-wave.png" alt="">
+</div>
+
+<div class="l-content">
+  {% include aboutus.html %}
+</div>
+
+<div class="l-full-page">
+  {% include gallery.html %}
+</div>
+
+<div class="l-full-page">
+  {% include carousel.html %}
+</div>
+
+<div class="l-content">
+  {% include clutch.html %}
 </div>

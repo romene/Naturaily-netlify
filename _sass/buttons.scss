@@ -1,0 +1,29 @@
+@import "variables";
+@import "utilities";
+
+.btn {
+  border: none;
+  outline: none;
+}
+
+.btn-primary {
+  @include red-gradient-background();
+  border-radius: 30px;
+  color: $color-white;
+  padding: 18px 40px;
+  box-shadow: 0 6px 16px 0 rgba(255,61,61,0.15);
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-secondary {
+  background: $color-white;
+  border-radius: 30px;
+  color: $color-primary;
+  padding: 18px 40px;
+  box-shadow: 0 6px 16px 0 rgba(255,61,61,0.15);
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}

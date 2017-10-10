@@ -1,0 +1,49 @@
+.banner {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 270px auto auto;
+  grid-row-gap: 70px;
+
+  &-logo {
+    max-width: 100%;
+    vertical-align: middle;
+    grid-column: 1 / 8;
+    grid-row: 1/2;
+    align-self: end;
+  }
+
+  &-oval {
+    height: 270px;
+    width: 270px;
+    background: radial-gradient(circle, #FCC36D 0%, #FFB040 100%);
+    box-shadow: 0 30px 120px 0 rgba(255,176,64,0.3);
+    border-radius: 50%;
+    grid-column: 9 / 11;
+    grid-row: 1 / 2;
+  }
+
+  &-text {
+    grid-column: 1 / 12;
+    font-size: 2.2rem;
+    font-weight: 200;
+  }
+
+  &-btn {
+    grid-row: 3 / 4;
+    grid-column: 1 / 12;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner {
+    &-logo {
+      grid-column: 2 / 4;
+    }
+    &-text {
+      grid-column: 2 / 9;
+    }
+    &-btn {
+      grid-column: 2 / 7;
+    }
+  }
+}
