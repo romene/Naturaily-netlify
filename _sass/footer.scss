@@ -4,15 +4,19 @@
   grid-row-gap: 30px;
   &-logo {
     grid-column: 2;
+    align-self: end;
   }
   &-headline--offer {
     grid-column: 3;
+    align-self: end;
   }
   &-headline--places {
     grid-column: 4;
+    align-self: end;
   }
   &-headline--news {
     grid-column: 5;
+    align-self: end;
   }
   &-hr {
     grid-row: 2;
@@ -20,5 +24,25 @@
     border: none;
     border-top: 1px solid #E8E1D5;
     opacity: 0.8;
+  }
+  &-contact {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  &-offer {
+    grid-row: 3;
+    grid-column: 3;
+  }
+  &-places {
+    grid-row: 3;
+    grid-column: 4;
+  }
+  &-news {
+    grid-row: 3;
+    grid-column: 5;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
   }
 }
