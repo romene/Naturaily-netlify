@@ -1,6 +1,8 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+@import "variables";
+@import "utilities";
 @import "main-page";
 @import "minima";
 @import "base";
@@ -10,3 +12,4 @@
 @import "career";
 @import "buttons";
 @import "icons";
+@import "inputs";

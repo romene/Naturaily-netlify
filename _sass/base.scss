@@ -1,5 +1,3 @@
-@import "variables";
-
 html, body {
   margin: 0;
   color: $color-global-font;
@@ -23,8 +21,7 @@ h2 {
   grid-template-rows: 100px 1fr;
   grid-template-areas:
     "header  header  header"
-    "left-sidebar content right-sidebar"
-    "footer  footer  footer";
+    "left-sidebar content right-sidebar";
 
 }
 
