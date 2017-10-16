@@ -1,4 +1,5 @@
 @import "career-programming";
+@import "career-more";
 .career__wave {
   padding-top: 40%;
   grid-area: header;
@@ -11,6 +12,16 @@
   margin: 150px 0 120px;
   .big-point {
     display: block;
+  }
+}
+.coffee-point {
+  margin: auto;
+  text-align: center;
+  max-width: 500px;
+  font-size: 35px;
+  font-weight: 200;
+  &:before {
+    font-size: 35px;
   }
 }
 .big-point {
