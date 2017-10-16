@@ -23,15 +23,21 @@
 .career-card {
   border-radius: 4px;
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.07);
-  padding: 30px;
+  padding: 20px;
   font-weight: 300;
   &-job {
     font-size: 27px;
+    padding: 0 10px;
     display: block;
   }
   &-rate {
     color: #B36800;
     font-size: 16px;
     display: block;
+    padding: 10px;
+  }
+  .btn-career {
+    font-size: 0.75rem;
+    padding: 8px 20px;
   }
 }
