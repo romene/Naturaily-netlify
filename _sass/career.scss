@@ -7,11 +7,17 @@
   background-size: 133%;
   background-repeat: no-repeat;
 }
+.l-career-header {
+  margin: 150px 0 120px;
+  .big-point {
+    display: block;
+  }
+}
 .big-point {
   font-weight: 200;
   font-size: 2.2rem;
   line-height: 32px;
-  margin-left: -12px;
+  margin-left: -22px;
   &::before{
     content: "•";
     color: #FFB040;
