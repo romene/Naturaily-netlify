@@ -1,9 +1,0 @@
-.programming {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 30px;
-  .main-point {
-    grid-column: 1 / 4;
-    padding: 60px 0 40px;
-  }
-}

@@ -1,5 +1,5 @@
-@import "career-programming";
-@import "career-more";
+@import "career/career-more";
+
 .career__wave {
   padding-top: 40%;
   grid-area: header;
@@ -14,8 +14,17 @@
     display: block;
   }
 }
+.l-career-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  .main-point {
+    grid-column: 1 / 3;
+    padding: 60px 0 40px;
+  }
+}
 .coffee-point {
-  margin: auto;
+  margin: 160px auto;
   text-align: center;
   max-width: 500px;
   font-size: 35px;
@@ -56,5 +65,14 @@
   .btn-career {
     font-size: 0.75rem;
     padding: 8px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .l-career-container {
+    grid-template-columns: repeat(3, 1fr);
+    .main-point {
+      grid-column: 1 / 4;
+    }
   }
 }
