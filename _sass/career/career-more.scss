@@ -1,24 +1,21 @@
 .career-more {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-gap: 30px;
   margin-top: 160px;
   .text {
-    grid-row: 1;
-    grid-column: 1 / 2;
     .title {
       margin-top: 60px;
     }
   }
   .benefits {
-    grid-column: 2 / 3;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 80px);
     grid-gap: 30px;
     padding-top: 10px;
     &-tile {
-      background: #FFFFFF;
+      background: $color-white;
       box-shadow: 0 8px 32px 0 rgba(179, 104, 0, 0.15);
       border-radius: 4px;
       font-weight: 300;
@@ -52,5 +49,11 @@
       grid-column: 3;
       grid-row: 2 / 4;
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .career-more {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

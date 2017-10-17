@@ -27,10 +27,10 @@
   margin: 160px auto;
   text-align: center;
   max-width: 500px;
-  font-size: 35px;
+  font-size: 2.2rem;
   font-weight: 200;
   &:before {
-    font-size: 35px;
+    font-size: 2.2rem;
   }
 }
 .big-point {
@@ -40,7 +40,7 @@
   margin-left: -22px;
   &::before{
     content: "•";
-    color: #FFB040;
+    color: $color-accent-yellow;
     font-size: 2.2rem;
     font-family: initial;
   }
@@ -52,13 +52,13 @@
   padding: 20px;
   font-weight: 300;
   &-job {
-    font-size: 27px;
+    font-size: 1.7rem;
     padding: 0 10px;
     display: block;
   }
   &-rate {
-    color: #B36800;
-    font-size: 16px;
+    color: $color-accent-gold;
+    font-size: 1rem;
     display: block;
     padding: 10px;
   }
