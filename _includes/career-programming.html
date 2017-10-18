@@ -2,15 +2,18 @@
   <div class="main-point">
     Programowanie
   </div>
-  {% for job in site.data.career.programming %}
+  {% for job in site.career %}
+  {% if job.type contains "programming" %}
     <div class="career-card">
       <span class="career-card-job">
-        {{job.name}}
+        {{job.title}}
       </span>
       <span class="career-card-rate">
         od {{job.salary}} pln netto
       </span>
-      <a href="/career/{{job.id}}" class="btn btn-secondary btn-career">aplikuj</a>
+      <a href="{{job.id}}" class="btn btn-secondary btn-career">aplikuj</a>
     </div>
+  {% endif %}
   {% endfor %}
+
 </div>

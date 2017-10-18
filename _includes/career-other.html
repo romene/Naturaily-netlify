@@ -2,13 +2,17 @@
   <div class="main-point">
     Inne
   </div>
-  <div class="career-card">
-    <span class="career-card-job">
-      Office Manager
-    </span>
-    <span class="career-card-rate">
-      od 3000 pln netto
-    </span>
-    <a class="btn btn-secondary btn-career">aplikuj</a>
-  </div>
+  {% for job in site.career %}
+  {% if job.type contains "other" %}
+    <div class="career-card">
+      <span class="career-card-job">
+        {{job.title}}
+      </span>
+      <span class="career-card-rate">
+        od {{job.salary}} pln netto
+      </span>
+      <a href="{{job.id}}" class="btn btn-secondary btn-career">aplikuj</a>
+    </div>
+  {% endif %}
+  {% endfor %}
 </div>

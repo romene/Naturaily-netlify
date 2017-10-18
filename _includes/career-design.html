@@ -2,22 +2,17 @@
   <div class="main-point">
     Projektowanie
   </div>
-  <div class="career-card">
-    <span class="career-card-job">
-      UX / UI Designer
-    </span>
-    <span class="career-card-rate">
-      od 8000 pln netto
-    </span>
-    <a class="btn btn-secondary btn-career">aplikuj</a>
-  </div>
-  <div class="career-card">
-    <span class="career-card-job">
-      UX / UI Designer
-    </span>
-    <span class="career-card-rate">
-      od 5000 pln netto
-    </span>
-    <a class="btn btn-secondary btn-career">aplikuj</a>
-  </div>
+  {% for job in site.career %}
+  {% if job.type contains "design" %}
+    <div class="career-card">
+      <span class="career-card-job">
+        {{job.title}}
+      </span>
+      <span class="career-card-rate">
+        od {{job.salary}} pln netto
+      </span>
+      <a href="{{job.id}}" class="btn btn-secondary btn-career">aplikuj</a>
+    </div>
+  {% endif %}
+  {% endfor %}
 </div>

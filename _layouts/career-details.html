@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="">
+  {{page.type}}
+  {{page.salary}}
+  <ul>
+    {% for req in page.requirements %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+  <ul>
+    {% for req in page.responsibilities %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+  <ul>
+    {% for req in page.benefits %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+  {{page.offer}}
+
+</div>
