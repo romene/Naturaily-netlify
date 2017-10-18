@@ -2,40 +2,15 @@
   <div class="main-point">
     Programowanie
   </div>
-  <div class="career-card">
-    <span class="career-card-job">
-      Sernior RoR Developer
-    </span>
-    <span class="career-card-rate">
-      od 8000 pln netto
-    </span>
-    <a class="btn btn-secondary btn-career">aplikuj</a>
-  </div>
-  <div class="career-card">
-    <span class="career-card-job">
-      Junior Front-End Developer
-    </span>
-    <span class="career-card-rate">
-      od 5000 pln netto
-    </span>
-    <a class="btn btn-secondary btn-career">aplikuj</a>
-  </div>
-  <div class="career-card">
-    <span class="career-card-job">
-      Sernior RoR Developer
-    </span>
-    <span class="career-card-rate">
-      od 5000 pln netto
-    </span>
-    <a class="btn btn-secondary btn-career">aplikuj</a>
-  </div>
-  <div class="career-card">
-    <span class="career-card-job">
-      Java Script Developer
-    </span>
-    <span class="career-card-rate">
-      od 8000 pln netto
-    </span>
-    <a class="btn btn-secondary btn-career">aplikuj</a>
-  </div>
+  {% for job in site.data.career.programming %}
+    <div class="career-card">
+      <span class="career-card-job">
+        {{job.name}}
+      </span>
+      <span class="career-card-rate">
+        od {{job.salary}} pln netto
+      </span>
+      <a href="/career/{{job.id}}" class="btn btn-secondary btn-career">aplikuj</a>
+    </div>
+  {% endfor %}
 </div>
