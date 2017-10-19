@@ -25,4 +25,7 @@ benefits:
   - Sandwhiches twice a week.
   - Pizza days
   - Gaming nights.
+salary-range:
+  - 8250-11925 PLN + VAT (B2B)
+  - 6600-900 PLN gross (UoP)
 ---

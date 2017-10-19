@@ -40,6 +40,14 @@ layout: default
   </div>
   <div class="details-content">
     <span>
+      Offer
+    </span>
+    <p>
+      {{ page.offer }}
+    </p>
+  </div>
+  <div class="details-content">
+    <span>
       Benefits
     </span>
     <ul>
@@ -47,6 +55,21 @@ layout: default
       <li>{{ req }}</li>
       {% endfor %}
     </ul>
+  </div>
+  <div class="details-content">
+    <span></span>
+    <p>
+      Don't hesitate and apply right away! In case of questions - drop us a line at <a href="mailto:jobs@naturaily.com">jobs@naturaily.com</a>
+    </p>
+  </div>
+  <div class="details-card">
+    <span>{{page.title}}</span>
+    <ul>
+      {% for req in page.salary-range %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+    <button type="button" class="btn btn-primary">aplikuj</button>
   </div>
 </div>
 
