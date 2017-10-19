@@ -74,6 +74,13 @@
       line-height: 26px;
     }
   }
+
+  &-button {
+    grid-column: 1 / 13;
+    button {
+      float: right;
+    }
+  }
 }
 
 @media (min-width: 992px) {

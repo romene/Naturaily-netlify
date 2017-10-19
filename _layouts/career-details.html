@@ -1,8 +1,36 @@
 ---
 layout: default
 ---
+<div class="career__wave"></div>
+<h2 class="l-content l-details-header">
+  <span class="big-point">
+    Zatrudnimy
+  </span>
+  {{page.title}}
+  <span class="point-where">
+    Wrocław lub zdalnie
+  </span>
+</h2>
+<h2 class="l-content">
+  Who we are looking for
+</h2>
+<div class="l-content career-details">
+  <p>
+    We are an Agile development team using Ruby on Rails, Meteor and Ionic to craft great web and mobile apps. We work with startups and grown-up companies.
+  </p>
+  <div class="content">
+    <span>
+      Requirements
+    </span>
+    <ul>
+      {% for req in page.requirements %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-<div class="">
+<div class="l-content">
   {{page.type}}
   {{page.salary}}
   <ul>

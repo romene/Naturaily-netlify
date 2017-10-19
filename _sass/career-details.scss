@@ -1,0 +1,11 @@
+.l-details-header {
+  margin: 150px 0 120px;
+  .point-where {
+    font-weight: 300;
+    display: block;
+  }
+}
+.career-details {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+}
