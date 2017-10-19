@@ -15,10 +15,10 @@ layout: default
   Who we are looking for
 </h2>
 <div class="l-content career-details">
-  <p>
+  <p class="details-who">
     We are an Agile development team using Ruby on Rails, Meteor and Ionic to craft great web and mobile apps. We work with startups and grown-up companies.
   </p>
-  <div class="content">
+  <div class="details-content">
     <span>
       Requirements
     </span>
@@ -28,9 +28,29 @@ layout: default
       {% endfor %}
     </ul>
   </div>
+  <div class="details-content">
+    <span>
+      Responsibilities
+    </span>
+    <ul>
+      {% for req in page.responsibilities %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="details-content">
+    <span>
+      Benefits
+    </span>
+    <ul>
+      {% for req in page.benefits %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
 
-<div class="l-content">
+<!-- <div class="l-content">
   {{page.type}}
   {{page.salary}}
   <ul>
@@ -50,4 +70,4 @@ layout: default
   </ul>
   {{page.offer}}
 
-</div>
+</div> -->
