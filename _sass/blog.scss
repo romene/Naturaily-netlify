@@ -9,4 +9,6 @@
 
 .l-blog {
   margin-top: 180px;
+  display: grid;
+  grid-template-columns: 1fr 270px;
 }
