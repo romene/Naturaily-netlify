@@ -1,0 +1,99 @@
+---
+layout: default
+---
+<div class="career__wave"></div>
+<h2 class="l-content l-details-header">
+  <span class="big-point">
+    Zatrudnimy
+  </span>
+  {{page.title}}
+  <span class="point-where">
+    Wrocław lub zdalnie
+  </span>
+</h2>
+<h2 class="l-content">
+  Who we are looking for
+</h2>
+<div class="l-content career-details">
+  <p class="career-details--who">
+    We are an Agile development team using Ruby on Rails, Meteor and Ionic to craft great web and mobile apps. We work with startups and grown-up companies.
+  </p>
+  <div class="career-details--content">
+    <span>
+      Requirements
+    </span>
+    <ul>
+      {% for req in page.requirements %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="career-details--content">
+    <span>
+      Responsibilities
+    </span>
+    <ul>
+      {% for req in page.responsibilities %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="career-details--content">
+    <span>
+      Offer
+    </span>
+    <p>
+      {{ page.offer }}
+    </p>
+  </div>
+  <div class="career-details--content">
+    <span>
+      Benefits
+    </span>
+    <ul>
+      {% for req in page.benefits %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="career-details--content">
+    <span></span>
+    <p>
+      Don't hesitate and apply right away! In case of questions - drop us a line at <a href="mailto:jobs@naturaily.com">jobs@naturaily.com</a>
+    </p>
+  </div>
+  <div class="career-details--card">
+    <span>{{page.title}}</span>
+    <ul>
+      {% for req in page.salary-range %}
+      <li>{{ req }}</li>
+      {% endfor %}
+    </ul>
+    <button type="button" class="btn btn-primary btn-arrow">
+      aplikuj
+      <img src="/assets/images/btn-arrow.png">
+    </button>
+  </div>
+</div>
+
+<!-- <div class="l-content">
+  {{page.type}}
+  {{page.salary}}
+  <ul>
+    {% for req in page.requirements %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+  <ul>
+    {% for req in page.responsibilities %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+  <ul>
+    {% for req in page.benefits %}
+    <li>{{ req }}</li>
+    {% endfor %}
+  </ul>
+  {{page.offer}}
+
+</div> -->
