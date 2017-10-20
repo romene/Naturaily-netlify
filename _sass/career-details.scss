@@ -8,13 +8,13 @@
 .career-details {
   display: grid;
   grid-template-columns: 1fr;
-  .details-who {
+  &--who {
     max-width: 450px;
     margin-left: 30px;
     font-weight: 300;
     margin-bottom: 80px;
   }
-  .details-content {
+  .--content {
     grid-column: 1;
     margin-left: 30px;
     display: flex;
@@ -32,7 +32,7 @@
       margin-bottom: 60px;
     }
   }
-  .details-card {
+  .--card {
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
     padding: 30px;
     font-weight: 300;
@@ -46,14 +46,14 @@
       list-style: none;
       padding: 0;
       margin: 0;
-      li {
-        padding-left: 1em;
-        text-indent: -.7em;
+    }
+    li {
+      padding-left: 1em;
+      text-indent: -.7em;
+      color: $color-accent-gold;
+      &::before {
+        content: "• ";
         color: $color-accent-gold;
-        &::before {
-          content: "• ";
-          color: $color-accent-gold;
-        }
       }
     }
     button {
