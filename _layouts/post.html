@@ -6,9 +6,12 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
     <header class="post-header">
+      {% if page.image %}
+        <img src="{{page.image}}" alt="">
+      {% endif %}
       <p class="post-meta">
         {% if page.author %}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
         {% endif %}
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -19,7 +22,7 @@ layout: default
         {% endif %}
         {% if page.author %}
           {% for tag in page.tags %}
-            {{ tag }}
+            <span class="post-tag">{{ tag }}</span>
           {% endfor %}
         {% endif %}
       </p>

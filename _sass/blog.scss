@@ -12,3 +12,35 @@
   display: grid;
   grid-template-columns: 1fr 270px;
 }
+
+pre, code {
+  border: 1px solid #FFB040;
+  border-radius: 3px;
+  background-color: #FFFBF5;
+  color: #B36800;
+}
+.post {
+  &-header {
+    img {
+      width: 100%;
+      margin-bottom: 25px;
+    }
+  }
+  &-content {
+    font-weight: 300;
+    a {
+      color: #FFB040;
+    }
+    blockquote {
+      color: #B36800;
+      border-left: 2px solid #FFB040;
+      margin-left: 20px;
+      font-weight: 300;
+    }
+  }
+  &-meta {
+    color: #B36800;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
