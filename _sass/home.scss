@@ -49,3 +49,14 @@
     background: linear-gradient(to bottom, #ffffff 0%,#fff8eb 100%);
   }
 }
+
+.arrow-down {
+  grid-column: 1;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  width: 30px;
+  justify-self: center;
+}

@@ -10,14 +10,15 @@
 .l-blog {
   margin-top: 180px;
   display: grid;
-  grid-template-columns: 1fr 270px;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
 }
 
 pre, code {
-  border: 1px solid #FFB040;
+  border: 1px solid $color-accent-yellow;
   border-radius: 3px;
-  background-color: #FFFBF5;
-  color: #B36800;
+  background-color: $color-code-bg;
+  color: $color-accent-gold;
 }
 .post {
   &-title {
@@ -34,11 +35,11 @@ pre, code {
     font-weight: 300;
     padding-left: 30px;
     a {
-      color: #FFB040;
+      color: $color-accent-yellow;
     }
     blockquote {
-      color: #B36800;
-      border-left: 2px solid #FFB040;
+      color: $color-accent-gold;
+      border-left: 2px solid $color-accent-yellow;
       margin-left: 20px;
       font-weight: 300;
     }
@@ -56,10 +57,79 @@ pre, code {
     .post-tag {
       font-size: 12px;
       float: right;
-      background-color: #FFFBF4;
+      background-color: $color-code-bg;
       border-radius: 3px;
       padding: 1px 10px;
       margin: 0 0 0 15px;
     }
+  }
+  &-navigation {
+    grid-column: 1 / 3;
+    padding-bottom: 50px;
+    border-bottom: 1px solid $color-nav-border;
+    a {
+      color: $color-global-font;
+      font-size: 1.5rem;
+      font-weight: 200;
+    }
+    .next {
+      float: right;
+      img {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+      }
+    }
+  }
+  &-footer {
+    grid-column: 1 / 3;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    padding: 100px 0;
+    p {
+      max-width: 500px;
+      margin: 50px auto;
+    }
+    span {
+      display: block;
+      margin: 50px 0;
+    }
+  }
+  &-meetus {
+    display: none;
+    background: $color-white;
+    border-radius: 4px;
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+    height: 250px;
+    text-align: center;
+    font-weight: 300;
+    padding: 30px;
+    margin-top: 25px;
+    span {
+      font-size: 1.7rem;
+    }
+    p {
+      padding: 30px;
+    }
+    .meetus-btn {
+      padding: 10px 40px;
+      color: $color-primary;
+    }
+    img {
+      margin: 30px 10px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .post-meetus {
+    display: block;
+  }
+  .l-blog {
+    grid-template-columns: 1fr 270px;
   }
 }
