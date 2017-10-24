@@ -46,7 +46,7 @@ pre, code {
   }
   &-meta {
     color: #B36800;
-    font-size: 14px;
+    font-size: 0.9rem;
     font-weight: 300;
     > span {
       margin-right: 15px;
@@ -55,7 +55,7 @@ pre, code {
       margin-right: 15px;
     }
     .post-tag {
-      font-size: 12px;
+      font-size: 0.75rem;
       float: right;
       background-color: $color-code-bg;
       border-radius: 3px;
