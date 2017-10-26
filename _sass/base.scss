@@ -37,11 +37,6 @@ h2 {
 }
 @media (min-width: 1200px) {
   .l-main-container {
-    grid-template-columns: 1fr 1140px 1fr;
-  }
-}
-@media (min-width: 1400px) {
-  .l-main-container {
-    grid-template-columns: 1fr 1320px 1fr;
+    grid-template-columns: 1fr 1040px 1fr;
   }
 }
