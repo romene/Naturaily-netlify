@@ -1,0 +1,25 @@
+@import "about/whoarewe";
+@import "about/faces";
+@import "about/values";
+@import "about/collaborate";
+
+.about__wave {
+  padding-top: 40%;
+  grid-area: header;
+  background-image: url('../assets/images/career-wave.png');
+  background-position: 50% 0;
+  background-size: 133%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.l-about-header {
+  margin: 150px 0 120px;
+  .big-point {
+    display: block;
+    margin-left: -30px;
+    &::before {
+      padding-right: 20px;
+    }
+  }
+}

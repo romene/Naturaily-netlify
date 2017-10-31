@@ -1,0 +1,25 @@
+.about-values-title {
+  max-width: 425px;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+
+.about-values {
+  .value {
+    font-weight: 300;
+    .text-number {
+      color: $color-accent-gold;
+      font-size: 0.9rem;
+    }
+    .text-title {
+      float: left;
+      width: 35%;
+      font-weight: 200;
+      font-size: 1.5rem;
+    }
+    .text-content {
+      float: left;
+      width: 65%;
+    }
+  }
+}

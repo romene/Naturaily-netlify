@@ -1,0 +1,13 @@
+.dimonds {
+  width: 1838px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 100px;
+}
+
+.dimond {
+  p {
+    margin: 40px 0 0 30px;
+    font-weight: 300;
+  }
+}
