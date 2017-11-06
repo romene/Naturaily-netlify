@@ -5,7 +5,6 @@ $.fn.make_carousel = function() {
     var container_w = container.width();
     var max_scroll = container[0].scrollWidth - container.outerWidth();
     var prev_frame = new Date().getTime();
-    console.log('halo?');
     container.on('mousemove', function(e) {
         var mouse_x = e.pageX - container.offset().left;
         var mouseperc = 100 * mouse_x / container_w;
@@ -28,5 +27,4 @@ $.fn.make_carousel = function() {
     }
     window.requestAnimationFrame(updatescroll);
 }
-console.log('yo');
 $("#hooverScroll").make_carousel();
