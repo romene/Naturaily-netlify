@@ -1,6 +1,5 @@
-var container, list;
 $("document").ready(function() {
-  list = $('#hoverPanelsContainer');
+  const list = $('#hoverPanelsContainer');
   list.on("mouseenter", '.panel', function(element) {
     let target = element.target.dataset.target;
     $('#hoverPanelsContainer div.active').removeClass("active");
