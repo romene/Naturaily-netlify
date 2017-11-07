@@ -7,6 +7,27 @@
     grid-column-gap: 60px;
     font-weight: 300;
   }
+  &-wave-1 {
+    z-index: -2;
+    .wave-tail {
+      padding-top: 80%;
+      background: linear-gradient(to bottom, #ffffff 0%,#f2fbff 100%);
+    }
+  }
+  &-wave-2 {
+    z-index: -3;
+    .wave-tail {
+      padding-top: 80%;
+      background: linear-gradient(to bottom, #ffffff 0%,#fff8eb 100%);
+    }
+  }
+  &-wave-3 {
+    z-index: -1;
+    .wave-tail {
+      padding-top: 80%;
+      background: linear-gradient(to bottom, #ffffff 0%,#fff8eb 100%);
+    }
+  }
 }
 
 @media (min-width: 992px) {
@@ -37,28 +58,5 @@
   margin-top: 85px;
   h2 {
     margin-top: 50px;
-  }
-}
-
-
-.aboutus-wave-1 {
-  z-index: -2;
-  .wave-tail {
-    padding-top: 80%;
-    background: linear-gradient(to bottom, #ffffff 0%,#f2fbff 100%);
-  }
-}
-.aboutus-wave-2 {
-  z-index: -3;
-  .wave-tail {
-    padding-top: 80%;
-    background: linear-gradient(to bottom, #ffffff 0%,#fff8eb 100%);
-  }
-}
-.aboutus-wave-3 {
-  z-index: -1;
-  .wave-tail {
-    padding-top: 80%;
-    background: linear-gradient(to bottom, #ffffff 0%,#fff8eb 100%);
   }
 }
