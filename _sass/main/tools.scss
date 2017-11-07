@@ -4,6 +4,7 @@
   grid-template-rows: repeat(3, 100px);
   align-items: center;
   justify-items: center;
+  grid-gap: 40px;
 
   .main-point {
     grid-column: 1 / 6;
@@ -15,6 +16,6 @@
 
 @media (min-width: 992px) {
   .tools {
-    padding: 0 15%;
+    padding: 0 10%;
   }
 }

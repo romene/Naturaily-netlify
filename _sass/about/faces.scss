@@ -1,0 +1,46 @@
+.faces {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+
+  .person {
+    text-align: center;
+    font-weight: 300;
+    img {
+      margin-bottom: 20px;
+    }
+    span {
+      display: block;
+    }
+    .name {
+      font-size: 16px;
+    }
+    .position {
+      font-size: 14px;
+      color: $color-accent-gold;
+    }
+    &.down-sm {
+      margin-top: 60px;
+    }
+  }
+  &-button {
+    margin-top: 90px;
+    text-align: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .faces {
+    grid-template-columns: repeat(5, 1fr);
+    .person {
+      &.down-sm {
+        margin-top: 0px;
+      }
+      &.down {
+        margin-top: 60px;
+      }
+
+    }
+  }
+}

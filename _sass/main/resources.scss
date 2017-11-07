@@ -19,6 +19,7 @@
     grid-row: 3 / 5;
     padding-left: 40px;
     font-weight: 300;
+    padding-top: 20px;
   }
   &-tile {
     background: $color-white;
@@ -57,11 +58,11 @@
 @media (min-width: 992px) {
   .resources {
     &-title {
-      grid-column: 1 / 9;
+      grid-column: 1 / 7;
       grid-row: 2 / 3;
     }
     &-text {
-      grid-column: 1 / 7;
+      grid-column: 1 / 5;
       grid-row: 3 / 5;
     }
     .web-tile {
@@ -80,7 +81,7 @@
     }
     &-btn {
       grid-column: 1 / 7;
-      grid-row: 4 / 6;
+      grid-row: 5 / 6;
     }
   }
 }

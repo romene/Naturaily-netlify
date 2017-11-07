@@ -1,0 +1,22 @@
+.dimonds {
+  width: 1838px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 100px;
+  padding-bottom: 60px;
+}
+
+.dimond {
+  p {
+    margin: 40px 0 0 30px;
+    font-weight: 300;
+  }
+  &.down {
+    margin-top: 60px;
+  }
+}
+
+.l-collaborate {
+  overflow-x: scroll;
+  padding-left: 200px;
+}
