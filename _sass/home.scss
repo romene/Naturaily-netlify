@@ -15,9 +15,20 @@
   &::before{
     content: "•";
     color: #FFB040;
+    color: $color-accent-yellow;
     padding-right: 20px;
     font-size: 1.5rem;
     font-family: initial;
+  }
+  &.green-dot {
+    &::before {
+      color: $color-accent-green;
+    }
+  }
+  &.blue-dot {
+    &::before {
+      color: $color-accent-blue;
+    }
   }
 }
 
@@ -59,5 +70,5 @@
   -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   width: 30px;
-  justify-self: center;
+  justify-self: left;
 }

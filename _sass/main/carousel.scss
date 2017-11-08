@@ -4,7 +4,8 @@
     border-radius: 4px;
     margin: 40px 0;
     font-weight: 300;
-    padding: 0 50px 25px;
+    padding: 0 50px 75px;
+
     .item-info {
       width: 100%;
       float: left;
@@ -31,7 +32,7 @@
   .owl-dots {
     .owl-dot {
       height: 30px;
-      margin: 0 15px;
+      margin: 40px 15px;
       .dot-1 {
         background-image: url('/assets/images/carousel-point-1-active.png');
         width: 115px;
@@ -63,11 +64,13 @@
 
 @media (min-width: 992px) {
   .main-carousel .carousel-item {
+    width: 900px;
     .item-opinion {
-      width: 60%;
+      width: 80%;
+      padding-left: 4%;
     }
     .item-info {
-      width: 40%;
+      width: 16%;
     }
   }
 }

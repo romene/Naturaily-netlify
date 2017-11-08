@@ -8,7 +8,7 @@ $('#mainCarousel').owlCarousel({
     dotsData: true,
     responsive: {
       992: {
-        items: 2
+        autoWidth: true,
       }
     }
 });
