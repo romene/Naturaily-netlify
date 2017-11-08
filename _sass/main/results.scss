@@ -6,13 +6,12 @@
   .main-point {
     margin-bottom: 60px;
   }
-  &-title {
-  }
   &-assets {
     display: grid;
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: left;
     margin: 50px 0 20px 0;
+    text-align: center;
     .asset {
       &-number {
         height: 42px;
@@ -26,10 +25,13 @@
       }
       &-title {
         font-weight: 600;
-        margin: 15px 0;
+        margin: 15px auto;
+        width: 120px;
       }
       &-text {
         font-weight: 300;
+        width: 225px;
+        margin: auto;
       }
       i {
         margin: auto;
@@ -99,16 +101,92 @@
     grid-template-columns: 1fr 960px 1fr;
     .results-wave {
       display: block;
+      top: 20px;
+    }
+    .asset {
+      text-align: left;
+      &-number {
+        margin: 20px 10px;
+      }
+      &-title {
+        margin: 15px 0;
+      }
+      &-text {
+        margin: 0;
+      }
+      &-listen {
+        margin-top: 12px;
+      }
+      &-act {
+        margin-top: 75px;
+      }
+      &-care {
+        margin-top: 35px;
+      }
+      i {
+        margin: 0;
+      }
     }
   }
 }
+
 @media (min-width: 1200px) {
   .results-wrapper {
     grid-template-columns: 1fr 1140px 1fr;
+    .results-wave {
+      display: block;
+      top: -50px;
+    }
+    .asset {
+      &-listen {
+        margin-top: 35px;
+      }
+      &-act {
+        margin-top: 100px;
+      }
+      &-care {
+        margin-top: 55px;
+      }
+    }
   }
 }
 @media (min-width: 1400px) {
   .results-wrapper {
     grid-template-columns: 1fr 1320px 1fr;
+    .results-wave {
+      display: block;
+      top: -60px;
+    }
+    .asset {
+      &-listen {
+        margin-top: 20px;
+      }
+      &-act {
+        margin-top: 110px;
+      }
+      &-care {
+        margin-top: 64px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1900px) {
+  .results-wrapper {
+    .results-wave {
+      display: block;
+      top: -200px;
+    }
+    .asset {
+      &-listen {
+        margin-top: 60px;
+      }
+      &-act {
+        margin-top: 110px;
+      }
+      &-care {
+        margin-top: 50px;
+      }
+    }
   }
 }

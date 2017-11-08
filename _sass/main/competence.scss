@@ -2,31 +2,24 @@
 
 .competence {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: 1fr;
   grid-gap: 30px;
   margin-top: 60px;
-  .main-point {
-    grid-column: 1 / 13;
-    grid-row: 1;
-  }
-  &-title {
-    grid-column: 1 / 13;
-    grid-row: 2;
+  &-texts {
+    padding-right: 100px;
   }
   &-text {
-    grid-column: 1 / 13;
-    grid-row: 3;
-    padding-left: 40px;
+    padding: 45px 30px 0 30px;
     font-weight: 300;
   }
+  &-point {
+    margin-top: 85px;
+  }
   &-btn {
-    grid-row: 4;
-    grid-column: 1 / 13;
+    margin-top: 56px;
     font-weight: 13px;
   }
   &-offers {
-    grid-column: 1 / 13;
-    grid-row: 5 / span 3;
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -82,21 +75,22 @@
 
 @media (min-width: 992px) {
   .competence {
-    &-title {
-      grid-column: 1 / 8;
-      grid-row: 2;
-    }
-    &-text {
-      grid-column: 1 / 6;
-      grid-row: 3;
-    }
-    &-btn {
-      grid-row: 4;
-      grid-column: 1 / 7;
-    }
+    grid-template-columns: repeat(2, 1fr);
+    // &-title {
+    //   grid-column: 1 / 8;
+    //   grid-row: 2;
+    // }
+    // &-text {
+    //   grid-column: 1 / 6;
+    //   grid-row: 3;
+    // }
+    // &-btn {
+    //   grid-row: 4;
+    //   grid-column: 1 / 7;
+    // }
     &-offers {
-      grid-column: 7 / 13;
-      grid-row: 2 / span 5;
+      // grid-column: 7 / 13;
+      // grid-row: 2 / span 5;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(6, 100px);
       .offer {
