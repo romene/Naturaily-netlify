@@ -76,21 +76,7 @@
 @media (min-width: 992px) {
   .competence {
     grid-template-columns: repeat(2, 1fr);
-    // &-title {
-    //   grid-column: 1 / 8;
-    //   grid-row: 2;
-    // }
-    // &-text {
-    //   grid-column: 1 / 6;
-    //   grid-row: 3;
-    // }
-    // &-btn {
-    //   grid-row: 4;
-    //   grid-column: 1 / 7;
-    // }
     &-offers {
-      // grid-column: 7 / 13;
-      // grid-row: 2 / span 5;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(6, 100px);
       .offer {
