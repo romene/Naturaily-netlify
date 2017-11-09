@@ -8,50 +8,59 @@
   background-repeat: no-repeat;
 }
 .l-opensource {
-  margin-top: 180px;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 30px;
-  .big-point {
-    max-width: 400px;
-    margin-bottom: 100px;
+  &-top {
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    .big-point {
+      max-width: 400px;
+      margin-bottom: 100px;
+      margin-left: 0;
+      &::before {
+        margin-left: -35px;
+        margin-right: 12px;
+      }
+    }
   }
 }
 
 .l-sites {
   display: grid;
   grid-gap: 30px;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   margin-bottom: 140px;
+  &--conference {
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    grid-gap: 30px;
+    margin-bottom: 140px;
+  }
 }
 
 .opensource-point {
   display: block;
   margin-bottom: 80px;
-  margin-left: -20px;
-  &::before {
-    padding-right: 10px;
-  }
 }
 
 .site-card {
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
   padding: 30px 30px 10px;
-  height: 190px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
   justify-content: space-between;
   a {
     display: block;
-    color: $color-global-font;
-    font-size: 1.7rem;
+    color: $color-font-light;
+    font-size: 1.4rem;
     font-weight: 300;
     width: 100%;
   }
   .site-arrow {
     float: right;
-    width: 30px;
+    width: 24px;
     margin-top: 7px;
   }
 
@@ -88,8 +97,10 @@
   text-align: center;
   flex-wrap: wrap;
   padding: 0 20px;
+  margin: 0 -15px;
+  margin-bottom: 120px;
   .influencer {
-    margin: 0 16px;
+    margin: 0 20px;
     span {
       display: block;
       margin: 20px 0 10px;
@@ -127,10 +138,36 @@
   }
   .l-sites {
     grid-template-columns: repeat(3, 1fr);
+
+    &--conference {
+      grid-template-columns: repeat(4, 1fr);
+      .site-card {
+        grid-column: span 3;
+      }
+    }
   }
 }
 @media (min-width: 1200px) {
   .influencers {
     padding: 0;
+
+    .influencer {
+      margin: 0 15px;
+    }
+  }
+  .l-opensource {
+    padding: 0 65px;
+    &-top {
+      padding: 0 65px;
+
+    }
+  }
+}
+@media (min-width: 1400px) {
+  .l-opensource {
+    padding: 0 135px;
+    &-top {
+      padding: 0 135px;
+    }
   }
 }
