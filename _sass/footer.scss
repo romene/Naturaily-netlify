@@ -83,8 +83,10 @@ display: grid;
   &-social {
     grid-row: 7;
     grid-column: 1 / 5;
-    .sprite-social {
-      transform: scale(0.4);
+    img {
+      max-height: 20px;
+      float: right;
+      margin: 0 15px;
     }
   }
   ul {
