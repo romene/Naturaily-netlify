@@ -93,15 +93,15 @@
   }
   .project {
     &-main {
-      grid-column: 1 / 8;
+      grid-column: 1 / 9;
       grid-row: 2 / 4;
     }
     &-second {
-      grid-column: 8 / 13;
+      grid-column: 9 / 13;
       grid-row: 2 / 3;
     }
     &-third {
-      grid-column: 8 / 13;
+      grid-column: 9 / 13;
       grid-row: 3 / 4;
     }
   }
