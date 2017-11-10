@@ -51,8 +51,7 @@
   flex-direction: column;
   align-items: baseline;
   justify-content: space-between;
-  -webkit-transition: all .2s ease-in-out;
-  transition: all .2s ease-in-out;
+  @include transition(.2s);
 
   a {
     display: block;
@@ -68,9 +67,7 @@
   }
 
   &:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    @include scale(1.1);
     box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
   }
 

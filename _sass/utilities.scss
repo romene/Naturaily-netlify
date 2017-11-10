@@ -7,3 +7,14 @@
   height: $height;
   background-position: $position-x $position-y;
 }
+
+@mixin transition($time) {
+  -webkit-transition: all $time ease-in-out;
+  transition: all $time ease-in-out;
+}
+
+@mixin scale($value) {
+  -webkit-transform: scale($value);
+  -ms-transform: scale($value);
+  transform: scale($value);
+}
