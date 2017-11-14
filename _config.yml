@@ -23,6 +23,11 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "jekyll.naturaily.eu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/:num/'
+  indexpage: 'index'
 collections:
   career:
     output: true
@@ -35,6 +40,7 @@ plugins:
   - jekyll-feed
   # - jekyll-admin
   - jekyll-seo-tag
+  - jekyll-paginate-v2
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

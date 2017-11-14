@@ -1,7 +1,7 @@
 .blog__wave {
   padding-top: 40%;
   grid-area: header;
-  background-image: url('../assets/images/career-wave.png');
+  background-image: url('../assets/images/blog-wave.png');
   background-position: 50% 0;
   background-size: 133%;
   background-repeat: no-repeat;
@@ -11,7 +11,7 @@
   margin-top: 180px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 30px;
+  grid-column-gap: 160px;
 }
 
 pre, code {
@@ -121,6 +121,7 @@ pre, code {
     }
     img {
       margin: 30px 10px;
+      max-width: 30px;
     }
   }
 }

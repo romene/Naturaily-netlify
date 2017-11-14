@@ -1,0 +1,54 @@
+<div class="blog-nav">
+  <ul class="blog-nav-list">
+    <a href="/blog/">
+      <li {% if page.pagination.tag == undefined %}class="active" {% endif %}>Wszystkie
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.posts %}
+            {% assign counter = counter | plus: 1 %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/frontend">
+      <li {% if page.pagination.tag == 'frontend' %}class="active" {% endif %}>Frontend
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Frontend"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/ror">
+      <li {% if page.pagination.tag == 'Ruby on Rails' %}class="active" {% endif %}>Ruby on Rails
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Ruby on Rails"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+    <a href="/blog/organization">
+      <li {% if page.pagination.tag == 'organization' %}class="active" {% endif %}>Organizacja
+        <span>
+          {% assign counter = 0 %}
+          {% for post in site.tags["Organization"] %}
+            {% if post.tag == frontend %}
+              {% assign counter = counter | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          {{counter}}
+        </span>
+      </li>
+    </a>
+  </ul>
+</div>
