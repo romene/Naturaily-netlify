@@ -1,0 +1,24 @@
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 60px;
+  margin-top: 25px;
+
+  .project {
+    margin-top: 60px;
+    background: $color-accent-purple;
+    grid-template-columns: 30px 1fr 30px;
+    grid-template-rows: 40px 1fr 30px 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    .project.lower {
+      margin-top: 0;
+      margin-bottom: 60px;
+    }
+  }
+}
