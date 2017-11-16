@@ -6,10 +6,11 @@
     font-weight: 300;
     padding: 0 50px 50px;
     margin: auto;
+    display: flex;
 
     .comment-info {
       width: 100%;
-      float: left;
+      // float: left;
       text-align: center;
       .comment-job {
 
@@ -22,7 +23,7 @@
       }
     }
     .comment-opinion {
-      float: left;
+      // float: left;
       width: 100%;
       .comment-company {
         max-width: 100px;
@@ -30,10 +31,8 @@
         display: block;
       }
     }
-    a {
-      display: block;
-      float: left;
-      margin-top: 30px;
+    p {
+      margin-bottom: 60px;
     }
   }
 }
