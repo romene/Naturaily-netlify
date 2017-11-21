@@ -1,0 +1,113 @@
+.deal-banner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 10px;
+  align-items: center;
+  grid-template-rows: 1fr;
+  background-size: cover;
+  background-position: center;
+  color: $color-white;
+  border-radius: 5px;
+  margin-top: 180px;
+
+  .deal-text {
+    padding: 75px 0 60px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: calc(100% - 135px);
+  }
+  .deal-image {
+    padding: 20px;
+  }
+
+  p {
+    font-weight: 200;
+    font-size: 1.5rem;
+  }
+  span {
+    font-size: 0.9rem;
+    font-weight: 300;
+  }
+}
+
+.deal-step {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: 130px;
+
+  h2 {
+    margin-top: 50px;
+  }
+  p {
+    padding-left: 30px;
+    max-width: 350px;
+    margin-top: 46px;
+    font-weight: 300;
+  }
+  .tech {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 53px;
+    margin-left: 30px;
+    width: 320px;
+    margin-bottom: 60px;
+    span {
+      width: 160px;
+      font-weight: 300;
+    }
+
+    &-cards {
+      display: flex;
+      flex-wrap: wrap;
+      span {
+        font-size: 1.5rem;
+        font-weight: 200;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+      .card {
+        background: $color-white;
+        width: 270px;
+        margin-right: 20px;
+        height: 80px;
+        margin-top: 20px;
+        border-bottom: 4px;
+      	box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+        img {
+          max-height: 100%;
+        }
+        span {
+          font-size: 1rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+}
+
+.project-comment {
+  margin-top: 115px;
+  .comment-opinion p {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .deal-banner {
+    grid-template-columns: 1fr 1.4fr;
+    height: 540px;
+    .deal-image {
+      grid-column: 2;
+    }
+    .deal-text {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  }
+  .deal-step {
+    grid-template-columns: 1fr 1fr;
+  }
+}
