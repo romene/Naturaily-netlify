@@ -7,13 +7,11 @@
     padding: 0 50px 50px;
     display: flex;
     flex-wrap: wrap;
+    background: $color-white;
 
     .comment-info {
       width: 100%;
       text-align: center;
-      .comment-job {
-
-      }
       img {
         max-width: 150px;
         margin: -50px auto 15px;
@@ -22,7 +20,6 @@
       }
     }
     .comment-opinion {
-      // float: left;
       width: 100%;
       .comment-company {
         max-width: 100px;

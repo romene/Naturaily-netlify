@@ -32,6 +32,9 @@ collections:
   career:
     output: true
     permalink: /join/:path
+  portfolio:
+    output: true
+    permalink: /project/:path
 
 # Build settings
 markdown: kramdown

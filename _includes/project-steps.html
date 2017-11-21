@@ -1,0 +1,42 @@
+<div class="deal-step">
+  <div class="step-text">
+    <span class="main-point">Krok 1</span>
+    <h2>Jaką potrzebę miał klient?</h2>
+    <p>{{ page.step-one }}</p>
+  </div>
+  <div class="step-image">
+
+  </div>
+</div>
+
+<div class="deal-step">
+  <div class="step-image">
+
+  </div>
+  <div class="step-text">
+    <span class="main-point">Krok 2</span>
+    <h2>Co dostarczyliśmy?</h2>
+    <p>{{ page.step-two }}</p>
+    <div class="tech">
+      {% for tech in page.step-tech %}
+        <span>{{tech}}</span>
+      {% endfor %}
+    </div>
+    <div class="tech-cards">
+      <span>Technologie</span>
+      {% for card in page.tech-cards %}
+        <div class="card">
+          <img src="{{card.img}}" alt="">
+          <span>{{card.name}}</span>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="deal-step">
+  <div class="step-text">
+    <span class="main-point">Krok 3</span>
+    <h2>Efekty naszej pracy</h2>
+  </div>
+</div>
