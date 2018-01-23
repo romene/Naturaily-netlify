@@ -53,6 +53,10 @@ display: grid;
     grid-column: 3 / 5;
     font-weight: 300;
   }
+  &-offer a {
+    display: block;
+    color: $color-global-font;
+  }
   &-places {
     grid-row: 6;
     grid-column: 1 / 3;
