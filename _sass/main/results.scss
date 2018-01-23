@@ -45,6 +45,7 @@
     height: 270px;
     width: 270px;
     border-radius: 50%;
+    box-shadow: 0 0 50px 0.5px $color-secondary;
     margin: auto;
     .results-circle__content {
       padding: 60px 15px;
