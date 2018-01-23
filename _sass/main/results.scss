@@ -45,6 +45,7 @@
     height: 270px;
     width: 270px;
     border-radius: 50%;
+    box-shadow: 0 0 50px 0.5px $color-secondary;
     margin: auto;
     .results-circle__content {
       padding: 60px 15px;
@@ -115,13 +116,13 @@
         margin: 0;
       }
       &-listen {
-        margin-top: 12px;
+        margin-top: 35px;
       }
       &-act {
         margin-top: 75px;
       }
       &-care {
-        margin-top: 35px;
+        margin-top: 15px;
       }
       i {
         margin: 0;
@@ -139,13 +140,13 @@
     }
     .asset {
       &-listen {
-        margin-top: 35px;
+        margin-top: 55px;
       }
       &-act {
         margin-top: 100px;
       }
       &-care {
-        margin-top: 55px;
+        margin-top: 25px;
       }
     }
   }
@@ -159,13 +160,13 @@
     }
     .asset {
       &-listen {
-        margin-top: 20px;
+        margin-top: 50px;
       }
       &-act {
         margin-top: 110px;
       }
       &-care {
-        margin-top: 64px;
+        margin-top: 20px;
       }
     }
   }
@@ -179,13 +180,13 @@
     }
     .asset {
       &-listen {
-        margin-top: 60px;
+        margin-top: 50px;
       }
       &-act {
         margin-top: 110px;
       }
       &-care {
-        margin-top: 50px;
+        margin-top: 20px;
       }
     }
   }
