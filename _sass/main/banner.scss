@@ -31,6 +31,10 @@
   &-btn {
     grid-row: 3 / 4;
     grid-column: 1 / 12;
+    button {
+      box-shadow: 0 10px 50px 0 rgba(238, 70, 49, 0.4);
+      font-weight: 300;
+    }
   }
 }
 

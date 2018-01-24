@@ -37,9 +37,10 @@ display: grid;
     }
   }
   &-contact {
+    padding-top: 15px;
     grid-row: 3;
     grid-column: 1 / 3;
-    font-weight: 300;
+    font-weight: 250;
     a {
       display: block;
       color: $color-global-font;
@@ -47,26 +48,40 @@ display: grid;
         color: $color-accent-yellow;
       }
     }
+    span p {
+      margin: 0;
+      padding: 0;
+    }
   }
   &-offer {
+    padding-top: 20px;
     grid-row: 3;
     grid-column: 3 / 5;
-    font-weight: 300;
-  }
-  &-offer a {
+    font-weight: 250;
+    li {
+      line-height: 15px;
+    }
+    a {
     display: block;
     color: $color-global-font;
+    }
   }
   &-places {
+    padding-top: 20px;
     grid-row: 6;
     grid-column: 1 / 3;
-    font-weight: 300;
+    font-weight: 250;
+    li {
+      line-height: 15px;
+    }
   }
   &-news {
+    padding-top: 15px;
     grid-row: 6;
     grid-column: 3 / 5;
-    font-weight: 300;
+    font-weight: 250;
     .input-wrapper {
+      margin-top: 40px;
       position: relative;
       .confirm-arrow {
         position: absolute;
@@ -80,18 +95,19 @@ display: grid;
   &-regon {
     grid-row: 8;
     grid-column: 1 / 5;
-    font-weight: 300;
+    font-weight: 250;
     color: $color-text-muted;
-    margin-bottom: 30px;
+    margin: 30px 0;
   }
   &-social {
+    margin-top: 30px;
     grid-row: 7;
     grid-column: 1 / 5;
     img {
       max-height: 20px;
       max-width: 25px;
       float: right;
-      margin: 0 15px;
+      margin: 0 10px;
     }
   }
   ul {
