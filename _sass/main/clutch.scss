@@ -7,4 +7,10 @@
     max-height: 80px;
     margin: 0 50px;
   }
+  button {
+    a {
+      text-decoration: none;
+      color: $color-primary;
+    }
+  }
 }

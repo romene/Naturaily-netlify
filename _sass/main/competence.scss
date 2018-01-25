@@ -20,7 +20,10 @@
   }
   &-btn {
     margin-top: 56px;
-    font-weight: 13px;
+    button {
+      box-shadow: 0 10px 50px 0 rgba(238, 70, 49, 0.4);
+      font-weight: 300;
+    }
   }
   &-offers {
     margin-top: 30px;

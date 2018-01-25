@@ -52,6 +52,9 @@
   &-btn {
     grid-column: 1 / 13;
     grid-row: 7 / 8;
+    button {
+      font-size: 0.75rem;
+    }
   }
 }
 
