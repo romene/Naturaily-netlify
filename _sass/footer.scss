@@ -40,7 +40,8 @@ display: grid;
     padding-top: 15px;
     grid-row: 3;
     grid-column: 1 / 3;
-    font-weight: 250;
+    font-weight: 200;
+    font-size: 0.95rem;
     a {
       display: block;
       color: $color-global-font;
@@ -57,7 +58,8 @@ display: grid;
     padding-top: 20px;
     grid-row: 3;
     grid-column: 3 / 5;
-    font-weight: 250;
+    font-weight: 200;
+    font-size: 0.95rem;
     li {
       line-height: 20px;
     }
@@ -70,7 +72,8 @@ display: grid;
     padding-top: 20px;
     grid-row: 6;
     grid-column: 1 / 3;
-    font-weight: 250;
+    font-weight: 200;
+    font-size: 0.95rem;
     li {
       line-height: 20px;
     }
@@ -79,7 +82,8 @@ display: grid;
     padding-top: 15px;
     grid-row: 6;
     grid-column: 3 / 5;
-    font-weight: 250;
+    font-weight: 200;
+    font-size: 0.95rem;
     .input-wrapper {
       margin-top: 40px;
       position: relative;
@@ -95,7 +99,8 @@ display: grid;
   &-regon {
     grid-row: 8;
     grid-column: 1 / 5;
-    font-weight: 250;
+    font-weight: 200;
+    font-size: 0.9rem;
     color: $color-text-muted;
     margin: 30px 0;
   }
