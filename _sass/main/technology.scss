@@ -12,7 +12,7 @@
   }
   &-text {
     padding: 40px 50px 0 30px;
-    font-weight: 300;
+    font-weight: 200;
   }
   &-items {
     grid-column: 1 / 2;
@@ -23,7 +23,7 @@
     	border-radius: 4px;
       background-color: $color-white;
       box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
-      font-weight: 300;
+      font-weight: 200;
       text-align: center;
       display: grid;
       grid-template-columns: auto 1fr;
@@ -36,6 +36,12 @@
       }
       &.ios {
         margin-left: 100px;
+      }
+      &.vue {
+        img {
+          height: 50px;
+          margin-left: 10px;
+        }
       }
       img {
         max-height: 90px;

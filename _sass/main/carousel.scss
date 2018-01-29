@@ -1,19 +1,19 @@
+.owl-stage {
+  padding: 35px 0;
+}
 .main-carousel {
   .carousel-item {
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 8px 32px 2px rgba(0,0,0,0.1);
     border-radius: 4px;
-    margin: 40px 0;
-    height: 230px;
-    font-weight: 300;
-    padding: 0 50px 75px;
+    margin: 20px 40px;
+
+    font-weight: 200;
+    padding: 10px 120px 90px 50px;
 
     .item-info {
       width: 100%;
       float: left;
       text-align: center;
-      .item-job {
-
-      }
       img {
         max-width: 150px;
         margin: -50px auto 15px;
@@ -24,54 +24,95 @@
     .item-opinion {
       float: left;
       width: 100%;
+      .firefield {
+        padding-top: 5px;
+      }
+      .apptegy {
+        padding-top: 15px;
+      }
       .item-company {
-        max-width: 100px;
-        margin: 20px 0;
+        max-width: 80px;
+        margin: 25px 0;
       }
     }
   }
   .owl-dots {
     .owl-dot {
       height: 30px;
-      margin: 40px 15px;
+      margin: 40px 40px;
       .dot-1 {
-        background-image: url('/assets/images/carousel-point-1-active.png');
-        width: 115px;
+        background-image: url('/assets/images/firefield.png');
+        background-size: 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        filter: grayscale(0100%);
+        opacity: 0.3;
+        &:hover {
+          filter: grayscale(0);
+          opacity: 1;
+        }
       }
       .dot-2 {
-        background-image: url('/assets/images/carousel-point-2.png');
+        background-image: url('/assets/images/carousel2.png');
         width: 100px;
+        margin-top: 3px;
+        filter: grayscale(0100%);
+        opacity: 0.3;
+        &:hover {
+          filter: grayscale(0);
+          opacity: 1;
+        }
       }
       .dot-3 {
-        background-image: url('/assets/images/carousel-point-3.png');
-        width: 140px;
+        background-image: url('/assets/images/carousel3.png');
+        background-size: 100px;
+        background-repeat: no-repeat;
+        width: 100px;
+        margin-top: 4px;
+        filter: grayscale(0100%);
+        opacity: 0.3;
+        &:hover {
+          filter: grayscale(0);
+          opacity: 1;
+        }
       }
       .dot-4 {
-        background-image: url('/assets/images/carousel-point-4.png');
-        width: 130px;
+        background-image: url('/assets/images/carousel4.png');
+        width: 100px;
+        margin-top: 4px;
+        filter: grayscale(0100%);
+        opacity: 0.3;
+        &:hover {
+          filter: grayscale(0);
+          opacity: 1;
+        }
       }
       div {
         background-position: center;
         background-size: cover;
-        height: 30px;
+        height: 35px;
       }
     }
   }
 }
 .carousel-point {
   text-align: center;
-  margin: 60px 0 120px 0;
+  margin: 130px 0 100px 0;
 }
 
 @media (min-width: 992px) {
   .main-carousel .carousel-item {
-    width: 900px;
+    height: 200px;
+    margin: 0 10px;
+    width: 720px;
     .item-opinion {
-      width: 80%;
-      padding-left: 4%;
+      width: 73%;
+      padding-left: 7%;
     }
     .item-info {
-      width: 16%;
+      margin-top: 15px;
+      padding-left: 3%;
+      width: 17%;
     }
   }
 }

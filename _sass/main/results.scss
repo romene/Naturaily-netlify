@@ -24,12 +24,12 @@
         margin: 20px auto;
       }
       &-title {
-        font-weight: 600;
+        font-weight: 500;
         margin: 15px auto;
         width: 120px;
       }
       &-text {
-        font-weight: 300;
+        font-weight: 200;
         width: 225px;
         margin: auto;
       }
@@ -41,7 +41,7 @@
   &-circle {
     @include red-gradient-background();
     color: $color-white;
-    font-weight: 300;
+    font-weight: 200;
     height: 270px;
     width: 270px;
     border-radius: 50%;
@@ -52,7 +52,6 @@
       text-align: center;
       button {
         margin-top: 15px;
-        font-size: 0.75rem;
       }
     }
   }
