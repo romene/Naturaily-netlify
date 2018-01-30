@@ -40,3 +40,20 @@
     grid-row: 1;
   }
 }
+
+@media (max-width: 991px) {
+  .topbar {
+    grid-template-columns: 1fr;
+    &-content {
+      img {
+        display: none;
+      }
+    }
+    &-social {
+      grid-column: 1;
+      grid-row: 2;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

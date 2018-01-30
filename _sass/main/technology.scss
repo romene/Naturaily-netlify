@@ -8,11 +8,13 @@
     margin-top: 100px;
   }
   &-title {
-    margin-top: 40px;
+    margin: 40px 0;
+    text-align: center;
   }
   &-text {
-    padding: 40px 50px 0 30px;
+    padding: 0 50px;
     font-weight: 200;
+    text-align: center;
   }
   &-items {
     grid-column: 1 / 2;
@@ -33,9 +35,6 @@
       margin-bottom: 20px;
       &.right {
         margin-left: 65px;
-      }
-      &.ios {
-        margin-left: 100px;
       }
       &.vue {
         img {

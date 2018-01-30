@@ -1,13 +1,12 @@
 .gallery {
   margin-top: 30px;
+  padding-bottom: 20px;
   grid-gap: 30px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  height: 500px;
   overflow: hidden;
-  min-width: 600px;
   button {
-    margin-top: 30px;
+    margin-top: 20px
   }
 }
 .small-img {
@@ -18,4 +17,12 @@
 }
 .large-img {
   width: 300px;
+}
+
+@media (max-width: 575px) {
+  .gallery {
+    button {
+      display: none;
+    }
+  }
 }
