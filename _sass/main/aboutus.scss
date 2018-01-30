@@ -64,3 +64,14 @@
     margin-top: 50px;
   }
 }
+
+@media (max-width: 576px) {
+  .aboutus {
+    &-content {
+      justify-items: center;
+    }
+    &-description {
+      padding: 0 30px;
+    }
+  }
+}

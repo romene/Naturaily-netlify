@@ -17,7 +17,7 @@ h2 {
   position: relative;
   overflow-x: hidden;
   display: grid;
-  grid-template-columns: 15px 1fr 15px;
+  grid-template-columns: 1fr 350px 1fr;
   grid-template-rows: 100px 1fr;
   grid-template-areas:
     "header  header  header"
@@ -25,6 +25,11 @@ h2 {
 
 }
 
+@media (min-width: 470px) {
+  .l-main-container {
+    grid-template-columns: 1fr 450px 1fr;
+  }
+}
 @media (min-width: 576px) {
   .l-main-container {
     grid-template-columns: 1fr 540px 1fr;

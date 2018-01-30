@@ -190,3 +190,11 @@
     }
   }
 }
+
+@media (max-width: 470px) {
+  .results {
+    &-title {
+      text-align: center;
+    }
+  }
+}

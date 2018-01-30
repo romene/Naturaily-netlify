@@ -116,3 +116,15 @@
     }
   }
 }
+
+@media (max-width: 719px) {
+  .main-carousel .owl-dots .owl-dot {
+    margin: 40px 15px;
+  }
+}
+
+@media (max-width: 559px) {
+  .main-carousel .owl-dots .owl-dot {
+    margin: 40px 5px;
+  }
+}

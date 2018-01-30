@@ -51,3 +51,11 @@
     }
   }
 }
+
+@media (max-width: 470px) {
+  .banner {
+    &-text {
+      text-align: center;
+    }
+  }
+}

@@ -116,3 +116,15 @@
     }
   }
 }
+
+@media (max-width: 470px) {
+  .competence {
+    &-title {
+      text-align: center;
+    }
+    &-texts {
+      padding: 0;
+      text-align: center;
+    }
+  }
+}
