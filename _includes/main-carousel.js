@@ -1,14 +1,6 @@
-$('#mainCarousel').owlCarousel({
-    center: true,
-    items:1,
-    loop:true,
-    margin:10,
-    nav: false,
-    dots: true,
-    dotsData: true,
-    responsive: {
-      992: {
-        autoWidth: true,
-      }
-    }
+$('.main-carousel').slick({
+  slidesToShow: 1,
+  dots: true,
+  speed: 300,
+  focusOnSelect: true,
 });

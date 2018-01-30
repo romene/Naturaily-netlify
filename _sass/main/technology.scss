@@ -9,39 +9,38 @@
   }
   &-title {
     margin: 40px 0;
-    text-align: center;
   }
   &-text {
     padding: 0 50px;
     font-weight: 200;
-    text-align: center;
   }
   &-items {
-    grid-column: 1 / 2;
-    margin-top: 100px;
-
+    .slick-arrow {
+      visibility: hidden;
+    }
+    .slick-list {
+      width: 500px;
+      margin: 0 auto;
+    }
+    .right {
+      margin-left: 90px;
+    }
+    .left {
+      margin-left: 15px;
+    }
     .item {
       background: $color-white;
-    	border-radius: 4px;
+      border-radius: 4px;
       background-color: $color-white;
-      box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+      box-shadow: 0 8px 10px 0 rgba(0,0,0,0.1);
       font-weight: 200;
       text-align: center;
       display: grid;
       grid-template-columns: auto 1fr;
       align-items: center;
       height: 90px;
-      width: 390px;
+      max-width: 350px;
       margin-bottom: 20px;
-      &.right {
-        margin-left: 65px;
-      }
-      &.vue {
-        img {
-          height: 50px;
-          margin-left: 10px;
-        }
-      }
       img {
         max-height: 90px;
       }
