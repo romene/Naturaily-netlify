@@ -21,6 +21,7 @@
 
 @media (max-width: 575px) {
   .gallery {
+    grid-gap: 15px;
     button {
       display: none;
     }
