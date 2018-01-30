@@ -41,6 +41,12 @@
       height: 90px;
       max-width: 350px;
       margin-bottom: 20px;
+      .vue {
+        margin-left: 15px;
+      }
+      .react {
+        margin-left: -10px;
+      }
       img {
         max-height: 90px;
       }
