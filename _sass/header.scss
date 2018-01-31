@@ -89,6 +89,9 @@
 }
 
 @media screen and (max-width: 810px) {
+  .header ul {
+    margin: 45px 30px 15px 30px;
+  }
   .site-nav {
     position: absolute;
     top: 9px;
@@ -96,7 +99,7 @@
     background-color: $color-white;
     border: 1px solid $color-nav-border;
     border-radius: 5px;
-    text-align: right;
+    text-align: center;
   }
   .site-nav label[for="nav-trigger"] {
     display: block;

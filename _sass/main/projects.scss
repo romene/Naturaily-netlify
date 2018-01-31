@@ -106,3 +106,25 @@
     }
   }
 }
+
+@media screen and (max-width: 991px) {
+  .projects {
+    .project {
+      &-main {
+        grid-template-rows: 30px 1fr 150px;
+        .project-text {
+          line-height: 30px;
+          span {
+            padding-top: 20px;
+          }
+        }
+      }
+      &-button {
+        text-align: center;
+        button {
+          float: none;
+        }
+      }
+    }
+  }
+}
