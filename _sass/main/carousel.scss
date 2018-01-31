@@ -13,6 +13,10 @@
   .slick-dots li button {
     display: none;
   }
+  ul.slick-dots li.slick-active {
+    filter: grayscale(0);
+    opacity: 1;
+  }
   .slick-dots li:nth-child(1) {
     background-image: url('/assets/images/firefield.png');
     background-size: 100px;
