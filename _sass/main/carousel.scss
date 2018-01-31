@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     width: 100px;
     height: 30px;
-    filter: grayscale(0100%);
+    filter: grayscale(100%);
     opacity: 0.3;
     &:hover {
       filter: grayscale(0);
@@ -27,12 +27,12 @@
     }
   }
   .slick-dots li:nth-child(2) {
-    background-image: url('/assets/images/carousel2.png');
+    background-image: url('/assets/images/format.png');
     background-size: 100px 50px;
     width: 100px;
     height: 40px;
     margin-top: 3px;
-    filter: grayscale(0100%);
+    filter: grayscale(100%);
     opacity: 0.3;
     &:hover {
       filter: grayscale(0);
@@ -40,13 +40,13 @@
     }
   }
   .slick-dots li:nth-child(3) {
-    background-image: url('/assets/images/carousel3.png');
+    background-image: url('/assets/images/apptegy.png');
     background-size: 100px;
     background-repeat: no-repeat;
     width: 100px;
     height: 23px;
     margin-top: 4px;
-    filter: grayscale(0100%);
+    filter: grayscale(100%);
     opacity: 0.3;
     &:hover {
       filter: grayscale(0);
@@ -55,12 +55,12 @@
   }
   .slick-dots li:nth-child(4) {
     margin-bottom: -15px;
-    background-image: url('/assets/images/carousel4.png');
+    background-image: url('/assets/images/itm.png');
     background-size: 100px 50px;
     width: 100px;
     height: 55px;
     margin-top: 4px;
-    filter: grayscale(0100%);
+    filter: grayscale(100%);
     opacity: 0.3;
     &:hover {
       filter: grayscale(0);

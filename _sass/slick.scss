@@ -2,7 +2,6 @@
 
 .slick-slider {
     position: relative;
-    display: block;
     box-sizing: border-box;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -81,17 +80,11 @@
         pointer-events: none;
     }
 
-    .slick-initialized & {
-        display: block;
-    }
-
     .slick-loading & {
         visibility: hidden;
     }
 
     .slick-vertical & {
-        display: block;
-        height: auto;
         border: 1px solid transparent;
     }
 }

@@ -1,4 +1,4 @@
-$('.technology-carousel').slick({
+$('#technologycarousel').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   pauseOnHover: false,
