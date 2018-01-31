@@ -150,14 +150,42 @@
 @media (max-width: 692px) {
   .main-carousel {
     .slick-list {
-      height: 450px;
+      height: 500px;
+      padding: 20px 0 110px 0;
     }
-  }
-  .slick-dots li {
-    margin: 0 10px;
+    .carousel-item {
+      padding: 10px 15px 90px 15px;
+    }
+    .slick-dots li {
+      margin: 0 10px;
+    }
   }
 }
 
 @media (max-width: 539px) {
-  
+  .main-carousel {
+    .slick-list {
+      height: 500px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .main-carousel {
+    .carousel-item {
+      padding: 10px 10px 30px 10px;
+    }
+    .slick-list {
+      height: 570px;
+    }
+    .slick-dots li {
+      margin: 0;
+    }
+    .slick-dots li:nth-child(1) {
+      width: 50%;
+    }
+    .slick-dots li:nth-child(3) {
+      width: 50%;
+    }
+  }
 }

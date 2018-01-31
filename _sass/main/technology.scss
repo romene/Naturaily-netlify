@@ -6,6 +6,7 @@
 
   .main-point {
     margin-top: 100px;
+    margin-bottom: 70px;
   }
   &-title {
     margin: 40px 0;
@@ -19,11 +20,14 @@
       visibility: hidden;
     }
     .slick-list {
-      width: 500px;
-      margin: 0 auto;
+      width: 400px;
+      margin-left: 50px;
     }
     .right {
-      margin-left: 90px;
+      margin-left: 45px;
+    }
+    .ios {
+      margin-left: 85px;
     }
     .left {
       margin-left: 15px;
@@ -58,11 +62,26 @@
   .technology {
     grid-template-columns: 1fr 0.9fr;
     .main-point {
-      margin-top: 100px;
+      margin-bottom: 0;
       grid-column: 2;
     }
     &-items {
       margin-top: 200px;
+      .ios {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
+@media (max-width: 469px) {
+  .technology {
+    .technology-item {
+      width: 81%;
+    }
+    .technology-texts {
+      width: 80%;
+      text-align: center;
     }
   }
 }
