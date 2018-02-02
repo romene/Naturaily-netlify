@@ -14,12 +14,70 @@
 }
 
 .l-about-header {
-  margin: 150px 0 120px;
+  margin: 250px 100px 120px;
   .big-point {
     display: block;
     margin-left: -30px;
     &::before {
       padding-right: 20px;
     }
+  }
+}
+
+.aboutus-wave-3 img {
+  position: relative;
+  right: 260px;
+  top: -35px;
+}
+
+@media (max-width: 2060px) {
+  .aboutus-wave-3 img {
+    right: 200px;
+    top: -27px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .aboutus-wave-3 img {
+    right: 200px;
+    top: -21px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .aboutus-wave-3 img {
+    right: 150px;
+    top: -18px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .aboutus-wave-3 img {
+    right: 130px;
+    top: -14px;
+  }
+}
+
+@media (max-width: 870px) {
+  .l-about-header {
+    margin: 100px 30px 100px;
+  }
+  .aboutus-wave-3 img {
+    right: 70px;
+    top: -18px;
+  }
+}
+
+@media (max-width: 680px) {
+  .aboutus-wave-3 img {
+    right: 80px;
+    top: -10px;
+  }
+}
+
+@media (max-width: 430px) {
+  .aboutus-wave-3 img {
+    right: 35px;
+    top: -5px;
   }
 }
