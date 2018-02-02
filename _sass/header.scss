@@ -60,7 +60,7 @@
 }
 
 @media (min-width: 1470px) {
-  li {
+  .header li {
     margin: 0 40px;
   }
   .header .site-nav {
@@ -89,8 +89,13 @@
 }
 
 @media screen and (max-width: 810px) {
-  .header ul {
-    margin: 45px 30px 15px 30px;
+  .header{
+    ul {
+      margin: 45px 30px 15px 30px;
+    }
+    &-right {
+      display: none;
+    }
   }
   .site-nav {
     position: absolute;

@@ -54,9 +54,8 @@
 
 @media screen and (max-width: 810px) {
   .banner {
-    &-text {
-      text-align: center;
-    }
+    grid-template-rows: 80px auto auto;
+    
     &-btn {
       grid-column: 1 / 13;
       text-align: center;
