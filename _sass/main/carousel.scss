@@ -9,6 +9,9 @@
   .slick-list {
     padding: 30px 350px;
     height: 350px;
+    .slick-track .slick-slide:focus {
+      outline: none;
+    }
   }
   .slick-dots li button {
     display: none;
