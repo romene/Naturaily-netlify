@@ -1,12 +1,12 @@
 .faces {
   margin-top: 90px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
 
   .person {
     text-align: center;
-    font-weight: 300;
+    font-weight: 200;
     img {
       margin-bottom: 20px;
     }
@@ -23,15 +23,23 @@
     &.down-sm {
       margin-top: 60px;
     }
+    &.rwd-up {
+      margin-top: 0;
+    }
+    &.rwd-down {
+      margin-top: 60px;
+    }
   }
   &-button {
     margin-top: 90px;
     text-align: center;
+    padding-bottom: 60px;
   }
 }
 
 @media (min-width: 992px) {
   .faces {
+    padding-bottom: 0;
     grid-template-columns: repeat(5, 1fr);
     .person {
       &.down-sm {
@@ -40,7 +48,9 @@
       &.down {
         margin-top: 60px;
       }
-
+    }
+    &-button {
+      padding-bottom: 0;
     }
   }
 }
