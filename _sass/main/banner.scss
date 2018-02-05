@@ -20,6 +20,9 @@
     border-radius: 50%;
     grid-column: 9 / 11;
     grid-row: 1 / 2;
+    animation: oval_animations infinite;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
   }
 
   &-text {
@@ -55,7 +58,7 @@
 @media screen and (max-width: 810px) {
   .banner {
     grid-template-rows: 80px auto auto;
-    
+
     &-btn {
       grid-column: 1 / 13;
       text-align: center;
@@ -63,5 +66,19 @@
         font-size: 0.85rem;
       }
     }
+  }
+}
+
+@keyframes oval_animations {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-10px);
+  }
+
+  100% {
+    transform: translatey(0px);
   }
 }
