@@ -1,8 +1,8 @@
 <div class="deal-step">
   <div class="step-text">
-    <span class="main-point">Krok 1</span>
-    <h2>Jaką potrzebę miał klient?</h2>
-    <p>{{ page.step-one }}</p>
+    <span class="main-point">{{ page.step-one }}</span>
+    <h2>{{ page.step-one-title }}</h2>
+    <p>{{ page.step-one-text }}</p>
   </div>
   <div class="step-image">
 
@@ -14,29 +14,32 @@
 
   </div>
   <div class="step-text">
-    <span class="main-point">Krok 2</span>
-    <h2>Co dostarczyliśmy?</h2>
-    <p>{{ page.step-two }}</p>
+    <span class="main-point">{{ page.step-two }}</span>
+    <h2>{{ page.step-two-title }}</h2>
+    <p>{{ page.step-two-text }}</p>
     <div class="tech">
       {% for tech in page.step-tech %}
         <span>{{tech}}</span>
       {% endfor %}
     </div>
     <div class="tech-cards">
-      <span>Technologie</span>
+      <span>{{ page.step-three }}</span>
+      <h2>{{ page.step-three-title }}</h2>
       {% for card in page.tech-cards %}
         <div class="card">
           <img src="{{card.img}}" alt="">
           <span>{{card.name}}</span>
         </div>
       {% endfor %}
+      <p>{{ page.step-three-text }}</p>
     </div>
   </div>
 </div>
 
 <div class="deal-step">
   <div class="step-text">
-    <span class="main-point">Krok 3</span>
-    <h2>Efekty naszej pracy</h2>
+    <span class="main-point">{{ page.step-four }}</span>
+    <h2>{{ page.step-four-title }}</h2>
+    <p>{{ page.step-four-text }}</p>
   </div>
 </div>

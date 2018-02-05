@@ -88,10 +88,45 @@
   }
 }
 
-.project-comment {
-  margin-top: 115px;
-  .comment-opinion p {
-    margin-bottom: 0;
+.portfolio-comment {
+  margin-top: 150px;
+
+  .project-comment {
+    margin-top: 115px;
+    
+    .comment-opinion p {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.portfolio-slide {
+  margin-top: 150px;
+
+  .slide-left {
+    a {
+      width: 30%;
+      text-decoration: none;
+      color: $color-global-font;
+      float: left;
+      font-weight: 200;
+      font-size: 1.5rem;
+    }
+  }
+
+  .slide-right {
+    a {
+      width: 30%;
+      text-decoration: none;
+      color: $color-global-font;
+      float: right;
+      font-weight: 200;
+      font-size: 1.5rem;
+    }
+  }
+
+  .project-logo {
+    width: 40%;
   }
 }
 
