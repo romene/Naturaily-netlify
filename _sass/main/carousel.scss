@@ -3,8 +3,54 @@
   margin: 130px 0 100px 0;
 }
 .main-carousel {
-  .slick-arrow {
-    background-color: black;
+  .slick-prev {
+    z-index: 1;
+    width: 400px;
+    height: 600px;
+    border-radius: 50%;
+    left: -400px;
+    top: 50%;
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.8));
+    box-shadow: 150px 0px -300px #fFF;
+
+    &:hover, &:focus {
+      cursor: default;
+      background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0.9));
+    }
+
+    &::before {
+      content: '';
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+    }
+  }
+  .slick-next {
+    z-index: 1;
+    width: 400px;
+    height: 600px;
+    border-radius: 100%;
+    right: -400px;
+    top: 50%;
+    background: linear-gradient(to left, white, rgba(255, 255, 255, 0.8));
+    box-shadow: -150px 0px 300px #fFF;
+    
+    &:hover, &:focus {
+      cursor: default;
+      background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0.9));
+    }
+
+    &::before {
+      content: '';
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+
+    }
   }
   .slick-list {
     padding: 30px 350px;
