@@ -93,7 +93,7 @@
 
   .project-comment {
     margin-top: 115px;
-    
+
     .comment-opinion p {
       margin-bottom: 0;
     }
@@ -105,28 +105,31 @@
 
   .slide-left {
     a {
-      width: 30%;
       text-decoration: none;
       color: $color-global-font;
       float: left;
       font-weight: 200;
-      font-size: 1.5rem;
+      font-size: 0.9rem;
     }
   }
 
   .slide-right {
     a {
-      width: 30%;
       text-decoration: none;
       color: $color-global-font;
       float: right;
       font-weight: 200;
-      font-size: 1.5rem;
+      font-size: 0.9rem;
     }
   }
 
   .project-logo {
-    width: 40%;
+    display: none;
+  }
+
+  .slide-arrow {
+    margin: 0 10px;
+    width: 25px;
   }
 }
 
@@ -144,5 +147,22 @@
   }
   .deal-step {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .portfolio-slide {
+    .slide-left, .slide-right {
+      a {
+        font-size: 1.5rem;
+      }
+    }
+
+    .project-logo {
+      display: inline-block;
+      height: 98px;
+    }
+
+    .slide-arrow {
+      width: 50px;
+    }
   }
 }
