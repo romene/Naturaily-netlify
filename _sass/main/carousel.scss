@@ -3,15 +3,76 @@
   margin: 130px 0 100px 0;
 }
 .main-carousel {
-  .slick-arrow {
-    background-color: black;
+  .slick-prev {
+    z-index: 1;
+    width: 150px;
+    height: 600px;
+
+
+    &:hover, &:focus {
+      cursor: w-resize;
+
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 600px;
+      width: 400px;
+      right: 125px;
+      border-radius: 100%;
+      top: 0;
+      background: red;
+      box-shadow: 150px 0px 300px #fff;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+    }
+  }
+  .slick-next {
+    z-index: 1;
+    width: 150px;
+    height: 600px;
+
+
+    &:hover, &:focus {
+      cursor: e-resize;
+
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      height: 600px;
+      width: 400px;
+      left: 125px;
+      border-radius: 100%;
+      top: 0;
+      background: red;
+      box-shadow: -150px 0px 300px #fff;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+
+    }
   }
   .slick-list {
-    padding: 30px 350px;
-    height: 350px;
+    padding: 30px 150px;
+    padding-bottom: 0;
+    margin-bottom: 100px;
+    overflow: visible;
     .slick-track .slick-slide:focus {
       outline: none;
     }
+  }
+  .slick-dots {
+    bottom: -100px;
   }
   .slick-dots li button {
     display: none;
