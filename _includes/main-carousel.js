@@ -1,6 +1,5 @@
 $('#maincarousel').slick({
   slidesToShow: 1,
   dots: true,
-  speed: 300,
-  focusOnSelect: true,
+  speed: 300
 });
