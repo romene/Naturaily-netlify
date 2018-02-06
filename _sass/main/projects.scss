@@ -81,12 +81,10 @@
   &-button {
     grid-column: 1 / 13;
     padding-top: 30px;
-    button {
+    a {
+      text-decoration: none;
+      color: $color-secondary;
       float: right;
-      a {
-        text-decoration: none;
-        color: $color-secondary;
-      }
     }
   }
 }

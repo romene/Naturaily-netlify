@@ -95,13 +95,13 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
-  }
+      color: darken($brand-color, 15%);
+    }
 
-  &:hover {
-    color: $text-color;
-    text-decoration: underline;
-  }
+    &:hover {
+      color: $text-color;
+      text-decoration: underline;
+    }
 
   .social-media-list &:hover {
     text-decoration: none;

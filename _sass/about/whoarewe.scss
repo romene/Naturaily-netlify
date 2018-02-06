@@ -12,8 +12,8 @@
     box-shadow: 0 30px 120px 0 rgba(255, 176, 64, 0.3);
     border-radius: 50%;
     position: absolute;
-    top: 120px;
-    right: -100px;
+    top: 55px;
+    right: -70px;
     z-index: -1;
   }
   &-texts {
@@ -27,6 +27,20 @@
       max-width: 450px;
       margin-left: 30px;
       margin-top: 43px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .whoarewe {
+    .about-oval {
+      top: -90px;
+      right: -150px;
+    }
+    &-texts {
+      .primary {
+        font-size: 1.8rem;
+      }
     }
   }
 }
