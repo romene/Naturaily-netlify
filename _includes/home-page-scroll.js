@@ -1,6 +1,6 @@
 window.sr = ScrollReveal({ reset: true });
 
-sr.reveal('#resources', {
+sr.reveal('[data-reveal-resources]', {
   reset: true,
   delay: 400,
   duration: 600,
@@ -8,13 +8,13 @@ sr.reveal('#resources', {
   rotate: {x: 65},
 });
 
-sr.reveal('#technology', {
+sr.reveal('[data-reveal-technology]', {
   reset: true,
   delay: 300,
   duration: 600,
 });
 
-sr.reveal('#tools', {
+sr.reveal('[data-reveal-tools]', {
   reset: true,
   origin: 'bottom',
   delay: 300,
@@ -24,7 +24,7 @@ sr.reveal('#tools', {
   rotate: {x: 65},
 });
 
-sr.reveal('#asset', {
+sr.reveal('[data-reveal-results]', {
   reset: true,
   origin: 'left',
   delay: 300,
@@ -34,7 +34,7 @@ sr.reveal('#asset', {
   rotate: {x: 65},
 });
 
-sr.reveal('#competence', {
+sr.reveal('[data-reveal-competence]', {
   reset: true,
   origin: 'right',
   delay: 300,
@@ -44,35 +44,35 @@ sr.reveal('#competence', {
   rotate: {x: 65},
 });
 
-sr.reveal('#gallery-first', {
+sr.reveal('#galleryFirst', {
   reset: true,
   delay: 300,
   duration: 600,
   easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 });
 
-sr.reveal('#gallery-second', {
+sr.reveal('#gallerySecond', {
   reset: true,
   delay: 400,
   duration: 600,
   easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 });
 
-sr.reveal('#gallery-third', {
+sr.reveal('#galleryThird', {
   reset: true,
   delay: 500,
   duration: 600,
   easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 });
 
-sr.reveal('#gallery-fourth', {
+sr.reveal('#galleryFourth', {
   reset: true,
   delay: 600,
   duration: 600,
   easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
 });
 
-sr.reveal('#gallery-fifth', {
+sr.reveal('#galleryFifth', {
   reset: true,
   delay: 700,
   duration: 600,
