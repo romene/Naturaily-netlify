@@ -1,6 +1,7 @@
 ---
 title: Zapnito
 layout: portfolio-details
+project-screen: /assets/images/zapnito.png
 project-logo: /assets/images/zapnito-logo.png
 banner-bg: /assets/images/zapnito-bg.png
 banner-text: Zapewniamy super sprawną reakcję, nasz zespół może być do Twojej dyspozycji już 48 h od pierwszego kontaktu!
@@ -15,8 +16,21 @@ step-tech:
  - PostgreSQL
  - Ember.js
  - Node.js
-step-one: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
-step-two: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
+step-one: Krok 1
+step-one-title: Jaką potrzebę miał klient?
+step-one-text: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
+step-two: Krok 2
+step-two-title: Co dostarczyliśmy?
+step-two-text: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
+step-three: Technologie
+step-four: Krok 3
+step-four-title: Efekty naszej pracy
+slide-left: GoLazy
+slide-left-logo: /assets/images/golazy.png
+slide-left-link: #
+slide-right: Collectivity
+slide-right-logo: /assets/images/collectivity.png
+slide-right-link: /project/collectivity
 tech-cards:
   - img: /assets/images/rails-logo.png
     name: Ruby on Rails

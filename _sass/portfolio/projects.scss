@@ -33,6 +33,10 @@
       grid-column: 1;
       grid-row: 2;
       padding-left: 35px;
+      a {
+        text-decoration: none;
+        color: $color-secondary;
+      }
     }
     span {
       font-weight: 200;
