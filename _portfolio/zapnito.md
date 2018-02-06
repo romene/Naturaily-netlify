@@ -30,7 +30,7 @@ slide-left-logo: /assets/images/golazy.png
 slide-left-link: #
 slide-right: Collectivity
 slide-right-logo: /assets/images/collectivity.png
-slide-right-link: /project/collectivity
+slide-right-link: /project/thecollectivity
 tech-cards:
   - img: /assets/images/rails-logo.png
     name: Ruby on Rails

@@ -32,8 +32,21 @@
     font-weight: 300;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
-    img {
-      padding-left: 15px;
+    a {
+      color: $color-white;
+
+      img {
+        padding-left: 15px;
+      }
+
+      &:visited {
+        color: $color-white;
+      }
+
+      &:hover {
+        color: $color-white;
+        text-decoration: none;
+      }
     }
   }
 
