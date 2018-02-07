@@ -20,6 +20,10 @@
   }
   .deal-image {
     padding: 20px;
+
+    img {
+      margin-top: 30px;
+    }
   }
 
   p {
@@ -36,6 +40,44 @@
   display: grid;
   grid-template-columns: 1fr;
   margin-top: 130px;
+
+  .step-image {
+    text-align: center;
+
+    img {
+      box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-right {
+      margin-top: 50px;
+      height: 405px;
+    }
+
+    .image-left {
+      margin-bottom: 50px;
+      height: 405px;
+    }
+
+    .step-gallery-top {
+
+      .step-gallery-first {
+        margin: 50px 0;
+        width: 390px;
+      }
+
+      .step-gallery-second {
+        width: 390px;
+      }
+    }
+
+    .step-gallery-bottom {
+      .step-gallery-third {
+        width: 390px;
+        margin-top: 50px;
+      }
+    }
+  }
+
 
   h2 {
     margin-top: 50px;
@@ -139,6 +181,10 @@
     height: 540px;
     .deal-image {
       grid-column: 2;
+
+      img {
+        margin: 0;
+      }
     }
     .deal-text {
       grid-column: 1;
@@ -147,6 +193,47 @@
   }
   .deal-step {
     grid-template-columns: 1fr 1fr;
+
+    .step-image {
+
+      .image-right {
+        margin-top: 100px;
+        margin-left: 100px;
+      }
+
+      .image-left {
+        margin-top: 100px;
+      }
+
+      .step-gallery-top {
+        width: 50%;
+        margin-top: 200px;
+
+        .step-gallery-first {
+          width: 250px;
+          float: left;
+          margin-left: -290px;
+          margin-top: 120px;
+        }
+
+        .step-gallery-second {
+          width: 390px;
+          float: left;
+          margin-left: 200px;
+          margin-bottom: 30px;
+        }
+      }
+
+      .step-gallery-bottom {
+        width: 80%;
+
+        .step-gallery-third {
+          width: 550px;
+          margin-left: -40px;
+          margin-top: 0;
+        }
+      }
+    }
   }
 
   .portfolio-slide {
