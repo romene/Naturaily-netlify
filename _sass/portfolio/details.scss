@@ -11,7 +11,7 @@
   margin-top: 180px;
 
   .deal-text {
-    padding: 75px 0 60px 75px;
+    padding: 75px 30px 60px 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -187,6 +187,7 @@
       }
     }
     .deal-text {
+      padding: 75px 0 60px 75px;
       grid-column: 1;
       grid-row: 1;
     }
