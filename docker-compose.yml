@@ -10,7 +10,7 @@ services:
     volumes:
       - .:/app
       - bundle:/bundle
-    command: bundle exec jekyll serve --host 0.0.0.0
+    command: bin/start.sh
 
 volumes:
   bundle:
