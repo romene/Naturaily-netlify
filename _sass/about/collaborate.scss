@@ -1,7 +1,6 @@
 .dimonds {
-  width: 1838px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 100px;
   padding-bottom: 60px;
 }
@@ -10,13 +9,24 @@
   p {
     margin: 40px 0 0 30px;
     font-weight: 300;
+    max-width: 1000px;
   }
   &.down {
-    margin-top: 150px;
+    margin-top: 200px;
   }
 }
 
 .l-collaborate {
   overflow-x: scroll;
-  padding-left: 200px;
+  padding: 0 50px;
+}
+
+@media (max-width: 751px) {
+  .dimonds {
+    grid-template-columns: 1fr;
+
+    .dimond {
+      margin-top: 50px;
+    }
+  }
 }

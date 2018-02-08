@@ -23,12 +23,6 @@
     &.down-sm {
       margin-top: 60px;
     }
-    &.rwd-up {
-      margin-top: 0;
-    }
-    &.rwd-down {
-      margin-top: 60px;
-    }
   }
   &-button {
     margin-top: 90px;
@@ -51,6 +45,19 @@
     }
     &-button {
       padding-bottom: 0;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .faces {
+    .person {
+      &.rwd-up {
+        margin-top: 0;
+      }
+      &.rwd-down {
+        margin-top: 60px;
+      }
     }
   }
 }
