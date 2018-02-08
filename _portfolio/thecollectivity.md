@@ -2,7 +2,7 @@
 title: Collectivity
 layout: portfolio-details
 project-screen: /assets/images/collectivity.png
-project-logo: 
+project-logo:
 banner-bg: /assets/images/zapnito-bg.png
 banner-text: Zapewniamy super sprawną reakcję, nasz zespół może być do Twojej dyspozycji już 48 h od pierwszego kontaktu!
 banner-tech:
@@ -34,6 +34,11 @@ slide-left-link: /project/zapnito
 slide-right: Shuttlefare
 slide-right-logo: /assets/images/shuttlefare.png
 slide-right-link: #
+image-one: /assets/images/collectivity-screen-1.png
+image-two: /assets/images/collectivity-screen-2.png
+image-three: /assets/images/collectivity-screen-4.png
+image-four: /assets/images/collectivity-screen-3.png
+image-five: /assets/images/collectivity-screen-5.png
 tech-cards:
   - img: /assets/images/rails-logo.png
     name: Ruby on Rails
