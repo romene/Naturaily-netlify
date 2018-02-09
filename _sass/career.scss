@@ -1,4 +1,5 @@
-@import "career/career-more";
+@import "career/more";
+@import "career/details";
 
 .career__wave {
   padding-top: 40%;
@@ -8,25 +9,26 @@
   background-size: 133%;
   background-repeat: no-repeat;
 }
+
 .l-career-header {
-  margin: 150px 0 120px;
+  margin: 100px 0;
+
   .big-point {
     display: block;
+    margin-left: 0;
   }
 }
 .l-career-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
+
   .main-point {
     grid-column: 1 / 3;
-    padding: 60px 0 40px;
+    padding: 60px 0px 0px;
   }
 }
 .coffee-point {
   margin: 160px auto;
   text-align: center;
-  max-width: 500px;
+  max-width: 520px;
   font-size: 2.2rem;
   font-weight: 200;
   &:before {
@@ -37,25 +39,32 @@
   font-weight: 200;
   font-size: 2.2rem;
   line-height: 32px;
-  margin-left: -22px;
+  margin-left: -40px;
   &::before{
     content: "•";
     color: $color-accent-yellow;
     font-size: 2.2rem;
     font-family: initial;
+    padding-right: 20px;
   }
 }
 
 .career-card {
+  width: 90%;
+  margin-top: 30px;
   border-radius: 4px;
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.07);
   padding: 20px;
   font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   &-job {
     font-size: 1.7rem;
     padding: 0 10px;
     display: block;
   }
+
   &-rate {
     color: $color-accent-gold;
     font-size: 1rem;
@@ -65,14 +74,50 @@
   .btn-career {
     font-size: 0.75rem;
     padding: 8px 20px;
+    display: block;
+    width: 80px;
+    text-align: center;
   }
 }
 
 @media (min-width: 992px) {
   .l-career-container {
+    padding: 0 25px;
     grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-gap: 30px;
     .main-point {
+      margin-left: -20px;
       grid-column: 1 / 4;
     }
+  }
+  .l-career-container-more {
+    padding: 0 25px;
+    grid-template-columns: 1fr;
+  }
+  .l-career-header {
+    margin: 180px 0 120px;
+    padding: 0 65px;
+
+    .big-point {
+      margin-left: -40px;
+    }
+  }
+
+  .career-card {
+    width: auto;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .l-career-container {
+    padding: 0 135px;
+  }
+  .l-career-container-more {
+    padding: 0 90px;
+  }
+  .l-career-header {
+    padding: 0 135px;
   }
 }
