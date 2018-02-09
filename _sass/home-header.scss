@@ -30,6 +30,9 @@
         }
       }
     }
+    .naturaily {
+      display: none;
+    }
   }
   .header-right {
     grid-column: 1 / 2;
@@ -172,6 +175,10 @@
           transform-origin: 0% 0%;
           transform: translate(-315%, 0);
           transition: transform 0.7s cubic-bezier(0.77,0.2,0.05,1.0);
+
+          .naturaily {
+            display: list-item;
+          }
 
           li {
             padding: 5px 30px;
