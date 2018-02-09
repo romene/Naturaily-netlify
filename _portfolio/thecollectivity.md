@@ -2,20 +2,11 @@
 title: Collectivity
 layout: portfolio-details
 project-screen: /assets/images/collectivity.png
-project-logo:
+project-logo: 
 banner-bg: /assets/images/zapnito-bg.png
 banner-text: Zapewniamy super sprawną reakcję, nasz zespół może być do Twojej dyspozycji już 48 h od pierwszego kontaktu!
 banner-tech:
- - Ruby on Rails
- - PostgreSQL
- - Ember.js
- - Node.js
- - Android
-step-tech:
- - Ruby on Rails
- - PostgreSQL
- - Ember.js
- - Node.js
+ - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
 step-one: The need
 step-one-title: Helping health systems
 step-one-text: Africa’s health systems are underdeveloped. They lack proper design, implementation and evaluation of policies. What would have positive impact? Professionals who cooperate, share their experience and knowledge. Five years ago such group met and made a sad discovery - the potential is there, but there’s no place to share insights and organize cooperation. That’s where Naturaily enters the scene to help build online community solution.
@@ -28,6 +19,11 @@ step-three-text: Collectivity is a regular Ruby on Rails application. It’s bee
 step-four: The results
 step-four-title: Healthier African people
 step-four-text: Successful cooperation has resulted in many completed projects changing the African health systems for better.
+comment-photo: /assets/images/MaximeRouve.png
+comment-name: Maxime Rouve
+comment-brand: Project Manager ITM
+comment-logo: /assets/images/itm.png
+comment-text: Naturaily’s exceptional reactivity makes them a valuable development partner. Another advantage is their ability to communicate well with non-technical people. While they could maybe improve their schedule estimates, they consistently hit deadlines and deliver clever solutions.
 slide-left: Zapnito
 slide-left-logo: /assets/images/zapnito.png
 slide-left-link: /project/zapnito
@@ -39,9 +35,8 @@ image-two: /assets/images/collectivity-screen-2.png
 image-three: /assets/images/collectivity-screen-4.png
 image-four: /assets/images/collectivity-screen-3.png
 image-five: /assets/images/collectivity-screen-5.png
-tech-cards:
+image-six: /assets/images/collectivity-screen-6.png
+tech-cardsII:
   - img: /assets/images/rails-logo.png
-    name: Ruby on Rails
   - img: /assets/images/ember-logo.png
-    name: Ember
 ---
