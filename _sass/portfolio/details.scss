@@ -81,12 +81,13 @@
 
   h2 {
     margin-top: 50px;
+    font-weight: 600;
   }
   p {
     padding-left: 30px;
     max-width: 350px;
     margin-top: 46px;
-    font-weight: 300;
+    font-weight: 200;
   }
   .tech {
     display: flex;
@@ -143,7 +144,7 @@
 }
 
 .portfolio-slide {
-  margin-top: 150px;
+  margin-bottom: 200px;
 
   .slide-left {
     a {
@@ -208,12 +209,12 @@
 
       .step-gallery-top {
         width: 50%;
-        margin-top: 200px;
+        margin-top: 180px;
 
         .step-gallery-first {
           width: 250px;
           float: left;
-          margin-left: -290px;
+          margin-left: -300px;
           margin-top: 120px;
         }
 

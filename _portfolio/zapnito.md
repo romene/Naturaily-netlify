@@ -31,6 +31,11 @@ slide-left-link: #
 slide-right: Collectivity
 slide-right-logo: /assets/images/collectivity.png
 slide-right-link: /project/thecollectivity
+image-one: /assets/images/zapnito-screen-1.png
+image-two: /assets/images/zapnito-screen-2.png
+image-three: /assets/images/zapnito-screen-4.png
+image-four: /assets/images/zapnito-screen-3.png
+image-five: /assets/images/zapnito-screen-5.png
 tech-cards:
   - img: /assets/images/rails-logo.png
     name: Ruby on Rails
