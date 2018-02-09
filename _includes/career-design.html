@@ -1,6 +1,6 @@
 <div class="l-career-container">
   <div class="main-point blue-dot">
-    Projektowanie
+    Design
   </div>
   {% for job in site.career %}
   {% if job.type contains "design" %}
@@ -9,7 +9,7 @@
         {{job.title}}
       </span>
       <span class="career-card-rate">
-        od {{job.salary}} pln netto
+        from {{job.salary}} pln netto
       </span>
       <a href="{{job.id}}" class="btn btn-secondary btn-career">aplikuj</a>
     </div>
