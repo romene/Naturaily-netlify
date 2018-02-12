@@ -31,6 +31,7 @@
   max-width: 520px;
   font-size: 2.2rem;
   font-weight: 200;
+
   &:before {
     font-size: 2.2rem;
   }
@@ -80,6 +81,14 @@
   }
 }
 
+@media (min-width: 576px) {
+  .coffee-point {
+    &:before {
+      margin-left: -35px;
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .l-career-container {
     padding: 0 25px;
@@ -87,7 +96,7 @@
     display: grid;
     grid-gap: 30px;
     .main-point {
-      margin-left: -20px;
+      margin-left: -35px;
       grid-column: 1 / 4;
     }
   }

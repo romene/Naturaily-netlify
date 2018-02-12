@@ -5,7 +5,7 @@
   margin-top: 160px;
   .text {
     .title {
-      margin-top: 60px;
+      margin-top: 50px;
     }
   }
   .benefits {
@@ -13,8 +13,8 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 80px);
     grid-gap: 30px;
+
     &-tile {
-      
       background: $color-white;
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
       border-radius: 4px;
