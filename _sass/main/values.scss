@@ -17,7 +17,7 @@
 
   &-texts {
     max-height: 500px;
-    overflow-y: auto;
+    overflow-y: hidden;
     &-wrapper {
       position: relative;
       grid-column: 1 / 8;
@@ -33,6 +33,11 @@
     }
     .value-text {
       font-weight: 200;
+
+      &-last {
+        padding-bottom: 200px;
+      }
+
       .text-number {
         color: $color-accent-gold;
         font-size: 0.9rem;
