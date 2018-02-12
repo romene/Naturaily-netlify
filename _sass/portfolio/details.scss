@@ -41,6 +41,29 @@
   grid-template-columns: 1fr;
   margin-top: 130px;
 
+  .step-text {
+    h2 {
+      margin-left: 32px;
+    }
+
+    p {
+      margin-left: 32px;
+    }
+
+    .tech-cardsII {
+      margin-top: 50px;
+      margin-left: 30px;
+
+      .card {
+        float: left;
+
+        img {
+          height: 110px;
+        }
+      }
+    }
+  }
+
   .step-image {
     text-align: center;
 
