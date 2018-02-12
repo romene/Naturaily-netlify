@@ -116,7 +116,7 @@
 .influencers {
   display: grid;
   grid-row-gap: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 140px;
 
   .influencer {
     text-align: center;
@@ -160,6 +160,7 @@
   .influencers {
     max-width: 450px;
     margin: 0 auto;
+    margin-bottom: 140px;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 20px;
 
