@@ -137,7 +137,7 @@
           z-index: 2;
           transform-origin: 0% 0%;
           transform: translate(-453%, 0);
-          transition: transform 0.7s cubic-bezier(0.77,0.2,0.05,1.0);
+          transition: transform 0.7s;
 
           &:checked {
             transform: none;
@@ -149,7 +149,7 @@
 
           &:checked ~ ul {
             transform: none;
-            box-shadow: 500px -400px 0px 400px rgba(0,0,0,0.2);
+            box-shadow: 400px -280px 0px 400px rgba(0,0,0,0.2);
           }
         }
 
