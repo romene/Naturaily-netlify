@@ -217,6 +217,15 @@
 
 @media (max-width: 991px) {
   .main-carousel {
+
+    .slick-prev::before {
+      box-shadow: 100px 0px 300px #fff;
+    }
+
+    .slick-next::before {
+      box-shadow: -100px 0px 300px #fff;
+    }
+
     .slick-list {
       padding: 20px 0 200px 0;
     }
@@ -225,13 +234,24 @@
 
 @media (max-width: 692px) {
   .main-carousel {
+
+    .slick-prev::before {
+      box-shadow: 50px 0px 300px #fff;
+    }
+
+    .slick-next::before {
+      box-shadow: -50px 0px 300px #fff;
+    }
+
     .slick-list {
       height: 500px;
       padding: 20px 0 110px 0;
     }
+
     .carousel-item {
       padding: 10px 15px 90px 15px;
     }
+
     .slick-dots li {
       margin: 0 10px;
     }
