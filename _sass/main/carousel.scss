@@ -142,13 +142,20 @@
     margin: 20px 40px;
     font-weight: 200;
     padding: 10px 120px 90px 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
     .item-info {
       width: 100%;
       float: left;
       text-align: center;
+
       .mike {
         width: 120px;
       }
+
       img {
         max-width: 120px;
         margin: -50px auto 15px;

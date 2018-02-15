@@ -30,8 +30,8 @@ comment-name: Adam McGovan
 comment-brand: CEO Firefield
 comment-logo: /assets/images/firefield.png
 comment-text: Firefield had the good fortune of getting introduced to Marcin and the Naturaily team at the end of 2015. Since then a number of their resources have helped us to bring our clients’ products and visions to life. The members of the Naturaily team combine a level of professionalism, experience, and collaboration that is hard to find in today’s technology landscape. We would recommended them and their partnership-driven commitment to anyone.
-slide-left: GoLazy
-slide-left-logo: /assets/images/golazy.png
+slide-left: LVCloud
+slide-left-logo: /assets/images/LVCloud.png
 slide-left-link: #
 slide-right: Collectivity
 slide-right-logo: /assets/images/collectivity.png

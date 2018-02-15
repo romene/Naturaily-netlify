@@ -25,6 +25,10 @@
     display: grid;
     align-items: center;
     justify-content: center;
+
+    &-collectivity {
+      height: 200px;
+    }
   }
 
   &-text {

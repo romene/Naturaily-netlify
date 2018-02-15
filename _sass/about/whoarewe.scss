@@ -15,6 +15,9 @@
     top: 55px;
     right: -70px;
     z-index: -1;
+    animation: oval_animations infinite;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
   }
   &-texts {
     .primary {
@@ -42,5 +45,19 @@
         font-size: 1.8rem;
       }
     }
+  }
+}
+
+@keyframes oval_animations {
+  0% {
+    transform: translatey(0px);
+  }
+
+  50% {
+    transform: translatey(-10px);
+  }
+
+  100% {
+    transform: translatey(0px);
   }
 }

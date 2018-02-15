@@ -6,6 +6,7 @@
   background-position: 50% 0;
   background-size: 100%;
   background-repeat: no-repeat;
+  height: 610px;
 }
 .l-opensource {
   .vue-title {
@@ -132,8 +133,15 @@
       margin: 0 auto;
 
       .influencer-icon {
-        width: 30px;
+        width: 20px;
         margin: 0 5px;
+        filter: grayscale(100%);
+        opacity: 0.3;
+
+        &:hover {
+          filter: grayscale(0);
+          opacity: 1;
+        }
       }
     }
 

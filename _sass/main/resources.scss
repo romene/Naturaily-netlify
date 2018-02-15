@@ -2,8 +2,8 @@
 
 .resources {
   display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 150px);
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(6, 90px);
   grid-gap: 30px;
 
   .main-point {

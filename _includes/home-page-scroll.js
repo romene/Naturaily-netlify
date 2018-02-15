@@ -1,4 +1,4 @@
-window.sr = ScrollReveal({ reset: true, duration: 600 });
+window.sr = ScrollReveal({ reset: false, duration: 600 });
 
 sr.reveal('[data-reveal-resources]', {
   delay: 200,

@@ -5,6 +5,7 @@
   background-position: 50% 0;
   background-size: 133%;
   background-repeat: no-repeat;
+  height: 900px;
 }
 
 .main-point {
@@ -39,6 +40,7 @@
 }
 
 .l-full-page {
+  min-width: 0;
   grid-column: left-sidebar / right-sidebar;
 }
 

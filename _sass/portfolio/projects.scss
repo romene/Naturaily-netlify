@@ -17,6 +17,21 @@
     &-shuttle {
       background-image: url(../assets/images/projects-background-blue.png);
     }
+
+    .project-text {
+
+      &:visited {
+        color: #FFFFFF;
+      }
+
+      &:hover {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+      &-collectivity {
+        margin-top: 10px;
+      }
+    }
   }
   .project-banner {
     grid-column: 1;
@@ -28,11 +43,16 @@
     .project-image {
       grid-column: 1;
       grid-row: 1;
+
+      &-lvcloud {
+        max-height: 350px;
+      }
     }
+
     .project-text {
       grid-column: 1;
       grid-row: 2;
-      padding-left: 35px;
+
       a {
         text-decoration: none;
         color: $color-secondary;
