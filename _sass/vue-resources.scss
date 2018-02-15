@@ -138,6 +138,10 @@
         filter: grayscale(100%);
         opacity: 0.3;
 
+        &-github {
+          opacity: 0.13;
+        }
+
         &:hover {
           filter: grayscale(0);
           opacity: 1;

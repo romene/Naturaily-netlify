@@ -13,11 +13,19 @@
   }
 
   &-steam {
-    margin-top: 50px;
+    margin-top: 350px;
   }
 
   &-crystal {
     margin-top: 340px;
+  }
+}
+
+@media (min-width: 992px) {
+  .dimond {
+    &-steam {
+      margin-top: 50px;
+    }
   }
 }
 

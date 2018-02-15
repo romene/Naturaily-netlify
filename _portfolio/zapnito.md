@@ -3,7 +3,7 @@ title: Zapnito
 layout: portfolio-details
 project-screen: /assets/images/zapnito.png
 project-logo: /assets/images/zapnito-logo.png
-banner-bg: /assets/images/zapnito-bg.png
+banner-bg: /assets/images/projects-background-red.png
 banner-text: Zapewniamy super sprawną reakcję, nasz zespół może być do Twojej dyspozycji już 48 h od pierwszego kontaktu!
 banner-tech:
  - Ruby on Rails
