@@ -17,13 +17,20 @@
   }
   &-items {
     .tech-carousel .technology-carousel {
+
       .slick-arrow {
         visibility: hidden;
       }
+
       .slick-list {
         width: 350px;
+
         .slick-track .slick-slide {
+          opacity: 1!important;
+          -webkit-transform: translateY(0) scale(1)!important;
+          transform: translateY(0) scale(1)!important;
           box-shadow: none;
+
           &:focus {
             outline: none;
           }
@@ -31,7 +38,7 @@
       }
     }
     .right {
-      margin-left: 70px;
+      margin-left: 50px;
     }
     .ios {
       margin-left: 70px;

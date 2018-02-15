@@ -46,10 +46,6 @@
       margin-left: 32px;
     }
 
-    p {
-      margin-left: 32px;
-    }
-
     .tech-cardsII {
       margin-top: 50px;
       margin-left: 30px;
@@ -107,7 +103,7 @@
     font-weight: 600;
   }
   p {
-    padding-left: 30px;
+    padding: 0 30px;
     max-width: 350px;
     margin-top: 46px;
     font-weight: 200;
@@ -259,6 +255,12 @@
         }
       }
     }
+
+    .step-text {
+      p {
+        margin-left: 32px;
+      }
+    }
   }
 
   .portfolio-slide {
@@ -275,6 +277,18 @@
 
     .slide-arrow {
       width: 50px;
+    }
+  }
+}
+
+@media (max-width: 469px) {
+  .deal-step {
+
+    .step-text {
+
+      .tech-cardsII {
+        margin-left: 0px;
+      }
     }
   }
 }

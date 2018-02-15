@@ -30,6 +30,9 @@
         }
       }
     }
+    .naturaily {
+      display: none;
+    }
   }
   .header-right {
     grid-column: 1 / 2;
@@ -126,25 +129,27 @@
           width: 40px;
           height: 32px;
           position: absolute;
-          top: -7px;
-          left: -5px;
+          top: -38px;
+          left: 173px;
           transform: none;
           cursor: pointer;
           opacity: 0;
           z-index: 2;
+          transform-origin: 0% 0%;
+          transform: translate(-453%, 0);
+          transition: transform 0.7s;
 
           &:checked {
-          transform: translate(450%, 0);
-          transition: transform 0.7s cubic-bezier(0.77,0.2,0.05,1.0);
+            transform: none;
           }
 
           &:checked ~ span {
-          transform: translate(550%, 0);
-          transition: transform 0.7s cubic-bezier(0.77,0.2,0.05,1.0);
+            transform: none;
           }
 
           &:checked ~ ul {
             transform: none;
+            box-shadow: 400px -280px 0px 400px rgba(0,0,0,0.2);
           }
         }
 
@@ -153,34 +158,63 @@
           width: 33px;
           height: 4px;
           margin-bottom: 5px;
-          position: relative;
           background: $color-global-font;
           border-radius: 3px;
           z-index: 1;
+          position: absolute;
+          left: 180px;
+          transform-origin: 0% 0%;
+          transform: translate(-550%, 0);
+          transition: transform 0.6s;
+          transition-delay: 0.1s;
+        }
+
+        .span-top {
+          top: -30px
+        }
+
+        .span-middle {
+          top: -22px;
+        }
+
+        .span-bottom {
+          top: -14px;
         }
 
         .menu {
           position: absolute;
           width: 260px;
-          height: 467px;
-          margin: -90px 0 0 -30px;
-          padding-top: 125px;
+          height: calc(100vh - 150px);
+          min-height: 400px;
+          margin: -70px 0 0 -30px;
+          padding-top: 100px;
           background: white;
-          box-shadow: 400px -150px 0px 150px rgba(0,0,0,0.2);
           text-align: left;
           list-style-type: none;
           transform-origin: 0% 0%;
-          transform: translate(-315%, 0);
-          transition: transform 0.7s cubic-bezier(0.77,0.2,0.05,1.0);
+          transform: translate(-100%, 0);
+          transition: transform 0.7s;
+
+          .naturaily {
+            display: list-item;
+            position: absolute;
+            top: 32px;
+            left: 20px;
+
+            img {
+              width: 100px;
+            }
+          }
 
           li {
             padding: 5px 30px;
           }
 
           .header-wave {
-            margin-top: 50px;
+            position: absolute;
+            bottom: 0px;
             width: 100%;
-            height: 217px;
+            height: 210px;
             background-image: url('/assets/images/form-wave.png');
             background-size: 770px;
             background-position: top;

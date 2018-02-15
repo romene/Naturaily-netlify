@@ -142,13 +142,20 @@
     margin: 20px 40px;
     font-weight: 200;
     padding: 10px 120px 90px 50px;
+
+    &:hover {
+      cursor: pointer;
+    }
+
     .item-info {
       width: 100%;
       float: left;
       text-align: center;
+
       .mike {
         width: 120px;
       }
+
       img {
         max-width: 120px;
         margin: -50px auto 15px;
@@ -159,15 +166,23 @@
     .item-opinion {
       float: left;
       width: 100%;
-      .firefield {
-        padding-top: 5px;
-      }
-      .apptegy {
-        padding-top: 15px;
-      }
+
       .item-company {
         max-width: 100px;
-        margin: 25px 0;
+        padding: 25px 0;
+      }
+
+      .format {
+        margin-left: -10px;
+        padding-bottom: 15px;
+      }
+
+      .firefield {
+        margin-top: 5px;
+      }
+
+      .apptegy {
+        margin-top: 15px;
       }
     }
   }
@@ -209,6 +224,15 @@
 
 @media (max-width: 991px) {
   .main-carousel {
+
+    .slick-prev::before {
+      box-shadow: 100px 0px 300px #fff;
+    }
+
+    .slick-next::before {
+      box-shadow: -100px 0px 300px #fff;
+    }
+
     .slick-list {
       padding: 20px 0 200px 0;
     }
@@ -217,13 +241,24 @@
 
 @media (max-width: 692px) {
   .main-carousel {
+
+    .slick-prev::before {
+      box-shadow: 50px 0px 300px #fff;
+    }
+
+    .slick-next::before {
+      box-shadow: -50px 0px 300px #fff;
+    }
+
     .slick-list {
       height: 500px;
       padding: 20px 0 110px 0;
     }
+
     .carousel-item {
       padding: 10px 15px 90px 15px;
     }
+
     .slick-dots li {
       margin: 0 10px;
     }

@@ -8,6 +8,7 @@
   background-position: 50% 0;
   background-size: 133%;
   background-repeat: no-repeat;
+  height: 610px;
 }
 
 .l-career-header {
@@ -51,6 +52,7 @@
 }
 
 .career-card {
+  min-height: 158px;
   width: 90%;
   margin-top: 30px;
   border-radius: 4px;
@@ -61,6 +63,7 @@
   flex-direction: column;
   justify-content: space-between;
   &-job {
+    height: 80px;
     font-size: 1.7rem;
     padding: 0 10px;
     display: block;
@@ -76,7 +79,7 @@
     font-size: 0.75rem;
     padding: 8px 20px;
     display: block;
-    width: 80px;
+    width: 200px;
     text-align: center;
   }
 }

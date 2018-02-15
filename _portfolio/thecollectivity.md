@@ -2,8 +2,8 @@
 title: Collectivity
 layout: portfolio-details
 project-screen: /assets/images/collectivity.png
-project-logo: 
-banner-bg: /assets/images/zapnito-bg.png
+project-logo:
+banner-bg: /assets/images/projects-background-green.png
 banner-text: Zapewniamy super sprawną reakcję, nasz zespół może być do Twojej dyspozycji już 48 h od pierwszego kontaktu!
 banner-tech:
  - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android

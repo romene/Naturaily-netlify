@@ -1,22 +1,21 @@
 <nav class="header">
   <div class="header-logo">
-    <img src="/assets/images/logo_naturaily.png">
+    <a href="/"><img src="/assets/images/logo_naturaily.png"></a>
   </div>
   <div class="site-nav">
     <nav class="hamb" role="navigation">
       <div class="menuToggle">
-        <input type="checkbox" />
+        <input type="checkbox" id="checkbox" />
         <span></span>
-        <span></span>
-        <span></span>
+        <span class="span-middle"></span>
+        <span class="span-bottom"></span>
         <ul class="menu">
-          <li class="{% if '/' == page.url %}active{% endif %}"><a href="/">Naturaily</a></li>
+          <a class="naturaily" href="/"><img src="/assets/images/logo_naturaily.png"></a>
           <li class="{% if '/about' == page.url %}active{% endif %}"><a href="/about">About</a></li>
           <li class="{% if '/portfolio' == page.url %}active{% endif %}"><a href="/portfolio">Portfolio</a></li>
           <li class="{% if '/career' == page.url %}active{% endif %}"><a href="/career">Career</a></li>
           <li class="{% if '/blog' == page.url %}active{% endif %}"><a href="/blog">Blog</a></li>
           <div class="header-wave"></div>
-          <div class="header-wave-bottom"></div>
         </ul>
       </div>
     </nav>
@@ -25,3 +24,7 @@
     <button type="button" class="btn btn-secondary header-btn">Let’s talk</button>
   </div>
 </nav>
+
+<script type="text/javascript">
+  {% include block-scroll.js %}
+</script>
