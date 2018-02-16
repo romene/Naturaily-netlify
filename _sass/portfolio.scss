@@ -1,9 +1,7 @@
 @import "portfolio/projects";
 @import "portfolio/gallery";
-@import "portfolio/showcase";
-@import "portfolio/comment";
-@import "portfolio/bottom";
 @import "portfolio/details";
+@import "portfolio/comment";
 
 .portfolio__wave {
   padding-top: 40%;
@@ -16,7 +14,7 @@
 }
 
 .l-portfolio-top {
-  margin-top: 200px;
+  margin-top: 180px;
   margin-bottom: 60px;
 }
 

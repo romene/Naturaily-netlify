@@ -4,6 +4,7 @@
   margin-top: 110px;
   img {
     margin-bottom: 65px;
+    width: 160px;
   }
   .about-oval {
     height: 270px;
@@ -15,9 +16,7 @@
     top: 55px;
     right: -70px;
     z-index: -1;
-    animation: oval_animations infinite;
-    animation-duration: 3s;
-    animation-delay: 0.5s;
+    animation: oval 11s 500ms linear alternate infinite,fade-in 3300ms 0s cubic-bezier(0.68,-0.55,0.265,1.55);
   }
   &-texts {
     .primary {
@@ -45,19 +44,5 @@
         font-size: 1.8rem;
       }
     }
-  }
-}
-
-@keyframes oval_animations {
-  0% {
-    transform: translatey(0px);
-  }
-
-  50% {
-    transform: translatey(-10px);
-  }
-
-  100% {
-    transform: translatey(0px);
   }
 }

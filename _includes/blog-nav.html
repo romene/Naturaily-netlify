@@ -1,7 +1,7 @@
 <div class="blog-nav">
   <ul class="blog-nav-list">
     <a href="/blog/">
-      <li {% if page.pagination.tag == undefined %}class="active" {% endif %}>Wszystkie
+      <li {% if page.pagination.tag == undefined %}class="active" {% endif %}>All
         <span>
           {% assign counter = 0 %}
           {% for post in site.posts %}
@@ -38,7 +38,7 @@
       </li>
     </a>
     <a href="/blog/organization">
-      <li {% if page.pagination.tag == 'organization' %}class="active" {% endif %}>Organizacja
+      <li {% if page.pagination.tag == 'organization' %}class="active" {% endif %}>Management
         <span>
           {% assign counter = 0 %}
           {% for post in site.tags["Organization"] %}

@@ -9,6 +9,7 @@ display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 30px;
   &-logo {
+    width: 160px;
     grid-column: 1 / 3;
     align-self: end;
   }
@@ -209,7 +210,7 @@ display: grid;
   .footer {
 
     &-logo {
-      grid-column: 1 / 5;
+      grid-column: 1 / 3;
     }
 
     &-contact {

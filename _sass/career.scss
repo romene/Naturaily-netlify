@@ -98,15 +98,23 @@
     grid-template-columns: repeat(3, 1fr);
     display: grid;
     grid-gap: 30px;
+
     .main-point {
       margin-left: -35px;
       grid-column: 1 / 4;
     }
   }
+
+  .career-detail-wider {
+    padding: 0;
+    padding-left: 25px;
+  }
+
   .l-career-container-more {
     padding: 0 25px;
     grid-template-columns: 1fr;
   }
+
   .l-career-header {
     margin: 180px 0 120px;
     padding: 0 65px;
@@ -126,9 +134,16 @@
   .l-career-container {
     padding: 0 135px;
   }
+
+  .career-detail-wider {
+    padding: 0;
+    padding-left: 135px;
+  }
+
   .l-career-container-more {
     padding: 0 90px;
   }
+
   .l-career-header {
     padding: 0 135px;
   }

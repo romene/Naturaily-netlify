@@ -18,7 +18,7 @@ sr.reveal('[data-reveal-tools]', {
   rotate: {x: 65},
 });
 
-sr.reveal('[data-reveal-results]', {
+sr.reveal('#results', {
   origin: 'left',
   delay: 100,
   distance: '100px',
