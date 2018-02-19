@@ -1,0 +1,81 @@
+.contactContainer {
+  display: none;
+  position: fixed;
+  top: 0px;
+  z-index: 4;
+  background: rgba(0,0,0,0.8);
+  height: 100%;
+  width: 100%;
+
+  .contactForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    height: 630px;
+    max-width: 700px;
+
+    .contact-h2 {
+      margin: 0;
+    }
+  }
+
+  .contact-wave {
+    position: absolute;
+    top: calc(50% - 400px);
+    z-index: -1;
+    height: 850px;
+    width: 100%;
+    background-image: url(/assets/images/form-wave.png);
+    background-repeat: no-repeat;
+    background-size: 2560px;
+    background-position: top;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .contactContainer {
+
+    .contactForm {
+      height: 660px;
+      top: 52%;
+
+      .contact-h2 {
+        width: 300px;
+        margin: 0 auto;
+      }
+
+      .pipedriveWebForms {
+        height: 72%!important;
+        width: 200px!important;
+        margin: 0 auto;
+      }
+    }
+
+    .contact-wave {
+      top: calc(50% - 320px);
+      height: 690px;
+      background-size: 5000px 680px;
+    }
+  }
+}
+
+@media (min-width: 811px) {
+  .contactContainer {
+
+    .contact-wave {
+      height: 850px;
+      background-size: 1730px 850px;
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .contactContainer {
+
+    .contact-wave {
+      background-size: 2560px;
+    }
+  }
+}

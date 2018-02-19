@@ -132,23 +132,29 @@
       max-width: 90px;
       margin: 0 auto;
 
-      .influencer-icon {
-        width: 20px;
-        margin: 0 5px;
-        filter: grayscale(100%);
-        opacity: 0.3;
-
-        &-github {
-          opacity: 0.13;
-        }
+      a {
 
         &:hover {
-          filter: grayscale(0);
-          opacity: 1;
+          text-decoration: none;
+        }
+
+        .influencer-icon {
+          width: 20px;
+          margin: 0 5px;
+          filter: grayscale(100%);
+          opacity: 0.3;
+
+          &-github {
+            opacity: 0.13;
+          }
+
+          &:hover {
+            filter: grayscale(0);
+            opacity: 1;
+          }
         }
       }
     }
-
   }
 }
 

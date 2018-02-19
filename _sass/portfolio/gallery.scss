@@ -10,8 +10,13 @@
     grid-template-columns: 30px 1fr 30px;
     grid-template-rows: 40px 1fr 30px 20px;
 
+    .project-image img {
+      margin-top: -20px;
+    }
+
     .project-text {
       color: $color-white;
+      margin-top: 10px;
 
       &:hover {
         color: $color-white;

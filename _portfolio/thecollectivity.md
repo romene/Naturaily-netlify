@@ -27,8 +27,8 @@ comment-text: Naturaily’s exceptional reactivity makes them a valuable develop
 slide-left: Zapnito
 slide-left-logo: /assets/images/zapnito.png
 slide-left-link: /project/zapnito
-slide-right: Shuttlefare
-slide-right-logo: /assets/images/shuttlefare.png
+slide-right: Snipsl
+slide-right-logo: /assets/images/snipsl.png
 slide-right-link: #
 image-one: /assets/images/collectivity-screen-1.png
 image-two: /assets/images/collectivity-screen-2.png

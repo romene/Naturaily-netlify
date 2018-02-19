@@ -29,8 +29,10 @@
 
   .deal-image {
     padding: 20px;
+    text-align: center;
 
     img {
+      max-height: 420px;
       margin-top: 30px;
     }
   }
