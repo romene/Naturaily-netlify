@@ -41,7 +41,7 @@ markdown: kramdown
 #theme: minima
 plugins:
   - jekyll-feed
-  # - jekyll-admin
+  - jekyll-admin
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
