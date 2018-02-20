@@ -28,6 +28,7 @@ pagination:
   per_page: 5
   permalink: '/:num/'
   indexpage: 'index'
+  sort_reverse: true
 collections:
   career:
     output: true
