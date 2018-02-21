@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/frontend
+permalink: blog/css
 pagination:
   enabled: true
-  tag: frontend
+  tag: css
   trail:
     before: 2
     after: 2
