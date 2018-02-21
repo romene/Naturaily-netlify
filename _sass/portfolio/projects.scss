@@ -18,8 +18,12 @@
       }
     }
 
-    &-shuttle {
+    &-zapnito {
       background-image: url(../assets/images/projects-background-blue.png);
+    }
+
+    &-snipsl {
+      background-image: url(../assets/images/projects-background-red.png);
     }
 
     .project-text {
@@ -98,7 +102,7 @@
         margin-top: 60px;
       }
 
-      &-shuttle {
+      &-zapnito, &-snipsl {
         margin-bottom: 60px;
       }
     }
