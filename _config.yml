@@ -58,4 +58,4 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-permalink: /blog/:categories/:title.html
+permalink: /blog/post/:title
