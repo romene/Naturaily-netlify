@@ -17,11 +17,22 @@
     justify-content: space-between;
     align-items: flex-start;
     height: calc(100% - 135px);
-  }
-  .deal-image {
-    padding: 20px;
+
+    p {
+      max-width: 425px;
+    }
 
     img {
+      width: 160px;
+    }
+  }
+
+  .deal-image {
+    padding: 20px;
+    text-align: center;
+
+    img {
+      max-height: 420px;
       margin-top: 30px;
     }
   }
@@ -30,6 +41,7 @@
     font-weight: 200;
     font-size: 1.5rem;
   }
+
   span {
     font-size: 0.9rem;
     font-weight: 300;

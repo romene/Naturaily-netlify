@@ -6,9 +6,13 @@ date: '2017-06-22 10:38:01 +0000'
 categories: jekyll update
 author: Jacek Kowalski
 tags:
-- Mobile
-- Organization
-image: http://localhost:4000/assets/images/OneTop_Black_Lifestyle_02.0.png
+- Thoughts on building start-ups
+- Ruby on Rails
+- Women in IT
+- CSS
+- Android
+- Management
+image: /assets/images/OneTop_Black_Lifestyle_02.0.png
 text-preview: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 ---
 

@@ -4,16 +4,16 @@ layout: default
 <div class="career__wave"></div>
 <h2 class="l-content l-career-header">
   <span class="big-point">
-    Zatrudnimy <b>{{page.title}}</b>
+    We’re looking for <b>{{page.title}}</b>
   </span>
   <span class="point-where">
-    Wrocław lub zdalnie
+    Wrocław or remotely
   </span>
 </h2>
 <h2 class="l-content l-career-container career-details-header">
   Who we are looking for
 </h2>
-<div class="l-content career-details l-career-container">
+<div class="l-content career-details l-career-container career-detail-wider">
   <p class="career-details--who">
     We are an Agile development team using Ruby on Rails, Meteor and Ionic to craft great web and mobile apps. We work with startups and grown-up companies.
   </p>
@@ -42,7 +42,7 @@ layout: default
       Offer
     </span>
     <p>
-      {{ page.offer }}
+      {{ page.offer1 }} <br> {{ page.offer2}}
     </p>
   </div>
   <div class="career-details--content">
@@ -57,7 +57,7 @@ layout: default
   </div>
   <div class="career-details--content">
     <span></span>
-    <p>
+    <p class="career-mail">
       Don't hesitate and apply right away! In case of questions - drop us a line at <a href="mailto:jobs@naturaily.com">jobs@naturaily.com</a>
     </p>
   </div>
@@ -69,12 +69,14 @@ layout: default
       {% endfor %}
     </ul>
     <button type="button" class="btn btn-primary btn-arrow">
-      aplikuj
+      apply
       <img src="/assets/images/btn-arrow.png">
     </button>
   </div>
 </div>
-
+<div class="l-full-page">
+  {% include form.html %}
+</div>
 <!-- <div class="l-content">
   {{page.type}}
   {{page.salary}}

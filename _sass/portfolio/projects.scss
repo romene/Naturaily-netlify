@@ -12,10 +12,18 @@
 
     &-moto {
       background-image: url(../assets/images/projects-background-green.png);
+
+      a {
+        margin-top: 10px;
+      }
     }
 
-    &-shuttle {
+    &-zapnito {
       background-image: url(../assets/images/projects-background-blue.png);
+    }
+
+    &-snipsl {
+      background-image: url(../assets/images/projects-background-red.png);
     }
 
     .project-text {
@@ -45,7 +53,7 @@
       grid-row: 1;
 
       &-lvcloud {
-        max-height: 350px;
+        max-height: 380px;
       }
     }
 
@@ -94,7 +102,7 @@
         margin-top: 60px;
       }
 
-      &-shuttle {
+      &-zapnito, &-snipsl {
         margin-bottom: 60px;
       }
     }

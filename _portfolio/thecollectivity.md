@@ -2,9 +2,9 @@
 title: Collectivity
 layout: portfolio-details
 project-screen: /assets/images/collectivity.png
-project-logo:
+project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.png
-banner-text: Zapewniamy super sprawną reakcję, nasz zespół może być do Twojej dyspozycji już 48 h od pierwszego kontaktu!
+banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
  - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
 step-one: The need
@@ -27,8 +27,8 @@ comment-text: Naturaily’s exceptional reactivity makes them a valuable develop
 slide-left: Zapnito
 slide-left-logo: /assets/images/zapnito.png
 slide-left-link: /project/zapnito
-slide-right: Shuttlefare
-slide-right-logo: /assets/images/shuttlefare.png
+slide-right: Snipsl
+slide-right-logo: /assets/images/snipsl.png
 slide-right-link: #
 image-one: /assets/images/collectivity-screen-1.png
 image-two: /assets/images/collectivity-screen-2.png

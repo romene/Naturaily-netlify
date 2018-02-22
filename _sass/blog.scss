@@ -110,16 +110,27 @@ pre, code {
     font-weight: 300;
     padding: 30px;
     margin-top: 25px;
+
+    a {
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
     span {
       font-size: 1.7rem;
     }
+
     p {
       padding: 30px;
     }
+
     .meetus-btn {
       padding: 10px 40px;
       color: $color-primary;
     }
+
     img {
       margin: 30px 10px;
       max-width: 30px;
@@ -132,6 +143,6 @@ pre, code {
     display: block;
   }
   .l-blog {
-    grid-template-columns: 1fr 270px;
+    grid-template-columns: 1fr 300px;
   }
 }

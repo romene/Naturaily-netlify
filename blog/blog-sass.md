@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/organization
+permalink: blog/sass
 pagination:
   enabled: true
-  tag: organization
+  tag: SASS
   trail:
     before: 2
     after: 2
