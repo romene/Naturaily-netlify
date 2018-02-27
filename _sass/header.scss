@@ -106,8 +106,7 @@
       visibility: hidden;
     }
     &-logo {
-      margin-bottom: 25px;
-      grid-column: 2 / 3;
+      display: none;
     }
     &-right {
       display: none;
@@ -133,15 +132,14 @@
             display: block;
             width: 40px;
             height: 32px;
-            position: absolute;
-            top: -9px;
-            left: 173px;
+            position: relative;
+            left: 50%;
             transform: none;
             cursor: pointer;
             opacity: 0;
             z-index: 2;
             transform-origin: 0% 0%;
-            transform: translate(-453%, 0);
+            transform: translate(-50vw, 0);
             transition: transform 0.7s;
 
             &:checked {
@@ -166,28 +164,32 @@
             background: $color-global-font;
             border-radius: 3px;
             z-index: 1;
-            position: absolute;
-            left: 180px;
+            position: relative;
+            left: 50%;
             transform-origin: 0% 0%;
-            transform: translate(-550%, 0);
+            transform: translate(-50vw, 0);
             transition: transform 0.6s;
             transition-delay: 0.1s;
           }
 
+          .span-top {
+            top: -30px
+          }
+
           .span-middle {
-            top: 8px;
+            top: -30px;
           }
 
           .span-bottom {
-            top: 16px;
+            top: -30px;
           }
 
           .menu {
             position: absolute;
-            width: 260px;
+            width: 75%;
             height: calc(100vh - 85px);
             min-height: 400px;
-            margin: -50px 0 0 -30px;
+            margin: -110px 0 0 -30px;
             padding-top: 100px;
             background: white;
             text-align: left;
@@ -199,7 +201,7 @@
             .naturaily {
               display: list-item;
               position: absolute;
-              top: 40px;
+              top: 46px;
               left: 20px;
 
               img {
@@ -227,6 +229,27 @@
               background-position: top;
               background-repeat: no-repeat;
             }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 525px) {
+  .header {
+    .site-nav {
+      .hamb {
+        .menuToggle {
+
+          input {
+            left: 60%;
+            transform: translate(-60vw, 0);
+          }
+
+          span {
+            left: 60%;
+            transform: translate(-60vw, 0);
           }
         }
       }

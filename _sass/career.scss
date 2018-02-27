@@ -52,35 +52,72 @@
 }
 
 .career-card {
-  min-height: 158px;
+  background: white;
+  min-height: 250px;
   width: 90%;
   margin-top: 30px;
   border-radius: 4px;
   box-shadow: 0 8px 32px 0 rgba(0,0,0,0.07);
-  padding: 20px;
   font-weight: 300;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  transition: all 0.2s ease-in-out;
+
   &-job {
+    color: black;
     height: 80px;
     font-size: 1.7rem;
-    padding: 0 10px;
+    margin-top: 50px;
+    padding: 0 30px;
     display: block;
   }
 
   &-rate {
-    color: $color-accent-gold;
+    color: grey;
+    opacity: 0.7;
     font-size: 1rem;
     display: block;
-    padding: 10px;
+    margin-top: 25px;
+    padding: 0 30px;
   }
-  .btn-career {
-    font-size: 0.75rem;
-    padding: 8px 20px;
+
+  &-apply {
+    color: $color-secondary;
+    display: inline-block;
+    font-size: 0.9rem;
+    margin-top: 50px;
+    padding: 0 30px 45px 50px;
+
+    img {
+      width: 20px;
+      margin-left: 10px;
+    }
+  }
+
+  .career-hover-wave {
+    display: none;
+    z-index: -1;
+    position: absolute;
+    top: 200px;
+
+    .wave-tail {
+      background-color: #FDF7EB;
+      width: 100%;
+      height: 65px;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    z-index: 2;
+  }
+
+  &:hover > span {
+    color: $color-secondary;
+  }
+
+  &:hover > .career-hover-wave {
     display: block;
-    width: 200px;
-    text-align: center;
   }
 }
 

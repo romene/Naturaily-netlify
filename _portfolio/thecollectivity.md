@@ -29,7 +29,7 @@ slide-left-logo: /assets/images/zapnito.png
 slide-left-link: /project/zapnito
 slide-right: Snipsl
 slide-right-logo: /assets/images/snipsl.png
-slide-right-link: #
+slide-right-link: /project/snipsl
 image-one: /assets/images/collectivity-screen-1.png
 image-two: /assets/images/collectivity-screen-2.png
 image-three: /assets/images/collectivity-screen-4.png

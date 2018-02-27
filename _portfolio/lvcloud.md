@@ -1,9 +1,9 @@
 ---
-title: Zapnito
+title: LVCloud
 layout: portfolio-details
-project-screen: /assets/images/zapnito.png
-project-logo: /assets/images/zapnito-logo.png
-banner-bg: /assets/images/projects-background-blue.png
+project-screen: /assets/images/LVCloud.png
+project-logo:
+banner-bg: /assets/images/projects-background-purple.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
  - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
@@ -26,17 +26,17 @@ comment-name: Adam McGovan
 comment-brand: CEO Firefield
 comment-logo: /assets/images/firefield.png
 comment-text: Firefield had the good fortune of getting introduced to Marcin and the Naturaily team at the end of 2015. Since then a number of their resources have helped us to bring our clients’ products and visions to life. The members of the Naturaily team combine a level of professionalism, experience, and collaboration that is hard to find in today’s technology landscape. We would recommended them and their partnership-driven commitment to anyone.
-slide-left: LVCloud
-slide-left-logo: /assets/images/LVCloud.png
-slide-left-link: /project/lvcloud
-slide-right: Collectivity
-slide-right-logo: /assets/images/collectivity.png
-slide-right-link: /project/thecollectivity
-image-one: /assets/images/zapnito-screen-1.png
-image-two: /assets/images/zapnito-screen-2.png
-image-three: /assets/images/zapnito-screen-4.png
-image-four: /assets/images/zapnito-screen-3.png
-image-five: /assets/images/zapnito-screen-5.png
+slide-left: Snipsl
+slide-left-logo: /assets/images/snipsl.png
+slide-left-link: /project/snipsl
+slide-right: Zapnito
+slide-right-logo: /assets/images/zapnito.png
+slide-right-link: /project/zapnito
+image-one:
+image-two:
+image-three:
+image-four:
+image-five: 
 tech-cards:
   - img: /assets/images/rails-logo.png
     name: Ruby on Rails

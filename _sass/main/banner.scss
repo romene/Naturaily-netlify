@@ -13,6 +13,7 @@
   }
 
   &-oval {
+    z-index: -1;
     height: 270px;
     width: 270px;
     background: radial-gradient(circle, #FCC36D 0%, #FFB040 100%);
@@ -62,15 +63,12 @@
       margin-right: -10px;
     }
 
-    &-text {
-      margin-top: 30px;
-    }
-
     &-btn {
       grid-column: 1 / 13;
       text-align: center;
+
       button {
-        font-size: 0.85rem;
+        font-size: 0.75rem;
       }
     }
   }

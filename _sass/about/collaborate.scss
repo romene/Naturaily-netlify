@@ -17,7 +17,7 @@
   }
 
   &-crystal {
-    margin-top: 340px;
+    margin-top: 240px;
   }
 }
 
@@ -25,6 +25,14 @@
   .dimond {
     &-steam {
       margin-top: 50px;
+    }
+  }
+}
+
+@media (min-width: 1400px) {
+  .dimond {
+    &-crystal {
+      margin-top: 340px;
     }
   }
 }
