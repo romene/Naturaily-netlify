@@ -58,6 +58,14 @@
   .banner {
     grid-template-rows: 80px auto auto;
 
+    &-logo {
+      margin-left: 15px;
+    }
+
+    &-text {
+      margin-left: 15px;
+    }
+
     &-oval {
       margin-top: -60px;
       margin-right: -10px;
@@ -69,6 +77,8 @@
 
       button {
         font-size: 0.75rem;
+        margin: 0 5px;
+        padding: 18px 18px 18px 30px!important;
       }
     }
   }

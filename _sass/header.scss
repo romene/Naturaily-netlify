@@ -139,7 +139,7 @@
             opacity: 0;
             z-index: 2;
             transform-origin: 0% 0%;
-            transform: translate(-50vw, 0);
+            transform: translate(-55vw, 0);
             transition: transform 0.7s;
 
             &:checked {
@@ -167,7 +167,7 @@
             position: relative;
             left: 50%;
             transform-origin: 0% 0%;
-            transform: translate(-50vw, 0);
+            transform: translate(-53vw, 0);
             transition: transform 0.6s;
             transition-delay: 0.1s;
           }
