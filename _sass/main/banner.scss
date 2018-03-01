@@ -13,7 +13,6 @@
   }
 
   &-oval {
-    z-index: -1;
     height: 270px;
     width: 270px;
     background: radial-gradient(circle, #FCC36D 0%, #FFB040 100%);
@@ -67,6 +66,7 @@
     }
 
     &-oval {
+      z-index: -1;
       margin-top: -60px;
       margin-right: -10px;
     }

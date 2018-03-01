@@ -1,5 +1,4 @@
 .main__wave {
-  z-index: -2;
   padding-top: 40%;
   grid-area: header;
   background-image: url('../assets/images/main-wave.png');
@@ -76,4 +75,10 @@
   transform: rotate(90deg);
   width: 30px;
   justify-self: left;
+}
+
+@media screen and (max-width: 810px) {
+  .main__wave {
+    z-index: -2;
+  }
 }
