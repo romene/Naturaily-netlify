@@ -5,6 +5,7 @@ layout: post
 date: '2017-06-22 10:38:01 +0000'
 categories: jekyll update
 author: Jacek Kowalski
+avatar: /assets/images/JestonGeorge.jpg
 tags:
 - Thoughts on building start-ups
 - Ruby on Rails

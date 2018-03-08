@@ -1,7 +1,9 @@
 ---
 layout: default
 ---
+
 <div class="blog__wave"></div>
+
 <div class="l-content l-blog">
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
@@ -9,23 +11,30 @@ layout: default
         <img src="{{page.image}}" alt="">
       {% endif %}
       <p class="post-meta">
-        {% if page.author %}
-          <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        {% if page.avatar %}
+          <img class="avatar" src="{{ page.avatar }}">
         {% endif %}
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-          {{ page.date | date: date_format }}
-        </time>
+        <span class="author">
+          {% if page.author %}
+            <span>{{ page.author }}</span>
+          {% endif %}
+          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+            {{ page.date | date: date_format }}
+          </time>
+        </span>
         {% if page.readtime %}
-          <span>{{ page.readtime }} min czytania</span>
-        {% endif %}
-        {% if page.author %}
-          {% for tag in page.tags %}
-            <span class="post-tag">{{ tag }}</span>
-          {% endfor %}
+          <span class="read-time">{{ page.readtime }} min czytania</span>
         {% endif %}
       </p>
       <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
+      <div class="post-tags">
+        {% if page.author %}
+          {% for tag in page.tags %}
+            <a href="/blog/{{ tag }}">{{ tag }}</a>
+          {% endfor %}
+        {% endif %}
+      </div>
     </header>
 
       <div class="post-content" itemprop="articleBody">
@@ -48,6 +57,7 @@ layout: default
         <img src="/assets/images/twitter.png">
       </a>
     </div>
+    {% include blog-nav.html %}
     <div class="post-navigation">
       {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url}}">

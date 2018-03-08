@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/thoughtsonbuildingstartups
+permalink: blog/social%20media
 pagination:
   enabled: true
-  tag: Thoughts on building start-ups
+  tag: Social media
   trail:
     before: 2
     after: 2
