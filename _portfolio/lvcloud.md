@@ -7,20 +7,18 @@ banner-bg: /assets/images/projects-background-purple.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
  - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
-step-tech:
- - Ruby on Rails
- - PostgreSQL
- - Ember.js
- - Node.js
-step-one: Krok 1
-step-one-title: Jaką potrzebę miał klient?
-step-one-text: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
-step-two: Krok 2
-step-two-title: Co dostarczyliśmy?
-step-two-text: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
-step-two-tech: Technologie
-step-four: Krok 3
-step-four-title: Efekty naszej pracy
+step-one: The need
+step-one-title: Taking care of the grid
+step-one-text: Electric network malfunction causing serious problems for the society? That is not a science fiction scenario anymore. You could have laughed about it a couple of decades ago, but nowadays we are too dependent on the grid. It needs to be monitored so that specialists can intervene and solve problems quickly.<br><br>Hardware-wise the grid is monitored by reclosers, which are sophisticated fuses. But they need software.
+step-two: The solution
+step-two-title: Monitor the grid like a pro
+step-two-text: "Recloser's main job is to bring back the electricity within the area it operates in. When something goes wrong, the fuse will blow and therefore secure that part of the electricity network. But it will try to reclose and make everything works again.<br><br>It's XXI century so recloser is much more sophisticated and it also enables recording information about the grid's state.<br><br>Now this is where Naturaily steps in. We have created software that collects information from reclosers and analyzes it to find traces of malfunction or physical damage. Any type of non-obvious problems like too high humidity caused by various incidents or worn out cables. Think of “Minority Report” class software for finding electric network prefaults.<br><br>Other devices exist: TDRs (Time-domain reflectometers), ATLMs (ALVIN Transformer Load Monitors). We gather data from all of them. And also enable managing them with our software.<br><br>Apart from dashboard, engineers are notified via email or text."
+step-three: The tools
+step-three-title: Ruby-based microservices
+step-three-text: "The software is created for large scale: hundreds of thousands of devices and millions of events. But the amount of devices is not the biggest problem. The main requirement was that the application works in real time! To handle this we have designed Ruby-based microservices architecture and wrote the most critical parts in faster, more concurrent language - Elixir. Apart from scalability, we wanted to bring XXI century to this solution and implemented machine learning algorithms to find patterns and detect prefaults.<br><br>We use Docker for one-click super convenient server creation process for each end customer. It’s critical as our solution is more PaaS-like solution where each end customer has its own hardware set up.<br><br>MongoDB and Redis are used to store and work with data. As our data model must be quite elastic and write speed is crucial, MongoDB is a great choice. MQTT is the standard communication protocol between end devices and our system.<br><br>To put it shortly: heaven of internet of things development stack."
+step-four: The results
+step-four-title: Watch Netflix peacefully
+step-four-text: We are kidding, of course. This has much more impact for the stability of the network and your life. Charging your Tesla can overload the grid, so the sooner maintenance people get information about potential malfunction, the better, because you won't even know a problem existed.
 comment-photo: /assets/images/firefield-face.png
 comment-name: Adam McGovan
 comment-brand: CEO Firefield
@@ -36,10 +34,5 @@ image-one:
 image-two:
 image-three:
 image-four:
-image-five: 
-tech-cards:
-  - img: /assets/images/rails-logo.png
-    name: Ruby on Rails
-  - img: /assets/images/ember-logo.png
-    name: Ember
+image-five:
 ---

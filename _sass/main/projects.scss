@@ -36,6 +36,7 @@
     font-weight: 300;
     grid-column: 2 / 3;
     grid-row: 3 / 4;
+
     a {
       color: $color-white;
 
@@ -51,6 +52,10 @@
         color: $color-white;
         text-decoration: none;
       }
+    }
+
+    .banner-link:visited {
+      color: $color-primary;
     }
   }
 

@@ -26,21 +26,16 @@
       background-image: url(../assets/images/projects-background-red.png);
     }
 
-    .project-text {
-
-      &:visited {
-        color: #FFFFFF;
-      }
-
-      &:hover {
-        color: #FFFFFF;
-        text-decoration: none;
-      }
-      &-collectivity {
-        margin-top: 10px;
-      }
+    .project-text-collectivity {
+      margin-top: 10px;
+    }
+    
+    &:hover {
+      color: #FFFFFF;
+      text-decoration: none;
     }
   }
+
   .project-banner {
     grid-column: 1;
     background-image: url(../assets/images/projects-background-purple.png);
@@ -60,11 +55,6 @@
     .project-text {
       grid-column: 1;
       grid-row: 2;
-
-      a {
-        text-decoration: none;
-        color: $color-secondary;
-      }
     }
     span {
       font-weight: 200;
