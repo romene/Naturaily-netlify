@@ -1,15 +1,13 @@
 $(function() {
-  $('[data-reveal-contact]').click(function() {
-    $('#contactContainer').fadeToggle();
-  })
-  $(document).mouseup(function (e) {
-    var container = $("#contactContainer");
-    var form = $("#contactForm");
+  const container = $('#contactContainer'),
+        entry = $('[data-reveal-contact]'),
+        exit = $("#exitButton");
 
-    if (!form.is(e.target)
-        && form.has(e.target).length === 0)
-    {
-        container.fadeOut();
-    }
+  entry.click(function() {
+    container.fadeToggle();
+  });
+
+  exit.click(function() {
+    container.fadeOut();
   });
 });

@@ -4,15 +4,22 @@
   </div>
   {% for job in site.career %}
   {% if job.type contains "programming" %}
-    <div class="career-card">
+    <a href="{{job.id}}" class="career-card">
       <span class="career-card-job">
         {{job.title}}
       </span>
       <span class="career-card-rate">
         from {{job.salary}} pln netto
       </span>
-      <a href="{{job.id}}" class="btn btn-secondary btn-career">apply</a>
-    </div>
+      <span class="career-card-apply">
+        APPLY
+        <img src="/assets/images/arrow-orange.png">
+      </span>
+      <div class="career-hover-wave">
+        <img src="/assets/images/cream-wave3.png">
+        <div class="wave-tail"></div>
+      </div>
+    </a>
   {% endif %}
   {% endfor %}
 

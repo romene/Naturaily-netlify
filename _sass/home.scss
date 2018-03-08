@@ -76,3 +76,9 @@
   width: 30px;
   justify-self: left;
 }
+
+@media screen and (max-width: 810px) {
+  .main__wave {
+    z-index: -2;
+  }
+}

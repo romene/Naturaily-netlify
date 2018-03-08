@@ -118,11 +118,23 @@ display: grid;
     margin-top: 30px;
     grid-row: 7;
     grid-column: 1 / 5;
+
+    .footer-github {
+      opacity: 0.18;
+    }
+
     img {
       max-height: 20px;
       max-width: 25px;
       float: right;
       margin: 0 10px;
+      filter: grayscale(100%);
+      opacity: 0.3;
+
+      &:hover {
+        filter: grayscale(0);
+        opacity: 1;
+      }
     }
   }
   ul {
