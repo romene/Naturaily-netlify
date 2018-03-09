@@ -23,7 +23,7 @@ comment-photo: /assets/images/firefield-face.png
 comment-name: Adam McGovan
 comment-brand: CEO Firefield
 comment-logo: /assets/images/firefield.png
-comment-text: Firefield had the good fortune of getting introduced to Marcin and the Naturaily team at the end of 2015. Since then a number of their resources have helped us to bring our clients’ products and visions to life. The members of the Naturaily team combine a level of professionalism, experience, and collaboration that is hard to find in today’s technology landscape. We would recommended them and their partnership-driven commitment to anyone.
+comment-text: We’ve been maintaining partnership with Naturaily for over a year. Marcin and his team have always delivered on time. They are excellent developers that managed to improve and support our product which, at that time, had no documentation left by previous team. Since the collaboration with Naturaily is very successful I would definitely recommend them to anyone looking for professional Ruby on Rails developers.
 slide-left: Collectivity
 slide-left-logo: /assets/images/collectivity.png
 slide-left-link: /project/thecollectivity

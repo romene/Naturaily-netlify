@@ -113,6 +113,10 @@ display: grid;
     font-size: 0.9rem;
     color: $color-text-muted;
     margin: 30px 0;
+
+    p {
+      display: inline;
+    }
   }
   &-social {
     margin-top: 30px;
@@ -218,7 +222,7 @@ display: grid;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .footer {
 
     &-logo {
@@ -274,6 +278,11 @@ display: grid;
     &-regon {
       grid-row: 8;
       grid-column: 1 / 5;
+
+      p {
+        display: block;
+        margin-bottom: 0;
+      }
     }
   }
 }

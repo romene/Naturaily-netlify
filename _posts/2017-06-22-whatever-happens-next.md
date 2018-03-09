@@ -10,7 +10,6 @@ tags:
 - Thoughts on building start-ups
 - Ruby on Rails
 - Women in IT
-- CSS
 - Android
 - Management
 image: /assets/images/OneTop_Black_Lifestyle_02.0.png

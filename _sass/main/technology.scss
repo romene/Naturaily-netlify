@@ -8,14 +8,19 @@
     margin-top: 100px;
     margin-bottom: 70px;
   }
+
   &-title {
     margin: 40px 0;
   }
+
   &-text {
     padding: 0 50px;
     font-weight: 200;
   }
+
   &-items {
+    margin: 0 auto;
+
     .tech-carousel .technology-carousel {
 
       .slick-arrow {
@@ -36,15 +41,6 @@
           }
         }
       }
-    }
-    .right {
-      margin-left: 50px;
-    }
-    .ios {
-      margin-left: 70px;
-    }
-    .left {
-      margin-left: 15px;
     }
     .item {
       background: $color-white;
@@ -81,21 +77,18 @@
     }
     &-items {
       margin-top: 200px;
+
+      .right {
+        margin-left: 50px;
+      }
+
+      .left {
+        margin-left: 15px;
+      }
+
       .ios {
         margin-left: 100px;
       }
-    }
-  }
-}
-
-@media (max-width: 469px) {
-  .technology {
-    .technology-item {
-      width: 81%;
-    }
-    .technology-texts {
-      width: 80%;
-      text-align: center;
     }
   }
 }
