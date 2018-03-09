@@ -1,13 +1,14 @@
 ---
-title: Biggest startup failures and successes of 2017
-tags:
-- Startup
+title": Biggest startup failures and successes of 2017
+tags":
+- startup
+- rise and fall
+- investment
+category: Startup
 date: '2017-12-30 10:38:01 +0000'
 author: Wojciech Miśta
-avatar: /assets/images/authors/wojtek.jpg
-image: /assets/images/post_images/more-berlin-startups.jpg
-text-preview: We’re bringing you the biggest fails of 2017 as well as some startups that you should definitely keep an eye on. Why failures and successes matter to other entrepreneurs? “Fail often so you can succeed sooner.” ~ Tom Kelley, Ideo partner
-readtime: 10
+image: rise-and-fall.jpeg
+position: Content Writer
 ---
 
 
