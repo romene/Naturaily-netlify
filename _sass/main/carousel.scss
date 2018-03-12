@@ -184,6 +184,10 @@
       .apptegy {
         margin-top: 15px;
       }
+
+      .read-more-state {
+        display: none;
+      }
     }
   }
 }
@@ -289,6 +293,63 @@
     }
     .slick-dots li:nth-child(3) {
       width: 50%;
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  .main-carousel .slick-arrow {
+    width: 70px;
+  }
+
+  .main-carousel .slick-list {
+    height: 420px;
+  }
+
+  .main-carousel .carousel-item .item-opinion {
+    text-align: right;
+
+    p {
+      text-align: left;
+      height: 210px;
+    }
+
+    .read-more-wrap {
+      margin-bottom: 0;
+    }
+
+    .read-more-target {
+      opacity: 0;
+      max-height: 0;
+      font-size: 0;
+      transition: .25s ease;
+    }
+
+    .read-more-state:checked ~ .read-more-wrap .read-more-target {
+      opacity: 1;
+      font-size: inherit;
+      max-height: 999em;
+    }
+
+    .read-more-state:checked ~ .read-more-wrap {
+      height: 360px;
+    }
+
+    .read-more-state ~ .read-more-trigger:before {
+      content: 'read more...';
+    }
+
+    .read-more-state:checked ~ .read-more-trigger:before {
+      content: 'read less';
+    }
+
+    .read-more-trigger {
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 .5em;
+      color: #666;
+      font-size: .9em;
+      line-height: 2;
     }
   }
 }
