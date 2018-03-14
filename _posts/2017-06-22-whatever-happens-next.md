@@ -1,5 +1,5 @@
 ---
-title: Test1
+title: 11 types of apps you can build with Ruby on Rails
 comments: true
 layout: post
 date: '2017-06-22 10:38:01 +0000'

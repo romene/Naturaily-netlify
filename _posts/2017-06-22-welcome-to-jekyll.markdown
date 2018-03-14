@@ -1,5 +1,5 @@
 ---
-title: Welcome to Jekyll!
+title: 10 entrepreneurs you need to follow on Snapchat
 comments: true
 layout: post
 date: '2017-06-22 10:38:01 +0000'
