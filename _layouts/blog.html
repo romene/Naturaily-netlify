@@ -48,13 +48,6 @@ layout: default
 
   {% endfor %}
   {% include blog-nav.html %}
-  <!-- recent post
-  <div class="list-group">
-    {% for post in site.posts limit:3 %}
-      <a href="{{ post.url }}" class="list-group-item">{{ post.title }}</a>
-    {% endfor %}
-  </div>
-  -->
 </div>
 
 <div class="l-content l-blog-pager">
@@ -80,6 +73,12 @@ layout: default
   </ul>
 
 </div>
+
+<img id="scrollUp" class="scroll-up" src="/assets/images/arrow-orange.png">
+<script type="text/javascript">
+  {% include scroll-up.js %}
+</script>
+
 <div class="l-full-page">
   {% include form.html %}
 </div>

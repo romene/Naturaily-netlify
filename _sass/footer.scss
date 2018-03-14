@@ -94,9 +94,15 @@ display: grid;
     grid-column: 1 / 5;
     font-weight: 200;
     font-size: 0.95rem;
+
+    .custom-input {
+      -webkit-appearance: none;
+    }
+
     .input-wrapper {
       margin-top: 40px;
       position: relative;
+
       .confirm-arrow {
         position: absolute;
         top: 50%;

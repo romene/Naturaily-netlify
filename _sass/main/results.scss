@@ -3,6 +3,8 @@
 
 .results {
   grid-column: 2 / 3;
+  margin-top: 100px;
+
   .main-point {
     margin-bottom: 60px;
   }
@@ -59,6 +61,8 @@
 
 @media (min-width: 992px) {
   .results {
+    margin: 0;
+    
     &-assets {
       grid-template-columns: repeat(4, 1fr);
     }
@@ -85,6 +89,7 @@
     grid-template-columns: 1fr 540px 1fr;
   }
 }
+
 @media (min-width: 992px) {
   .results-wrapper {
     grid-template-columns: 1fr 960px 1fr;
@@ -390,22 +395,6 @@
           margin-top: 190px;
         }
       }
-    }
-  }
-}
-
-@media (max-width: 470px) {
-  .results {
-    &-title {
-      text-align: center;
-    }
-  }
-}
-
-@media (max-width: 810px) {
-  .results {
-    .main-point {
-      margin-top: 150px;
     }
   }
 }

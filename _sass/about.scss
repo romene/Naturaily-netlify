@@ -15,11 +15,18 @@
 }
 
 .l-about-header {
-  margin: 100px 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
 
   .big-point {
     display: block;
     margin-left: 0;
+  }
+}
+
+@media (min-width: 811px) {
+  .l-about-header {
+    margin-top: 100px;
   }
 }
 

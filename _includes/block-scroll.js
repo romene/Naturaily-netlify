@@ -13,5 +13,8 @@ $(document).ready(function() {
       $('#Smallchat').css("visibility", function(_,val){
         return val == "hidden" ? "visible" : "hidden";
       });
+      $('#scrollUp').css("visibility", function(_,val){
+        return val == "hidden" ? "visible" : "hidden";
+      });
    });
 });

@@ -4,6 +4,7 @@
   display: none;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(5, 100px) 300px 150px;
+  margin-top: 150px;
 
   .main-point {
     grid-column: 1 / 13;
@@ -97,5 +98,6 @@
 @media (min-width: 992px) {
   .values {
     display: grid;
+    margin-top: 0;
   }
 }

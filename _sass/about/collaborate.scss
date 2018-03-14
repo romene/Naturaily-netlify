@@ -1,48 +1,52 @@
 .dimonds {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   grid-column-gap: 100px;
-  padding-bottom: 60px;
-}
 
-.dimond {
-  p {
-    margin: 40px 0 0 30px;
-    font-weight: 300;
-    max-width: 1000px;
-  }
+  .dimond {
+    margin-bottom: 50px;
 
-  &-steam {
-    margin-top: 350px;
-  }
+    img {
+      display: none;
+    }
 
-  &-crystal {
-    margin-top: 240px;
+    h2 {
+      margin-bottom: 30px;
+    }
   }
 }
 
 @media (min-width: 992px) {
-  .dimond {
-    &-steam {
+  .dimonds {
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 60px;
+
+    .dimond {
       margin-top: 50px;
+
+      h2 {
+        margin: 0;
+      }
+
+      p {
+        margin: 40px 0 0 30px;
+        font-weight: 300;
+        max-width: 1000px;
+      }
+
+      &-steam {
+        margin-top: 50px;
+      }
+
+      &-crystal {
+        margin-top: 240px;
+      }
     }
   }
 }
 
 @media (min-width: 1400px) {
-  .dimond {
-    &-crystal {
-      margin-top: 340px;
-    }
-  }
-}
-
-@media (max-width: 751px) {
-  .dimonds {
-    grid-template-columns: 1fr;
-
-    .dimond {
-      margin-top: 50px;
-    }
+  .dimonds .dimond-crystal {
+    margin-top: 340px;
   }
 }

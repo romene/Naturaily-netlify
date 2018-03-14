@@ -5,6 +5,7 @@
   align-items: center;
   justify-items: center;
   grid-gap: 40px;
+  margin-top: 100px;
 
   .main-point {
     grid-column: 1 / 7;
@@ -26,6 +27,7 @@
 @media (min-width: 992px) {
   .tools {
     padding: 0 10%;
+    margin-top: 0;
   }
 }
 
@@ -33,24 +35,33 @@
   .tools {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 100px);
+    justify-items: flex-start;
+
     .main-point {
       grid-column: 1 / 3;
     }
+
     img {
       max-height: 60px;
+      justify-self: center;
     }
+
     .gitlab {
       max-height: 65px;
     }
+
     .slack {
       max-height: 90px;
     }
+
     .docker {
       max-height: 65px;
     }
+
     .invision {
       max-height: 30px;
     }
+
     .breeze {
       max-height: 35px;
     }

@@ -10,8 +10,8 @@
   }
   .benefits {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 80px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(7, 80px);
     grid-gap: 30px;
 
     &-tile {
@@ -46,8 +46,8 @@
       grid-row: 3 / 5;
     }
     &-5 {
-      grid-column: 3;
-      grid-row: 2 / 4;
+      grid-column: 2;
+      grid-row: 5 / 7;
     }
   }
 }
@@ -55,5 +55,15 @@
 @media (min-width: 992px) {
   .career-more {
     grid-template-columns: repeat(2, 1fr);
+
+    .benefits {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(5, 80px);
+
+      .benefit-5 {
+        grid-column: 3;
+        grid-row: 2 / 4;
+      }
+    }
   }
 }

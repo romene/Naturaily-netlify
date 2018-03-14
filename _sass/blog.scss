@@ -9,7 +9,7 @@
 }
 
 .l-blog {
-  margin-top: 180px;
+  margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 160px;
@@ -159,6 +159,12 @@ pre, code {
       margin: 30px 10px;
       max-width: 30px;
     }
+  }
+}
+
+@media (min-width: 811px) {
+  .l-blog {
+    margin-top: 180px;
   }
 }
 

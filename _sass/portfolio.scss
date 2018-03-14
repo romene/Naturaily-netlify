@@ -14,10 +14,15 @@
 }
 
 .l-portfolio-top {
-  margin-top: 180px;
+  margin-top: 50px;
   margin-bottom: 60px;
 }
 
+@media (min-width: 811px) {
+  .l-portfolio-top {
+    margin-top: 180px;
+  }
+}
 
 @media (min-width: 992px) {
   .l-portfolio {

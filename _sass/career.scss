@@ -12,7 +12,8 @@
 }
 
 .l-career-header {
-  margin: 100px 0;
+  margin-top: 50px;
+  margin-bottom: 40px;
 
   .big-point {
     display: block;
@@ -97,7 +98,6 @@
 }
 .coffee-point {
   margin: 160px auto;
-  text-align: center;
   max-width: 520px;
   font-size: 2.2rem;
   font-weight: 200;
@@ -128,6 +128,12 @@
   }
 }
 
+@media (min-width: 811px) {
+  .l-career-header {
+    margin-top: 100px;
+  }
+}
+
 @media (min-width: 992px) {
   .l-career-container {
     padding: 0 25px;
@@ -140,6 +146,10 @@
       margin-left: -35px;
       grid-column: 1 / 4;
     }
+  }
+
+  .coffee-point {
+    text-align: center;
   }
 
   .career-detail-wider {
