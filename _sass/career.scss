@@ -80,6 +80,14 @@
       }
     }
 
+    a {
+      color: $color-global-font;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
     &:hover {
       transform: scale(1.1);
       box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
@@ -87,7 +95,7 @@
       z-index: 2;
     }
 
-    &:hover > span {
+    &:hover > span a {
       color: $color-secondary;
     }
 

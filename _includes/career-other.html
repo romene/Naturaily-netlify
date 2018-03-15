@@ -6,10 +6,10 @@
   {% if job.type contains "other" %}
     <div class="career-card">
       <span class="career-card-job">
-        {{job.title}}
+        <a href="{{job.id}}">{{job.title}}</a>
       </span>
       <span class="career-card-rate">
-        from {{job.salary}} pln netto
+        <a href="{{job.id}}">from {{job.salary}} pln netto</a>
       </span>
       <a href="{{job.id}}" class="career-card-apply btn btn-primary">
         APPLY

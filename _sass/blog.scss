@@ -12,7 +12,6 @@
   margin-top: 50px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-column-gap: 160px;
 }
 
 pre, code {
@@ -21,22 +20,29 @@ pre, code {
   background-color: $color-code-bg;
   color: $color-accent-gold;
 }
+
 .post {
+  grid-column: 1;
+
   &-title {
     font-size: 2.2rem;
   }
   &-header {
+
     img {
       width: 100%;
-      margin: 25px 0 10px 0;
+      margin-bottom: 10px;
     }
   }
+
   &-content {
     font-weight: 300;
     padding-left: 30px;
+
     a {
       color: $color-accent-yellow;
     }
+
     blockquote {
       color: $color-accent-gold;
       border-left: 2px solid $color-accent-yellow;
@@ -44,6 +50,7 @@ pre, code {
       font-weight: 300;
     }
   }
+
   &-meta {
     color: #B36800;
     font-size: 0.9rem;
@@ -172,7 +179,9 @@ pre, code {
   .post-meetus {
     display: block;
   }
+
   .l-blog {
     grid-template-columns: 1fr 300px;
+    grid-column-gap: 160px;
   }
 }

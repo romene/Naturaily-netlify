@@ -1,5 +1,6 @@
 <div class="blog-nav">
-  <ul class="blog-nav-list">
+  <a class="dropdown-toggle" id="dropdown-toggle" href="#" title="Menu">Categories</a>
+  <ul class="blog-nav-list" id="dropdown">
     <a href="/blog/">
       <li {% if page.pagination.tag == undefined %}class="active" {% endif %}>All
         <span>
@@ -234,3 +235,7 @@
     </a>
   </ul>
 </div>
+
+<script type="text/javascript">
+  {% include dropdown.js %}
+</script>
