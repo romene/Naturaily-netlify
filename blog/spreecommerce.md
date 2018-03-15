@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/onlinemarketing
+permalink: blog/spree%20commerce
 pagination:
   enabled: true
-  tag: Online marketing
+  tag: Spree Commerce
   trail:
     before: 2
     after: 2

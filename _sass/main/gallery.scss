@@ -5,29 +5,33 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   overflow: hidden;
+
   a {
+    grid-column: 1 / 6;
+    margin: 0 auto;
     text-decoration: none;
     color: $color-secondary;
+
     button {
       margin-top: 20px;
     }
   }
-}
-.small-img {
-  width: 90px;
-}
-.medium-img {
-  width: 300px;
-}
-.large-img {
-  width: 300px;
+
+  .small-img {
+    width: 90px;
+  }
+
+  .medium-img {
+    width: 300px;
+  }
+
+  .large-img {
+    width: 300px;
+  }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 991px) {
   .gallery {
     grid-gap: 15px;
-    button {
-      display: none;
-    }
   }
 }

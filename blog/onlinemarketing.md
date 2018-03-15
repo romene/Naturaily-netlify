@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/remotedevelopment
+permalink: blog/online%20marketing
 pagination:
   enabled: true
-  tag: Remote development
+  tag: Online marketing
   trail:
     before: 2
     after: 2

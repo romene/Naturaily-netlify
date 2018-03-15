@@ -2,20 +2,25 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 160px;
-  margin-bottom: 150px;
 
   .main-point {
     margin-top: 100px;
     margin-bottom: 70px;
   }
+
   &-title {
+    padding: 0 10px;
     margin: 40px 0;
   }
+
   &-text {
-    padding: 0 50px;
+    padding: 0 10px;
     font-weight: 200;
   }
+
   &-items {
+    margin: 0 auto;
+
     .tech-carousel .technology-carousel {
 
       .slick-arrow {
@@ -36,15 +41,6 @@
           }
         }
       }
-    }
-    .right {
-      margin-left: 50px;
-    }
-    .ios {
-      margin-left: 70px;
-    }
-    .left {
-      margin-left: 15px;
     }
     .item {
       background: $color-white;
@@ -75,27 +71,32 @@
 @media (min-width: 992px) {
   .technology {
     grid-template-columns: 1fr 0.9fr;
+    margin-top: 0;
+    margin-bottom: 150px;
+
     .main-point {
       margin-bottom: 0;
       grid-column: 2;
     }
+
+    &-text {
+      padding: 0 50px;
+    }
+
     &-items {
       margin-top: 200px;
+
+      .right {
+        margin-left: 50px;
+      }
+
+      .left {
+        margin-left: 15px;
+      }
+
       .ios {
         margin-left: 100px;
       }
-    }
-  }
-}
-
-@media (max-width: 469px) {
-  .technology {
-    .technology-item {
-      width: 81%;
-    }
-    .technology-texts {
-      width: 80%;
-      text-align: center;
     }
   }
 }

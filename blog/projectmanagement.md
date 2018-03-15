@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: blog
-permalink: blog/projectmanagement
+permalink: blog/project%20management
 pagination:
   enabled: true
   tag: Project management

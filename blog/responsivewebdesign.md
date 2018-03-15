@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/socialmedia
+permalink: blog/responsive%20web%20design
 pagination:
   enabled: true
-  tag: Social media
+  tag: Responsive Web Design
   trail:
     before: 2
     after: 2

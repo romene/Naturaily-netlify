@@ -61,23 +61,25 @@ layout: default
       Don't hesitate and apply right away! In case of questions - drop us a line at <a href="mailto:jobs@naturaily.com">jobs@naturaily.com</a>
     </p>
   </div>
-  <a href="#" class="career-details--card">
-    <span class="career-details--card-job">{{page.title}}</span>
+  <div class="career-details--card">
+    <span>{{page.title}}</span>
     <ul>
       {% for req in page.salary-range %}
       <li>{{ req }}</li>
       {% endfor %}
     </ul>
-    <span class="career-details--card-apply">
-      APPLY
-      <img src="/assets/images/arrow-orange.png">
-    </span>
-    <div class="career-hover-wave">
-      <img src="/assets/images/cream-wave3.png">
-      <div class="wave-tail"></div>
-    </div>
-  </a>
+    <button type="button" class="btn btn-primary">
+      apply
+      <img src="/assets/images/btn-arrow.png">
+    </button>
+  </div>
 </div>
+
+<img id="scrollUp" class="scroll-up" src="/assets/images/arrow-orange.png">
+<script type="text/javascript">
+  {% include scroll-up.js %}
+</script>
+
 <div class="l-full-page">
   {% include form.html %}
 </div>

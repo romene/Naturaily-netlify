@@ -1,5 +1,6 @@
 <div class="blog-nav">
-  <ul class="blog-nav-list">
+  <a class="dropdown-toggle" id="dropdown-toggle" href="#" title="Menu">Categories</a>
+  <ul class="blog-nav-list" id="dropdown">
     <a href="/blog/">
       <li {% if page.pagination.tag == undefined %}class="active" {% endif %}>All
         <span>
@@ -89,7 +90,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/onlinemarketing">
+    <a href="/blog/online%20marketing">
       <li {% if page.pagination.tag == 'Online marketing' %}class="active" {% endif %}>Online marketing
         <span>
           {% assign counter = 0 %}
@@ -102,7 +103,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/projectmanagement">
+    <a href="/blog/project%20management">
       <li {% if page.pagination.tag == 'Project management' %}class="active" {% endif %}>Project management
         <span>
           {% assign counter = 0 %}
@@ -115,7 +116,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/remotedevelopment">
+    <a href="/blog/remote%20development">
       <li {% if page.pagination.tag == 'Remote development' %}class="active" {% endif %}>Remote development
         <span>
           {% assign counter = 0 %}
@@ -128,7 +129,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/responsivewebdesign">
+    <a href="/blog/responsive%20web%20design">
       <li {% if page.pagination.tag == 'Responsive Web Design' %}class="active" {% endif %}>Responsive Web Design
         <span>
           {% assign counter = 0 %}
@@ -167,7 +168,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/socialmedia">
+    <a href="/blog/social%20media">
       <li {% if page.pagination.tag == 'Social media' %}class="active" {% endif %}>Social media
         <span>
           {% assign counter = 0 %}
@@ -180,7 +181,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/spreecommerce">
+    <a href="/blog/spree%20commerce">
       <li {% if page.pagination.tag == 'Spree Commerce' %}class="active" {% endif %}>Spree Commerce
         <span>
           {% assign counter = 0 %}
@@ -206,7 +207,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/thoughtsonbuildingstartups">
+    <a href="/blog/thoughts%20on%20building%20startups">
       <li {% if page.pagination.tag == 'Thoughts on building start-ups' %}class="active" {% endif %}>Thoughts on building start-ups
         <span>
           {% assign counter = 0 %}
@@ -219,7 +220,7 @@
         </span>
       </li>
     </a>
-    <a href="/blog/womeninit">
+    <a href="/blog/women%20in%20it">
       <li {% if page.pagination.tag == 'Women in IT' %}class="active" {% endif %}>Women in IT
         <span>
           {% assign counter = 0 %}
@@ -234,3 +235,7 @@
     </a>
   </ul>
 </div>
+
+<script type="text/javascript">
+  {% include dropdown.js %}
+</script>

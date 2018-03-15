@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/womeninit
+permalink: blog/remote%20development
 pagination:
   enabled: true
-  tag: Women in IT
+  tag: Remote development
   trail:
     before: 2
     after: 2

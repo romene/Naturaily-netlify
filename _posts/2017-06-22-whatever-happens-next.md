@@ -1,15 +1,15 @@
 ---
-title: Test1
+title: 11 types of apps you can build with Ruby on Rails
 comments: true
 layout: post
 date: '2017-06-22 10:38:01 +0000'
 categories: jekyll update
 author: Jacek Kowalski
+avatar: /assets/images/JestonGeorge.jpg
 tags:
 - Thoughts on building start-ups
 - Ruby on Rails
 - Women in IT
-- CSS
 - Android
 - Management
 image: /assets/images/OneTop_Black_Lifestyle_02.0.png

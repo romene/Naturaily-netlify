@@ -184,6 +184,10 @@
       .apptegy {
         margin-top: 15px;
       }
+
+      .read-more-state {
+        display: none;
+      }
     }
   }
 }
@@ -234,12 +238,17 @@
     }
 
     .slick-list {
-      padding: 20px 0 200px 0;
+      padding: 20px 0;
+      height: 470px;
+    }
+
+    .carousel-item .item-opinion p {
+      height: 120px;
     }
   }
 }
 
-@media (max-width: 692px) {
+@media (max-width: 691px) {
   .main-carousel {
 
     .slick-prev::before {
@@ -251,44 +260,114 @@
     }
 
     .slick-list {
-      height: 500px;
-      padding: 20px 0 110px 0;
-    }
-
-    .carousel-item {
-      padding: 10px 15px 90px 15px;
+      padding-bottom: 120px;
+      height: 350px;
     }
 
     .slick-dots li {
       margin: 0 10px;
     }
-  }
-}
 
-@media (max-width: 539px) {
-  .main-carousel {
-    .slick-list {
-      height: 500px;
+    .carousel-item {
+      padding: 10px 15px 90px 15px;
+
+      .item-opinion p {
+        height: 120px;
+      }
     }
   }
 }
 
 @media (max-width: 480px) {
   .main-carousel {
+
     .carousel-item {
       padding: 10px 10px 30px 10px;
+
+      .item-opinion p {
+        height: 220px;
+      }
+
+      .read-more-trigger {
+        display: none;
+      }
     }
+
     .slick-list {
-      height: 570px;
+      padding-bottom: 140px;
+      height: 410px;
     }
+
     .slick-dots li {
       margin: 0;
     }
+
     .slick-dots li:nth-child(1) {
       width: 50%;
     }
+
     .slick-dots li:nth-child(3) {
       width: 50%;
+    }
+  }
+}
+
+@media (max-width: 388px) {
+  .main-carousel .slick-arrow {
+    width: 70px;
+  }
+
+  .main-carousel {
+
+    .slick-list {
+      height: 420px;
+    }
+  }
+
+  .main-carousel .carousel-item .item-opinion {
+    text-align: right;
+
+    p {
+      text-align: left;
+      height: 210px;
+    }
+
+    .read-more-wrap {
+      margin-bottom: 0;
+    }
+
+    .read-more-target {
+      opacity: 0;
+      max-height: 0;
+      font-size: 0;
+      transition: .25s ease;
+    }
+
+    .read-more-state:checked ~ .read-more-wrap .read-more-target {
+      opacity: 1;
+      font-size: inherit;
+      max-height: 999em;
+    }
+
+    .read-more-state:checked ~ .read-more-wrap {
+      height: 360px;
+    }
+
+    .read-more-state ~ .read-more-trigger:before {
+      content: 'read more...';
+    }
+
+    .read-more-state:checked ~ .read-more-trigger:before {
+      content: 'read less';
+    }
+
+    .read-more-trigger {
+      cursor: pointer;
+      display: inline-block;
+      padding: 0 .5em;
+      color: #666;
+      font-size: .9em;
+      line-height: 2;
     }
   }
 }

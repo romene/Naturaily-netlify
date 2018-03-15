@@ -1,10 +1,10 @@
 ---
 layout: blog
 title: blog
-permalink: blog/responsivewebdesign
+permalink: blog/women%20in%20it
 pagination:
   enabled: true
-  tag: Responsive Web Design
+  tag: Women in IT
   trail:
     before: 2
     after: 2

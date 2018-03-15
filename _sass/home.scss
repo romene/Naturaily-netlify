@@ -1,3 +1,7 @@
+.scroll-up {
+  display: none;
+}
+
 .main__wave {
   padding-top: 40%;
   grid-area: header;
@@ -78,6 +82,15 @@
 }
 
 @media screen and (max-width: 810px) {
+  .scroll-up {
+    display: inline;
+    position: fixed;
+    bottom: 10px;
+    width: 25px;
+    transform: rotate(-90deg);
+    z-index: 3;
+  }
+
   .main__wave {
     z-index: -2;
   }

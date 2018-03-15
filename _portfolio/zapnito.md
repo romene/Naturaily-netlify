@@ -6,21 +6,23 @@ project-logo: /assets/images/zapnito-logo.png
 banner-bg: /assets/images/projects-background-blue.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
- - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
-step-tech:
  - Ruby on Rails
  - PostgreSQL
  - Ember.js
  - Node.js
-step-one: Krok 1
-step-one-title: Jaką potrzebę miał klient?
-step-one-text: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
-step-two: Krok 2
-step-two-title: Co dostarczyliśmy?
-step-two-text: Tworzymy nowoczesne aplikacje webowe i&nbsp;mobilne w oparciu o godne zaufania, stabilne technologie i&nbsp;frameworki oraz o transparentną komunikację i skuteczny proces realizacji. Powierzane nam produkty szyjemy na miarę Twoich idei i potrzeb Twoich klientów, korzystając z rozwiązań, po które sięgają najlepsi programiści i architekci software’u na całym świecie
-step-two-tech: Technologie
-step-four: Krok 3
-step-four-title: Efekty naszej pracy
+ - Android
+step-one: The need
+step-one-title: Sharing collective expertise
+step-one-text: Zapnito is a unique platform that allows organizations to share and monetize their professional, collective expertise with other companies and clients. With too much work on their hands, Zapnito sought for skilled and precise on-demand developers. Scaling up their IT team in order to acquire help with the small things allowed them to focus on the bigger picture of their product. Naturaily stood up to the challenge.
+step-two: The solution
+step-two-title: Fixes and maintenance
+step-two-text: The main focus of our cooperation with Zapnito was cleaning up the code and refactoring service’s features. Our team upgraded Ruby on Rails version on the client’s side and performed several bug fixing. Apart from that, Naturaily was in charge of general maintenance of the service and adding cosmetic touches.
+step-three: The tools
+step-three-title: Ruby on Rails application
+step-three-text: Zapnito is a SaaS (Software as a Service) application. It uses Ruby on Rails on the server-side, users are welcomed with Ember.js on frontend-side. PostgreSQL was used as the database system, Sendgrid as the email service.<br><br>The project has been managed using Kanban methodology.
+step-four: The result
+step-four-title: Better, faster, stronger
+step-four-text: Zapnito’s performance has increased due to refactoring and bug fixing. The service now utilizes a much more secure version of Ruby on Rails.
 comment-photo: /assets/images/firefield-face.png
 comment-name: Adam McGovan
 comment-brand: CEO Firefield

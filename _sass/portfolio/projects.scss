@@ -10,7 +10,7 @@
     grid-template-rows: 40px 1fr 30px 20px;
     background-size: cover;
 
-    &-moto {
+    &-collectivity {
       background-image: url(../assets/images/projects-background-green.png);
 
       a {
@@ -26,21 +26,16 @@
       background-image: url(../assets/images/projects-background-red.png);
     }
 
-    .project-text {
+    .project-text-collectivity {
+      margin-top: 10px;
+    }
 
-      &:visited {
-        color: #FFFFFF;
-      }
-
-      &:hover {
-        color: #FFFFFF;
-        text-decoration: none;
-      }
-      &-collectivity {
-        margin-top: 10px;
-      }
+    &:hover {
+      color: #FFFFFF;
+      text-decoration: none;
     }
   }
+
   .project-banner {
     grid-column: 1;
     background-image: url(../assets/images/projects-background-purple.png);
@@ -60,11 +55,6 @@
     .project-text {
       grid-column: 1;
       grid-row: 2;
-
-      a {
-        text-decoration: none;
-        color: $color-secondary;
-      }
     }
     span {
       font-weight: 200;
@@ -98,7 +88,7 @@
       }
     }
     .project {
-      &-moto {
+      &-collectivity {
         margin-top: 60px;
       }
 
