@@ -1,7 +1,7 @@
 $(document).ready(function() {
    $('#checkbox').on('click', function() {
       $('html, body').css("overflow", function(_,val){
-        return val == "hidden" ? "scroll" : "hidden";
+        return val == "hidden" ? "visible" : "hidden";
       });
       $('html, body').css("position", function(_,val){
         return val == "relative" ? "static" : "relative";
