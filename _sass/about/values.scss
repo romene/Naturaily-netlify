@@ -7,28 +7,28 @@
   padding: 0px 100px 100px 30px;
 
   .value {
-    padding-bottom: 160px;
     font-weight: 200;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
     .text-number {
       color: $color-accent-gold;
       font-size: 0.9rem;
       width: 15px;
     }
+
     p {
       margin-top: 20px;
     }
 
     .text-title {
-      float: left;
-      padding-right: 10%;
       font-weight: 200;
       font-size: 1.5rem;
     }
 
     .text-content {
-      float: left;
       margin-bottom: 50px;
     }
   }
@@ -136,13 +136,14 @@
 }
 
 @media (min-width: 992px) {
-  .about-values .text-content {
-    width: 60%;
-    margin-bottom: 15px;
-  }
+  .about-values .value {
+    flex-direction: row;
 
-  .text-title {
-    width: 30%;
+    .text-content {
+      margin-top: 50px;
+      margin-bottom: 15px;
+      width: 60%;
+    }
   }
 }
 
