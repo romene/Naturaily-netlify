@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 75px;
-  grid-row-gap: 85px;
+  grid-row-gap: 30px;
 
 
   .project {
@@ -26,8 +26,22 @@
       background-image: url(../assets/images/projects-background-red.png);
     }
 
-    .project-text-collectivity {
+    &-text-collectivity {
       margin-top: 10px;
+    }
+
+    &-image {
+      &-zapnito {
+        width: 350px;
+      }
+
+      &-collectivity {
+        width: 270px;
+      }
+
+      &-snipsl {
+        width: 300px;
+      }
     }
 
     &:hover {
@@ -73,6 +87,8 @@
 @media (min-width: 992px) {
   .portfolio-projects {
     grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 85px;
+
     .project-banner {
       grid-column: 1 / 4;
       grid-template-columns: 1fr 1.4fr;
@@ -81,12 +97,14 @@
         grid-column: 2 / 3;
         grid-row: 2;
       }
+
       .project-text {
         grid-column: 1 / 2;
         grid-row: 2;
         padding-left: 35px;
       }
     }
+
     .project {
       &-collectivity {
         margin-top: 60px;
@@ -94,6 +112,10 @@
 
       &-zapnito, &-snipsl {
         margin-bottom: 60px;
+      }
+
+      &-image img {
+        width: auto;
       }
     }
   }

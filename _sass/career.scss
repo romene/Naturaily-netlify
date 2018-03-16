@@ -84,21 +84,6 @@
         text-decoration: none;
       }
     }
-
-    &:hover {
-      transform: scale(1.1);
-      box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
-      text-decoration: none;
-      z-index: 2;
-    }
-
-    &:hover > span a {
-      color: $color-secondary;
-    }
-
-    &:hover > .career-hover-wave {
-      display: block;
-    }
   }
 }
 .coffee-point {
@@ -179,6 +164,21 @@
   .career-card {
     width: auto;
     margin-top: 0;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      z-index: 2;
+    }
+
+    &:hover > span a {
+      color: $color-secondary;
+    }
+
+    &:hover > .career-hover-wave {
+      display: block;
+    }
   }
 }
 

@@ -45,9 +45,11 @@ layout: default
         {% include disqus_comments.html %}
       {% endif %}
     </article>
-    {% include post-meetus.html %}
-    {% include blog-nav.html %}
-    {% include blog-recentpost.html %}
+    <div class="right-column">
+      {% include blog-nav.html %}
+      {% include blog-meetus.html %}
+      {% include blog-recentpost.html %}
+    </div>
     <div class="post-navigation">
       {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url}}">

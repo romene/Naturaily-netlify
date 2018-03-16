@@ -47,7 +47,11 @@ layout: default
     </div>
 
   {% endfor %}
-  {% include blog-nav.html %}
+  <div class="right-column">
+    {% include blog-nav.html %}
+    {% include blog-meetus.html %}
+    {% include blog-recentpost.html %}
+  </div>
 </div>
 
 <div class="l-content l-blog-pager">

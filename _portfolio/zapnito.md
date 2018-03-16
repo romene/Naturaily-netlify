@@ -6,11 +6,7 @@ project-logo: /assets/images/zapnito-logo.png
 banner-bg: /assets/images/projects-background-blue.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
- - Ruby on Rails
- - PostgreSQL
- - Ember.js
- - Node.js
- - Android
+ - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
 step-one: The need
 step-one-title: Sharing collective expertise
 step-one-text: Zapnito is a unique platform that allows organizations to share and monetize their professional, collective expertise with other companies and clients. With too much work on their hands, Zapnito sought for skilled and precise on-demand developers. Scaling up their IT team in order to acquire help with the small things allowed them to focus on the bigger picture of their product. Naturaily stood up to the challenge.
@@ -39,9 +35,4 @@ image-two: /assets/images/zapnito-screen-2.png
 image-three: /assets/images/zapnito-screen-4.png
 image-four: /assets/images/zapnito-screen-3.png
 image-five: /assets/images/zapnito-screen-5.png
-tech-cards:
-  - img: /assets/images/rails-logo.png
-    name: Ruby on Rails
-  - img: /assets/images/ember-logo.png
-    name: Ember
 ---

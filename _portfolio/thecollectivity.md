@@ -36,7 +36,4 @@ image-three: /assets/images/collectivity-screen-4.png
 image-four: /assets/images/collectivity-screen-3.png
 image-five: /assets/images/collectivity-screen-5.png
 image-six: /assets/images/collectivity-screen-6.png
-tech-cardsII:
-  - img: /assets/images/rails-logo.png
-  - img: /assets/images/ember-logo.png
 ---
