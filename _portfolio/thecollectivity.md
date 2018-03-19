@@ -6,7 +6,7 @@ project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
- - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
+- Ruby on Rails, Backbone
 step-one: The need
 step-one-title: Helping health systems
 step-one-text: Africa’s health systems are underdeveloped. They lack proper design, implementation and evaluation of policies. What would have positive impact? Professionals who cooperate, share their experience and knowledge. Five years ago such group met and made a sad discovery - the potential is there, but there’s no place to share insights and organize cooperation. That’s where Naturaily enters the scene to help build online community solution.

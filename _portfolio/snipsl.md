@@ -6,7 +6,7 @@ project-logo: /assets/images/snipsl-logo.png
 banner-bg: /assets/images/projects-background-red.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
- - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
+- Ruby on Rails, PostgreSQL, Elastic, React
 step-one: The need
 step-one-title: Once upon a time...
 step-one-text: Snipsl approached Naturaily, asking us for help. Their product was lacking documentation - it was a black box that needed lots of fixes and improvements. Features that had been worked on by previous IT teams working with Snipsl were not functioning properly, therefore, at that time, they were not implemented.<br><br>On top of the regular bug fixing and active maintenance of the service, Snipsl group requested implementation of a Shopify-based online store to provide steady income for the service as well as other minor but useful features.

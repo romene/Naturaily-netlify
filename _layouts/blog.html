@@ -39,8 +39,8 @@ layout: default
       </div>
       {% if post.text-preview %}
         {{ post.text-preview }}
-        <a href="{{ post.url | relative_url }}">
-          read more...
+        <a class="read-more" href="{{ post.url | relative_url }}">
+          read more
         </a>
       {% endif %}
       <hr>
@@ -48,9 +48,8 @@ layout: default
 
   {% endfor %}
   <div class="right-column">
-    {% include blog-nav.html %}
-    {% include blog-meetus.html %}
     {% include blog-recentpost.html %}
+    {% include blog-meetus.html %}
   </div>
 </div>
 
@@ -78,11 +77,14 @@ layout: default
 
 </div>
 
+<div class="l-full-page">
+  {% include form.html %}
+</div>
+
 <img id="scrollUp" class="scroll-up" src="/assets/images/arrow-orange.png">
 <script type="text/javascript">
   {% include scroll-up.js %}
 </script>
-
-<div class="l-full-page">
-  {% include form.html %}
-</div>
+<script type="text/javascript">
+  {% include blog-sticky.js %}
+</script>

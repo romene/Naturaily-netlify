@@ -6,7 +6,7 @@ project-logo:
 banner-bg: /assets/images/projects-background-purple.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
 banner-tech:
- - Ruby on Rails, PostgreSQL, Ember.js, Node.js, Android
+- Ruby on Rails, Vue.js, MQTT
 step-one: The need
 step-one-title: Taking care of the grid
 step-one-text: Electric network malfunction causing serious problems for the society? That is not a science fiction scenario anymore. You could have laughed about it a couple of decades ago, but nowadays we are too dependent on the grid. It needs to be monitored so that specialists can intervene and solve problems quickly.<br><br>Hardware-wise the grid is monitored by reclosers, which are sophisticated fuses. But they need software.
