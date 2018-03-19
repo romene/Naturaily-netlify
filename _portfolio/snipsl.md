@@ -1,7 +1,7 @@
 ---
 title: Snipsl
 layout: portfolio-details
-project-screen: /assets/images/Snipsl.png
+project-screen: /assets/images/snipsl.png
 project-logo: /assets/images/snipsl-logo.png
 banner-bg: /assets/images/projects-background-red.png
 banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
