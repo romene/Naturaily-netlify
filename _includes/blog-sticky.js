@@ -1,3 +1,1 @@
-$(window).load(function(){
-  $("[data-reveal-blog]").sticky({ topSpacing: 400, bottomSpacing: 520 });
-});
+$("[data-reveal-blog]").stick_in_parent({ offset_top: 380 });
