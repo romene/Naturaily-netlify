@@ -12,9 +12,9 @@
         <ul class="menu">
           <a class="naturaily" href="/"><img src="/assets/images/logo_naturaily.svg"></a>
           <li class="{% if '/about' == page.url %}active{% endif %}"><a href="/about">About</a></li>
-          <li class="{% if '/portfolio' == page.url %}active{% endif %}"><a href="/portfolio">Portfolio</a></li>
-          <li class="{% if '/career' == page.url %}active{% endif %}"><a href="/career">Career</a></li>
-          <li class="{% if '/blog/index.html' == page.url %}active{% endif %}"><a href="/blog">Blog</a></li>
+          <li class="{% if '/portfolio' == page.url or page.url contains 'project' %}active{% endif %}"><a href="/portfolio">Portfolio</a></li>
+          <li class="{% if '/career' == page.url or page.url contains 'join' %}active{% endif %}"><a href="/career">Career</a></li>
+          <li class="{% if page.url contains 'blog' %}active{% endif %}"><a href="/blog/">Blog</a></li>
           <div class="header-wave"></div>
           <div class="header-color">
           </div>

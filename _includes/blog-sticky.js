@@ -1,1 +1,1 @@
-$("[data-reveal-blog]").stick_in_parent({ offset_top: 380 });
+$("[data-reveal-blog]").stick_in_parent({ offset_top: 350 });

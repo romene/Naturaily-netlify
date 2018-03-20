@@ -25,6 +25,10 @@
     display: block;
     text-align: right;
     color: $color-accent-gold;
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 }
 
