@@ -41,6 +41,9 @@
 
 @media (min-width: 992px) {
   .banner {
+    grid-template-rows: 220px auto auto;
+    margin-top: 50px;
+
     &-logo {
       grid-column: 2 / 4;
     }
@@ -73,7 +76,6 @@
 
     &-btn {
       grid-column: 1 / 13;
-      text-align: center;
 
       button {
         font-size: 0.75rem;

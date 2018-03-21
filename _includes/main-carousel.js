@@ -1,6 +1,6 @@
 $('#maincarousel').slick({
   slidesToShow: 1,
-  autoplay: false,
+  autoplay: true,
   autoplaySpeed: 4000,
   pauseOnHover: true,
   dots: true,

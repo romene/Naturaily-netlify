@@ -18,12 +18,12 @@
     align-items: flex-start;
     height: calc(100% - 135px);
 
-    p {
-      max-width: 425px;
+    .banner-logo {
+      width: 160px;
     }
 
-    img {
-      width: 160px;
+    p {
+      max-width: 425px;
     }
   }
 

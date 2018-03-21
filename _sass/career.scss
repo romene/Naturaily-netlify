@@ -59,7 +59,7 @@
       margin: 0 auto;
       width: 60%;
       font-size: 0.8rem;
-      padding: 12px 40px;
+      padding: 10px 25px;
       margin-top: 50px;
       color: $color-white;
     }
@@ -83,21 +83,6 @@
       &:hover {
         text-decoration: none;
       }
-    }
-
-    &:hover {
-      transform: scale(1.1);
-      box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
-      text-decoration: none;
-      z-index: 2;
-    }
-
-    &:hover > span a {
-      color: $color-secondary;
-    }
-
-    &:hover > .career-hover-wave {
-      display: block;
     }
   }
 }
@@ -179,6 +164,21 @@
   .career-card {
     width: auto;
     margin-top: 0;
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
+      text-decoration: none;
+      z-index: 2;
+    }
+
+    &:hover > span a {
+      color: $color-secondary;
+    }
+
+    &:hover > .career-hover-wave {
+      display: block;
+    }
   }
 }
 

@@ -85,13 +85,25 @@
   .scroll-up {
     display: inline;
     position: fixed;
-    bottom: 10px;
+    bottom: 40px;
+    right: 32px;
     width: 25px;
     transform: rotate(-90deg);
     z-index: 3;
+    padding: 5px;
+  }
+
+  .home-scroll-up {
+    bottom: 90px;
   }
 
   .main__wave {
     z-index: -2;
+  }
+}
+
+@media (max-width: 480px) {
+  .scroll-up {
+    transform: translate(10px, 10px) rotate(-90deg);
   }
 }

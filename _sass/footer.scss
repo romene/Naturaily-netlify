@@ -76,6 +76,10 @@ display: grid;
     a {
     display: inline-block;
     color: $color-global-font;
+
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   &-places {

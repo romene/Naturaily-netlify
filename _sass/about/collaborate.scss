@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-column-gap: 100px;
+  align-items: end;
 
   .dimond {
     margin-bottom: 50px;
@@ -22,7 +23,6 @@
     padding-bottom: 60px;
 
     .dimond {
-      margin-top: 50px;
 
       img {
         display: block;
@@ -39,18 +39,8 @@
       }
 
       &-steam {
-        margin-top: 50px;
-      }
-
-      &-crystal {
-        margin-top: 240px;
+        margin-bottom: 170px;
       }
     }
-  }
-}
-
-@media (min-width: 1400px) {
-  .dimonds .dimond-crystal {
-    margin-top: 340px;
   }
 }

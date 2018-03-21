@@ -166,13 +166,26 @@
   font-size: 1.5rem;
   font-weight: 200;
   padding: 200px 0;
-  p {
-    max-width: 550px;
-    margin: 50px auto;
+  background-image: url(/assets/images/form-wave.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px 650px;
+  height: 500px;
+  margin: 0 -70px;
+
+  h1 {
+    margin: 0 90px;
   }
+
+  p {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
   span {
     display: block;
-    margin: 50px 0;
+    margin: 30px 0;
   }
 }
 
@@ -186,6 +199,26 @@
 
     .lower {
       margin-top: 60px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .opensource-footer {
+    background-size: 100vw 650px;
+    margin: 0 -230px;
+
+    h1 {
+      margin-top: 50px;
+    }
+
+    span {
+      margin: 50px 0;
+    }
+
+    p {
+      max-width: 500px;
+      margin: 50px auto;
     }
   }
 }
@@ -217,20 +250,26 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .site-link {
-    .conference {
-      width: 80%;
-      margin: 0 auto;
-      padding: 30px;
-      display: flex;
-      grid-column: span 2;
-      flex-direction: row;
-      align-items: center;
-      font-weight: 200;
-      height: 260px;
+  .site-link .conference {
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    grid-column: span 2;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 200;
+    height: 260px;
+  }
+
+  .opensource-footer {
+    margin: 0px -800px;
+
+    h1 {
+      margin-top: 40px;
     }
   }
 }
+
 @media (min-width: 1200px) {
   .l-opensource {
     padding: 0 65px;
