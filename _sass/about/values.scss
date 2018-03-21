@@ -24,14 +24,12 @@
     }
 
     .text-title {
-      float: left;
       padding-right: 10%;
       font-weight: 200;
       font-size: 1.5rem;
     }
 
     .text-content {
-      float: left;
       margin-bottom: 50px;
     }
   }
@@ -142,22 +140,15 @@
   .about-values .value {
     flex-direction: row;
 
+    .text-title {
+      padding: 0;
+    }
+
     .text-content {
       margin-top: 50px;
       margin-bottom: 15px;
       width: 60%;
     }
-  }
-}
-
-@media (min-width: 992px) {
-  .about-values .text-content {
-    width: 60%;
-    margin-bottom: 15px;
-  }
-
-  .text-title {
-    width: 30%;
   }
 }
 

@@ -132,15 +132,14 @@ display: grid;
     margin-top: 30px;
     grid-row: 7;
     grid-column: 1 / 5;
+    justify-self: end;
 
     .footer-github {
       opacity: 0.18;
     }
 
     img {
-      max-height: 20px;
-      max-width: 25px;
-      float: right;
+      max-height: 15px;
       margin: 0 10px;
       filter: grayscale(100%);
       opacity: 0.3;
