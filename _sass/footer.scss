@@ -138,6 +138,10 @@ display: grid;
       opacity: 0.18;
     }
 
+    a:hover {
+      text-decoration: none;
+    }
+
     img {
       max-height: 15px;
       margin: 0 10px;

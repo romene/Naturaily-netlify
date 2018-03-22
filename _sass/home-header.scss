@@ -153,7 +153,7 @@
 
           &:checked ~ ul {
             transform: none;
-            box-shadow: 400px -280px 0px 400px rgba(0,0,0,0.2);
+            box-shadow: 400px 0 0 400px rgba(0,0,0,0.2);
           }
         }
 
@@ -219,9 +219,11 @@
 
           .header-social {
             display: block;
+            //android fix
+            //position: fixed;
             position: absolute;
-            bottom: 20px;
-            padding-left: 20px;
+            bottom: 15px;
+            left: 20px;
 
             .header-github {
               opacity: 0.18;
@@ -236,9 +238,15 @@
           }
 
           .header-wave {
+            /* android fix
+            position: fixed;
+            min-width: 240px;
+            width: 75%;
+            left: 0;
+            */
             position: absolute;
-            bottom: 30px;
             width: 100%;
+            bottom: 30px;
             height: 200px;
             background-image: url('/assets/images/form-wave.png');
             background-size: 770px;
@@ -247,11 +255,17 @@
           }
 
           .header-color {
+            /* android fix
+            position: fixed;
+            min-width: 240px;
+            width: 75%;
+            left: 0;
+            */
             position: absolute;
+            width: 100%;
             bottom: 0;
             background: #ffc273;
             height: 30px;
-            width: 100%;
           }
         }
       }

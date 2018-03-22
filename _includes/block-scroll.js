@@ -9,11 +9,7 @@ $(document).ready(function() {
       $('html, body').css("height", function(_,val){
         return val == "100%" ? "auto" : "100%";
       });
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-      $('#Smallchat').css("visibility", function(_,val){
-        return val == "hidden" ? "visible" : "hidden";
-      });
-      $('#scrollUp').css("visibility", function(_,val){
+      $('#Smallchat, #scrollUp').css("visibility", function(_,val){
         return val == "hidden" ? "visible" : "hidden";
       });
    });
