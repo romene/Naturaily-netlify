@@ -1,5 +1,5 @@
 ---
-title: LVCloud
+title: lvcloud
 layout: portfolio-details
 project-screen: /assets/images/LVCloud.png
 project-logo:
@@ -16,6 +16,12 @@ step-two-text: "Recloser's main job is to bring back the electricity within the 
 step-three: The tools
 step-three-title: Ruby-based microservices
 step-three-text: "The software is created for large scale: hundreds of thousands of devices and millions of events. But the amount of devices is not the biggest problem. The main requirement was that the application works in real time! To handle this we have designed Ruby-based microservices architecture and wrote the most critical parts in faster, more concurrent language - Elixir. Apart from scalability, we wanted to bring XXI century to this solution and implemented machine learning algorithms to find patterns and detect prefaults.<br><br>We use Docker for one-click super convenient server creation process for each end customer. It’s critical as our solution is more PaaS-like solution where each end customer has its own hardware set up.<br><br>MongoDB and Redis are used to store and work with data. As our data model must be quite elastic and write speed is crucial, MongoDB is a great choice. MQTT is the standard communication protocol between end devices and our system.<br><br>To put it shortly: heaven of internet of things development stack."
+src-stack-1: /assets/images/ruby-logo.png
+alt-stack-1: ruby
+src-stack-2: /assets/images/vue-logo.png
+alt-stack-2: vue
+src-stack-3: /assets/images/mqtt-logo.png
+alt-stack-3: mqtt
 step-four: The results
 step-four-title: Watch Netflix peacefully
 step-four-text: We are kidding, of course. This has much more impact for the stability of the network and your life. Charging your Tesla can overload the grid, so the sooner maintenance people get information about potential malfunction, the better, because you won't even know a problem existed.

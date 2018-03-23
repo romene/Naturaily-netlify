@@ -66,6 +66,10 @@
     justify-content: space-between;
     @include transition(.2s);
 
+    .site-logo-vue {
+      height: 36px;
+    }
+
     .site-text {
       display: flex;
       flex-direction: row;
