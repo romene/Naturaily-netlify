@@ -9,7 +9,7 @@ banner-tech:
 - Ruby on Rails, Ember
 step-one: The need
 step-one-title: Sharing collective expertise
-step-one-text: Zapnito is a unique platform that allows organizations to share and monetize their professional, collective expertise with other companies and clients. With too much work on their hands, Zapnito sought for skilled and precise on-demand developers. Scaling up their IT team in order to acquire help with the small things allowed them to focus on the bigger picture of their product. Naturaily stood up to the challenge.
+step-one-text: Zapnito is a unique platform that allows organizations to share and monetize their professional, collective expertise with other companies and clients. With too much work on their hands, Zapnito sought for skilled and precise on-demand developers. Scaling up their IT team in order to acquire help with the small things allowed them to focus on the bigger picture of their product. Naturaily took on the challenge.
 step-two: The solution
 step-two-title: Fixes and maintenance
 step-two-text: The main focus of our cooperation with Zapnito was cleaning up the code and refactoring service’s features. Our team upgraded Ruby on Rails version on the client’s side and performed several bug fixing. Apart from that, Naturaily was in charge of general maintenance of the service and adding cosmetic touches.
