@@ -25,7 +25,7 @@ alt-stack-3: elastic
 step-four: The results
 step-four-title: Every story has a happy ending
 step-four-text: Successful cooperation has resulted in over 5000 active users, 900 books published by 500 authors, online shop and bug-free service.
-comment-photo: /assets/images/firefield-face.png
+comment-photo: /assets/images/joachim.png
 comment-name: Joachim Schneider
 comment-brand: Siqnet
 comment-logo: /assets/images/siqnet.png
