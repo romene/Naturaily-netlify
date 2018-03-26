@@ -15,7 +15,11 @@
 
 .l-portfolio-top {
   margin-top: 50px;
-  margin-bottom: 60px;
+  margin-bottom: 70px;
+}
+
+.portfolio-clutch {
+  grid-row: 4;
 }
 
 @media (min-width: 811px) {
@@ -25,7 +29,15 @@
 }
 
 @media (min-width: 992px) {
+  .l-portfolio-top {
+    margin-bottom: 60px;
+  }
+
   .l-portfolio {
     padding: 0 30px;
+  }
+
+  .portfolio-clutch {
+    grid-row: auto / auto;
   }
 }

@@ -1,9 +1,9 @@
 @import "../variables";
 .projects {
   display: grid;
-  margin-top: 150px;
+  margin-top: 70px;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 100px 350px repeat(2, 300px) 100px;
+  grid-template-rows: 30px 350px repeat(2, 300px) 50px;
   grid-gap: 30px;
 
   .main-point {
@@ -113,7 +113,7 @@
 
   &-button {
     grid-column: 1 / 13;
-    padding-top: 30px;
+
     a {
       text-decoration: none;
       color: $color-secondary;
@@ -126,6 +126,7 @@
   .projects {
     grid-template-rows: 100px repeat(3, 300px);
     margin-top: 15rem;
+    margin-top: 150px;
 
     .project {
       &-main {
@@ -157,6 +158,10 @@
       &-third {
         grid-column: 9 / 13;
         grid-row: 3 / 4;
+      }
+
+      &-button {
+        padding-top: 30px;
       }
     }
   }

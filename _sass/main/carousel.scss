@@ -1,6 +1,5 @@
 .carousel-point {
-  text-align: center;
-  margin: 130px 0 100px 0;
+  margin: 70px 0 30px 0;
 }
 .main-carousel {
   .slick-prev {
@@ -194,6 +193,11 @@
 
 
 @media (min-width: 992px) {
+  .carousel-point {
+    text-align: center;
+    margin: 130px 0 100px 0;
+  }
+
   .main-carousel .carousel-item {
     height: 200px;
     margin: 0 20px;

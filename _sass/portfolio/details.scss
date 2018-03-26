@@ -55,12 +55,9 @@
 .deal-step {
   display: grid;
   grid-template-columns: 1fr;
-  margin-top: 130px;
+  margin-top: 70px;
 
   .step-text {
-    h2 {
-      margin-left: 32px;
-    }
 
     .stack {
       display: flex;
@@ -114,13 +111,12 @@
 
 
   h2 {
-    margin-top: 50px;
+    margin-top: 30px;
     font-weight: 600;
   }
   p {
-    padding: 0 30px;
     max-width: 350px;
-    margin-top: 46px;
+    margin-top: 30px;
     font-weight: 200;
   }
   .tech {
@@ -166,10 +162,10 @@
 }
 
 .portfolio-comment {
-  margin-top: 150px;
+  margin-top: 70px;
 
   .project-comment {
-    margin-top: 115px;
+    margin-top: 70px;
 
     .comment {
       min-height: 190px;
@@ -182,7 +178,7 @@
 }
 
 .portfolio-slide {
-  margin-bottom: 200px;
+  margin-bottom: 70px;
 
   .slide-left {
     a {
@@ -214,6 +210,18 @@
   }
 }
 
+@media (max-width: 469px) {
+  .deal-step {
+
+    .step-text {
+
+      .tech-cardsII {
+        margin-left: 0px;
+      }
+    }
+  }
+}
+
 @media (min-width: 811px) {
   .deal-banner {
     margin-top: 180px;
@@ -239,6 +247,7 @@
   }
   .deal-step {
     grid-template-columns: 1fr 1fr;
+    margin-top: 130px;
 
     .step-image {
 
@@ -282,8 +291,15 @@
     }
 
     .step-text {
-      p {
+      h2 {
+        margin-top: 50px;
         margin-left: 32px;
+      }
+
+      p {
+        margin-top: 46px;
+        margin-left: 32px;
+        padding: 30px;
       }
 
       .stack {
@@ -292,7 +308,17 @@
     }
   }
 
+  .portfolio-comment {
+    margin-top: 150px;
+
+    .project-comment {
+      margin-top: 115px;
+    }
+  }
+
   .portfolio-slide {
+    margin-bottom: 200px;
+
     .slide-left, .slide-right {
       a {
         font-size: 1.5rem;
@@ -306,18 +332,6 @@
 
     .slide-arrow {
       width: 50px;
-    }
-  }
-}
-
-@media (max-width: 469px) {
-  .deal-step {
-
-    .step-text {
-
-      .tech-cardsII {
-        margin-left: 0px;
-      }
     }
   }
 }

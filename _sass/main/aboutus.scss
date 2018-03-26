@@ -1,8 +1,8 @@
 .aboutus {
-  margin-top: 100px;
+  margin-top: 70px;
 
   &-content {
-    margin-top: 60px;
+    margin-top: 30px;
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 60px;
@@ -10,6 +10,10 @@
 
     .aboutus-logo {
       width: 160px;
+    }
+
+    .aboutus-description {
+      margin-top: 30px;
     }
   }
 
@@ -107,9 +111,14 @@
 
     &-content {
       grid-template-columns: 300px 1fr 1fr;
+      margin-top: 60px;
 
       .aboutus-logo {
           margin-left: 30px;
+      }
+
+      .aboutus-description {
+        margin-top: 40px;
       }
     }
 

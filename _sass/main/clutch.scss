@@ -1,5 +1,4 @@
 .clutch {
-  padding: 60px 0;
   width: 620px;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -12,6 +11,13 @@
     text-decoration: none;
     color: $color-primary;
     text-align: center;
+  }
+}
+
+@media (max-width: 991px) {
+  .clutch {
+    padding: 70px 0;
+    margin-bottom: 0;
   }
 }
 
