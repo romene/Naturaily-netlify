@@ -1,38 +1,49 @@
 $(document).ready(function() {
    $('#checkbox').on('click', function() {
-      /*$('html, body').css("overflow", function(_,val){
+      $('#Smallchat').css("visibility", function(_,val){
         return val == "hidden" ? "visible" : "hidden";
       });
-      $('html, body').css("position", function(_,val){
-        return val == "relative" ? "static" : "relative";
-      });
-      $('html, body').css("height", function(_,val){
-        return val == "100%" ? "auto" : "100%";
-      });*/
-      $("html, body").animate({ scrollTop: 0 }, "slow");
-      $('#Smallchat, #scrollUp').css("visibility", function(_,val){
-        return val == "hidden" ? "visible" : "hidden";
-      });
+      /*var $document = $(document);
+      $document.scroll(function() {
+        if ($document.scrollTop() >= 5) {
+          // user scrolled 50 pixels or more;
+          // do stuff
+          console.log("taktkatkak");
+          $("#checkbox").click();
+        }});
+*/
    });
 });
 
+var didScroll,
+    lastScrollTop = 0,
+    delta = 5,
+    navbarHeight = $('#checkbox, [data-reveal-header]').outerHeight();
 
+$(window).scroll(function(event){
+  didScroll = true;
+});
 
-function tak() {
-  console.log("włączona, nie będziesz scrollował");
-  window.addEventListener("scroll", preventMotion, false);
-  window.addEventListener("touchmove", preventMotion, false);
-}
+setInterval(function() {
+  if (didScroll) {
+    hasScrolled();
+    didScroll = false;
+  }
+}, 250);
 
-function nie() {
-  console.log("wyłączona, możesz scrollować");
-  window.removeEventListener("scroll", preventMotion, false);
-  window.removeEventListener("touchmove", preventMotion, false);
-}
+function hasScrolled() {
+  var st = $(this).scrollTop();
 
-function preventMotion(event) {
-  console.log("blokuje Ci scrolla :P");
-  window.scrollTo(0, 0);
-  event.preventDefault();
-  event.stopPropagation();
+  if(Math.abs(lastScrollTop - st) <= delta)
+  return;
+
+  if (st > lastScrollTop && st > navbarHeight){
+    $('#checkbox, [data-reveal-header]').removeClass('nav-down').addClass('nav-up');
+  } else {
+    if(st + $(window).height() < $(document).height()) {
+      $('#checkbox, [data-reveal-header]').removeClass('nav-up').addClass('nav-down');
+    }
+  }
+
+  lastScrollTop = st;
 }
