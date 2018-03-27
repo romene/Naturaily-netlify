@@ -5,14 +5,15 @@
   align-items: end;
 
   .dimond {
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+    display: grid;
 
     img {
-      display: none;
+      width: 250px;
     }
 
     h2 {
-      margin-bottom: 30px;
+      grid-row: 1;
     }
   }
 }
@@ -26,7 +27,7 @@
       margin-bottom: 50px;
 
       img {
-        display: block;
+        width: 300px;
       }
 
       h2 {
