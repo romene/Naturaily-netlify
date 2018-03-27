@@ -5,7 +5,7 @@ layout: portfolio-details
 project-screen: /assets/images/collectivity.png
 project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.png
-banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
+banner-text: 
 banner-tech:
 - Ruby on Rails, Backbone
 step-one: The need

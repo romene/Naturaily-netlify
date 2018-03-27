@@ -5,7 +5,7 @@ layout: portfolio-details
 project-screen: /assets/images/snipsl.png
 project-logo: /assets/images/snipsl-logo.png
 banner-bg: /assets/images/projects-background-red.png
-banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
+banner-text: Snipsl is a platform for sharing stories and books for both readers and authors. Check out our case study to see how Naturaily helped the company to make a working product out of a black box.
 banner-tech:
 - Ruby on Rails, React, Elastic
 step-one: The need

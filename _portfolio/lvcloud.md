@@ -5,7 +5,7 @@ layout: portfolio-details
 project-screen: /assets/images/LVCloud.png
 project-logo:
 banner-bg: /assets/images/projects-background-purple.png
-banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
+banner-text: LVCloud is an Internet of Things application that monitors and takes care of the grid. Check out how we combined new technologies, like machine learning, into a sophisticated app that solves problems with electric network before anyone knew they existed. 
 banner-tech:
 - Ruby on Rails, Vue.js, MQTT
 step-one: The need

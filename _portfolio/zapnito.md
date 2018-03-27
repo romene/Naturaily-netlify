@@ -5,7 +5,7 @@ layout: portfolio-details
 project-screen: /assets/images/zapnito.png
 project-logo: /assets/images/zapnito-logo.png
 banner-bg: /assets/images/projects-background-blue.png
-banner-text: We provide very efficient service - our team can be at your disposal within couple of days since the first time you contact us.
+banner-text: Zapnito is a platform that allows organizations to monetize their professional expertise. In this case study, you will see how Naturaily improved it by helping in taking care of the service.
 banner-tech:
 - Ruby on Rails, Ember
 step-one: The need
