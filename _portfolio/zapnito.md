@@ -1,5 +1,6 @@
 ---
-title: zapnito
+title: "Zapnito case study: refactoring and bug fixing | Naturaily"
+description: Case study on upgrading Ruby on Rails and taking care of the service.
 layout: portfolio-details
 project-screen: /assets/images/zapnito.png
 project-logo: /assets/images/zapnito-logo.png
