@@ -1,6 +1,6 @@
 jQuery(document).ready(function(){
     function resizeForm(){
-        var width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth;
+        var width = document.documentElement.clientWidth;
         if(width > 991){
           window.sr = ScrollReveal({ reset: false, duration: 600 });
 
