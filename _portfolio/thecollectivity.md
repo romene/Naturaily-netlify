@@ -5,7 +5,7 @@ layout: portfolio-details
 project-screen: /assets/images/collectivity.png
 project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.png
-banner-text: 
+banner-text: Collectivity is a platform that allows people from all around the world to colaborate and share their professional expertise in order to improve health systems. Check out our case study to see how Naturaily contributed to changing the African health systems for better.
 banner-tech:
 - Ruby on Rails, Backbone
 step-one: The need

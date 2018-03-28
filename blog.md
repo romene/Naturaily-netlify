@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Web and Mobile development, Ruby on Rails, React, Product Design | Naturaily Blog
-description: Blog about coding, Web and Mobile development, Ruby on Rails, Product Design. Check out our thoughts, tutorials, tips and tricks. 
+title: Blog about Ruby on Rails web development, React.js development, Vue.js development and digital product design.
+description: Naturaily blogs about web development, Agile, startups, Ruby on Rails, React.js, Vue.js, remote work &amp; more.
 permalink: /blog
 pagination:
   enabled: true

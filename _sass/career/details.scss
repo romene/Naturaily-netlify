@@ -1,13 +1,11 @@
-.l-content {
-  .point-where {
-    font-weight: 200;
-  }
-}
-
 .l-main-container {
 
   .l-career-header-details {
     margin-bottom: 30px;
+
+    .point-where {
+      font-weight: 200;
+    }
   }
 
   .l-career-container-benefits {
@@ -18,12 +16,6 @@
 .career-details {
   display: grid;
   grid-template-columns: 1fr;
-
-  &-header {
-    display: block!important;
-    font-size: 2.1rem;
-    margin-top: 70px;
-  }
 
   &--who {
     grid-column: 1 / 3;
@@ -143,11 +135,6 @@
 
 @media (min-width: 992px) {
   .career-details {
-
-    &-header {
-      font-size: 2.2rem;
-      margin: 0;
-    }
 
     &--who {
       margin-bottom: 80px;
