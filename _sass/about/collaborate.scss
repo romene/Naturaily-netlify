@@ -5,14 +5,15 @@
   align-items: end;
 
   .dimond {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    display: grid;
 
     img {
-      display: none;
+      width: 250px;
     }
 
     h2 {
-      margin-bottom: 30px;
+      grid-row: 1;
     }
   }
 }
@@ -23,13 +24,15 @@
     padding-bottom: 60px;
 
     .dimond {
+      margin-bottom: 50px;
 
       img {
-        display: block;
+        width: 300px;
       }
 
       h2 {
         margin: 0;
+        grid-row: auto;
       }
 
       p {

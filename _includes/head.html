@@ -1,10 +1,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>Naturaily: Web and Mobile Development Company from Poland</title>
-  <meta name="description" content="{Agile web and mobile development team building Ruby on Rails, React and React Native applications for startups and enterprises. Let’s talk!}">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
+  <meta property="og:description"  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >
+  <meta property="twitter:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
+  <meta property="twitter:description"  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">

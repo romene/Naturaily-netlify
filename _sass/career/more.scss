@@ -2,16 +2,15 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 30px;
-  margin-top: 160px;
-  .text {
-    .title {
-      margin-top: 50px;
-    }
+  margin-top: 70px;
+
+  .text .title {
+    margin-top: 30px;
   }
   .benefits {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(7, 80px);
+    grid-template-rows: repeat(6, 60px);
     grid-gap: 30px;
 
     &-tile {
@@ -55,6 +54,11 @@
 @media (min-width: 992px) {
   .career-more {
     grid-template-columns: repeat(2, 1fr);
+    margin-top: 160px;
+
+    .text .title {
+      margin-top: 50px;
+    }
 
     .benefits {
       grid-template-columns: repeat(3, 1fr);

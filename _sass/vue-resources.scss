@@ -11,12 +11,12 @@
 
 .l-opensource {
   .vue-title {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
   }
 
   &-top {
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
@@ -32,7 +32,7 @@
   display: grid;
   grid-gap: 30px;
   grid-template-columns: 1fr;
-  margin-bottom: 140px;
+  margin-bottom: 70px;
   &--conference {
     grid-template-columns: repeat(4, 1fr);
     display: grid;
@@ -65,6 +65,10 @@
     align-items: baseline;
     justify-content: space-between;
     @include transition(.2s);
+
+    .site-logo-vue {
+      height: 36px;
+    }
 
     .site-text {
       display: flex;
@@ -118,8 +122,8 @@
 
 .influencers {
   display: grid;
-  grid-row-gap: 50px;
-  margin-bottom: 140px;
+  grid-row-gap: 30px;
+  margin-bottom: 70px;
 
   .influencer {
     text-align: center;
@@ -162,10 +166,9 @@
 
 .opensource-footer {
   grid-column: 1 / 3;
-  text-align: center;
   font-size: 1.5rem;
   font-weight: 200;
-  padding: 200px 0;
+  padding: 150px 0;
   background-image: url(/assets/images/form-wave.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -179,13 +182,17 @@
 
   p {
     max-width: 320px;
-    margin: 0 auto;
+    margin: 0 90px;
     margin-top: 10px;
   }
 
   span {
     display: block;
-    margin: 30px 0;
+    margin: 30px 90px;
+  }
+
+  .btn {
+    margin: 0 90px;
   }
 }
 
@@ -207,18 +214,19 @@
   .opensource-footer {
     background-size: 100vw 650px;
     margin: 0 -230px;
+    text-align: center;
 
     h1 {
       margin-top: 50px;
     }
 
     span {
-      margin: 50px 0;
+      margin: 50px 90px;
     }
 
     p {
       max-width: 500px;
-      margin: 50px auto;
+      margin: 50px 250px;
     }
   }
 }
@@ -239,15 +247,22 @@
         margin-left: -40px;
       }
     }
+
+    .vue-title {
+      margin-bottom: 80px;
+    }
   }
 
   .influencers {
-    max-width: none;
     grid-template-columns: repeat(6, 1fr);
+    grid-row-gap: 50px;
+    margin-bottom: 140px;
+    max-width: none;
   }
 
   .l-sites {
     grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 140px;
   }
 
   .site-link .conference {
@@ -262,10 +277,16 @@
   }
 
   .opensource-footer {
+    text-align: center;
     margin: 0px -800px;
+    padding: 200px 0;
 
     h1 {
       margin-top: 40px;
+    }
+
+    p {
+      margin: 50px 1030px;
     }
   }
 }

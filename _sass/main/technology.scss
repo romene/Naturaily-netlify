@@ -4,13 +4,13 @@
   grid-column-gap: 160px;
 
   .main-point {
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 30px;
   }
 
   &-title {
     padding: 0 10px;
-    margin: 40px 0;
+    margin: 30px 0;
   }
 
   &-text {
@@ -55,14 +55,14 @@
       height: 90px;
       max-width: 350px;
       margin-bottom: 20px;
-      .vue {
+
+      img {
+        max-height: 60px;
         margin-left: 15px;
       }
-      .react {
-        margin-left: -10px;
-      }
-      img {
-        max-height: 90px;
+
+      .carousel-logo {
+        max-height: 45px;
       }
     }
   }
@@ -75,8 +75,13 @@
     margin-bottom: 150px;
 
     .main-point {
+      margin-top: 100px;
       margin-bottom: 0;
       grid-column: 2;
+    }
+
+    &-title {
+      margin: 40px 0;
     }
 
     &-text {
@@ -84,7 +89,7 @@
     }
 
     &-items {
-      margin-top: 200px;
+      padding-top: 200px;
 
       .right {
         margin-left: 50px;
