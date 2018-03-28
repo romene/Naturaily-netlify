@@ -58,7 +58,7 @@
 @media (min-width: 992px) {
   .resources {
     &-title {
-      grid-column: 1 / 5;
+      grid-column: 1 / 6;
       grid-row: 2 / 3;
     }
     &-text {
@@ -85,8 +85,6 @@
     }
   }
 }
-
-
 
 @media screen and (max-width: 991px) {
   .resources {

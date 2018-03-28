@@ -1,8 +1,15 @@
 $(document).ready(function() {
    $('#checkbox').on('click', function() {
+
       $('#Smallchat').css("visibility", function(_,val){
         return val == "hidden" ? "visible" : "hidden";
       });
+
+      if ($('.menu').hasClass('active')) {
+        $(".menu").removeClass('active');
+      } else {
+        $(".menu").addClass('active');
+      }
    });
 });
 
@@ -30,9 +37,11 @@ function hasScrolled() {
 
   if (st > lastScrollTop && st > navbarHeight){
     $('#checkbox, [data-reveal-header]').removeClass('nav-down').addClass('nav-up');
+    $(".menu").removeClass('active');
   } else {
     if(st + $(window).height() < $(document).height()) {
       $('#checkbox, [data-reveal-header]').removeClass('nav-up').addClass('nav-down');
+      $(".menu").removeClass('active');
     }
   }
 
