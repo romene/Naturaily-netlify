@@ -3,15 +3,6 @@ $(document).ready(function() {
       $('#Smallchat').css("visibility", function(_,val){
         return val == "hidden" ? "visible" : "hidden";
       });
-      /*var $document = $(document);
-      $document.scroll(function() {
-        if ($document.scrollTop() >= 5) {
-          // user scrolled 50 pixels or more;
-          // do stuff
-          console.log("taktkatkak");
-          $("#checkbox").click();
-        }});
-*/
    });
 });
 
