@@ -22,14 +22,23 @@
 
   h1 {
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     line-height: 1;
     letter-spacing: -1px;
     font-size: 70px;
+
+    img {
+      max-width: 150px;
+    }
   }
 
-  p {
-    font-size: 15px;
+  .first {
+    margin-bottom: 0;
+    font-size: 40px;
+  }
+  .second {
+    font-size: 30px;
+    font-weight: 300;
   }
 
 }
@@ -41,12 +50,7 @@
 
     h1 {
       margin-top: 0;
-      margin-bottom: 50px;
-      font-size: 110px;
-    }
-
-    p {
-      font-size: 20px;
+      font-size: 200px;
     }
   }
 }
