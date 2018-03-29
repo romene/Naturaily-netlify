@@ -36,11 +36,11 @@
     padding: 30px 0;
 
     &-job {
-      color: black;
-      height: 80px;
-      font-size: 1.7rem;
-      padding: 0 30px;
       display: block;
+      height: 80px;
+      padding: 0 30px;
+      font-size: 1.7rem;
+      color: $color-global-font;
     }
 
     &-rate {
@@ -53,14 +53,14 @@
     }
 
     &-apply {
-      text-align: center;
       display: block;
-      margin: 0 auto;
-      width: 60%;
+      width: 30%;
+      margin-top: 40px;
+      margin-left: 50px;
+      padding: 8px 15px;
+      color: #FFFFFF;
       font-size: 0.8rem;
-      padding: 10px 25px;
-      margin-top: 50px;
-      color: $color-white;
+      text-align: center;
     }
 
     .career-hover-wave {
