@@ -4,7 +4,7 @@
   grid-template-rows: 270px auto auto;
   grid-row-gap: 70px;
 
-  &-logo {
+  .banner-logo {
     width: 160px;
     vertical-align: middle;
     grid-column: 1 / 8;
@@ -44,7 +44,7 @@
     grid-template-rows: 220px auto auto;
     margin-top: 50px;
 
-    &-logo {
+    .banner-logo {
       grid-column: 2 / 4;
     }
     &-text {

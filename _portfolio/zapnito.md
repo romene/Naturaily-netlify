@@ -40,4 +40,5 @@ image-two: /assets/images/zapnito-screen-2.png
 image-three: /assets/images/zapnito-screen-4.png
 image-four: /assets/images/zapnito-screen-3.png
 image-five: /assets/images/zapnito-screen-5.png
+image-six:  /assets/images/zapnito-screen-6.png
 ---

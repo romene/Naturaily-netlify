@@ -11,14 +11,9 @@
   margin-top: 50px;
 
   .deal-text {
-    padding: 75px 30px 60px 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: calc(100% - 135px);
+    padding: 40px 30px;
 
-    .lvcloud {
+    .purple {
       color: $color-main-project-muted;
     }
 
@@ -26,8 +21,14 @@
       width: 160px;
     }
 
+    .lvcloud {
+      height: 50px;
+      width: auto;
+    }
+
     p {
       max-width: 425px;
+      margin: 30px 0;
     }
   }
 
@@ -200,7 +201,7 @@
     text-align: right;
 
     .slide-arrow {
-      justify-self: end; 
+      justify-self: end;
     }
   }
 
@@ -244,7 +245,8 @@
 @media (min-width: 992px) {
   .deal-banner {
     grid-template-columns: 1fr 1.4fr;
-    height: 540px;
+    min-height: 540px;
+
     .deal-image {
       grid-column: 2;
 
@@ -253,9 +255,14 @@
       }
     }
     .deal-text {
-      padding: 75px 0 60px 75px;
       grid-column: 1;
       grid-row: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+      height: calc(100% - 135px);
+      padding: 75px 0 60px 75px;
     }
   }
   .deal-step {

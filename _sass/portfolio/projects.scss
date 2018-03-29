@@ -26,22 +26,12 @@
       background-image: url(../assets/images/projects-background-red.png);
     }
 
-    &-text-collectivity {
+    &-text {
       margin-top: 10px;
     }
 
-    &-image {
-      &-zapnito {
-        width: 350px;
-      }
-
-      &-collectivity {
-        width: 270px;
-      }
-
-      &-snipsl {
-        width: 300px;
-      }
+    &-image img {
+      width: 250px;
     }
 
     &:hover {
