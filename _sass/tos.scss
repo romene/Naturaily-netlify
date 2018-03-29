@@ -1,0 +1,26 @@
+.l-tos-container {
+  grid-column: content;
+  margin-top: 50px;
+  margin-bottom: 70px;
+
+  p {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 811px) {
+  .l-tos-container {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  .l-tos-container {
+    margin: 180px 0 120px;
+    padding: 0 65px;
+
+    p {
+      margin-bottom: 50px;
+    }
+  }
+}
