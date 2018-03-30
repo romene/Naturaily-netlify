@@ -322,6 +322,10 @@
     height: 350px;
   }
 
+  .main-carousel .open {
+    height: 420px;
+  }
+
   .main-carousel .carousel-item .item-opinion {
     text-align: right;
 
@@ -375,6 +379,10 @@
     height: 380px;
   }
 
+  .main-carousel .open {
+    height: 480px;
+  }
+
   .main-carousel .carousel-item .item-opinion {
     p {
       height: 200px;
@@ -388,6 +396,10 @@
 @media (max-width: 369px) {
   .main-carousel .slick-list {
     height: 420px;
+  }
+
+  .main-carousel .open {
+    height: 570px;
   }
 
   .main-carousel .carousel-item .item-opinion {

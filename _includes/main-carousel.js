@@ -8,23 +8,15 @@ $('#maincarousel').slick({
 });
 
 $('#post1').on('click', function() {
-  if ($(window).width() < 370) {
-
-    $('.slick-list').css("height", function(_,val){
-      return val == "570px" ? "420px" : "570px";
-    });
-
-  } else if ($(window).width() < 409) {
-
-    $('.slick-list').css("height", function(_,val){
-      return val == "480px" ? "380px" : "480px";
-    });
-
+  if ($('.slick-list').hasClass('open')) {
+    $(".slick-list").removeClass('open');
   } else {
+    $(".slick-list").addClass('open');
+  }
+});
 
-    $('.slick-list').css("height", function(_,val){
-      return val == "420px" ? "340px" : "420px";
-    });
-
+$('.slick-arrow, .slick-dots > li').on('click', function() {
+  if ($('.slick-list').hasClass('open')) {
+    $('#post1').click();
   }
 });
