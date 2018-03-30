@@ -44,6 +44,8 @@
     align-self: start;
     margin-top: 30px;
     .header-btn {
+      position: relative;
+      z-index: 2;
       font-size: 12px;
       padding: 14px 40px;
     }
