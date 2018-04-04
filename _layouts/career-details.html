@@ -15,14 +15,50 @@ layout: default
     We are an Agile development team using Ruby on Rails, Meteor and Ionic to craft great web and mobile apps. We work with startups and grown-up companies.
   </p>
   <div class="career-details--content">
-    <h2>
-      Join is if you have
-    </h2>
-    <ul class="requirements">
-      {% for req in page.requirements %}
-      <li>{{ req }}</li>
-      {% endfor %}
-    </ul>
+    {% if page.responsibilities %}
+      <span>
+        Responsibilities
+      </span>
+      <ul>
+        {% for req in page.responsibilities %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+
+    {% if page.requirements %}
+      <span>
+        Requirements
+      </span>
+      <ul>
+        {% for req in page.requirements %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.nicehave %}
+      <span>
+        Nice to have
+      </span>
+      <ul>
+        {% for req in page.nicehave %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% if page.offer %}
+      <span>
+        Offer
+      </span>
+      <ul>
+        {% for req in page.offer %}
+        <li>{{ req }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
   </div>
   <div class="career-details--card">
     <span>{{page.title}}</span>
