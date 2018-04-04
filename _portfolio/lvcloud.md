@@ -2,10 +2,12 @@
 title: "LVCloud case study: IoT application development | Naturaily"
 description: Case study on developing a successful IoT solution for energy market.
 layout: portfolio-details
+font: purple
 project-screen: /assets/images/LVCloud.png
-project-logo:
+project-logo: /assets/images/lvcloud-logo.png
+project-logo-class: lvcloud
 banner-bg: /assets/images/projects-background-purple.png
-banner-text: LVCloud is an Internet of Things application that monitors and takes care of the grid. Check out how we combined new technologies, like machine learning, into a sophisticated app that solves problems with electric network before anyone knew they existed. 
+banner-text: LVCloud is an Internet of Things application that monitors and takes care of the grid. Check out how we combined new technologies, like machine learning, into a sophisticated app that solves problems with electric network before anyone knew they existed.
 banner-tech:
 - Ruby on Rails, Vue.js, MQTT
 step-one: The need
@@ -37,9 +39,10 @@ slide-left-link: /project/snipsl
 slide-right: Zapnito
 slide-right-logo: /assets/images/zapnito.png
 slide-right-link: /project/zapnito
-image-one:
-image-two:
-image-three:
-image-four:
-image-five:
+image-one: /assets/images/lvcloud-screen-1.png
+image-two: /assets/images/lvcloud-screen-2.png
+image-three: /assets/images/lvcloud-screen-3.png
+image-four: /assets/images/lvcloud-screen-4.png
+image-five: /assets/images/lvcloud-screen-5.png
+image-six:  /assets/images/lvcloud-screen-6.png
 ---

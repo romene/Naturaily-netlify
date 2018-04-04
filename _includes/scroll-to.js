@@ -1,4 +1,7 @@
-var container, list, scrollTpo;
+var container,
+    list,
+    scrollTpo;
+
 $("document").ready(function() {
   container = $('.scrollTo-container');
   list = $('.scrollTo-list');

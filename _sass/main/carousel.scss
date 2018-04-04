@@ -63,7 +63,6 @@
   }
   .slick-list {
     padding: 30px 150px;
-    padding-bottom: 0;
     margin-bottom: 100px;
     overflow: visible;
     .slick-track .slick-slide:focus {
@@ -198,6 +197,10 @@
     margin: 130px 0 100px 0;
   }
 
+  .main-carousel .slick-list {
+    height: 250px;
+  }
+
   .main-carousel .carousel-item {
     height: 200px;
     margin: 0 20px;
@@ -210,14 +213,6 @@
       margin-top: 15px;
       padding-left: 3%;
       width: 17%;
-    }
-  }
-}
-
-@media (max-width: 1550px) {
-  .main-carousel {
-    .slick-list {
-      padding: 30px 150px;
     }
   }
 }
@@ -243,7 +238,7 @@
 
     .slick-list {
       padding: 20px 0;
-      height: 470px;
+      height: 430px;
     }
 
     .carousel-item .item-opinion p {
@@ -264,7 +259,7 @@
     }
 
     .slick-list {
-      padding-bottom: 120px;
+      padding-bottom: 80px;
       height: 350px;
     }
 
@@ -277,16 +272,18 @@
 
       .item-opinion p {
         height: 120px;
+        margin: 0 5px;
       }
     }
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 511px) {
   .main-carousel {
 
     .carousel-item {
-      padding: 10px 10px 30px 10px;
+      padding: 10px;
+      padding-bottom: 20px;
 
       .item-opinion p {
         height: 220px;
@@ -299,7 +296,7 @@
 
     .slick-list {
       padding-bottom: 140px;
-      height: 410px;
+      height: 370px;
     }
 
     .slick-dots li {
@@ -316,16 +313,17 @@
   }
 }
 
-@media (max-width: 388px) {
+@media (max-width: 459px) {
   .main-carousel .slick-arrow {
     width: 70px;
   }
 
-  .main-carousel {
+  .main-carousel .slick-list {
+    height: 350px;
+  }
 
-    .slick-list {
-      height: 420px;
-    }
+  .main-carousel .open {
+    height: 420px;
   }
 
   .main-carousel .carousel-item .item-opinion {
@@ -333,7 +331,7 @@
 
     p {
       text-align: left;
-      height: 210px;
+      height: 170px;
     }
 
     .read-more-wrap {
@@ -354,11 +352,11 @@
     }
 
     .read-more-state:checked ~ .read-more-wrap {
-      height: 360px;
+      height: 250px;
     }
 
     .read-more-state ~ .read-more-trigger:before {
-      content: 'read more...';
+      content: 'read more';
     }
 
     .read-more-state:checked ~ .read-more-trigger:before {
@@ -372,6 +370,45 @@
       color: #666;
       font-size: .9em;
       line-height: 2;
+    }
+  }
+}
+
+@media (max-width: 408px) {
+  .main-carousel .slick-list {
+    height: 380px;
+  }
+
+  .main-carousel .open {
+    height: 480px;
+  }
+
+  .main-carousel .carousel-item .item-opinion {
+    p {
+      height: 200px;
+    }
+    .read-more-state:checked ~ .read-more-wrap {
+      height: 300px;
+    }
+  }
+}
+
+@media (max-width: 369px) {
+  .main-carousel .slick-list {
+    height: 420px;
+  }
+
+  .main-carousel .open {
+    height: 570px;
+  }
+
+  .main-carousel .carousel-item .item-opinion {
+    p {
+      height: 250px;
+    }
+
+    .read-more-state:checked ~ .read-more-wrap {
+      height: 375px;
     }
   }
 }

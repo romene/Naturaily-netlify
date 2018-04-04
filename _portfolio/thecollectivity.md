@@ -37,8 +37,8 @@ slide-right-logo: /assets/images/snipsl.png
 slide-right-link: /project/snipsl
 image-one: /assets/images/collectivity-screen-1.png
 image-two: /assets/images/collectivity-screen-2.png
-image-three: /assets/images/collectivity-screen-4.png
-image-four: /assets/images/collectivity-screen-3.png
+image-three: /assets/images/collectivity-screen-3.png
+image-four: /assets/images/collectivity-screen-4.png
 image-five: /assets/images/collectivity-screen-5.png
 image-six: /assets/images/collectivity-screen-6.png
 ---

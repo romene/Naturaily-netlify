@@ -1,4 +1,4 @@
-jQuery(document).ready(function(){
+$(document).ready(function(){
     function resizeForm(){
         var width = document.documentElement.clientWidth;
         if(width > 991){

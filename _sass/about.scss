@@ -4,6 +4,7 @@
 @import "about/collaborate";
 
 .about__wave {
+  height: 100px;
   padding-top: 40%;
   grid-area: header;
   background-image: url('../assets/images/blog-wave.png');
@@ -11,7 +12,7 @@
   background-size: 133%;
   background-repeat: no-repeat;
   z-index: -1;
-  height: 610px;
+  height: 100px;
 }
 
 .l-about-header {
@@ -25,6 +26,10 @@
 }
 
 @media (min-width: 811px) {
+  .about__wave {
+    height: 400px;
+  }
+  
   .l-about-header {
     margin-top: 100px;
   }

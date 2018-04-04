@@ -25,10 +25,6 @@
     display: block;
     text-align: right;
     color: $color-accent-gold;
-
-    &:hover {
-      text-decoration: none;
-    }
   }
 }
 
@@ -171,6 +167,10 @@
         display: block;
       }
     }
+  }
+
+  .post-preview .text-preview {
+    margin-left: 30px;
   }
 
   .recent-posts {
