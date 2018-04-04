@@ -5,13 +5,14 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "assets/images"
+public_folder: "/assets/images"
 
 collections:
-  - name: "post"
+  -
+    name: "post"
     label: "Post"
     folder: "_posts"
     create: true
-    comments: true
     slug: "{{slug}}"
     categories:
     fields:
