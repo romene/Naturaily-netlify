@@ -4,10 +4,10 @@ $(function() {
         exit = $("#exitButton");
 
   entry.click(function() {
-    container.fadeToggle();
+    $('#contactContainer').css('visibility', 'visible');
   });
 
   exit.click(function() {
-    container.fadeOut();
+    $('#contactContainer').css('visibility', 'hidden');
   });
 });
