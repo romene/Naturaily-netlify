@@ -1,12 +1,12 @@
 @import "vue-resources/community";
 .opensource__wave {
+  height: 100px;
   padding-top: 40%;
   grid-area: header;
   background-image: url('../assets/images/blog-wave.png');
   background-position: 50% 0;
   background-size: 133%;
   background-repeat: no-repeat;
-  height: 610px;
 }
 
 .l-opensource {
@@ -232,6 +232,10 @@
 }
 
 @media (min-width: 811px) {
+  .opensource__wave {
+    height: 400px;
+  }
+
   .l-opensource-top {
     margin-top: 100px;
   }
