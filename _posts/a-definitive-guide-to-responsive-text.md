@@ -3,8 +3,8 @@ layout: post
 title: A definitive guide to responsive text
 date: '2018-04-04 12:04:08 +0000'
 author: Maciej Kucharski"
-avatar: /assets/images/0r6jptq.jpg
-image: /assets/images/home-gallery-7.png
+avatar: /assets/images/person-6.png
+image: /assets/images/0r6jptq.jpg
 text-preview: >-
   When thinking RWD most of you picture fluid grids and responsive images,
   forgetting a quite important piece of the puzzle - the content. \*Since
