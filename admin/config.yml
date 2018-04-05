@@ -17,7 +17,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date posted", name: "date", format: "DD MM YYYY", widget: "date"}
+      - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh-mm-ss +0000", widget: "date"}
       - {label: "Author name", name: "author", widget: "string"}
       - {label: "Author avatar", name: "avatar", widget: "image"}
       - {label: "Post image", name: "image", widget: "image"}
