@@ -1,6 +1,21 @@
 ---
-title: UX / UI Designer
 layout: career-details
-type: design
+title: UX / UI Designer
 salary: 8000
+type: design
+responsibilities:
+  - thing
+  - thing g g
+requirements:
+  - stuff
+  - ''
+nicehave:
+  - stuff
+  - hghg
+offer:
+  - to to
+  - i to
+salary-range:
+  - 100 -1000 zł
 ---
+
