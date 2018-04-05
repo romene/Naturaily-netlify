@@ -59,5 +59,4 @@ collections:
       - label: "Salary range"
         name: "salary-range"
         widget: "list"
-        default: "6000-12000 PLN + VAT (B2B)"
-        allow_add: false
+        allow_add: true
