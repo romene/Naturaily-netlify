@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A definitive guide to responsive text
+title: A definitive guide to responsive texts
 date: '2018-04-04 12:04:08 +0000'
 author: Maciej Kucharski"
 avatar: /assets/images/0r6jptq.jpg
