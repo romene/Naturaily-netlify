@@ -35,7 +35,11 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-details"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Salary", name: "salary", widget: "number", valueType: "int"}
+      - {label: "Salary", name: "salary", widget: "number", valueType: "string", min: 1}
+      - label: "Offer type"
+        name: "type"
+        widget: "select"
+        options: ["programming", "design", "other"]
       - label: "Responsibilities"
         name: "responsibilities"
         widget: "list"
