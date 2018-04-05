@@ -6,7 +6,7 @@ author: Maciej Kucharski
 avatar: /assets/images/person-6.png
 image: /assets/images/0r6jptq.jpg
 text-preview: >-
-  When thinking RWD most of you picture fluid grids and responsive images,
+  When thinking RWD most of you picture fluid grids and responsive images
   forgetting a quite important piece of the puzzle - the content. \*Since
   content is king\* and most probably your content is mostly text, the text is
   king. Let’s see what we can do to display text properly on vast range of
