@@ -14,8 +14,8 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0000", widget: "date"}
       - {label: "Author name", name: "author", widget: "string"}
       - {label: "Author avatar", name: "avatar", widget: "image"}
@@ -33,29 +33,35 @@ collections:
     create: true
     slug: {{slug}}
     fields:
-      - {label: "Layout", name: "layout", widget: "hidden", default: "career-details"}
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "career-details"}
       - label: "Offer type"
         name: "type"
         widget: "select"
         options: ["programming", "design", "other"]
+      - {label: "Salary", name: "salary", widget: "number", valueType: "string", min: 1}
       - label: "Responsibilities"
         name: "responsibilities"
         widget: "list"
         allow_add: true
+        required: false
       - label: "Requirements"
         name: "requirements"
         widget: "list"
         allow_add: true
+        required: false
       - label: "Nicehave"
         name: "nicehave"
         widget: "list"
         allow_add: true
+        required: false
       - label: "Offer"
         name: "offer"
         widget: "list"
         allow_add: true
+        required: false
       - label: "Salary range"
         name: "salary-range"
         widget: "list"
         allow_add: true
+        required: false
