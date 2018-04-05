@@ -2,7 +2,7 @@
 layout: post
 title: A definitive guide to responsive text
 date: '2018-04-04 12:04:08 +0000'
-author: Maciej Kucharski"
+author: Maciej Kucharski
 avatar: /assets/images/person-6.png
 image: /assets/images/0r6jptq.jpg
 text-preview: >-
