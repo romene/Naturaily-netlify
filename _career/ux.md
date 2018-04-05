@@ -2,10 +2,10 @@
 layout: career-details
 title: UX / UI Designer
 salary: 8000
-type: other
+type: design
 responsibilities:
-  - thing
-  - thing g g
+  - design
+  - ux
 requirements:
   - stuff
   - ''
