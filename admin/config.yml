@@ -13,7 +13,6 @@ collections:
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    categories:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
@@ -21,10 +20,44 @@ collections:
       - {label: "Author name", name: "author", widget: "string"}
       - {label: "Author avatar", name: "avatar", widget: "image"}
       - {label: "Post image", name: "image", widget: "image"}
-      - {label: "Post preview", name: "text-preview", widget: "markdown"}
+      - {label: "Post preview", name: "text-preview", widget: "text"}
       - label: "Tags"
         name: "tags"
         widget: "list"
         allow_add: true
-        default: [""]
       - {label: "Body", name: "body", widget: "markdown"}
+  -
+    name: "career"
+    label: "Job offer"
+    folder: "_career"
+    create: true
+    slug: {{slug}}
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "career-details"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Salary", name: "salary", widget: "number". valueType: "int"}
+      - label: "Offer type"
+        name: "type"
+        widget: "select"
+        options: ["programming", "design", "other"]
+      - label: "Responsibilities"
+        name: "responsibilities"
+        widget: "list"
+        allow_add: true
+      - label: "Requirements"
+        name: "requirements"
+        widget: "list"
+        allow_add: true
+      - label: "Nicehave"
+        name: "nicehave"
+        widget: "list"
+        allow_add: true
+      - label: "Offer"
+        name: "offer"
+        widget: "list"
+        allow_add: true
+      - label: "Salary range"
+        name: "salary-range"
+        widget: "list"
+        default: "6000-12000 PLN + VAT (B2B)"
+        allow_add: false
