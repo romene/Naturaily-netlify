@@ -45,3 +45,23 @@ collections:
         widget: "list"
         allow_add: true
         required: false
+      - label: "Requirements"
+        name: "requirements"
+        widget: "list"
+        allow_add: true
+        required: false
+      - label: "Nicehave"
+        name: "nicehave"
+        widget: "list"
+        allow_add: true
+        required: false
+      - label: "Offer"
+        name: "offer"
+        widget: "list"
+        allow_add: true
+        required: false
+      - label: "Salary range"
+        name: "salary-range"
+        widget: "list"
+        allow_add: true
+        required: false
