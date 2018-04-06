@@ -109,10 +109,10 @@ collections:
       - {label: "Comment text", name: "comment-text", widget: "string"}
       - {label: "Slide left", name: "slide-left", widget: "string"}
       - {label: "Slide left logo", name: "slide-left-logo", widget: "image"}
-      - {label: "Slide left link", name: "slide-left-link", widget: "string", default: "/project/project_name}
+      - {label: "Slide left link", name: "slide-left-link", widget: "string", default: "/project/project_name"}
       - {label: "Slide right", name: "slide-right", widget: "string"}
       - {label: "Slide right logo", name: "slide-right-logo", widget: "image"}
-      - {label: "Slide right link", name: "slide-right-link", widget: "string", default: "/project/project_name}
+      - {label: "Slide right link", name: "slide-right-link", widget: "string", default: "/project/project_name"}
       - {label: "Image one", name: "image-one", widget: "image"}
       - {label: "Image two", name: "image-two", widget: "image"}
       - {label: "Image three", name: "image-three", widget: "image"}
