@@ -35,10 +35,11 @@ collections:
   portfolio:
     output: true
     permalink: /project/:path
+  post:
+    output: true
+    permalink: /blog/post/:title
 
 
-
-permalink: /blog/post/:title
 
 
 # Build settings
