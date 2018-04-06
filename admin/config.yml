@@ -39,7 +39,7 @@ collections:
         name: "type"
         widget: "select"
         options: ["programming", "design", "other"]
-      - {label: "Salary", name: "salary", widget: "number", valueType: "string", min: 1}
+      - {label: "Salary", name: "salary", widget: "string"}
       - label: "Responsibilities"
         name: "responsibilities"
         widget: "list"

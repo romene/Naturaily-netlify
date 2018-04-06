@@ -36,33 +36,6 @@ collections:
     output: true
     permalink: /project/:path
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-      layout: 'post'
-      comments: true
-      category: ' '
-      author: ' '
-      tags: ' '
-      image: ' '
-      text-preview: ' '
-  -
-    scope:
-      path: ''
-      type: 'career'
-    values:
-      layout: 'career-details'
-      type: ' '
-      salary: ' '
-      requirements: '   '
-      responsibilities: '   '
-      offer: '   '
-      benefits: '   '
-      salary-range: '   '
-
 
 
 permalink: /blog/post/:title
