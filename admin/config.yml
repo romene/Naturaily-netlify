@@ -28,7 +28,7 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   -
     name: "career"
-    label: "Job offer"
+    label: "Career"
     folder: "_career"
     create: true
     slug: {{slug}}
