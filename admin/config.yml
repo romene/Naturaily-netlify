@@ -83,7 +83,7 @@ collections:
       - {label: "Project logo class", name: "project-logo-class", widget: "string", required: false}
       - {label: "Banner background image", name: "banner-bg", widget: "image"}
       - {label: "Banner text", name: "banner-text", widget: "string"}
-      - {label: "Banner tech", name: "", widget: "list", allow_add: true}
+      - {label: "Banner tech", name: "banner-tech", widget: "list", allow_add: true}
       - {label: "Step one heading", name: "step-one", widget: "string"}
       - {label: "Step one title", name: "step-one-title", widget: "string"}
       - {label: "Step one text", name: "step-one-text", widget: "string"}
