@@ -9,7 +9,8 @@ media_folder: "assets/images"
 collections:
   -
     name: "post"
-    label: "Post"
+    label: "Posts"
+    label_singular: "Post"
     folder: "_posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -28,7 +29,8 @@ collections:
       - {label: "Body", name: "body", widget: "markdown"}
   -
     name: "career"
-    label: "Career"
+    label: "Job offers"
+    label_singular: "Job offer"
     folder: "_career"
     create: true
     slug: {{slug}}
