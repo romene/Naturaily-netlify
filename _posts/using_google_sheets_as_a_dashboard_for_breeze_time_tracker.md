@@ -1,15 +1,20 @@
 ---
 title: Using Google Sheets as a dashboard for Breeze time tracker
-tags:
-- Agile
-- Node.js development
+date: 08-23-2017
 category: Management
-date: 8-22-2017
 author: Sebastian Kubiak
-image: /assets/images/macierevicz.jpg
-position: Chief Technology Officer
 avatar: /assets/images/seba.jpg
-text-preview: Some of our everyday issues and tasks can be solved or simplified with a little bit of ingenuity and right tools. With the increased number of projects we have been working on, our team faced a challenge with reporting and tracking progress among projects and financial results which could be very helpful from a managerial point of view. This article covers two basic solutions our team came up with.
+image: /assets/images/macierevicz.jpg
+text-preview: >-
+  Some of our everyday issues and tasks can be solved or simplified with a
+  little bit of ingenuity and right tools. With the increased number of projects
+  we have been working on, our team faced a challenge with reporting and
+  tracking progress among projects and financial results which could be very
+  helpful from a managerial point of view. This article covers two basic
+  solutions our team came up with.
+tags:
+  - Agile
+  - Node.js development
 ---
 
 
