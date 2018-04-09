@@ -1,5 +1,5 @@
 ---
-title: Things you need to know about React Native
+title: Things you need to know about Reacts Natives
 date: 11-16-2017
 category: JavaScript development
 author: Wojciech Miśta
