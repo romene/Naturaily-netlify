@@ -8,7 +8,7 @@ media_folder: "assets/images"
 
 collections:
   -
-    name: "post"
+    name: "posts"
     label: "Posts"
     label_singular: "Post"
     folder: "_posts"
