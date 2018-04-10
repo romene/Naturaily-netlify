@@ -75,8 +75,8 @@ slide-right-link: /project/lvcloud
 image-one: /assets/images/snipsl-screen-1.png
 image-two: /assets/images/snipsl-screen-2.png
 image-three: /assets/images/snipsl-screen-3.png
-image-four: /assets/images/0evfvxi.jpg
-image-five: /assets/images/0evfvxi.jpg
-image-six: /assets/images/0evfvxi.jpg
+image-four: /assets/images/snipsl-screen-4.png
+image-five: /assets/images/snipsl-screen-5.png
+image-six: /assets/images/snipsl-screen-6.png
 ---
 
