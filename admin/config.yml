@@ -78,7 +78,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio-details"}
-      - {label: "Font", name: "font", widget: "string", required: false}
+      - {label: "Project font", name: "project-font", widget: "string", required: false}
       - {label: "Project screen", name: "project-screen", widget: "image"}
       - {label: "Project logo", name: "project-logo", widget: "image"}
       - {label: "Project logo class", name: "project-logo-class", widget: "string", required: false}
