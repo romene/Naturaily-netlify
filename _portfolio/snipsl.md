@@ -1,6 +1,6 @@
 ---
 title: 'Snipsl case study: Shopify development | Naturaily'
-description: Case study on fixing and improving an romance writing and publishing platform.
+description: Case study on fixing and improving a romance writing and publishing platform.
 layout: portfolio-details
 project-screen: /assets/images/snipsl.png
 project-logo: /assets/images/snipsl-logo.png
