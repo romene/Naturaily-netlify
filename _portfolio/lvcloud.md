@@ -93,5 +93,5 @@ image-three: /assets/images/lvcloud-screen-3.png
 image-four: /assets/images/lvcloud-screen-4.png
 image-five: /assets/images/lvcloud-screen-5.png
 image-six: /assets/images/lvcloud-screen-6.png
+image-six-small: bigger
 ---
-
