@@ -31,7 +31,7 @@ layout: default
       <div class="post-tags">
         {% if page.author %}
           {% for tag in page.tags %}
-            <a href="/blog/{{ tag }}">{{ tag }}</a>
+            <a>{{ tag }}</a>
           {% endfor %}
         {% endif %}
       </div>
@@ -39,11 +39,10 @@ layout: default
 
       <div class="post-content" itemprop="articleBody">
         {{ content }}
+
+        {% include disqus_comments.html %}
       </div>
 
-      {% if page.comments %}
-        {% include disqus_comments.html %}
-      {% endif %}
     </article>
     <div class="right-column">
       {% include blog-recentpost.html %}

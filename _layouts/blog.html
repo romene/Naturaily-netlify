@@ -34,7 +34,7 @@ layout: default
       </a>
       <div class="post-tags">
         {% for tag in post.tags %}
-          <a href="/blog/{{ tag }}" class="post-tag">{{ tag }}</a>
+          <a>{{ tag }}</a>
         {% endfor %}
       </div>
       {% if post.text-preview %}
