@@ -58,7 +58,7 @@ A video is worth a thousand words so here’s a comparison between Live Reload a
 **Debugging** - React Native introduces another layer to your application, making debugging more difficult, especially at the intersection of React and the host platform.
 
 
-![react-native-naturaily](/images/inside_post_img/react-native-naturaily.png "react-native-naturaily")
+![react-native-naturaily](/assets/images/react-native-naturaily.png "react-native-naturaily")
 
 
 ## Alternatives to React Native:

@@ -197,7 +197,7 @@ Finally we are ready to restart the app:
 
 Your Meteor application should be up and running now. Go to http://example.com to check it.
 
-![welcome to meteor](/images/meteor.png)
+![welcome to meteor](/assets/images/meteor.png)
 
 Make automation script for deployment
 -------------------------------------

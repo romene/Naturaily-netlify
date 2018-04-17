@@ -26,7 +26,7 @@ DJs can publish their work and get real feedback from the listeners allowing the
 
 SoundCloud has been the starting point of a successful career for a lot of artists such as Post Malone, Kehlani or Kygo.
 
-![soundcloud-founders](/images/inside_post_img/soundcloud-founders.jpg "Soundcloud Founders")
+![soundcloud-founders](/assets/images/soundcloud-founders.jpg "Soundcloud Founders")
 Alexander Ljung and Eric Wahlforss - Founders of SoundCloud
 
 ## Beginning of the end?
@@ -45,7 +45,7 @@ SoundCloud has been described as a service created by artists for artists. One o
 
 It is safe to say that SoundCloud gained its popularity because of its rebel status. It is a perfect place to share music outside the big-label bubble. With the subscription plan called SoundCloud Go came another, less creators-friendly feature similar to “Content ID” system YouTube has. It gives music owners the ability to identify their songs used in mixes and then either collect profit or submit a takedown notice.
 
-![soundcloud-go](/images/inside_post_img/soundcloud-go.png "Soundcloud Go")
+![soundcloud-go](/assets/images/soundcloud-go.png "Soundcloud Go")
 
 ## Subscription plan - SoundCloud Go
 
