@@ -79,4 +79,3 @@ image-four: /assets/images/snipsl-screen-4.png
 image-five: /assets/images/snipsl-screen-5.png
 image-six: /assets/images/snipsl-screen-6.png
 ---
-
