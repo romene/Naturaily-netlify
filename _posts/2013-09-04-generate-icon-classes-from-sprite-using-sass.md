@@ -2,7 +2,7 @@
 title: Generate icon classes from sprite using SASS
 tags:
 - Frontend development
-- sass
+- Sass
 category: SASS
 date: '2013-09-04 10:38:01 +0000'
 author: Maciej Kucharski

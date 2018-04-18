@@ -68,7 +68,11 @@ defaults:
 
 permalink: /blog/post/:title
 
-
+blog:
+    tags:
+        url: /blog/tags/
+        title_prefix: "blog - tag: "
+        layout: tag.html
 
 
 # Build settings
