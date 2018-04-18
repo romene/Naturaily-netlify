@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <!-- Begin blog articles -->
+        <section>
+            {% if site.tags.[page.filter_tag] %}
+            {% for post in site.tags.[page.filter_tag] %}
+
+            <!-- Begin post -->
+            <a href="/blog/{{ post.title }}">{{ post.title }}</a>
+            <!-- End post -->
+
+            {% unless forloop.last %}<hr>{% endunless %}
+            {% endfor %}
+            {% else %}
+            <h2>No posts to display.</h2>
+            {% endif %}
+        </section>
+        <!-- End blog articles -->
+    </div>
+</div>

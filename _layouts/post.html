@@ -31,7 +31,7 @@ layout: default
       <div class="post-tags">
         {% if page.author %}
           {% for tag in page.tags %}
-            <a>{{ tag }}</a>
+            <a href="/blog/tags/{{ tag }}/">{{ tag }}</a>
           {% endfor %}
         {% endif %}
       </div>

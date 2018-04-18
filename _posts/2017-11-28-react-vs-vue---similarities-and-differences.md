@@ -3,7 +3,7 @@ title: React vs Vue - similarities and differences
 tags:
 - React.js development
 - Vue.js development
-- comparison
+- Comparison
 - JavaScript development
 category: JavaScript development
 date: '2017-11-28 10:38:01 +0000'
