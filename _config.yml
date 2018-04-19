@@ -36,10 +36,10 @@ collections:
     output: true
     permalink: /project/:path
 blog:
-    tags:
-        url: /blog/tags/
-        title_prefix: " "
-        layout: tag.html
+  tags:
+    url: /blog/tags/
+    title_prefix: " "
+    layout: tag.html
 
 
 defaults:
@@ -70,7 +70,8 @@ defaults:
       salary-range: '   '
 
 
-
+include:
+  - _redirects.yml
 permalink: /blog/post/:title
 
 
