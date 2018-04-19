@@ -1,0 +1,129 @@
+# Categories redirecting
+
+/blog/category/Android                             /blog/category/Android mobile development
+/blog/category/CSS                                 /blog/category/Frontend development
+/blog/category/Development                         /blog/category/Ruby on Rails development
+/blog/category/Infographic                         /blog/category/Startups
+/blog/category/JavaScript                          /blog/category/JavaScript development
+/blog/category/Konferencja zespołów projektowych   /blog/category/Events
+/blog/category/Management                          /blog/category/Agile
+/blog/category/Online marketing                    /blog/category/Online marketing
+/blog/category/Project management		               /blog/category/Agile
+/blog/category/Remote development		               /blog/category/Remote work
+/blog/category/Responsive Web Design		           /blog/category/Frontend development
+/blog/category/Ruby on Rails		                   /blog/category/Ruby on Rails development
+/blog/category/SASS		                             /blog/category/Frontend development
+/blog/category/Social media		                     /blog/category/Startups
+/blog/category/Spree Commerce		                   /blog/category/Spree development
+/blog/category/Startup		                         /blog/category/Startups
+/blog/category/Thoughts on building start-ups		   /blog/category/Startups
+/blog/category/Women in IT		                     /blog/category/Diversity
+
+# Tags redirecting
+
+/blog/tag/google                                   /blog/tags/Agile
+/blog/tag/design sprint                            /blog/tags/Agile
+/blog/tag/prototyping                              /blog/tags/Agile
+/blog/tag/team                                     /blog/tags/Agile
+/blog/tag/breez                                    /blog/tags/Agile
+/blog/tag/google sheets                            /blog/tags/Agile
+/blog/tag/management                               /blog/tags/Agile
+/blog/tag/slack                                    /blog/tags/Agile
+/blog/tag/communication                            /blog/tags/Agile
+/blog/tag/scrum                                    /blog/tags/Agile
+/blog/tag/kanban                                   /blog/tags/Agile
+/blog/tag/backbone                                 /blog/tags/Backbone.js development
+/blog/tag/validation                               /blog/tags/Backbone.js development
+/blog/tag/local storage                            /blog/tags/Backbone.js development
+/blog/tag/marionette                               /blog/tags/Backbone.js development
+/blog/tag/learning                                 /blog/tags/Diversity
+/blog/tag/EmberJS                                  /blog/tags/Ember.js development
+/blog/tag/PWr                                      /blog/tags/Events
+/blog/tag/non-profit                               /blog/tags/Events
+/blog/tag/banking                                  /blog/tags/Fintech
+/blog/tag/fin-tech                                 /blog/tags/Fintech
+/blog/tag/innovations                              /blog/tags/Fintech
+/blog/tag/finance                                  /blog/tags/Fintech
+/blog/tag/CSS                                      /blog/tags/Frontend development
+/blog/tag/rwd                                      /blog/tags/Frontend development
+/blog/tag/responsive web design                    /blog/tags/Frontend development
+/blog/tag/mixins                                   /blog/tags/Frontend development
+/blog/tag/foundation                               /blog/tags/Frontend development
+/blog/tag/java                                     /blog/tags/Java development
+/blog/tag/javascript                               /blog/tags/JavaScript development
+/blog/tag/meteor                                   /blog/tags/Meteor.js development
+/blog/tag/i18n                                     /blog/tags/Meteor.js development
+/blog/tag/autoform                                 /blog/tags/Meteor.js development
+/blog/tag/deployment                               /blog/tags/Meteor.js development
+/blog/tag/nginx                                    /blog/tags/Meteor.js development
+/blog/tag/passenger                                /blog/tags/Meteor.js development
+/blog/tag/tutorial                                 /blog/tags/Meteor.js development
+/blog/tag/mobile development                       /blog/tags/Native mobile development
+/blog/tag/Android                                  /blog/tags/Native mobile development
+/blog/tag/application                              /blog/tags/Node.js development
+/blog/tag/Nodejs                                   /blog/tags/Node.js development
+/blog/tag/twitter                                  /blog/tags/Online marketing
+/blog/tag/zapier                                   /blog/tags/Online marketing
+/blog/tag/competition                              /blog/tags/Online marketing
+/blog/tag/analysis                                 /blog/tags/Online marketing
+/blog/tag/react native                             /blog/tags/React Native development
+/blog/tag/react                                    /blog/tags/React.js development
+/blog/tag/books                                    /blog/tags/Reading
+/blog/tag/outsourcing                              /blog/tags/Remote development team
+/blog/tag/remote                                   /blog/tags/Remote development team
+/blog/tag/offshoring                               /blog/tags/Remote development team
+/blog/tag/development team                         /blog/tags/Remote development team
+/blog/tag/developers                               /blog/tags/Remote work
+/blog/tag/software house                           /blog/tags/Remote work
+/blog/tag/remote work                              /blog/tags/Remote work
+/blog/tag/Ruby on Rails                            /blog/tags/Ruby on Rails development
+/blog/tag/refactoring                              /blog/tags/Ruby on Rails development
+/blog/tag/database                                 /blog/tags/Ruby on Rails development
+/blog/tag/postgress                                /blog/tags/Ruby on Rails development
+/blog/tag/service                                  /blog/tags/Ruby on Rails development
+/blog/tag/ruby                                     /blog/tags/Ruby on Rails development
+/blog/tag/PostgreSQL                               /blog/tags/Ruby on Rails development
+/blog/tag/window function                          /blog/tags/Ruby on Rails development
+/blog/tag/ntile                                    /blog/tags/Ruby on Rails development
+/blog/tag/trailblazer cells                        /blog/tags/Ruby on Rails development
+/blog/tag/view components                          /blog/tags/Ruby on Rails development
+/blog/tag/devise                                   /blog/tags/Ruby on Rails development
+/blog/tag/doorkeeper                               /blog/tags/Ruby on Rails development
+/blog/tag/design patterns                          /blog/tags/Ruby on Rails development
+/blog/tag/good practices                           /blog/tags/Ruby on Rails development
+/blog/tag/awesomeness                              /blog/tags/Ruby on Rails development
+/blog/tag/middlewares                              /blog/tags/Ruby on Rails development
+/blog/tag/rack                                     /blog/tags/Ruby on Rails development
+/blog/tag/rake                                     /blog/tags/Ruby on Rails development
+/blog/tag/migrations                               /blog/tags/Ruby on Rails development
+/blog/tag/Spree                                    /blog/tags/Spree development
+/blog/tag/e-commerce                               /blog/tags/Spree development
+/blog/tag/startup                                  /blog/tags/Startups
+/blog/tag/rise and fall                            /blog/tags/Startups
+/blog/tag/investment                               /blog/tags/Startups
+/blog/tag/uk                                       /blog/tags/Startups
+/blog/tag/MVP                                      /blog/tags/Startups
+/blog/tag/founding                                 /blog/tags/Startups
+/blog/tag/fundrasing                               /blog/tags/Startups
+/blog/tag/soundcloud                               /blog/tags/Startups
+/blog/tag/startups                                 /blog/tags/Startups
+/blog/tag/entrepreneurship                         /blog/tags/Startups
+/blog/tag/Snapchat                                 /blog/tags/Startups
+/blog/tag/cto                                      /blog/tags/Startups
+/blog/tag/co-founder                               /blog/tags/Startups
+/blog/tag/startup quotes                           /blog/tags/Startups
+/blog/tag/movies                                   /blog/tags/Startups
+/blog/tag/incubators                               /blog/tags/Startups
+/blog/tag/development                              /blog/tags/Startups
+/blog/tag/comparison                               /blog/tags/strona główna bloga
+/blog/tag/Python                                   /blog/tags/strona główna bloga
+/blog/tag/BMS                                      /blog/tags/strona główna bloga
+/blog/tag/Beacony                                  /blog/tags/strona główna bloga
+/blog/tag/IT                                       /blog/tags/strona główna bloga
+/blog/tag/employer branding                        /blog/tags/Team
+/blog/tag/HR                                       /blog/tags/Team
+/blog/tag/ux                                       /blog/tags/User experience design
+/blog/tag/showcase                                 /blog/tags/User experience design
+/blog/tag/material                                 /blog/tags/User experience design
+/blog/tag/process thinking                         /blog/tags/User experience design
+/blog/tag/vue                                      /blog/tags/Vue.js development
