@@ -35,6 +35,11 @@ collections:
   portfolio:
     output: true
     permalink: /project/:path
+blog:
+    tags:
+        url: /blog/tags/
+        title_prefix: " "
+        layout: tag.html
 
 
 defaults:
@@ -68,11 +73,6 @@ defaults:
 
 permalink: /blog/post/:title
 
-blog:
-    tags:
-        url: /blog/tags/
-        title_prefix: "blog - tag: "
-        layout: tag.html
 
 
 # Build settings
