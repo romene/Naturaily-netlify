@@ -41,6 +41,11 @@
       padding: 0 30px;
       font-size: 1.7rem;
       color: $color-global-font;
+
+      a {
+        display: inline-block;
+        line-height: 30px;
+      }
     }
 
     &-rate {

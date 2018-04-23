@@ -15,11 +15,6 @@
     margin: 35px 0 30px 30px;
     list-style: none;
     li {
-      &.active {
-        a {
-          color: $color-primary;
-        }
-      }
       a {
         color: $color-global-font;
         text-decoration: none;

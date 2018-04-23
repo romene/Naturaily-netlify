@@ -5,17 +5,15 @@ var didScroll,
 
 $('#checkbox').on('click', function() {
 
-  $('#Smallchat').css("visibility", function(_,val){
-    return val == "hidden" ? "visible" : "hidden";
-  });
-
   if ($('.menu').hasClass('active')) {
 
     $(".menu").removeClass('active');
+    $('#Smallchat').css("visibility", "visible");
 
   } else {
 
     $(".menu").addClass('active');
+    $('#Smallchat').css("visibility", "hidden");
 
   }
 });
@@ -45,11 +43,13 @@ function hasScrolled() {
   if (st > lastScrollTop && st > navbarHeight){
     $('#checkbox, #mobileSpan').removeClass('nav-down').addClass('nav-up');
     $(".menu").removeClass('active');
+    $('#Smallchat').css("visibility", "visible");
     $("#mobileSpan").removeClass('open');
   } else {
     if(st + $(window).height() < $(document).height()) {
       $('#checkbox, #mobileSpan').removeClass('nav-up').addClass('nav-down');
       $(".menu").removeClass('active');
+      $('#Smallchat').css("visibility", "visible");
       $("#mobileSpan").removeClass('open');
     }
   }
