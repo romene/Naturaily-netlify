@@ -1,15 +1,18 @@
 $(function() {
   const entry = $('[data-reveal-contact]'),
-        exit = $("#exitButton"),
-        container = $("#contactContainer");
+        exit = $("#exitButton, #contactContainer"),
+        container = $("#contactContainer"),
+        form = $("#contactForm");
 
   entry.click(function() {
     container.css('visibility', 'visible');
-    $('html, body').css('overflow', 'hidden');
+    form.css('transform', 'translate(-50%, -50%)');
+    $('html, body').css('cssText', 'overflow: hidden !important');
   });
 
   exit.click(function() {
     container.css('visibility', 'hidden');
-    $('html, body').css('overflow', 'visible');
+    form.css('transform', 'translate(-50%, -200%)');
+    $('html, body').css('overflow', '');
   });
 });
