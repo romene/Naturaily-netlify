@@ -21,7 +21,7 @@ $(function() {
 $(function() {
 
   const entry = $('[data-job-modal-trigger]'),
-        exit = $("data-job-modal-close, [data-job-modal]"),
+        exit = $("data-job-modal-close"),
         container = $("[data-job-modal]"),
         form = $("[data-job-modal-form]");
 
