@@ -67,7 +67,7 @@ layout: default
       <li>{{ req }}</li>
       {% endfor %}
     </ul>
-    <button type="button" class="btn btn-primary">
+    <button type="button" class="btn btn-primary" data-job-modal-trigger>
       apply
       <img src="/assets/images/btn-arrow.png">
     </button>
@@ -124,6 +124,27 @@ layout: default
        <br>
        <a href="mailto:jobs@naturaily.com">jobs@naturaily.com</a>
     </span>
+  </div>
+</div>
+
+<div class="contactContainer" data-job-modal>
+  <div class="contactForm" data-job-modal-form>
+    <div class="contactForm-exit">
+      <input type="checkbox" data-job-modal-close />
+      <span class="exit-first"></span>
+      <span class="exit-second"></span>
+    </div>
+    <h2 class="contactForm-header">Get in touch</h2>
+      <form action="" method="post" name="{{page.title}}">
+        <input type="text" name="" value="" placeholder="Name and Surname">
+        <input type="text" name="" value="" placeholder=" Your email address">
+        <textarea name="name" rows="8" cols="80" placeholder="Short description"></textarea>
+        <input type="text" name="" value="" placeholder="Linkedin link">
+        <button class="btn btn-primary">
+          Send
+          <img src="/assets/images/btn-arrow.png">
+        </button>
+      </form>
   </div>
 </div>
 
