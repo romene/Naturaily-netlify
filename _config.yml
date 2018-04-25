@@ -71,7 +71,8 @@ defaults:
 
 
 include:
-  - _redirects.yml
+  - _redirects
+
 permalink: /blog/post/:title
 
 

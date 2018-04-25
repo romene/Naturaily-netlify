@@ -21,7 +21,7 @@
 
 # Tags redirecting
 
-/blog/tag/google                                   /blog/tags/Agile
+/blog/tag/google                                   /blog/tags/Agile 301!
 /blog/tag/design%20sprint                            /blog/tags/Agile
 /blog/tag/prototyping                              /blog/tags/Agile
 /blog/tag/team                                     /blog/tags/Agile
