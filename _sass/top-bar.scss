@@ -22,14 +22,11 @@
         span {
           display: inline-block;
           max-width: 330px;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          white-space: nowrap;
+          line-height: 20px;
         }
 
         img {
           width: 20px;
-          vertical-align: super;
         }
 
         &:hover {
