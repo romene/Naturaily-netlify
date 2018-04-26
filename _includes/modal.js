@@ -1,6 +1,6 @@
 $(function() {
   const entry = $('[data-reveal-contact]'),
-        exit = $("#exitButton, #contactContainer"),
+        exit = $("#exitButton"),
         container = $("#contactContainer"),
         form = $("#contactForm");
 
@@ -21,7 +21,7 @@ $(function() {
 $(function() {
 
   const entry = $('[data-job-modal-trigger]'),
-        exit = $("data-job-modal-close"),
+        exit = $("[data-job-modal-close]"),
         container = $("[data-job-modal]"),
         form = $("[data-job-modal-form]");
 
