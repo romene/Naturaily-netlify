@@ -1,0 +1,100 @@
+.tech-container {
+  .banner-text {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .banner-btn {
+    img {
+      transform: rotateZ(90deg);
+    }
+  }
+
+  .resources {
+    padding-top: 150px;
+  }
+
+  .values {
+    margin-bottom: 80px;
+
+    &-title {
+      grid-column: 1 / 8;
+      max-width: 100%;
+    }
+
+    .text-title span {
+      display: flex;
+      max-width: 70%;
+    }
+
+    &-texts {
+      padding-left: 30px;
+    }
+
+    &-texts-wrapper {
+      grid-column-end: 10;
+    }
+  }
+
+  .check-out-point {
+    // margin-top: -100px;
+  }
+
+  .whoarewe {
+    margin-bottom: 100px;
+  }
+
+  .whoarewe-texts .primary {
+    max-width: 100%;
+  }
+
+  .wave-advantages {
+    z-index: -3;
+  }
+}
+
+.tech-carousel {
+  .carousel-item {
+    display: flex;
+    flex-direction: row;
+    height: 270px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left: 30px;
+    justify-content: space-between;
+  }
+
+  img {
+    height: 170px;
+  }
+
+  &-text {
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+    .btn {
+      align-self: baseline;
+    }
+
+    p {
+      flex-grow: 1;
+    }
+  }
+
+  .main-point {
+    padding-bottom: 70px;
+  }
+}
+
+.posts-carousel {
+  .carousel-item {
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    margin: 0 40px;
+  }
+}

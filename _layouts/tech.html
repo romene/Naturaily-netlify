@@ -1,0 +1,212 @@
+---
+layout: tech-layout
+---
+<div class="main__wave"></div>
+
+<div class="l-content">
+  <div class="banner">
+    <p class="banner-text">
+      {{page.heading}}
+    </p>
+    <p class="banner-text">
+      <small>
+        {{page.desc}}
+      </small>
+    </p>
+    <div class="banner-btn">
+      <button type="button" name="button" class="btn btn-primary btn-arrow">
+        Learn more
+        <img src="/assets/images/btn-arrow.png">
+      </button>
+    </div>
+    <div class="banner-oval"></div>
+  </div>
+
+</div>
+
+<div class="l-content">
+  <div class="resources">
+    <div class="main-point">
+      Technology
+    </div>
+    <h2 class="resources-title">
+      {{page.tech-head}}
+    </h2>
+    <p class="resources-text">
+      {{page.tech-desc-one}}
+      <br>
+      <br>
+      {{page.tech-desc-two}}
+    </p>
+    <div class="web-tile resources-tile" data-reveal-resources=''>
+      <i class="sprite sprite-icon-ruby"></i>
+      <span class="tile-text">Web Developent</span>
+    </div>
+    <div class="mobile-tile resources-tile" data-reveal-resources=''>
+      <i class="sprite sprite-icon-mobile"></i>
+      <span class="tile-text">Mobile Developent</span>
+    </div>
+    <div class="ux-tile resources-tile" data-reveal-resources=''>
+      <i class="sprite sprite-icon-multi"></i>
+      <span class="tile-text">UX / UI Design</span>
+    </div>
+  </div>
+</div>
+<div class="wave main-wave-2 wave-technology">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/blue-wave.png" alt="">
+</div>
+
+
+<div class="l-content">
+  <div class="values">
+    <div class="main-point about-values-point">
+      Advantages of {{page.advantage-head}}
+    </div>
+    <h2 class="values-title about-values-title">
+      {{page.advantage-subtitle}}
+    </h2>
+    <div class="values-texts-wrapper">
+      <div class="values-texts values-texts--tech scrollTo-container">
+        <div class="value-text" id="quality">
+          <div class="text-number">
+            01
+          </div>
+          <div class="text-title">
+            <span>{{page.advantage-desc-one-title}}</span>
+
+          </div>
+          <p class="text-content">
+            {{page.advantage-desc-one}}
+          </p>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="value-text" id="transparency">
+          <div class="text-number">
+            02
+          </div>
+          <div class="text-title">
+            <span>{{page.advantage-desc-two-title}}</span>
+
+          </div>
+          <p class="text-content">
+            {{page.advantage-desc-two}}
+          </p>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="value-text" id="fair-play">
+          <div class="text-number">
+            03
+          </div>
+          <div class="text-title">
+            <span>{{page.advantage-desc-three-title}}</span>
+
+          </div>
+          <p class="text-content">
+            {{page.advantage-desc-three}}
+          </p>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+        <div class="value-text value-text-last" id="comunication">
+          <div class="text-number">
+            04
+          </div>
+          <div class="text-title">
+            <span>{{page.advantage-desc-four-title}}</span>
+
+          </div>
+          <p class="text-content">
+            {{page.advantage-desc-four}}
+          </p>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="wave main-wave-1 wave-advantages">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/cream-wave2.png" alt="">
+</div>
+
+<div class="l-content">
+  <div class="whoarewe">
+    <img src="/assets/images/logo_naturaily.svg">
+    <div class="whoarewe-texts">
+      <p class="primary">{{page.project-slogan}}</p>
+    </div>
+  </div>
+</div>
+
+<div class="l-content">
+  {% include tech-projects.html %}
+</div>
+
+<div class="l-content">
+  {% include tech-posts.html %}
+</div>
+
+<div class="l-full-page">
+  {% include carousel.html %}
+</div>
+
+<div class="l-content">
+  {% include clutch.html %}
+</div>
+
+<div class="l-content">
+  <div class="technology">
+    <div class="main-point">
+      Our competences
+    </div>
+    <div class="technology-items">
+      <div class="item left" data-reveal-technology=''>
+        <img class="carousel-logo" src="/assets/images/vue-logo.png" alt="">
+        Vue
+      </div>
+      <div class="item right" data-reveal-technology=''>
+        <img class="carousel-logo" src="/assets/images/ember-logo.png" alt="">
+        Ember
+      </div>
+      <div class="item left" data-reveal-technology=''>
+        <img class="carousel-logo" src="/assets/images/react-logo.png" alt="">
+        React
+      </div>
+      <div class="item right" data-reveal-technology=''>
+        <img class="carousel-logo" src="/assets/images/vue-logo.png" alt="">
+        PWA
+      </div>
+    </div>
+    <div class="technology-texts">
+      <h2 class="technology-title">
+        Looking for different<br>technology?
+      </h2>
+      <div class="technology-text">
+        <p>
+          We offer a wide variety of technologies. Are you looking for something different than Ruby on Rails?<br>We love working with:
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="results-circle">
+    <div class="results-circle__content">
+      <span>
+        Want to learn more <br> about our way <br> of building products?
+      </span>
+      <button type="button" class="btn btn-secondary" data-reveal-contact="">Let’s talk</button>
+    </div>
+  </div>
+</div>
+<div class="wave main-wave-1">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/cream-wave2.png" alt="">
+</div>
+
+
+
+
+<script src="https://embed.small.chat/T02TB4RKNG9BNWGMMJ.js" async></script>

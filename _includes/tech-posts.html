@@ -1,0 +1,25 @@
+<div class="posts-carousel">
+  <div class="main-point">
+    See recent posts
+  </div>
+  <div class="whoarewe-texts">
+    <p class="primary">Our Ruby on Rails developers share their knowledge and experience on our blog</p>
+  </div>
+
+  <div class="main-carousel" id="postsCarousel">
+
+    {% for post in site.posts limit:6 %}
+      <div class="carousel-item">
+        <a href="{{ post.url }}" class="list-group-item">
+          <img src="{{ post.image }}">
+          {{ post.title }}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script type="text/javascript">
+    {% include posts-carousel.js %}
+  </script>
+
+</div>
