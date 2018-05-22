@@ -1,0 +1,22 @@
+<div class="tech-page-carousel">
+  <div class="main-carousel" id="techCarousel">
+    {% for project in page.projects %}
+      <div class="carousel-item" style="background-image: url({{project.bg}})">
+        <div class="tech-page-carousel-text">
+          <h2>
+            <b>{{project.title}}</b>
+          </h2>
+          <p>
+            {{project.desc}}
+          </p>
+          <a class="btn btn-secondary banner-link" href="/project/{{project.title}}">See more</a>
+        </div>
+        <img class="project-image-lvcloud" src="/assets/images/{{project.title}}.png">
+      </div>
+    {% endfor %}
+  </div>
+
+  <script type="text/javascript">
+    {% include tech-carousel.js %}
+  </script>
+</div>

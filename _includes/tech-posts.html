@@ -1,0 +1,18 @@
+<div class="posts-carousel">
+  <div class="main-carousel" id="postsCarousel">
+
+    {% for post in site.posts limit:6 %}
+      <div class="carousel-item">
+        <a href="{{ post.url }}" class="list-group-item">
+          <img src="{{ post.image }}">
+          <p>{{ post.title }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  <script type="text/javascript">
+    {% include posts-carousel.js %}
+  </script>
+
+</div>

@@ -35,6 +35,9 @@ collections:
   portfolio:
     output: true
     permalink: /project/:path
+  tech:
+    output: true
+    permalink: /:path
 blog:
   tags:
     url: /blog/tags/
@@ -68,6 +71,12 @@ defaults:
       offer: '   '
       benefits: '   '
       salary-range: '   '
+  -
+    scope:
+      path: ''
+      type: 'tech'
+    values:
+      layout: 'tech'
 
 
 include:
