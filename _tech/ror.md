@@ -52,15 +52,16 @@ projects-slogan: >-
   yourself!
 projects-head: 'Check out our Ruby on Rails applications/projects:'
 projects:
-  - {}
-  - {}
-  - {}
+  - project:
+      bg: /assets/images/lvcloud.png
+      title: LVCloud
+      desc: >-
+        LVCloud was designed to detect sudden changes such as increased humidity
+        or worn out cables so that engineers could be informed about a possible
+        malfunction as soon as possible.
 blog-head: Ruby on Rails is cool! Check out our blog
 blog-desc: Our Ruby on Rails developers share their knowledge and experience on our blog.
 competences:
-  - tech-name: Vue
-  - tech-name: Ember
-  - tech-name: React
   - tech-name: PWA
 competences-text: Ruby on Rails
 ---
