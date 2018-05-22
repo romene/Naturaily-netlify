@@ -63,8 +63,8 @@
     width: 350px;
   }
 
-  .carousel-item {
-
+  .technology-items .item:nth-child(even) {
+    margin-left: 50px;
   }
 
   .technology-texts {

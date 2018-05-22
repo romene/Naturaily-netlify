@@ -4,9 +4,9 @@ title: Ruby ona Rails | Naturaily
 description: RoR is awesome!
 permalink: ruby-on-rails
 heading: Ruby on Rails Development
-desc: We Create awesome software with Ruby on Rails - a go-to technology for startups adn businesses that require fastest development possible
-tech-head: What is Ruby on Rails
-tech-desc-one: Ruby on Rails is one of the most matured and stable solutions on the market. Even though it was created over 10 years ago, Ruby on Rails still remains as one of the most popular technologies in web development.
+desc: We create awesome software with Ruby on Rails - a go-to technology for startups and businesses that require the fastest development possible
+tech-head: What is Ruby on Rails?
+tech-desc-one: Ruby on Rails is one of the most mature and stable solutions on the market. Even though it was created over 10 years ago, Ruby on Rails still remains as one of the most popular technologies in web development.
 tech-desc-two: Ruby on Rails is well known for its ability to create prototypes very fast due to its efficiency in development. That is the reason why for many startups Ruby on Rails is the first choice when it comes to choosing technological stack.
 advantage-head: Ruby on rails
 advantage-subtitle: Why is it worth to choose Ruby on Rails web development?
@@ -19,7 +19,7 @@ advantage-desc-three: Ruby on Rails proved itself to be a perfect match for many
 advantage-desc-four-title: Clean Code
 advantage-desc-four: Ruby on Rails is one of the most mature solutions you can find, it has an active community and great amount of resources. Code written in Ruby is praised by developers because of its clarity and simplicity. It makes working with it much smoother and faster what leads the project to be bug-free and delivered in no time.
 projects-slogan: Over 12 years of experience in Ruby on Rails development. We guarantee our products are simply the best. But don’t take our word for it, see for yourself!
-projects-head: Check out our Ruby on Rails applications/projects
+projects-head: "Check out our Ruby on Rails applications/projects:"
 projects:
   - project:
     title: LVCloud
@@ -40,5 +40,5 @@ competences:
   - tech-name: Ember
   - tech-name: React
   - tech-name: PWA
-
+competences-text: Ruby on Rails
 ---
