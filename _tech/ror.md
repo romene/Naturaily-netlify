@@ -1,9 +1,9 @@
 ---
 title: Ruby on Rails
-layout: tech
 description: RoR is awesome!
+layout: tech
 permalink: ruby-on-rails
-heading: Ruby on Rails Developmentzzz
+heading: Ruby on Rails Development
 desc: >-
   We create awesome software with Ruby on Rails - a go-to technology for
   startups and businesses that require the fastest development possible
@@ -64,3 +64,4 @@ competences:
   - tech-name: PWA
 competences-text: Ruby on Rails
 ---
+
