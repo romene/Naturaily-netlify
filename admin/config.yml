@@ -153,7 +153,7 @@ collections:
         name: "projects"
         widget: "list"
         allow_add: true
-        field:
+        fields:
           - label: Project
             name: project
             widget: object
@@ -167,6 +167,6 @@ collections:
         name: "competences"
         widget: "list"
         allow_add: true
-        field:
+        fields:
           - {label: "tech-name", name: "tech-name", widget: "string"}
       - {label: "competences-text", name: "competences-text", widget: "string"}
