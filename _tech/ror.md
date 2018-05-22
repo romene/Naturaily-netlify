@@ -60,6 +60,11 @@ projects:
         LVCloud was designed to detect sudden changes such as increased humidity
         or worn out cables so that engineers could be informed about a possible
         malfunction as soon as possible.
+  - project:
+      bg: /assets/images/snipsl.png
+      bg-image: /assets/images/projects-background-green.png
+      title: Snipsl
+      desc: Snipsl opisany
 blog-head: Ruby on Rails is cool! Check out our blog
 blog-desc: Our Ruby on Rails developers share their knowledge and experience on our blog.
 competences:
@@ -69,3 +74,4 @@ competences:
   - tech-name: Ember
 competences-text: Ruby on Rails
 ---
+
