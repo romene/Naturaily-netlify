@@ -127,10 +127,11 @@ collections:
     folder: "_tech"
     create: true
     slug: "{{slug}}"
-    permalink: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "description", name: "description", widget: "string"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "tech"}
+      - {label: "permalink", name: "permalink", widget: "string"}
       - {label: "heading", name: "heading", widget: "string"}
       - {label: "desc", name: "desc", widget: "string"}
       - {label: "tech-head", name: "tech-head", widget: "string"}

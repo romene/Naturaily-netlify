@@ -1,6 +1,7 @@
 ---
 title: Ruby on Rails
 description: RoR is awesome!
+permalink: ruby-on-rails
 heading: Ruby on Rails Developmentzzz
 desc: >-
   We create awesome software with Ruby on Rails - a go-to technology for
@@ -62,4 +63,3 @@ competences:
   - tech-name: PWA
 competences-text: Ruby on Rails
 ---
-
