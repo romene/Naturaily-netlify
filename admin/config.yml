@@ -151,12 +151,12 @@ collections:
       - {label: "projects-head", name: "projects-head", widget: "string"}
       - label: "Projects"
         name: "projects"
-        widget: "list"
+        widget: "object"
         allow_add: true
         fields:
           - label: Project
             name: project
-            widget: object
+            widget: list
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Desc", name: "desc", widget: "string"}
