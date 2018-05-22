@@ -53,7 +53,8 @@ projects-slogan: >-
 projects-head: 'Check out our Ruby on Rails applications/projects:'
 projects:
   - project:
-      bg: /assets/images/lvcloud.png
+      bg: /assets/images/snipsl.png
+      bg-image: /assets/images/projects-background-purple.png
       title: LVCloud
       desc: >-
         LVCloud was designed to detect sudden changes such as increased humidity
@@ -68,4 +69,3 @@ competences:
   - tech-name: Ember
 competences-text: Ruby on Rails
 ---
-
