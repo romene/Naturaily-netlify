@@ -1,53 +1,23 @@
-<div class="tech-carousel">
-  <div class="main-point">
-    {{page.projects-head}}
-  </div>
-
+<div class="tech-page-carousel">
   <div class="main-carousel" id="techCarousel">
-    <div class="carousel-item" style="background-color: red;">
-      <div class="tech-carousel-text">
-        <h2>
-          <b>LVCloud</b>
-        </h2>
-        <p>
-          Naturaily development team partnered with FireField (czy to jest nazwa tej firmy?) to develop a sophisticated Internet of Things application which will make the grid safe and stable as never before.
-        </p>
-        <a class="btn btn-secondary banner-link" href="/project/lvcloud">See more</a>
+    {% for project in page.projects %}
+      <div class="carousel-item" style="background-image: url({{project.bg}})">
+        <div class="tech-page-carousel-text">
+          <h2>
+            <b>{{project.title}}</b>
+          </h2>
+          <p>
+            {{project.desc}}
+          </p>
+          <a class="btn btn-secondary banner-link" href="/project/lvcloud">See more</a>
+        </div>
+        <img class="project-image-lvcloud" src="/assets/images/LVCloud.png">
+
       </div>
-      <img class="project-image-lvcloud" src="/assets/images/LVCloud.png">
-
-    </div>
-    <div class="carousel-item project project-banner" style="background-color: blue;">
-      <div class="tech-carousel-text">
-        <h2>
-          <b>Snipsl</b>
-        </h2>
-        <p>
-          Naturaily Ruby on Rails development team helped Snipsl to fix and improve their product as well as develop new useful features utilizing newest technology. Snipsl turned to our team to help them build a better product for their loyal users and authors.
-        </p>
-        <a class="btn btn-secondary banner-link" href="/project/snipsl">See more</a>
-      </div>
-      <img class="project-image-lvcloud" src="/assets/images/snipsl.png">
-
-    </div>
-
-    <div class="carousel-item project project-banner" style="background-color: blue;">
-      <div class="tech-carousel-text">
-        <h2>
-          <b>Zapnito</b>
-        </h2>
-        <p>
-          Zapnito is a platform that allows organizations to monetize their professional expertise. In this case study, you will see how Naturaily improved it by helping in taking care of the service.
-        </p>
-        <a class="btn btn-secondary banner-link" href="/project/zapnito">See more</a>
-      </div>
-      <img class="project-image-lvcloud" src="/assets/images/zapnito.png">
-
-    </div>
+    {% endfor %}
   </div>
 
   <script type="text/javascript">
     {% include tech-carousel.js %}
   </script>
-
 </div>

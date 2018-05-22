@@ -5,5 +5,5 @@ $('#techCarousel').slick({
   pauseOnHover: true,
   dots: false,
   speed: 300,
-  arrows: false
+  arrows: true
 });

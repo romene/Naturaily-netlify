@@ -137,16 +137,29 @@ layout: tech-layout
   <div class="whoarewe">
     <img src="/assets/images/logo_naturaily.svg">
     <div class="whoarewe-texts">
-      <p class="primary">{{page.project-slogan}}</p>
+      <h2>{{page.projects-slogan}}</h2>
     </div>
   </div>
 </div>
-
 <div class="l-content">
+  <div class="main-point">
+    {{page.projects-head}}
+  </div>
+</div>
+<div class="l-full-page">
   {% include tech-projects.html %}
 </div>
 
 <div class="l-content">
+  <div class="main-point">
+    See recent posts
+  </div>
+  <div class="whoarewe-texts">
+    <h2 class="values-title about-values-title">Our Ruby on Rails developers share their knowledge and experience on our blog</h2>
+  </div>
+</div>
+
+<div class="l-full-page">
   {% include tech-posts.html %}
 </div>
 
@@ -156,6 +169,10 @@ layout: tech-layout
 
 <div class="l-content">
   {% include clutch.html %}
+</div>
+<div class="wave main-wave-2 wave-technology">
+  <div class="wave-tail"></div>
+  <img src="/assets/images/blue-wave.png" alt="">
 </div>
 
 <div class="l-content">
@@ -182,7 +199,7 @@ layout: tech-layout
       </div>
     </div>
     <div class="technology-texts">
-      <h2 class="technology-title">
+      <h2 class="values-title about-values-title">
         Looking for different<br>technology?
       </h2>
       <div class="technology-text">
@@ -190,18 +207,18 @@ layout: tech-layout
           We offer a wide variety of technologies. Are you looking for something different than Ruby on Rails?<br>We love working with:
         </p>
       </div>
-    </div>
-  </div>
-  <div class="results-circle">
-    <div class="results-circle__content">
-      <span>
-        Want to learn more <br> about our way <br> of building products?
-      </span>
-      <button type="button" class="btn btn-secondary" data-reveal-contact="">Let’s talk</button>
+      <div class="results-circle">
+        <div class="results-circle__content">
+          <span>
+            Let’s talk about <br> how awesome your project <br> is going to be!
+          </span>
+          <button type="button" class="btn btn-secondary" data-reveal-contact="">Let’s talk</button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<div class="wave main-wave-1">
+<div class="wave main-wave-1 wave--last">
   <div class="wave-tail"></div>
   <img src="/assets/images/cream-wave2.png" alt="">
 </div>
