@@ -153,7 +153,7 @@ collections:
         name: "projects"
         widget: "list"
         allow_add: true
-        fields:
+        field:
           - label: Project
             name: project
             widget: object
