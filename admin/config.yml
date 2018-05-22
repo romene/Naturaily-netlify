@@ -166,6 +166,7 @@ collections:
       - label: "competences"
         name: "competences"
         widget: "list"
+        allow_add: true
         field:
           - {label: "tech-name", name: "tech-name", widget: "string"}
       - {label: "competences-text", name: "competences-text", widget: "string"}
