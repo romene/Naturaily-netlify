@@ -156,7 +156,7 @@ collections:
         fields:
           - label: Project
             name: project
-            widget: list
+            widget: object
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Desc", name: "desc", widget: "string"}
