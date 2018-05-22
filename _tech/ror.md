@@ -35,4 +35,10 @@ projects:
     bg: /assets/images/projects-background-blue.png
 blog-head: Ruby on Rails is cool! Check out our blog
 blog-desc: Our Ruby on Rails developers share their knowledge and experience on our blog.
+competences:
+  - tech-name: Vue
+  - tech-name: Ember
+  - tech-name: React
+  - tech-name: PWA
+
 ---
