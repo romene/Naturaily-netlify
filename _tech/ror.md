@@ -1,6 +1,6 @@
 ---
 layout: tech
-title: Ruby ona Rails | Naturaily
+title: Ruby ona Rails
 description: RoR is awesome!
 permalink: ruby-on-rails
 heading: Ruby on Rails Development

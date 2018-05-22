@@ -120,3 +120,51 @@ collections:
       - {label: "Image four", name: "image-four", widget: "image"}
       - {label: "Image five", name: "image-five", widget: "image"}
       - {label: "Image six", name: "image-six", widget: "image"}
+  -
+    name: "technologie"
+    label: "Technologies"
+    label_singular: "Technology Landing"
+    folder: "_tech"
+    create: true
+    slug: "{{slug}}"
+    permalink: "{{slug}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "description", name: "description", widget: "string"}
+      - {label: "heading", name: "heading", widget: "string"}
+      - {label: "desc", name: "desc", widget: "string"}
+      - {label: "tech-head", name: "tech-head", widget: "string"}
+      - {label: "tech-desc-one", name: "tech-desc-one", widget: "string"}
+      - {label: "tech-desc-two", name: "tech-desc-two", widget: "string"}
+      - {label: "advantage-head", name: "advantage-head", widget: "string"}
+      - {label: "advantage-subtitle", name: "advantage-subtitle", widget: "string"}
+      - {label: "advantage-desc-one-title", name: "advantage-desc-one-title", widget: "string"}
+      - {label: "advantage-desc-one", name: "advantage-desc-one", widget: "string"}
+      - {label: "advantage-desc-two-title", name: "advantage-desc-two-title", widget: "string"}
+      - {label: "advantage-desc-two", name: "advantage-desc-two", widget: "string"}
+      - {label: "advantage-desc-three-title", name: "advantage-desc-three-title", widget: "string"}
+      - {label: "advantage-desc-three", name: "advantage-desc-three", widget: "string"}
+      - {label: "advantage-desc-four-title", name: "advantage-desc-four-title", widget: "string"}
+      - {label: "advantage-desc-four", name: "advantage-desc-four", widget: "string"}
+      - {label: "projects-slogan", name: "projects-slogan", widget: "string"}
+      - {label: "projects-head", name: "projects-head", widget: "string"}
+      - label: "Projects"
+        name: "projects"
+        widget: "list"
+        allow_add: true
+        fields:
+          - label: Project
+            name: project
+            widget: object
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Desc", name: "desc", widget: "string"}
+              - {label: "Image", name: "bg", widget: "image"}
+      - {label: "blog-head", name: "blog-head", widget: "string"}
+      - {label: "blog-desc", name: "blog-desc", widget: "string"}
+      - label: "competences"
+        name: "competences"
+        widget: "list"
+        field:
+          - {label: "tech-name", name: "tech-name", widget: "string"}
+      - {label: "competences-text", name: "competences-text", widget: "string"}
