@@ -166,6 +166,7 @@ collections:
             fields:
               - {label: "Title", name: "title", widget: "string"}
               - {label: "Desc", name: "desc", widget: "string"}
+              - {label: "Link", name: "link", widget: "string"}
               - {label: "Image", name: "bg", widget: "image"}
               - {label: "Background Image", name: "bg-image", widget: "image"}
       - {label: "blog-head", name: "blog-head", widget: "string"}
