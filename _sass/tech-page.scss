@@ -207,6 +207,17 @@
     img {
       display: none;
     }
+    
+    .slick-list {
+      padding: 0;
+    }
+  }
+  
+  .posts-carousel {
+    .slick-list {
+      height: auto;
+      padding-bottom: 50px;
+    }
   }
 
   .tech-page-carousel-text {
@@ -229,6 +240,7 @@
 @media (max-width: 991px) {
   .tech-container {
     padding-bottom: 150px;
+    
     .values {
       grid-template-rows: repeat(13, 100px) 0px 0px;
       grid-template-columns: repeat(9, 1fr);
@@ -243,6 +255,10 @@
     
     h2 {
       margin: 0;
+    }
+    
+    .whoarewe-texts, .posts-carousel {
+      padding-top: 50px;
     }
   }
 }
