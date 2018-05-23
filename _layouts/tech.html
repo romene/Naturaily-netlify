@@ -38,18 +38,25 @@ layout: tech-layout
       <br>
       {{page.tech-desc-two}}
     </p>
-    <div class="web-tile resources-tile" data-reveal-resources=''>
-      <img src="{{page.tech-logo-first}}" alt="">
-      <span class="tile-text">{{page.tech-name-first}}</span>
-    </div>
-    <div class="mobile-tile resources-tile" data-reveal-resources=''>
-      <img src="{{page.tech-logo-second}}" alt="">
-      <span class="tile-text">{{page.tech-name-second}}</span>
-    </div>
-    <div class="ux-tile resources-tile" data-reveal-resources=''>
-      <img src="{{page.tech-logo-third}}" alt="">
-      <span class="tile-text">{{page.tech-name-third}}</span>
-    </div>
+    {%- unless page.tech-name-first == nil -%}
+      <div class="web-tile resources-tile" data-reveal-resources=''>
+        <img src="{{page.tech-logo-first}}" alt="">
+        <span class="tile-text">{{page.tech-name-first}}</span>
+      </div>
+    {%- endunless -%}
+    {%- unless page.tech-name-second == nil -%}
+      <div class="mobile-tile resources-tile" data-reveal-resources=''>
+        <img src="{{page.tech-logo-second}}" alt="">
+        <span class="tile-text">{{page.tech-name-second}}</span>
+      </div>
+    {%- endunless -%}
+    {%- unless page.tech-name-third == nil -%}
+      <div class="ux-tile resources-tile" data-reveal-resources=''>
+        <img src="{{page.tech-logo-third}}" alt="">
+        <span class="tile-text">{{page.tech-name-third}}</span>
+      </div>
+    {%- endunless -%}
+
   </div>
 </div>
 <div class="wave main-wave-2 wave-technology">
