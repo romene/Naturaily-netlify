@@ -9,7 +9,7 @@ $('#postsCarousel').slick({
   arrows: true,
   responsive: [
     {
-      breakpoint: 1440,
+      breakpoint: 1441,
       settings: {
         slidesToShow: 3,
         slidesToScroll: 3,
