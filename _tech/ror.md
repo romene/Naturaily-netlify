@@ -1,6 +1,8 @@
 ---
 title: Ruby on Rails development
-description: RoR is awesome!
+description: >-
+  We create awesome software with Ruby on Rails - a go-to technology for
+  startups and businesses that require the fastest development possible
 layout: tech
 permalink: ruby-on-rails-development
 heading: Ruby on Rails Development
