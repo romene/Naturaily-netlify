@@ -118,7 +118,7 @@
   }
 
   &-text {
-    max-width: 350px;
+    max-width: 410px;
     display: flex;
     flex-direction: column;
     color: white;
@@ -139,6 +139,16 @@
   .slick-list {
     height: auto;
   }
+
+  .slick-arrow {
+    &::before {
+      box-shadow: -60px 0px 300px #fff;
+    }
+
+    &::after {
+      box-shadow: 60px 0px 300px #fff;
+    }
+  }
 }
 
 .posts-carousel {
@@ -147,7 +157,7 @@
     padding: 0;
     margin: 0;
     border-radius: 0;
-    margin: 0 40px;
+    margin: 0 60px;
   }
 
   .slick-list {
@@ -159,6 +169,10 @@
     color: $color-global-font;
     font-size: 14px;
     padding-top: 20px;
+  }
+
+  img {
+    border-radius: 5px;
   }
 }
 
@@ -197,5 +211,18 @@
     .values-texts {
       padding-left: 0;
     }
+  }
+}
+
+
+@media (min-width: 1281px) {
+  .tech-page-carousel {
+    img {
+      height: 220px;
+    }
+  }
+  
+  .tech-page-carousel-text {
+    max-width: 65%;
   }
 }
