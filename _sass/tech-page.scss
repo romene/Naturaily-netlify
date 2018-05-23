@@ -91,10 +91,19 @@
   }
 
   .resources-tile {
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.1);
     img {
       max-width: 70px;
       max-height: 55px;
     }
+  }
+
+  .wave-tail {
+    padding-top: 60%;
+  }
+
+  .opinions-carousel {
+
   }
 }
 
@@ -199,7 +208,7 @@
 
 @media (max-width: 991px) {
   .tech-container {
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     .values {
       grid-template-rows: repeat(13, 100px) 0px 0px;
       grid-template-columns: repeat(9, 1fr);
@@ -221,7 +230,7 @@
       height: 220px;
     }
   }
-  
+
   .tech-page-carousel-text {
     max-width: 65%;
   }

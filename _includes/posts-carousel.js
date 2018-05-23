@@ -1,5 +1,6 @@
 $('#postsCarousel').slick({
   slidesToShow: 5,
+  slidesToScroll: 5,
   autoplay: true,
   autoplaySpeed: 4000,
   pauseOnHover: true,
@@ -11,12 +12,14 @@ $('#postsCarousel').slick({
       breakpoint: 1440,
       settings: {
         slidesToShow: 3,
+        slidesToScroll: 3,
       }
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 2,
+        slidesToScroll: 2,
       }
     }
   ]
