@@ -153,11 +153,13 @@
     height: auto;
   }
 
-  .slick-arrow {
+  .slick-next {
     &::before {
       box-shadow: -60px 0px 300px #fff;
     }
-
+  }
+  
+  .slick-prev {
     &::after {
       box-shadow: 60px 0px 300px #fff;
     }
