@@ -4,7 +4,7 @@ description: >-
   We create advanced software with Vue.js - lightweight and performant
   applications
 layout: tech
-permalink: vue
+permalink: vue-js-development
 heading: Vue.js development
 desc: >-
   We create advanced software with Vue.js - lightweight and performant
