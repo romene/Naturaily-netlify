@@ -1,5 +1,5 @@
 ---
-title: Vue.js
+title: Vue.js development
 description: >-
   We create advanced software with Vue.js - lightweight and performant
   applications
