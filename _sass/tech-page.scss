@@ -221,7 +221,7 @@
     
     .resources {
       padding-top: 0;
-      30px 1fr 3fr repeat(4,60px);
+      grid-template-rows: 30px 1fr 3fr repeat(4,60px);
     }
     
     .resources-text {
