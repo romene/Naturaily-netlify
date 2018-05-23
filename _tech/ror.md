@@ -1,5 +1,5 @@
 ---
-title: Ruby on Rails
+title: Ruby on Rails development
 description: RoR is awesome!
 layout: tech
 permalink: ruby-on-rails-development
