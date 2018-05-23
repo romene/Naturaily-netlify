@@ -17,6 +17,12 @@ tech-desc-two: >-
   to its efficiency in development. That is the reason why for many startups
   Ruby on Rails is the first choice when it comes to choosing technological
   stack.
+tech-logo-first: /assets/images/ruby-logo.png
+tech-name-first: Ruby
+tech-logo-second: /assets/images/rails-logo-alt.png
+tech-name-second: Rails
+tech-logo-third: /assets/images/rubygems-logo.png
+tech-name-third: Rubygems
 advantage-head: Ruby on rails
 advantage-subtitle: Why is it worth to choose Ruby on Rails web development?
 advantage-desc-one-title: Efficient development
@@ -74,4 +80,3 @@ competences:
   - tech-name: Ember
 competences-text: Ruby on Rails
 ---
-

@@ -6,7 +6,30 @@
   <body>
     <div class="l-main-container tech-container" id="mainContainer">
 
-      {% include header.html %}
+    <nav class="header">
+      <div class="header-logo">
+        <a href="/"><img src="/assets/images/logo_naturaily.svg"></a>
+      </div>
+      <div class="site-nav">
+        <nav class="hamb" role="navigation">
+          <div class="menuToggle">
+            <ul class="menu">
+              <a class="naturaily" href="/"><img src="/assets/images/logo_naturaily.svg"></a>
+              <div class="header-wave"></div>
+              <div class="header-color"></div>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="header-right">
+        <button type="button" class="btn btn-secondary header-btn" data-reveal-contact="">Let’s talk</button>
+      </div>
+    </nav>
+
+    <script type="text/javascript">
+      {% include block-scroll.js %}
+    </script>
+
 
       {{ content }}
 
@@ -14,6 +37,13 @@
     {% include footer.html %}
 
     <script type="text/javascript" src="https://static1.clutch.co/sites/all/modules/custom/clutch_widget/js/widget.js"></script>
+    <script type="text/javascript">
+      $('[data-scroll-more]').click(() => {
+          $('html, body').animate({
+              scrollTop: $('.resources').offset().top
+          }, 200);
+      });
+    </script>
   </body>
   {% seo %}
 </html>

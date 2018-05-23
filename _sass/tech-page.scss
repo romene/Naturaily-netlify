@@ -1,5 +1,10 @@
 .tech-container {
   padding-bottom: 50px;
+
+  .banner {
+    padding-top: 60px;
+  }
+
   .banner-text {
     display: flex;
     align-self: flex-end;
@@ -79,6 +84,17 @@
   .results-circle {
     margin-right: 0;
     margin-bottom: -160px;
+  }
+
+  .tile-text {
+    color: $color-secondary;
+  }
+
+  .resources-tile {
+    img {
+      max-width: 70px;
+      max-height: 55px;
+    }
   }
 }
 
