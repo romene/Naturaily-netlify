@@ -137,12 +137,12 @@ collections:
       - {label: "tech-head", name: "tech-head", widget: "string"}
       - {label: "tech-desc-one", name: "tech-desc-one", widget: "string"}
       - {label: "tech-desc-two", name: "tech-desc-two", widget: "string"}
-      - {label: "tech-logo-first", name: "tech-logo-first", widget: "image"}
-      - {label: "tech-name-first", name: "tech-name-first", widget: "string"}
-      - {label: "tech-logo-seconf", name: "tech-logo-seconf", widget: "image"}
-      - {label: "tech-name-second", name: "tech-name-second", widget: "string"}
-      - {label: "tech-logo-third", name: "tech-logo-third", widget: "image"}
-      - {label: "tech-name-third", name: "tech-name-third", widget: "string"}
+      - {label: "tech-logo-first", name: "tech-logo-first", widget: "image", required: false}
+      - {label: "tech-name-first", name: "tech-name-first", widget: "string", required: false}
+      - {label: "tech-logo-seconf", name: "tech-logo-second", widget: "image", required: false}
+      - {label: "tech-name-second", name: "tech-name-second", widget: "string", required: false}
+      - {label: "tech-logo-third", name: "tech-logo-third", widget: "image", required: false}
+      - {label: "tech-name-third", name: "tech-name-third", widget: "string", required: false}
       - {label: "advantage-head", name: "advantage-head", widget: "string"}
       - {label: "advantage-subtitle", name: "advantage-subtitle", widget: "string"}
       - {label: "advantage-desc-one-title", name: "advantage-desc-one-title", widget: "string"}
