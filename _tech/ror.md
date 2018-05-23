@@ -2,7 +2,7 @@
 title: Ruby on Rails
 description: RoR is awesome!
 layout: tech
-permalink: ruby-on-rails
+permalink: ruby-on-rails-development
 heading: Ruby on Rails Development
 desc: >-
   We create awesome software with Ruby on Rails - a go-to technology for
@@ -62,17 +62,17 @@ projects:
       bg: /assets/images/snipsl.png
       bg-image: /assets/images/projects-background-purple.png
       title: LVCloud
-      link: "/project/lvcloud"
       desc: >-
         LVCloud was designed to detect sudden changes such as increased humidity
         or worn out cables so that engineers could be informed about a possible
         malfunction as soon as possible.
+      link: /project/lvcloud
   - project:
       bg: /assets/images/snipsl.png
       bg-image: /assets/images/projects-background-green.png
       title: Snipsl
-      link: "/project/snipsl"
       desc: Snipsl opisany
+      link: /project/snipsl
 blog-head: Ruby on Rails is cool! Check out our blog
 blog-desc: Our Ruby on Rails developers share their knowledge and experience on our blog.
 competences:
@@ -82,3 +82,4 @@ competences:
   - tech-name: Ember
 competences-text: Ruby on Rails
 ---
+
