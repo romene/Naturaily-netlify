@@ -73,7 +73,11 @@ projects:
       bg: /assets/images/snipsl.png
       bg-image: /assets/images/projects-background-green.png
       title: Snipsl
-      desc: Snipsl opisany
+      desc: >-
+        Naturaily Ruby on Rails development team helped Snipsl to fix and
+        improve their product as well as develop new useful features utilizing
+        newest technology. Snipsl turned to our team to help them build a better
+        product for their loyal users and authors.
       link: /project/snipsl
 blog-head: Ruby on Rails is cool! Check out our blog
 blog-desc: Our Ruby on Rails developers share their knowledge and experience on our blog.
