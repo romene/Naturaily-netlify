@@ -207,12 +207,12 @@
     img {
       display: none;
     }
-    
+
     .slick-list {
       padding: 0;
     }
   }
-  
+
   .posts-carousel {
     .slick-list {
       height: auto;
@@ -224,12 +224,12 @@
     max-width: 100%;
     margin-left: 0;
   }
-  
+
   .tech-container {
     .banner {
       padding-top: 0;
     }
-    
+
     .resources {
       padding-top: 0;
       grid-template-rows: 30px 1fr 3fr repeat(4,60px);
@@ -240,25 +240,41 @@
 @media (max-width: 991px) {
   .tech-container {
     padding-bottom: 150px;
-    
+
     .values {
-      grid-template-rows: repeat(13, 100px) 0px 0px;
+      grid-template-rows: repeat(16, 100px) 0px 0px;
       grid-template-columns: repeat(9, 1fr);
       .text-content {
         width: 100%;
       }
     }
 
+    .value-text {
+      padding-top: 50px;
+    }
+
     .values-texts {
       padding-left: 0;
     }
-    
+
     h2 {
       margin: 0;
     }
-    
+
     .whoarewe-texts, .posts-carousel {
       padding-top: 50px;
+    }
+
+    .technology-items .item:nth-child(even) {
+      margin-left: 0;
+    }
+
+    .technology-text {
+      padding: 30px 0;
+    }
+
+    .results-circle {
+      margin-bottom: 0;
     }
   }
 }
