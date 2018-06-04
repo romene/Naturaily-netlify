@@ -10,6 +10,7 @@
   <meta property="twitter:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
   <meta property="twitter:description"  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >
   <meta content="{{ site.url }}/assets/imgages/ogfacebook.png" property="og:image">
+  <meta name="robots" content="noindex">
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
