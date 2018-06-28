@@ -92,7 +92,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-admin
-  - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-sitemap
 
