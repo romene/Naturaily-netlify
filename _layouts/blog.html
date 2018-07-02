@@ -59,7 +59,7 @@ layout: default
   <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: 'index.html', '' }}">&larr;</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: 'index.html', '' }}" rel="prev">&larr;</a>
     </li>
     {% endif %}
     {% if paginator.page_trail %}
@@ -72,7 +72,7 @@ layout: default
     {% if paginator.next_page %}
 
     <li class="next">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: 'index.html', '' }}">&rarr;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: 'index.html', '' }}" rel="next">&rarr;</a>
     </li>
     {% endif %}
   </ul>
