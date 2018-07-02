@@ -16,6 +16,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0000", widget: "date"}
       - {label: "Category", name: "category", widget: "text"}
@@ -37,6 +38,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-details"}
       - label: "Offer type"
         name: "type"
