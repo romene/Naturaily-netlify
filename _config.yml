@@ -53,6 +53,7 @@ defaults:
     values:
       layout: 'post'
       comments: true
+      description: ' '
       category: ' '
       author: ' '
       tags: ' '
@@ -64,6 +65,7 @@ defaults:
       type: 'career'
     values:
       layout: 'career-details'
+      description: ' '
       type: ' '
       salary: ' '
       requirements: '   '
