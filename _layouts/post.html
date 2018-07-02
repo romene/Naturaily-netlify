@@ -8,11 +8,11 @@ layout: default
   <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
     <header class="post-header">
       {% if page.image %}
-        <img src="{{page.image}}" alt="">
+        <img src="{{page.image}}" alt="Post image">
       {% endif %}
       <p class="post-meta">
         {% if page.avatar %}
-          <img class="avatar" src="{{ page.avatar }}">
+          <img class="avatar" src="{{ page.avatar }}" alt="Author avatar">
         {% endif %}
         <span class="author">
           {% if page.author %}
@@ -51,14 +51,14 @@ layout: default
     <div class="post-navigation">
       {% if page.next.url %}
         <a class="next" href="{{page.next.url}}" rel="next">
-          <img src="/assets/images/arrow-brown.png">
+          <img src="/assets/images/arrow-brown.png" alt="arrow">
           {{page.next.title}}
         </a>
       {% endif %}
       {% if page.previous.url %}
         <a class="prev" href="{{page.previous.url}}" rel="prev">
           {{page.previous.title}}
-          <img src="/assets/images/arrow-brown.png">
+          <img src="/assets/images/arrow-brown.png" alt="arrow">
         </a>
       {% endif %}
     </div>

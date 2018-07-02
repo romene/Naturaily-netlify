@@ -16,7 +16,7 @@ layout: tech-layout
     <div class="banner-btn">
       <button type="button" name="button" class="btn btn-primary btn-arrow" data-scroll-more>
         Learn more
-        <img src="/assets/images/btn-arrow.png">
+        <img src="/assets/images/btn-arrow.png" alt="arrow">
       </button>
     </div>
     <div class="banner-oval"></div>
@@ -40,19 +40,19 @@ layout: tech-layout
     </p>
     {%- unless page.tech-name-first == nil -%}
       <div class="web-tile resources-tile" data-reveal-resources=''>
-        <img src="{{page.tech-logo-first}}" alt="">
+        <img src="{{page.tech-logo-first}}" alt="Tech logo">
         <span class="tile-text">{{page.tech-name-first}}</span>
       </div>
     {%- endunless -%}
     {%- unless page.tech-name-second == nil -%}
       <div class="mobile-tile resources-tile" data-reveal-resources=''>
-        <img src="{{page.tech-logo-second}}" alt="">
+        <img src="{{page.tech-logo-second}}" alt="Tech logo">
         <span class="tile-text">{{page.tech-name-second}}</span>
       </div>
     {%- endunless -%}
     {%- unless page.tech-name-third == nil -%}
       <div class="ux-tile resources-tile" data-reveal-resources=''>
-        <img src="{{page.tech-logo-third}}" alt="">
+        <img src="{{page.tech-logo-third}}" alt="Tech logo">
         <span class="tile-text">{{page.tech-name-third}}</span>
       </div>
     {%- endunless -%}
@@ -61,7 +61,7 @@ layout: tech-layout
 </div>
 <div class="wave main-wave-2 wave-technology">
   <div class="wave-tail"></div>
-  <img src="/assets/images/blue-wave.png" alt="">
+  <img src="/assets/images/blue-wave.png" alt="wave">
 </div>
 
 
@@ -137,12 +137,12 @@ layout: tech-layout
 
 <div class="wave main-wave-1 wave-advantages">
   <div class="wave-tail"></div>
-  <img src="/assets/images/cream-wave.png" alt="">
+  <img src="/assets/images/cream-wave.png" alt="wave">
 </div>
 
 <div class="l-content">
   <div class="whoarewe">
-    <img src="/assets/images/logo_naturaily.svg">
+    <img src="/assets/images/logo_naturaily.svg" alt="Naturaily logo">
     <div class="whoarewe-texts">
       <h2>{{page.projects-slogan}}</h2>
     </div>
@@ -179,7 +179,7 @@ layout: tech-layout
 </div>
 <div class="wave main-wave-2 wave-technology">
   <div class="wave-tail"></div>
-  <img src="/assets/images/blue-wave.png" alt="">
+  <img src="/assets/images/blue-wave.png" alt="wave">
 </div>
 
 <div class="l-content">
@@ -190,7 +190,7 @@ layout: tech-layout
     <div class="technology-items">
       {% for competence in page.competences %}
         <div class="item left" data-reveal-technology=''>
-          <img class="carousel-logo" src="/assets/images/{{competence.tech-name}}-logo.png" alt="">
+          <img class="carousel-logo" src="/assets/images/{{competence.tech-name}}-logo.png" alt="Tech logo">
           {{competence.tech-name}}
         </div>
       {% endfor %}
@@ -217,7 +217,7 @@ layout: tech-layout
 </div>
 <div class="wave main-wave-1 wave--last">
   <div class="wave-tail"></div>
-  <img src="/assets/images/cream-wave.png" alt="">
+  <img src="/assets/images/cream-wave.png" alt="wave">
 </div>
 
 <div class="l-full-page">
