@@ -1,14 +1,18 @@
 ---
 title: Ruby on Rails - how to create perfect enum in 5 steps
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+description: This is Description for Blażej`s post
 date: '2018-06-18 10:00:00 +0000'
+category: Ruby on Rails development
 author: Błażej Pichur
-image: /assets/images/perfect-enum.jpg
-position: Ruby on Rails Developer
 avatar: /assets/images/blazej.png
-text-preview: When your project starts you probably design ERD diagram or a similar one. Then, each time when a client passes new requirements to you it’s necessary to modify it. That process helps to understand the specific domain and mirrors the reality.
+image: /assets/images/perfect-enum.jpg
+text-preview: >-
+  When your project starts you probably design ERD diagram or a similar one.
+  Then, each time when a client passes new requirements to you it’s necessary to
+  modify it. That process helps to understand the specific domain and mirrors
+  the reality.
+tags:
+  - Ruby on Rails development
 ---
 
 
