@@ -12,12 +12,12 @@ layout: default
             <div class="post-preview">
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {% if post.image %}
-                  <img class="post-image" src="{{post.image}}">
+                  <img class="post-image" src="{{post.image}}" alt="Post image">
                 {% endif %}
               </a>
               <p class="post-meta">
                 {% if post.avatar %}
-                  <img class="avatar" src="{{ post.avatar }}">
+                  <img class="avatar" src="{{ post.avatar }}" alt="Post author">
                 {% endif %}
                 <span class="author">
                   {% if post.author %}
@@ -66,7 +66,7 @@ layout: default
   <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: 'index.html', '' }}">&larr;</a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: 'index.html', '' }}" rel="prev">&larr;</a>
     </li>
     {% endif %}
     {% if paginator.page_trail %}
@@ -78,7 +78,7 @@ layout: default
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: 'index.html', '' }}">&rarr;</a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: 'index.html', '' }}" rel="next">&rarr;</a>
     </li>
     {% endif %}
   </ul>
