@@ -84,7 +84,7 @@ defaults:
 include:
   - _redirects
 
-permalink: /blog/post/:title
+permalink: /blog/:title
 
 
 
