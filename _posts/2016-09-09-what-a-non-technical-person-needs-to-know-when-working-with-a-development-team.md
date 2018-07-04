@@ -1,14 +1,17 @@
 ---
 title: What a non-technical person needs to know when working with a development team
-tags:
-- Remote development team
-category: Remote development
+description: >-
+  Are you working with a development team for the first time? Dive in and read
+  the 7 precious tips from Master Yoda himself! 
+slug: working-with-development-team
 date: '2016-09-09 10:38:01 +0000'
+category: Remote development
 author: Sebastian Kubiak
-image: /assets/images/mister-yoda.jpg
-position: Chief Technology Officer
 avatar: /assets/images/seba.jpg
+image: /assets/images/mister-yoda.jpg
 text-preview: Dive in and read the 7 precious tips from Master Yoda himself!
+tags:
+  - Remote development team
 ---
 
 
