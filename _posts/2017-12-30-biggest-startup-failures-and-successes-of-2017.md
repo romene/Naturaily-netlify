@@ -1,14 +1,19 @@
 ---
 title: Biggest startup failures and successes of 2017
-tags:
-- Startups
-category: Startups
+description: >-
+  We're bringing you the biggest fails of 2017 as well as startups that we think
+  are worth keeping an eye on!
+slug: startup-failures-successes-2017
 date: '2017-12-30 10:38:01 +0000'
+category: Startups
 author: Wojciech Miśta
-image: /assets/images/rise-and-fall.jpeg
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: We’re bringing you the biggest fails of 2017 as well as some startups that you should definitely keep an eye on.
+image: /assets/images/rise-and-fall.jpeg
+text-preview: >-
+  We’re bringing you the biggest fails of 2017 as well as some startups that you
+  should definitely keep an eye on.
+tags:
+  - Startups
 ---
 
 
