@@ -1,14 +1,23 @@
 ---
 title: 7 aspects of our lives revolutionized by fin-tech
-tags:
-- Fintech
-category: Startups
+description: >-
+  Fin-tech is a term which conveys the inevitable marriage of finance and tech.
+  It's no surprise that it has a huge impact on many aspects of our lives. 
+slug: life-revolutionized-by-fin-tech
 date: '2016-11-09 10:38:01 +0000'
+category: Startups
 author: Marcin Sulikowski
-image: /assets/images/fin-tech.png
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Fin-tech is a term which conveys the inevitable marriage of **fi**nance and **tech**. It also serves as a convenient handle for the technological revolution happening in financial services today. The changes we see in payments, insurance, lending, deposits and funding, however, are not limited to sheer convenience. The ultimate goal is also to make transactions much faster, cheaper and, most importantly, more secure for everyone.
+image: /assets/images/fin-tech.png
+text-preview: >-
+  Fin-tech is a term which conveys the inevitable marriage of **fi**nance and
+  **tech**. It also serves as a convenient handle for the technological
+  revolution happening in financial services today. The changes we see in
+  payments, insurance, lending, deposits and funding, however, are not limited
+  to sheer convenience. The ultimate goal is also to make transactions much
+  faster, cheaper and, most importantly, more secure for everyone.
+tags:
+  - Fintech
 ---
 
 Fin-tech is a term which conveys the inevitable marriage of **fi**nance and **tech**. It also serves as a convenient handle for the technological revolution happening in financial services today. The changes we see in payments, insurance, lending, deposits and funding, however, are not limited to sheer convenience. The ultimate goal is also to make transactions much faster, cheaper and, most importantly, more secure for everyone.
