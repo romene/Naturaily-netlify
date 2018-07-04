@@ -1,14 +1,21 @@
 ---
-title: Ruby on Rails implementation of a ranking system using PostgreSQL window functions
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+title: >-
+  Ruby on Rails implementation of a ranking system using PostgreSQL window
+  functions
+description: >-
+  This tutorial will show you how you can easily implement tracking
+  functionality in your Ruby on Rails project using PostgreSQL window functions.
+slug: ranking-system-implementation-postgresql
 date: '2016-10-11 10:38:01 +0000'
+category: Ruby on Rails development
 author: Patryk Szeliga
-image: /assets/images/rails-elephant.jpg
-position: Rails & Angular Developer
 avatar: /assets/images/ciabos.jpg
-text-preview: Hello, this article will show, how easily you can add ranking functionality to your project.
+image: /assets/images/rails-elephant.jpg
+text-preview: >-
+  Hello, this article will show, how easily you can add ranking functionality to
+  your project.
+tags:
+  - Ruby on Rails development
 ---
 
 Hello, this article will show, how easily you can add ranking functionality to your project.
