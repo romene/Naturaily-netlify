@@ -2,7 +2,7 @@
 title: How to deploy Meteor app with nginx and passenger to debian/ubuntu systems
 description: >-
   Creating a web application is so easy. This simple Meteor.js tutorial shows
-  how to to deploy Meteor.js app with ngnix and passenger. 
+  how to deploy Meteor.js app with ngnix and passenger. 
 slug: meteor-app-ngnix-debian
 date: '2015-12-07 10:38:01 +0000'
 category: JavaScript development
