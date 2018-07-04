@@ -1,15 +1,22 @@
 ---
 title: Things you need to know about React Native
-tags:
-- React Native development
-- Native mobile development
-category: JavaScript development
+description: >-
+  The popularity of React Native has skyrocketed in the past 2 years. Here's a
+  brief introduction to the framework, its advantages and uses in software
+  development.
+slug: react-native-things-to-know
 date: '2017-11-10 10:38:01 +0000'
+category: JavaScript development
 author: Wojciech Miśta
-image: /assets/images/react-native.jpg
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: The popularity of React Native has skyrocketed for the past 2 years. Meet the framework developed by Facebook Team that stands behind Facebook, Instagram, and Skype mobile apps.
+image: /assets/images/react-native.jpg
+text-preview: >-
+  The popularity of React Native has skyrocketed for the past 2 years. Meet the
+  framework developed by Facebook Team that stands behind Facebook, Instagram,
+  and Skype mobile apps.
+tags:
+  - React Native development
+  - Native mobile development
 ---
 
 
