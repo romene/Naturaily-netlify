@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: gitlab
+  repo: Naturaily/Naturaily-netlify
   branch: develop
 
 publish_mode: editorial_workflow
