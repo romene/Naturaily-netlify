@@ -1,15 +1,22 @@
 ---
 title: What is Design Sprint and why does your company need it?
-tags:
-- Agile
-- Startups
-category: Project management
+description: >-
+  Design Sprint is a process that will help your clients with rewriting their
+  idea onto a piece of paper. Read on to learn how it works!
+slug: what-is-design-sprint
 date: '2018-01-08 10:38:01 +0000'
+category: Project management
 author: Wojciech Miśta
-image: /assets/images/google-sprint.jpg
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: It is very common for clients to not know what kind of product they want to build exactly, especially when it comes to start-ups. At Naturaily, clients often contact us, but can’t really rewrite the idea that is stuck in their mind onto a piece of paper.
+image: /assets/images/google-sprint.jpg
+text-preview: >-
+  It is very common for clients to not know what kind of product they want to
+  build exactly, especially when it comes to start-ups. At Naturaily, clients
+  often contact us, but can’t really rewrite the idea that is stuck in their
+  mind onto a piece of paper.
+tags:
+  - Agile
+  - Startups
 ---
 
 
