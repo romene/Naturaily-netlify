@@ -1,16 +1,25 @@
 ---
 title: 6 books every beginner developer needs to read
-tags:
-- Reading
-- Frontend development
-- Ruby on Rails development
-category: Startups
+description: >-
+  When you're a newbie in the world of software development, where can you find
+  good sources? Check out the best books to start your journey with programming!
+slug: books-for-beginner-developers
 date: '2016-12-05 10:38:01 +0000'
+category: Startups
 author: Marcin Sulikowski
-image: /assets/images/recommended-books.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: When you're a newbie in the complex code world and crave for knowledge, good resources are key to success. Blogs, forums, dev meetings - where to start? All of these options are worth trying but there are also those old-fashioned artefacts called books which could be very helpful. Here is a special list created by our team members. Check out what to read at the beginning of your coding journey...
+image: /assets/images/recommended-books.jpg
+text-preview: >-
+  When you're a newbie in the complex code world and crave for knowledge, good
+  resources are key to success. Blogs, forums, dev meetings - where to start?
+  All of these options are worth trying but there are also those old-fashioned
+  artefacts called books which could be very helpful. Here is a special list
+  created by our team members. Check out what to read at the beginning of your
+  coding journey...
+tags:
+  - Reading
+  - Frontend development
+  - Ruby on Rails development
 ---
 
 
