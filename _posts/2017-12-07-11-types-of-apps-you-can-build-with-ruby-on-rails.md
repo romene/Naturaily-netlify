@@ -1,15 +1,23 @@
 ---
 title: 11 types of apps you can build with Ruby on Rails
-tags:
-- Ruby on Rails development
-- Startups
-category: Ruby on Rails development
+description: >-
+  Wondering what technology you should use in your next project? Let's take a
+  look what kind of apps you can build with Ruby on Rails.
+slug: ruby-on-rails-apps
 date: '2017-12-07 10:38:01 +0000'
+category: Ruby on Rails development
 author: Wojciech Miśta
-image: /assets/images/ruby-is-cool.png
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: Wondering what platform to use for your next startup project? When it comes to building MVPs, Ruby on Rails still remains the king of frameworks but not only startups use Rails - a lot of very mature services, services you probably use every day, managed to utilize its full potential by creating applications used by hundreds of thousands of users.
+image: /assets/images/ruby-is-cool.png
+text-preview: >-
+  Wondering what platform to use for your next startup project? When it comes to
+  building MVPs, Ruby on Rails still remains the king of frameworks but not only
+  startups use Rails - a lot of very mature services, services you probably use
+  every day, managed to utilize its full potential by creating applications used
+  by hundreds of thousands of users.
+tags:
+  - Ruby on Rails development
+  - Startups
 ---
 
 
