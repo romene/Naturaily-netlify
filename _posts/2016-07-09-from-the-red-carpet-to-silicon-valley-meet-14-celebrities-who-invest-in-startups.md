@@ -1,14 +1,24 @@
 ---
-title: From the red carpet to Silicon Valley. Meet 14 celebrities who invest in startups!
-tags:
-- Startups
-category: Startups
+title: >-
+  From the red carpet to Silicon Valley. Meet 14 celebrities who invest in
+  startups!
+description: >-
+  Startup celebrities! Sportsmen, rock stars, pop singers and actors eagerly
+  invest in startups. Who invested in what and was it worth it?
+slug: celebrities-who-invest-in-startups
 date: '2016-07-09 10:38:01 +0000'
+category: Startups
 author: Marcin Sulikowski
-image: /assets/images/leonardo-naturaily.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Sportsmen, rock stars, pop singers and actors eagerly invest in startups, especially in the US where both tech and entertainment industries are huge. There is a group of celebrities who've even launched their own funds. They know where to drop their dollars, that's for sure. Who invested in what and was it worth it?
+image: /assets/images/leonardo-naturaily.jpg
+text-preview: >-
+  Sportsmen, rock stars, pop singers and actors eagerly invest in startups,
+  especially in the US where both tech and entertainment industries are huge.
+  There is a group of celebrities who've even launched their own funds. They
+  know where to drop their dollars, that's for sure. Who invested in what and
+  was it worth it?
+tags:
+  - Startups
 ---
 
 
