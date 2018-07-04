@@ -1,7 +1,9 @@
 ---
 title: Ruby on Rails - how to create perfect enum in 5 steps
-description: This is Description for Blażej`s post
-slug: nowy slug
+description: >-
+  In this tutorial you'll learn how to create perfect enum in just 5 steps! Read
+  on to find out how to better implement enums in Ruby on Rails.
+slug: ruby-on-rails-enum
 date: '2018-06-18 10:00:00 +0000'
 category: Ruby on Rails development
 author: Błażej Pichur
