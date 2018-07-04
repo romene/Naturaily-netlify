@@ -1,52 +1,57 @@
 ---
 title: 'KPZ: Śledzenie gości targów i wystaw za pomocą beaconów (poznaj projekt)'
-tags:
-- Beacony
-- Events
-- Ruby on Rails development
-- Native mobile development
-category: Konferencja zespołów projektowych
+description: >-
+  Projekt KZP, aplikacja, której celem jest stworzenie systemu pozwalającego na
+  śledzenie zainteresowanych stanowiskami na targach czy wystawach. 
+slug: kpz-projekt-sledzenie-uczestnikow-beacon
 date: '2017-04-06 10:38:01 +0000'
+category: Konferencja zespołów projektowych
 author: Marcin Sulikowski
-image: /assets/images/kpz-1-sledzenie.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Celem projektu jest stworzenie systemu pozwalającego na śledzenie zainteresowanych stanowiskami na targach czy wystawach. Plan zakłada, że działanie systemu zostanie sprawdzone podczas czerwcowej Konferencji Projektów Zespołowych na Politechnice Wrocławskiej.
+image: /assets/images/kpz-1-sledzenie.jpg
+text-preview: >-
+  Celem projektu jest stworzenie systemu pozwalającego na śledzenie
+  zainteresowanych stanowiskami na targach czy wystawach. Plan zakłada, że
+  działanie systemu zostanie sprawdzone podczas czerwcowej Konferencji Projektów
+  Zespołowych na Politechnice Wrocławskiej.
+tags:
+  - Beacony
+  - Events
+  - Ruby on Rails development
+  - Native mobile development
 ---
-
-
 Celem projektu jest stworzenie systemu pozwalającego na śledzenie zainteresowanych stanowiskami na targach czy wystawach. Plan zakłada, że działanie systemu zostanie sprawdzone podczas czerwcowej Konferencji Projektów Zespołowych na Politechnice Wrocławskiej.
 
-### Na system będą się składać dwie aplikacje: __mobilna__ i __internetowa__.
+### Na system będą się składać dwie aplikacje: **mobilna** i **internetowa**.
 
 Pierwsza realizuje dwa zadania:
 
-   * odczytywanie odległości od każdego z beaconów znajdujących się na kolejnych ekspozycjach (zebrane dane są następnie przekazywane do aplikacji internetowej, przez którą są magazynowane i wykorzystywane do ustalenia przy której ekspozycji znajduje się odwiedzający),
-   * prezentacja użytkownikowi materiałów dotyczących aktualnie odwiedzanego stanowiska.
+* odczytywanie odległości od każdego z beaconów znajdujących się na kolejnych ekspozycjach (zebrane dane są następnie przekazywane do aplikacji internetowej, przez którą są magazynowane i wykorzystywane do ustalenia przy której ekspozycji znajduje się odwiedzający),
+* prezentacja użytkownikowi materiałów dotyczących aktualnie odwiedzanego stanowiska.
 
 Druga:
 
-   * magazynuje dane pochodzące z aplikacji mobilnej i na ich podstawie określa przy której ekspozycji znajduje się użytkownik. Elementem aplikacji internetowej jest panel administracyjny pozwalający na sparowanie beaconów ze stoiskami na targach oraz dodanie materiałów promocyjnych do każdego ze stanowisk. Główną funkcjonalnością panelu administracyjnego jest prezentowanie zebranych statystyk odnośnie zainteresowania poszczególnymi ekspozycjami na targach np. liczba gości odwiedzających dane stanowisko lub średni czas przebywania użytkowników aplikacji przy kolejnych stanowiskach.
+* magazynuje dane pochodzące z aplikacji mobilnej i na ich podstawie określa przy której ekspozycji znajduje się użytkownik. Elementem aplikacji internetowej jest panel administracyjny pozwalający na sparowanie beaconów ze stoiskami na targach oraz dodanie materiałów promocyjnych do każdego ze stanowisk. Główną funkcjonalnością panelu administracyjnego jest prezentowanie zebranych statystyk odnośnie zainteresowania poszczególnymi ekspozycjami na targach np. liczba gości odwiedzających dane stanowisko lub średni czas przebywania użytkowników aplikacji przy kolejnych stanowiskach.
 
-W projekcie zostaną wykorzystane udostępniane przez nas __Estimote Beacons__.
-Aplikacja mobilna powstaje na __system Android__.
-Aplikacja internetowa zostanie napisana w __Ruby on Rails__.
+W projekcie zostaną wykorzystane udostępniane przez nas **Estimote Beacons**.
+Aplikacja mobilna powstaje na **system Android**.
+Aplikacja internetowa zostanie napisana w **Ruby on Rails**.
 
 ### Czas żebyście poznali grupę projektową oraz motywacje chłopaków do wyboru właśnie tego tematu.
 
-   * <p class="text-underline">Dawid Aksamski:</p>
+* <p class="text-underline">Dawid Aksamski:</p>
 
 _Wraz z kolegami uznaliśmy, że to naprawdę ciekawy temat. Mnie osobiście zachęciło to, że będę miał okazję poznać technologie, z którymi do tej pory nie miałem styczności._
 
-   * <p class="text-underline">Jan Luch:</p>
+* <p class="text-underline">Jan Luch:</p>
 
 _Interesuję się zarówno platformą Android i rozwiązaniami IoT - stąd zainteresowanie właśnie tym tematem. Ponadto będziemy mieć okazję pracować z narzędziami, z których na co dzień korzystają zawodowi developerzy._
 
-   * <p class="text-underline">Kacper Kluka:</p>
+* <p class="text-underline">Kacper Kluka:</p>
 
 _Podobnie jak Janek, mocno interesuję się Androidem oraz Beaconami. W tym projekcie podoba i się najbardziej to, że mogę się nauczyć języka Kotlin w praktyce._
 
-   * <p class="text-underline">Bartłomiej Pokutycki:</p>
+* <p class="text-underline">Bartłomiej Pokutycki:</p>
 
 _Wybrałem ten temat, ponieważ chciałem sprawdzić, jak w praktyce spisują się beacony polskiej produkcji. Ponadto mamy okazję popracować w większej grupie, nauczyć się nowych technologi (RoR) i, co najważniejsze, będziemy mogli przetestować gotową aplikację podczas prawdziwej konferencji (KPZ)._
 
