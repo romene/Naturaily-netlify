@@ -1,15 +1,23 @@
 ---
 title: Generate icon classes from sprite using SASS
-tags:
-- Frontend development
-- Sass
-category: SASS
+description: >-
+  This tutorial shows you how to shorten your code by automatic icon class
+  generation for grid based sprites.
+slug: sprite-icon-classes-sass
 date: '2013-09-04 10:38:01 +0000'
+category: SASS
 author: Maciej Kucharski
-image: /assets/images/sass.jpg
-position: Front-end Developer
 avatar: /assets/images/maciek.png
-text-preview: While we mostly use sass for it's variables, nesting and mixins, the language itself is way more powerful. A lot of features may not be used on your everyday site, but there are times when they come in handy. Let's take a look on how one would approach automatic class generation for any grid based sprites and how this could vastly shorten your code.
+image: /assets/images/sass.jpg
+text-preview: >-
+  While we mostly use sass for it's variables, nesting and mixins, the language
+  itself is way more powerful. A lot of features may not be used on your
+  everyday site, but there are times when they come in handy. Let's take a look
+  on how one would approach automatic class generation for any grid based
+  sprites and how this could vastly shorten your code.
+tags:
+  - Frontend development
+  - Sass
 ---
 
 While we mostly use sass for it's variables, nesting and mixins, the language itself is way more powerful. A lot of features may not be used on your everyday site, but there are times when they come in handy. Let's take a look on how one would approach automatic class generation for any grid based sprites and how this could vastly shorten your code.
