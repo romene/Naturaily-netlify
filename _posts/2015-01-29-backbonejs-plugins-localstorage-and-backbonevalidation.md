@@ -1,15 +1,24 @@
 ---
 title: 'Backbone.js plugins: Local.Storage and Backbone.validation'
-tags:
-- JavaScript development
-- Backbone.js development
-category: JavaScript development
+description: >-
+  See what Backbone Local Storage and Backbone Validation is, how to implement
+  them and what are the common validation errors while using Backbone.js
+  plugins. 
+slug: backbone-plugins-local-storage-backbone-validation
 date: '2015-01-29 10:38:01 +0000'
+category: JavaScript development
 author: Agnieszka Bugajska
-image: /assets/images/backbone_lol.png
-position: Junior Front-end Developer
 avatar: /assets/images/aga.png
-text-preview: What is Backbone Local.Storage? Backbone Local.Storage is a method which helps frontend developers to store the data locally. When someone starts making a new application and they need to save some data that they added in their project, and still, they do not have any information downloaded from the backend, they can use Local.Storage.
+image: /assets/images/backbone_lol.png
+text-preview: >-
+  What is Backbone Local.Storage? Backbone Local.Storage is a method which helps
+  frontend developers to store the data locally. When someone starts making a
+  new application and they need to save some data that they added in their
+  project, and still, they do not have any information downloaded from the
+  backend, they can use Local.Storage.
+tags:
+  - JavaScript development
+  - Backbone.js development
 ---
 
 
