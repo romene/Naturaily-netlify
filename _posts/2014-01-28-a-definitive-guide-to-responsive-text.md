@@ -1,14 +1,21 @@
 ---
 title: A definitive guide to responsive text
-tags:
-- Frontend development
-category: Frontend development
+description: >-
+  Creating a responsive web design can sometimes make us forget about webpage's
+  most important piece - the text. Check out our guide to responsive text! 
+slug: responsive-text-guide
 date: '2014-01-28 10:38:01 +0000'
+category: Frontend development
 author: Maciej Kucharski
-image: /assets/images/responsivetext.jpg
-position: Front-end Developer
 avatar: /assets/images/maciek.png
-text-preview: When thinking RWD most of you picture fluid grids and responsive images, forgetting a quite important piece of the puzzle - the content. *Since content is king* and most probably your content is mostly text, the text is king. Let’s see what we can do to display text properly on vast range of devices.
+image: /assets/images/responsivetext.jpg
+text-preview: >-
+  When thinking RWD most of you picture fluid grids and responsive images,
+  forgetting a quite important piece of the puzzle - the content. *Since content
+  is king* and most probably your content is mostly text, the text is king.
+  Let’s see what we can do to display text properly on vast range of devices.
+tags:
+  - Frontend development
 ---
 
 When thinking RWD most of you picture fluid grids and responsive images, forgetting a quite important piece of the puzzle - the content. *Since content is king* and most probably your content is mostly text, the text is king. Let’s see what we can do to display text properly on vast range of devices.
