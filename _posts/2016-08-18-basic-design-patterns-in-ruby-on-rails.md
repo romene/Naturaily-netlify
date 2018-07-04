@@ -1,14 +1,22 @@
 ---
 title: Basic design patterns in Ruby on Rails
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+description: >-
+  When you, as a programmer, encounter a problem, don't worry! In most cases,
+  they can be solved by patterns! Find out what are the basic design patterns in
+  Ruby on Rails.
+slug: ruby-on-rails-design-patterns
 date: '2016-08-18 10:38:01 +0000'
+category: Ruby on Rails development
 author: Marcin Mantke
-image: /assets/images/patterns.jpg
-position: Ruby on Rails developer
 avatar: /assets/images/mantle.png
-text-preview: Not only as programmers, but in day-to-day life, we encounter some problems. Every person has similiar difficulties, and our society has found universal ways, **_patterns_**, to solve that problems. As programmers we also have problems, which can be solved by patterns.
+image: /assets/images/patterns.jpg
+text-preview: >-
+  Not only as programmers, but in day-to-day life, we encounter some problems.
+  Every person has similiar difficulties, and our society has found universal
+  ways, **_patterns_**, to solve that problems. As programmers we also have
+  problems, which can be solved by patterns.
+tags:
+  - Ruby on Rails development
 ---
 
 
