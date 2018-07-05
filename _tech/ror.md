@@ -41,12 +41,11 @@ advantage-desc-two: >-
   your project up and running in no time.
 advantage-desc-three-title: Versatile technology
 advantage-desc-three: >-
-  Ruby on Rails proved itself to be a perfect match for many types of
-  applications, it is extremely versatile. Airbnb, Twitch, Shopify, Github,
-  Basecamp, Netflix, Hulu - completely different businesses, united by Ruby on
-  Rails technology. All of them deal with extreme user number and traffic, so
-  don’t worry, your Rails-based application will be very reliable and
-  highly-performant.
+  Ruby on Rails is one of the most mature solutions you can find. It has an
+  active community and a great number of resources. Code written in Ruby is
+  praised by developers for its clarity and simplicity. It makes working with
+  Rails easy and fast what eventually leads the project to be bug-free and
+  delivered in no time. 
 advantage-desc-four-title: Clean Code
 advantage-desc-four: >-
   Ruby on Rails is one of the most mature solutions you can find, it has an
@@ -58,7 +57,7 @@ projects-slogan: >-
   Over 12 years of experience in Ruby on Rails development. We guarantee our
   products are simply the best. But don’t take our word for it, see for
   yourself!
-projects-head: 'Check out our Ruby on Rails applications/projects:'
+projects-head: 'Check out our projects in Ruby on Rails:'
 projects:
   - project:
       bg: /assets/images/snipsl.png
