@@ -1,0 +1,68 @@
+.services {
+  &-wave {
+    &-1 {
+      z-index: -2;
+    }
+    &-2 {
+      z-index: -3;
+    }
+    &-3 {
+      z-index: -4;
+    }
+    &-4 {
+      z-index: -5;
+    }
+  }
+
+  &-resources {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 260px);
+    grid-gap: 40px;
+    padding-bottom: 90px;
+
+    .mobile-tile, .web-tile, .ux-tile {
+      margin: 0;
+      grid-row: unset;
+      grid-column: unset;
+    }
+
+    .resources-tile {
+      padding-bottom: 40px;
+    }
+  }
+
+  &-btn {
+    display: inline-block;
+    margin-top: 60px;
+  }
+
+  &-benefits-text {
+    max-width: 70%;
+    padding-left: 30px;
+  }
+
+  .benefits-tile {
+    width: 180px;
+    height: 200px;
+    img {
+      max-width: 80px;
+    }
+  }
+
+  .benefit-2--shifted {
+    grid-row: 2 / 6;
+  }
+
+  .title {
+    margin-bottom: 60px;
+  }
+
+  &--reversed {
+    .text {
+      padding-left: 90px;
+    }
+    .services-benefits-text {
+      max-width: 100%;
+    }
+  }
+}
