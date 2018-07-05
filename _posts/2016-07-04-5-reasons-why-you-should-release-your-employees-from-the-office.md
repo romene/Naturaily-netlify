@@ -1,16 +1,25 @@
 ---
 title: 5 reasons why you should release your employees from the office
-tags:
-- Agile
-- IT
-- Remote work
-category: Management
+description: >-
+  If you provide remote services then why your employees can't work remotely
+  too? Here are 5 reasons, from our experience, why you should let them!
+slug: remote-work-pros
 date: '2016-07-04 10:38:01 +0000'
+category: Management
 author: Marcin Sulikowski
-image: /assets/images/release-employees.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: We provide services remotely to customers around the world. The distance and additional hurdles in the form of different time zones and cultural differences affecting the communication style—all these factors make it reasonable to gather, at least one side of such arrangement, in one spot, that is the office. And so did we, only to find 5 reasons to let them out instead...
+image: /assets/images/release-employees.jpg
+text-preview: >-
+  We provide services remotely to customers around the world. The distance and
+  additional hurdles in the form of different time zones and cultural
+  differences affecting the communication style—all these factors make it
+  reasonable to gather, at least one side of such arrangement, in one spot, that
+  is the office. And so did we, only to find 5 reasons to let them out
+  instead...
+tags:
+  - Agile
+  - IT
+  - Remote work
 ---
 
 We provide services remotely to customers around the world. The distance and additional hurdles in the form of different time zones and cultural differences affecting the communication style—all these factors make it reasonable to gather, at least one side of such arrangement, in one spot, that is the office. And so did we, only to find 5 reasons to let them out instead...
