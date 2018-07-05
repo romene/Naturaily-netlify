@@ -12,7 +12,7 @@ responsibilities:
   - Maintaining publication calendar
   - Staying in touch with media partners and bloggers
   - >-
-    Using to Google Analytics to spot trends and create better traffic gaining
+    Using Google Analytics to spot trends and create better traffic gaining
     strategies
   - Deploying link building strategies
   - Enhancing brand awareness
