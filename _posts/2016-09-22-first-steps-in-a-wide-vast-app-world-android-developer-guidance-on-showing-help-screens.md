@@ -1,15 +1,25 @@
 ---
-title: First steps in a wide, vast app world. Android developer guidance on showing help screens
-tags:
-- Native mobile development
-- User experience design
-category: Native mobile development
+title: >-
+  First steps in a wide, vast app world. Android developer guidance on showing
+  help screens
+description: >-
+  Creating user-friendly experience in your Android applications can be tricky
+  and difficult. Luckily, this guide is here to help!
+slug: android-developer-guide-help-screens
 date: '2016-09-22 10:38:01 +0000'
+category: Native mobile development
 author: Kamil Buczel
-image: /assets/images/android-hipster.jpg
-position: Ruby on Rails developer
 avatar: /assets/images/kamil.jpg
-text-preview: There are only a few things more deadly for apps than a situation when the user doesn’t know what to do. We’ve all been there, turning on some program, registering, logging in and… what now? Just some blank screen, a lot of buttons, twenty tabs, thirty windows... Mom! let me out! Close, delete, forget.
+image: /assets/images/android-hipster.jpg
+text-preview: >-
+  There are only a few things more deadly for apps than a situation when the
+  user doesn’t know what to do. We’ve all been there, turning on some program,
+  registering, logging in and… what now? Just some blank screen, a lot of
+  buttons, twenty tabs, thirty windows... Mom! let me out! Close, delete,
+  forget.
+tags:
+  - Native mobile development
+  - User experience design
 ---
 
 
