@@ -42,10 +42,10 @@ advantage-desc-two: >-
 advantage-desc-three-title: Versatile technology
 advantage-desc-three: >-
   Ruby on Rails proved itself to be a perfect match for many types of
-  applications, it is extremely versatile. Airbnb, Twitch, Shopify, Github,
+  applications. It is extremely versatile. Airbnb, Twitch, Shopify, Github,
   Basecamp, Netflix, Hulu - completely different businesses, united by Ruby on
-  Rails technology. All of them deal with extreme user number and traffic, so
-  don’t worry, your Rails-based application will be very reliable and
+  Rails technology. All of them deal with an extremely high number of users and
+  traffic. So don’t worry, your Rails application will be very reliable and
   highly-performant.
 advantage-desc-four-title: Clean Code
 advantage-desc-four: >-
