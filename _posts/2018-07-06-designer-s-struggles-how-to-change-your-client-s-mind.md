@@ -4,7 +4,7 @@ description: >-
   In my experience, when it comes to project design, clients tend to make
   unreasonable decisions based on their inner beliefs, convictions, and
   experiences.
-slug: client-design-director
+slug: client-designer-struggles
 layout: post
 date: '2018-07-06 02:10:29 +0000'
 category: Design
