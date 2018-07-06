@@ -58,21 +58,21 @@ Showing solutions created by the competition. Provide explanation why certain so
 
 3. **Cooperation**
 
-Attempt to develop **solution** along with the client. Try to convince him that the solution is his genius idea. Your goal is to make your client develop a strong bond with the project. This way he will start taking responsibility for its final outcome.
+Attempt to develop **solution **along with the client. Try to convince him that the solution is his genius idea. Your goal is to make your client develop a strong bond with the project. This way he will start taking responsibility for its final outcome.
 
 4. **Educate**
 
-**Educate **your clients about the most recent solutions, design processes, element arrangement, the way to acquire new users - how to move forward, not just keeping the old user base satisfied (unless that’s one of the business goals). Show him the influence of user’s experience and impression.
+**Educate** your clients about the most recent solutions, design processes, element arrangement, the way to acquire new users - how to move forward, not just keeping the old user base satisfied (unless that’s one of the business goals). Show him the influence of user’s experience and impression.
 
-Build the **trust** with your client. Remind him that the final product is as much important to you as it is for him.
+Build the **trust **with your client. Remind him that the final product is as much important to you as it is for him.
 
-Constantly provide him with clear **updates** on the project, the stage the development is at, what will happen next etc. Solutions have to be presented as complete, logical and rational - don’t base them on your intuition and emotions.
+Constantly provide him with clear **updates **on the project, the stage the development is at, what will happen next etc. Solutions have to be presented as complete, logical and rational - don’t base them on your intuition and emotions.
 
 5. **Hold your opinion**
 
 Give concise arguments why you think your solution is better and more beneficial. Your words should be a catalyst for making changes. They should influence another person to agree with you.
 
-It’s not about repeating your or your client’s points over and over again. A designer should have a **convincing** and **encouraging** tone.
+It’s not about repeating your or your client’s points over and over again. A designer should have a **convincing **and **encouraging **tone.
 
 Consider spending some time learning how to create statements that will trigger a certain, desired reaction. Your intentions have to be clear. As a UX designer, you have to prove that the project and its certain elements are thought out, logical and did not come from nowhere. Show your clients that they are there for a reason and that there are certain goals behind them. You need to be self-confident and have something to say. You’re the expert after all.
 
@@ -80,13 +80,11 @@ Consider spending some time learning how to create statements that will trigger 
 
 Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
 
-![designer-desk](/assets/images/designer-desk.jpg)
-
-
+![Designer's desk](/assets/images/designer-desk.jpg)
 
 ## Conclusion
 
-Agile and clean communication as well as searching for a common ground. We don’t have to prove that we are experts, but if we call them ourselves,** we should act like them**. The designer who is incapable of an agile communication, approaching, educating and encouraging a client is a bad designer. We can’t treat our clients as fools. It doesn’t matter if they know or don’t know what they want - we have to make certain decisions easier for them and be able to show them the right direction. Sometimes it is impossible, but we have to keep trying until it happens.
+Agile and clean communication as well as searching for a common ground. We don’t have to prove that we are experts, but if we call them ourselves, **we should act like them**. The designer who is incapable of an agile communication, approaching, educating and encouraging a client is a bad designer. We can’t treat our clients as fools. It doesn’t matter if they know or don’t know what they want - we have to make certain decisions easier for them and be able to show them the right direction. Sometimes it is impossible, but we have to keep trying until it happens.
 
 If some arguments don’t work, we have to find another ones, provide examples and present our thought process. We have to understand our client and give logical arguments, but instead of forcing them, slowly and progressively plant them in our clients’ heads.
 
@@ -97,3 +95,8 @@ All of our clients’ decisions, that may seem stupid at first, have some kind o
 Clients tend to trust their intuition and emotions, the same way designers do. Our role, our advantage is the awareness of this fact. As designers, we have to use it for our benefit.
 
 When a client is getting emotional we need to play it cool. Give logical arguments, make sure that your client is feeling safe, taken care of, that we are worried and we are doing everything to solve his problems - just like a skilled psychologist.
+
+Special thanks to:
+
+* [Luke Chesser](https://unsplash.com/photos/wnShDP37vB4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+* [rawpixel](https://unsplash.com/photos/WYEZba2aiVg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
