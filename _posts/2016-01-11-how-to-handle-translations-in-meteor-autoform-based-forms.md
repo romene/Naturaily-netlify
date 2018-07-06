@@ -1,15 +1,22 @@
 ---
 title: How to handle translations in Meteor AutoForm-based forms
-tags:
-- Meteor.js development
-- JavaScript development
-category: JavaScript development
+description: >-
+  We have been working on a project that required i18n support for forms
+  generated with AutoForm. In this Meteor.js tutorial you'll learn how to handle
+  translations. 
+slug: meteor-autoform-translations
 date: '2016-01-11 10:38:01 +0000'
+category: JavaScript development
 author: Jan Wieczorkowski
-image: /assets/images/meteor3.png
-position: Ruby and JavaScript Developer
 avatar: /assets/images/janpol.png
-text-preview: "In one of the projects I've been recently working on I needed i18n support for forms generated with AutoForm. For those who don’t know: Autoform is [schema-based](https://github.com/aldeed/meteor-simple-schema) form generator."
+image: /assets/images/meteor3.png
+text-preview: >-
+  In one of the projects I've been recently working on I needed i18n support for
+  forms generated with AutoForm. For those who don’t know: Autoform is
+  [schema-based](https://github.com/aldeed/meteor-simple-schema) form generator.
+tags:
+  - Meteor.js development
+  - JavaScript development
 ---
 In one of the projects I've been recently working on I needed i18n support for forms generated with AutoForm. For those who don’t know: Autoform is [schema-based](https://github.com/aldeed/meteor-simple-schema) form generator.
 ​
