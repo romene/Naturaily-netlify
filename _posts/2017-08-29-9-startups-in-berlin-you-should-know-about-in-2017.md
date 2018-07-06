@@ -1,14 +1,20 @@
 ---
 title: 9 startups in Berlin you should know about in 2017
-tags:
-- Startups
-category: Startups
+description: >-
+  Berlin is the second largest startup hub in Europe (right after London)! We
+  took a closer look at German startups that are worth your attention.
+slug: berlin-startups-2017
 date: '2017-08-29 10:38:01 +0000'
+category: Startups
 author: Wojciech Miśta
-image: /assets/images/berlin-startups.jpg
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: Berlin is the second largest startup hub in Europe (right after London)! We took a closer look at German startups that are gaining more interest in 2017 that, in our opinion, are worth your attention.
+image: /assets/images/berlin-startups.jpg
+text-preview: >-
+  Berlin is the second largest startup hub in Europe (right after London)! We
+  took a closer look at German startups that are gaining more interest in 2017
+  that, in our opinion, are worth your attention.
+tags:
+  - Startups
 ---
 
 
