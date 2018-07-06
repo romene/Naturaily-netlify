@@ -1,20 +1,20 @@
 ---
 title: Biggest startup failures and successes of 2017
-tags:
-- Startups
-category: Startups
+description: >-
+  We're bringing you the biggest fails of 2017 as well as startups that we think
+  are worth keeping an eye on!
+slug: startup-failures-successes-2017
 date: '2017-12-30 10:38:01 +0000'
+category: Startups
 author: Wojciech Miśta
-image: /assets/images/rise-and-fall.jpeg
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: We’re bringing you the biggest fails of 2017 as well as some startups that you should definitely keep an eye on.
+image: /assets/images/rise-and-fall.jpeg
+text-preview: >-
+  We’re bringing you the biggest fails of 2017 as well as some startups that you
+  should definitely keep an eye on.
+tags:
+  - Startups
 ---
-
-
-
-We’re bringing you the biggest fails of 2017 as well as some startups that you should definitely keep an eye on.
-
 ## Why failures and successes matter to other entrepreneurs?
 
 “Fail often so you can succeed sooner.” ~ Tom Kelley, Ideo partner
@@ -45,12 +45,11 @@ Would you buy a $699 (release date price) juicer that is not quite a... “juice
 To use the juicer you need to buy Juicero bags which contain the juice with fruit/vegetable pulp (the idea behind it is similar to coffee caps like Nespresso). There is one huge issue with this idea though… To make cold-press Juicero juice you don’t actually need the expensive Juicero Press. [Bloomberg Technology](https://www.bloomberg.com/news/features/2017-04-19/silicon-valley-s-400-juicer-may-be-feeling-the-squeeze) found out that there is a much cheaper alternative - you can just squeeze the bags in your hands. The amount of the juice you get is almost the same as from the actual juicer.
 On September 1st the company announced on their [website](https://www.juicero.com/company-news) that they are suspending sales of the device and the packs.
 
-
 ## SoundCloud - rescue plan that saved the service from fail
+
 <p>
 You probably came across SoundCloud in the past. It is a great service for emerging musicians as well as users who enjoy listening to independent artists. Unfortunately, a series of unreasonable choices made by the CEO’s of SoundCloud almost lead to the closure of the most popular music streaming service. You can read our detailed article about it here: <a class="inline-anchor" href="http://naturaily.com/blog/post/from-1b-valuation-to-rescue-plan-what-have-happened-to-soundcloud-and-why" alt="SMACC" target="_blank">From $1B valuation to rescue plan. What have happened to SoundCloud and why?</a>
 </p>
-
 
 Moving away from fails of 2017 let’s check out some of the most innovative startups that have emerged this year.
 
