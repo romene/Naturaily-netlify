@@ -1,15 +1,23 @@
 ---
 title: How Spree handles overriding on the frontend and the backend
-tags:
-- Spree development
-- Ruby on Rails development
-category: Spree Commerce
+description: >-
+  We're going to take a look into some of the issues we've faced, and how we
+  overcame them while using Spree - the most popular e-commerce Ruby on Rails
+  platform.
+slug: spree-override-views
 date: '2014-02-06 10:38:01 +0000'
+category: Spree Commerce
 author: Mateusz Barczak
-image: /assets/images/spreecomerce.jpg
-position: Ruby on Rails Developer
 avatar: /assets/images/mateusz.png
-text-preview: Couple months ago, after signing a contract to build an unusual e-commerce site, we were forced to make a choice. We’d build the site either from scratch or on top of existing solution. After a few days of getting our heads around the topic, we decided to take on the latter option.
+image: /assets/images/spreecomerce.jpg
+text-preview: >-
+  Couple months ago, after signing a contract to build an unusual e-commerce
+  site, we were forced to make a choice. We’d build the site either from scratch
+  or on top of existing solution. After a few days of getting our heads around
+  the topic, we decided to take on the latter option.
+tags:
+  - Spree development
+  - Ruby on Rails development
 ---
 
 Couple months ago, after signing a contract to build an unusual e-commerce site, we were forced to make a choice. We’d build the site either from scratch or on top of existing solution. After a few days of getting our heads around the topic, we decided to take on the latter option.
