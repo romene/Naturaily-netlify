@@ -1,16 +1,22 @@
 ---
 title: Why we used Foundation Framework on naturaily.com
-tags:
-- Frontend development
-category: Frontend development
+description: >-
+  We will go over through some of the best features of the Foundation Framework
+  which are the reasons why we used it to develop our website.
+slug: foundation-framework-naturaily
 date: '2013-08-27 10:38:01 +0000'
+category: Frontend development
 author: Maciej Kucharski
-image: /assets/images/foundation.jpg
-position: Front-end Developer
 avatar: /assets/images/maciek.png
-text-preview: Gentle normalize.css
-              -----------------------
-              Your usual reset.css leaves you with absolutely nothing - each and every style has to be written by yourself, from scratch. We were looking for a set of rules that would remove browser inconsistencies while preserving some default and desirable styling. Foundation's normalize.css gives you just that.
+image: /assets/images/foundation.jpg
+text-preview: >-
+  Gentle normalize.css ----------------------- Your usual reset.css leaves you
+  with absolutely nothing - each and every style has to be written by yourself,
+  from scratch. We were looking for a set of rules that would remove browser
+  inconsistencies while preserving some default and desirable styling.
+  Foundation's normalize.css gives you just that.
+tags:
+  - Frontend development
 ---
 
 Gentle normalize.css
