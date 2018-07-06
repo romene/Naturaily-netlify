@@ -1,14 +1,21 @@
 ---
 title: The biggest fears of software developers
-tags:
-- Startups
-category: Startups
+description: >-
+  Software development is not a walk in the park. It's rather a 24-hour run
+  through a misty jungle full of spider webs and creepy creatures! 
+slug: software-developers-fears
 date: '2016-10-28 10:38:01 +0000'
+category: Startups
 author: Marcin Sulikowski
-image: /assets/images/fears.png
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Software development is not a walk in the park. It’s rather a 24-hour run through a misty jungle full of spiderwebs and creepy creatures. Developers need to be brave and have a spirit of adventure. But none of them is fearless. Time to face the biggest dev’s fears! Hold on!
+image: /assets/images/fears.png
+text-preview: >-
+  Software development is not a walk in the park. It’s rather a 24-hour run
+  through a misty jungle full of spiderwebs and creepy creatures. Developers
+  need to be brave and have a spirit of adventure. But none of them is fearless.
+  Time to face the biggest dev’s fears! Hold on!
+tags:
+  - Startups
 ---
 
 
