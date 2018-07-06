@@ -1,17 +1,27 @@
 ---
-title: First steps in a wide, vast app world. Android developer guidance on user experience
-  and process thinking
-tags:
-- Native mobile development
-- Java development
-- User experience design
-category: Native mobile development
+title: >-
+  First steps in a wide, vast app world. Android developer guidance on user
+  experience and process thinking
+description: >-
+  How not to get lost with different screen resolutions, densities and device
+  parameters? Take a look at our UX and process thinking guide in Android
+  development.
+slug: android-development-guide-user-experience-process-thinking
 date: '2016-08-30 10:38:01 +0000'
+category: Native mobile development
 author: Kamil Buczel
-image: /assets/images/first-steps.jpg
-position: Ruby on Rails developer
 avatar: /assets/images/kamil.jpg
-text-preview: Creating apps on Android seems like a pretty straightforward task. Just take working solutions and put them on mobile devices. On about 11 thousand devices, to be exact. With different resolutions, screen densities and parameters. So users of every age category can install it on a system that gets a new version every year. Well, yeah, let's talk about it...
+image: /assets/images/first-steps.jpg
+text-preview: >-
+  Creating apps on Android seems like a pretty straightforward task. Just take
+  working solutions and put them on mobile devices. On about 11 thousand
+  devices, to be exact. With different resolutions, screen densities and
+  parameters. So users of every age category can install it on a system that
+  gets a new version every year. Well, yeah, let's talk about it...
+tags:
+  - Native mobile development
+  - Java development
+  - User experience design
 ---
 
 
