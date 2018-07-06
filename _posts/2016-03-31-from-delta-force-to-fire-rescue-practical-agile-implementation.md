@@ -1,14 +1,19 @@
 ---
 title: From “Delta Force” to “Fire Rescue”. Practical Agile implementation.
-tags:
-- Agile
-category: Project management
+description: >-
+  Learn how we have practically implemented agile manifesto, including Scrum and
+  Kanban, in our everyday work in software development. 
+slug: practical-agile-implementation
 date: '2016-03-31 10:38:01 +0000'
+category: Project management
 author: Sebastian Kubiak
-image: /assets/images/fire.jpg
-position: Chief Technology Officer
 avatar: /assets/images/seba.jpg
-text-preview: We are a small (over a dozen people) remote development team. That kind of team has pretty standard and diversified portfolio of projects.
+image: /assets/images/fire.jpg
+text-preview: >-
+  We are a small (over a dozen people) remote development team. That kind of
+  team has pretty standard and diversified portfolio of projects.
+tags:
+  - Agile
 ---
 
 We are a small (over a dozen people) remote development team. That kind of team has pretty standard and diversified portfolio of projects.
