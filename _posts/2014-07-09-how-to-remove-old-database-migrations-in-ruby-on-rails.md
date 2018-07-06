@@ -1,14 +1,20 @@
 ---
 title: How to remove old database migrations in Ruby on Rails
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+description: >-
+  In this step-by-step tutorial, we've explained how to remove old database
+  migrations in Ruby on Rails. With our guide, it's easier than you think!
+slug: remove-old-migrations-ruby-on-rails
 date: '2014-07-09 10:38:01 +0000'
+category: Ruby on Rails development
 author: Jacek Hiszpański
-image: /assets/images/migrations.jpg
-position: Senior Ruby on Rails Developer
 avatar: /assets/images/jacek.png
-text-preview: Recently we’ve overtaken a big project for maintenance and further development. It’s a Rails application with many models, controllers and of course lots of database migrations.
+image: /assets/images/migrations.jpg
+text-preview: >-
+  Recently we’ve overtaken a big project for maintenance and further
+  development. It’s a Rails application with many models, controllers and of
+  course lots of database migrations.
+tags:
+  - Ruby on Rails development
 ---
 
 Recently we’ve overtaken a big project for maintenance and further development. It’s a Rails application with many models, controllers and of course lots of database migrations. There were about one hundred files in db/migrate directory. The question is: how can we setup development environment with current database structure? Running `rake db:migrate` would just be a suicide. It won’t simply work, because these migrations were written long time ago and the current code and models implementation don’t fit them. Instead let’s load `schema.rb` file using this command:
