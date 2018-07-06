@@ -1,14 +1,23 @@
 ---
 title: Run services in the background
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+description: >-
+  In this tutorial you will find the best and easiest way to run Ruby on Rails
+  services in the background. We will create an universal Job for all the
+  services.
+slug: ruby-on-rails-background-services
 date: '2016-11-04 10:38:01 +0000'
+category: Ruby on Rails development
 author: Jan Wieczorkowski
-image: /assets/images/random_console.png
-position: Ruby and JavaScript Developer
 avatar: /assets/images/janpol.png
-text-preview: Some time ago [Marcin wrote about basic design patterns in Ruby on Rails](http://naturaily.com/blog/post/basic-design-patterns-in-ruby-on-rails). I’d like to go back to Service pattern in this post. I really like it, it's a good idea to place application’s business logic there. At Naturaily we use it quite often.
+image: /assets/images/random_console.png
+text-preview: >-
+  Some time ago [Marcin wrote about basic design patterns in Ruby on
+  Rails](http://naturaily.com/blog/post/basic-design-patterns-in-ruby-on-rails).
+  I’d like to go back to Service pattern in this post. I really like it, it's a
+  good idea to place application’s business logic there. At Naturaily we use it
+  quite often.
+tags:
+  - Ruby on Rails development
 ---
 
 
