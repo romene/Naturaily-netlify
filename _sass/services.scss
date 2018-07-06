@@ -1,0 +1,118 @@
+.services {
+  &-wave {
+    &-1 {
+      z-index: -2;
+    }
+    &-2 {
+      z-index: -3;
+    }
+    &-3 {
+      z-index: -4;
+    }
+    &-4 {
+      z-index: -5;
+    }
+  }
+
+  &-header {
+    .big-point {
+      font-weight: 500;
+    }
+  }
+
+  &-resources {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 400px);
+    grid-gap: 70px;
+    padding-bottom: 90px;
+
+    .mobile-tile, .web-tile, .ux-tile {
+      margin: 0;
+      grid-row: unset;
+      grid-column: unset;
+    }
+
+    .tile-text {
+      width: 140px;
+      margin-bottom: 70px;
+      font-size: 21px;
+    }
+  }
+
+  &-footer {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+    a {
+      color: inherit;
+    }
+  }
+
+  &-btn {
+    display: inline-block;
+    margin-top: 60px;
+  }
+
+  &-benefits-text {
+    max-width: 70%;
+    padding-left: 30px;
+  }
+
+  .career-more {
+    margin-bottom: 160px;
+    .tile-text {
+      width: 100px;
+    }
+  }
+
+  .benefits-tile {
+    width: 180px;
+    height: 200px;
+    img {
+      max-width: 80px;
+    }
+  }
+
+  .benefit-2--shifted {
+    grid-row: 2 / 6;
+  }
+
+  .title {
+    margin-bottom: 60px;
+  }
+
+  &--reversed {
+    .text {
+      padding-left: 90px;
+    }
+    .services-benefits-text {
+      max-width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .services {
+    &-resources {
+      grid-template-columns: repeat(0, 1fr);
+      grid-template-rows: repeat(3, 350px);
+      grid-gap: 40px;
+      padding-bottom: 60px;
+    }
+
+    &--reversed .text {
+      padding-left: 0;
+    }
+
+    .benefit-6 {
+      grid-column: 1;
+      grid-row: 6 / 6;
+    }
+  }
+}
