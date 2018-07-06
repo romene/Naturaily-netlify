@@ -4,7 +4,7 @@ description: >-
   Finding a technical co-founder is one of the most important tasks, whether
   you're building a startup or an IT development company. Find out how in this
   article.
-slug: technical co-founder
+slug: how-to-find-technical-co-founder
 date: '2014-08-11 10:38:01 +0000'
 category: Thoughts on building start-ups
 author: Marcin Sulikowski
