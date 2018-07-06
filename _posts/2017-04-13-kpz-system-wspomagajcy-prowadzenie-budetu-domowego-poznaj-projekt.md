@@ -1,32 +1,35 @@
 ---
 title: 'KPZ: System wspomagający prowadzenie budżetu domowego (poznaj projekt)'
-tags:
-- Events
-- Ruby on Rails development
-- Native mobile development
-category: Konferencja zespołów projektowych
+description: >-
+  Celem projektu jest stworzenie systemu wspomagającego prowadzenie budżetu
+  domowego, który będzie umożliwiał dodawanie wydatków wykorzystując technologię
+  OCR.
+slug: kpz-projekt-wspomaganie-budzetu-domowego
 date: '2017-04-13 10:38:01 +0000'
+category: Konferencja zespołów projektowych
 author: Marcin Sulikowski
-image: /assets/images/kpz-2-system-do-budzetu-domowego.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Celem  projektu jest stworzenie systemu wspomagającego prowadzenie budżetu domowego, który będzie umożliwiał automatyczne dodawanie wydatków za pomocą skanowania paragonów smartfonem.
+image: /assets/images/kpz-2-system-do-budzetu-domowego.jpg
+text-preview: >-
+  Celem  projektu jest stworzenie systemu wspomagającego prowadzenie budżetu
+  domowego, który będzie umożliwiał automatyczne dodawanie wydatków za pomocą
+  skanowania paragonów smartfonem.
+tags:
+  - Events
+  - Ruby on Rails development
+  - Native mobile development
 ---
-
-
-
 Celem  projektu jest stworzenie systemu wspomagającego prowadzenie budżetu domowego, który będzie umożliwiał automatyczne dodawanie wydatków za pomocą skanowania paragonów smartfonem.
 
-### Na system będą się składać dwie aplikacje: __mobilna__ i __internetowa__.
+### Na system będą się składać dwie aplikacje: **mobilna** i **internetowa**.
 
 Pierwsza ma umożliwić zrobienie zdjęcia paragonu i przesłanie go do aplikacji internetowej, która będzie przechowywać wszystkie dane dotyczące przychodów i wydatków. Jednym z jej elementów będzie interfejs pozwalający wprowadzać i prezentować informacje na temat budżetu.
 
-Aplikacja mobilna powstaje na __system Android__.
-Aplikacja internetowa zostanie napisana w __Ruby on Rails__.
+Aplikacja mobilna powstaje na **system Android**.
+Aplikacja internetowa zostanie napisana w **Ruby on Rails**.
 Naturaily udostępnia infrastrukturę serwerową dla aplikacji internetowej.
 
 ### Czas żebyście poznali grupę projektową oraz motywacje chłopaków do wyboru właśnie tego tematu.
-
 
 * <p class="text-underline">Karol Piątek:</p>
 
