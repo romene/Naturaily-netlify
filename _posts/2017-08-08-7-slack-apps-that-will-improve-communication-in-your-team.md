@@ -1,14 +1,21 @@
 ---
 title: 7 Slack apps that will improve communication in your team
-tags:
-- Agile
-category: Management
+description: >-
+  Communication between our team members is the key to success. That is why we
+  use Slack as our main communicator with some great apps that improve our
+  workflow. 
+slug: slack-apps-improving-team-communication
 date: '2017-08-08 10:38:01 +0000'
+category: Management
 author: Marcin Sulikowski
-image: /assets/images/slack.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Communication between our team members is the key to success. To provide better quality products to our customers we use professional platforms and services like Slack - an instant messaging and collaboration system.
+image: /assets/images/slack.jpg
+text-preview: >-
+  Communication between our team members is the key to success. To provide
+  better quality products to our customers we use professional platforms and
+  services like Slack - an instant messaging and collaboration system.
+tags:
+  - Agile
 ---
 
 
