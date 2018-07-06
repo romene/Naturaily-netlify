@@ -100,10 +100,20 @@
 @media screen and (max-width: 810px) {
   .services {
     &-resources {
-      grid-template-columns: repeat(0, 1fr);
+      grid-template-columns: repeat(1, 1fr);
       grid-template-rows: repeat(3, 350px);
       grid-gap: 40px;
       padding-bottom: 60px;
+    }
+
+    .benefits-tile {
+      width: 160px;
+      height: 180px;
+    }
+
+    .benefits {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(1, 75px);
     }
 
     &--reversed .text {

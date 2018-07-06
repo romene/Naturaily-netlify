@@ -93,6 +93,12 @@ display: grid;
       }
     }
   }
+
+  &-services {
+    padding-top: 17px;
+    grid-row: 3;
+  }
+
   &-places {
     padding-top: 20px;
     grid-row: 6;
@@ -191,9 +197,9 @@ display: grid;
     &-headline--offer {
       grid-column: 2;
     }
-    &-headline--places {
+    &-headline--services {
       grid-column: 3;
-      grid-row: 1;
+      align-self: end;
     }
     &-headline--news {
       grid-column: 4;
