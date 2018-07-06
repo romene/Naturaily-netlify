@@ -1,34 +1,37 @@
 ---
 title: 'KPZ: Pomiar parametrów środowiskowych w inteligentnym domu (poznaj projekt)'
-tags:
-- Events
-- Ruby on Rails development
-- Native mobile development
-- Python
-- BMS
-category: Konferencja zespołów projektowych
+description: >-
+  Celem projektu jest stworzenie systemu mierzącego różne parametry, takie jak:
+  temperatura i wilgotność powietrza oraz stężenie pyłów w powietrzu.
+slug: kpz-projekt-inteligentny-dom
 date: '2017-04-13 10:30:01 +0000'
+category: Konferencja zespołów projektowych
 author: Marcin Sulikowski
-image: /assets/images/kpz-3-pomiar-parametrow.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: "Celem projektu jest stworzenie systemu mierzącego różne parametry, takie jak: temperatura i wilgotność powietrza oraz stężenie pyłów w powietrzu."
+image: /assets/images/kpz-3-pomiar-parametrow.jpg
+text-preview: >-
+  Celem projektu jest stworzenie systemu mierzącego różne parametry, takie jak:
+  temperatura i wilgotność powietrza oraz stężenie pyłów w powietrzu.
+tags:
+  - Events
+  - Ruby on Rails development
+  - Native mobile development
+  - Python
+  - BMS
 ---
-
-
 Celem projektu jest stworzenie systemu mierzącego różne parametry, takie jak: temperatura i wilgotność powietrza oraz stężenie pyłów w powietrzu.
 
 System będzie się składał z 3 części:
 
-   * bezprzewodowych czujników opartych na mikrokontrolerze , których zadaniem jest rejestracja  temperatury i wysyłka danych do jednostki centralnej,
-   * jednostka centralna (Raspberry PI), która przetwarza otrzymane dane,
-   * aplikacji internetowej prezentującej zebrane dane.
+* bezprzewodowych czujników opartych na mikrokontrolerze , których zadaniem jest rejestracja  temperatury i wysyłka danych do jednostki centralnej,
+* jednostka centralna (Raspberry PI), która przetwarza otrzymane dane,
+* aplikacji internetowej prezentującej zebrane dane.
 
-W ramach realizacji projektu zostaną zastosowane następujące technologie: __Ruby on Rails__, __C__ i __Python__ (grupa 1) oraz __C__, __Python__ i __Python Flask__ (grupa 2). Naturaily udostępnia infrastrukturę serwerową dla aplikacji internetowej.
+W ramach realizacji projektu zostaną zastosowane następujące technologie: **Ruby on Rails**, **C** i **Python** (grupa 1) oraz **C**, **Python** i **Python Flask** (grupa 2). Naturaily udostępnia infrastrukturę serwerową dla aplikacji internetowej.
 
-### Czas żebyście poznali dwie __grupy projektowe__, które realizują ten projekt oraz motywacje poszczególnych osób do wyboru właśnie tego tematu.
+### Czas żebyście poznali dwie **grupy projektowe**, które realizują ten projekt oraz motywacje poszczególnych osób do wyboru właśnie tego tematu.
 
-__Grupa 1__
+**Grupa 1**
 
 * <p class="text-underline">Michał Kochański:</p>
 
@@ -48,10 +51,9 @@ _Podobnie jak Michał, wybrałem ten temat, ponieważ daje możliwość powiąza
 
 Prowadzącym jest <span class="text-underline">dr inż. Grzegorz Świrniak z Katedry Metrologii Elektronicznej i Fotonicznej</span>, który w tymi słowami uargumentował skierowanie tego tematu do realizacji:
 
-
 _Systemy zarządzania inteligentnymi domami mają poprawiać komfort życia mieszkańców, dbać o ich bezpieczeństwo i redukować koszty eksploatacji. Jednym z kluczowych zagadnień jest pomiar i analiza parametrów środowiskowych, takich jak temperatura i wilgotność powietrza oraz stopień jego zanieczyszczenia. Pomiar temperatury w różnych pomieszczeniach może posłużyć do optymalnego sterowania ogrzewaniem, dostosowanym do potrzeb i stylu życia mieszkańców. Pomiary wilgotności i stopnia zanieczyszczenia powietrza pozwalają z kolei na sterowanie jego wymianą i oczyszczaniem, co zapewni dobre samopoczucie i przeciwdziała rozwojowi niebezpiecznych mikroorganizmów. Problematyka pomiarów środowiskowych wydaje się więc szczególnie ważna z punktu widzenia potrzeb człowieka, ale też jest interesującym wyzwaniem dla młodych, przyszłych inżynierów. Wyzwanie to jest niewątpliwe złożone, ponieważ obejmuje pomiary realizowane przez sieć różnorodnych czujników, umiejętność konstruowania systemów mikroprocesorowych dokonujących akwizycji i analizy danych empirycznych oraz komunikację ze światem zewnętrznym przy użyciu nowoczesnych technologii informatycznych. Jestem jednak przekonany, że ogromna pasja,  zaangażowanie i radość z inżynierskich poczynań grupy studenckiej w połączeniu z doświadczeniem kadry z Politechniki Wrocławskiej i firmy Naturaily umożliwią pozytywne zakończenie projektu._
 
-__Grupa 2 jest bardzo liczna, w związku z czym przywołaliśmy jedynie kilka wypowiedzi.__
+**Grupa 2 jest bardzo liczna, w związku z czym przywołaliśmy jedynie kilka wypowiedzi.**
 
 * <p class="text-underline">Artur Ludwiński:</p>
 
