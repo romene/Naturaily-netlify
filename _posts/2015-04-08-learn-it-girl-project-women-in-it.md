@@ -1,17 +1,29 @@
 ---
-title: "‘Learn IT, girl!’ project. Women in IT!"
-tags:
-- Backbone.js development
-- Diversity
-- JavaScript development
-- Events
-category: Women in IT
+title: '‘Learn IT, girl!’ project. Women in IT!'
+description: >-
+  Thoughts on the 'Women in IT' international IT project, where women, under
+  some mentorship, can learn programming in various languages to create amazing
+  apps. 
+slug: women-in-it
 date: '2015-04-08 10:38:01 +0000'
+category: Women in IT
 author: Agnieszka Bugajska
-image: /assets/images/learn_it_girl.jpg
-position: Front-end Developer
 avatar: /assets/images/aga.png
-text-preview: There are many different non-profit international IT projects, where women can learn how to program in various programming languages such as JavaScrip, Java, Ruby and many more.<br>About two years ago, I was encouraged to make a very first and simple web page by using CSS, HTML5 and WordPress. I wasn’t sure if I could handle it, but with other people’s help i was able to finish it! Then, I started my further journey in IT. For over a year I’ve been working as a front-end developer. I’ve learnt how to build responsive and functional web applications and I found it very entertaining. It actually became my passion.
+image: /assets/images/learn_it_girl.jpg
+text-preview: >-
+  There are many different non-profit international IT projects, where women can
+  learn how to program in various programming languages such as JavaScrip, Java,
+  Ruby and many more.<br>About two years ago, I was encouraged to make a very
+  first and simple web page by using CSS, HTML5 and WordPress. I wasn’t sure if
+  I could handle it, but with other people’s help i was able to finish it! Then,
+  I started my further journey in IT. For over a year I’ve been working as a
+  front-end developer. I’ve learnt how to build responsive and functional web
+  applications and I found it very entertaining. It actually became my passion.
+tags:
+  - Backbone.js development
+  - Diversity
+  - JavaScript development
+  - Events
 ---
 
 
