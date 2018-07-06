@@ -1,14 +1,27 @@
 ---
 title: Rails on a diet
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+description: >-
+  So you're working with Ruby on Rails but you don't know how to make it more
+  'lightweight'? In this Ruby on Rails tutorial, we are going to take Rails on a
+  diet. 
+slug: diet-rails
 date: '2014-08-19 10:38:01 +0000'
+category: Ruby on Rails development
 author: Przemysław Świercz
-image: /assets/images/railsondiet.jpg
-position: Ruby on Rails developer
 avatar: /assets/images/swierszcz.png
-text-preview: More and more apps are being created with an API support. Growing popularity of Angular.js and Backbone.js makes it even more important part of new projects. Why is that? There is a trend to seperate backend from frontend not only in terms of logic but also to split the project into two seperate ones - pure API backend and client-side-only frontend. What's all the fuss about? It is simple - you have a nice and clear API for a javascript webapplication and therefore you do not need to worry about the assets pipeline and other full-stack projects related issues. And you get an API for mobile devices. For free.
+image: /assets/images/railsondiet.jpg
+text-preview: >-
+  More and more apps are being created with an API support. Growing popularity
+  of Angular.js and Backbone.js makes it even more important part of new
+  projects. Why is that? There is a trend to seperate backend from frontend not
+  only in terms of logic but also to split the project into two seperate ones -
+  pure API backend and client-side-only frontend. What's all the fuss about? It
+  is simple - you have a nice and clear API for a javascript webapplication and
+  therefore you do not need to worry about the assets pipeline and other
+  full-stack projects related issues. And you get an API for mobile devices. For
+  free.
+tags:
+  - Ruby on Rails development
 ---
 
 
