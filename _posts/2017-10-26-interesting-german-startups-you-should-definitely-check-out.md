@@ -1,14 +1,22 @@
 ---
 title: Interesting German startups you should definitely check out!
-tags:
-- Startups
-category: Startups
+description: >-
+  Here is another portion of interesting, Germany-based startup that you should
+  definitely check out! Who knows, maybe some of them will take the world by
+  storm?
+slug: interesting-german-startups
 date: '2017-10-26 10:38:01 +0000'
+category: Startups
 author: Wojciech Miśta
-image: /assets/images/more-berlin-startups.jpg
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: Here’s another portion of interesting, Germany-based startups that are definitely worth your attention. If you’re interested check our previous post about [9 startups in Berlin you should know about in 2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017).
+image: /assets/images/more-berlin-startups.jpg
+text-preview: >-
+  Here’s another portion of interesting, Germany-based startups that are
+  definitely worth your attention. If you’re interested check our previous post
+  about [9 startups in Berlin you should know about in
+  2017](http://naturaily.com/blog/post/9-startups-in-berlin-you-should-know-about-in-2017).
+tags:
+  - Startups
 ---
 
 
