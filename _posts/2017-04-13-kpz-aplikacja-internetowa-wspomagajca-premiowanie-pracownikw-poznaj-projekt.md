@@ -1,26 +1,31 @@
 ---
-title: 'KPZ: Aplikacja internetowa wspomagająca premiowanie pracowników (poznaj projekt)'
-tags:
-- Events
-- Ruby on Rails development
-- Ember.js development
-- Team
-category: Konferencja zespołów projektowych
+title: >-
+  KPZ: Aplikacja internetowa wspomagająca premiowanie pracowników (poznaj
+  projekt)
+description: >-
+  Projekt KZP, aplikacja, której celem jest stworzenie systemu pozwalającego na
+  śledzenie zainteresowanych stanowiskami na targach czy wystawach. 
+slug: kpz-projekt-premiowanie-pracownikow
 date: '2017-04-13 10:38:01 +0000'
+category: Konferencja zespołów projektowych
 author: Marcin Sulikowski
-image: /assets/images/kpz-4-aplikacja-hr.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Celem projektu jest zaimplementowanie aplikacji internetowej, która ma zadanie wspierać firmy w działaniach z zakresu HR i employer brandingu, w tym premiowanie pracowników.
+image: /assets/images/kpz-4-aplikacja-hr.jpg
+text-preview: >-
+  Celem projektu jest zaimplementowanie aplikacji internetowej, która ma zadanie
+  wspierać firmy w działaniach z zakresu HR i employer brandingu, w tym
+  premiowanie pracowników.
+tags:
+  - Events
+  - Ruby on Rails development
+  - Ember.js development
+  - Team
 ---
-
-
-
 Celem projektu jest zaimplementowanie aplikacji internetowej, która ma zadanie wspierać firmy w działaniach z zakresu HR i employer brandingu, w tym premiowanie pracowników.
 
 ### W aplikacji wyróżniamy dwa typy użytkowników: administrator i pracownik.
 
-__Administratorzy__ w danej firmie __mogą dodawać zadania__, za których realizację pracownicy będą otrzymywać punkty (np. przygotowanie szkolenia dla pozostałych członków zespołu lub polecenie kandydata do pracy).
+**Administratorzy** w danej firmie **mogą dodawać zadania**, za których realizację pracownicy będą otrzymywać punkty (np. przygotowanie szkolenia dla pozostałych członków zespołu lub polecenie kandydata do pracy).
 
 Natomiast pracownicy zbierają punkty za zrealizowane zadania, po czym mogą je wymienić na nagrody określone wcześniej przez administratorów (np. na opłacone szkolenie).
 
