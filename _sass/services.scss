@@ -96,3 +96,23 @@
     }
   }
 }
+
+@media screen and (max-width: 810px) {
+  .services {
+    &-resources {
+      grid-template-columns: repeat(0, 1fr);
+      grid-template-rows: repeat(3, 350px);
+      grid-gap: 40px;
+      padding-bottom: 60px;
+    }
+
+    &--reversed .text {
+      padding-left: 0;
+    }
+
+    .benefit-6 {
+      grid-column: 1;
+      grid-row: 6 / 6;
+    }
+  }
+}
