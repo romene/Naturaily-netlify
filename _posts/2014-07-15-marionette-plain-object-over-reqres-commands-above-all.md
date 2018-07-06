@@ -1,15 +1,21 @@
 ---
 title: 'Marionette: plain object over reqres, commands above all!'
-tags:
-- JavaScript development
-- Backbone.js development
-category: JavaScript development
+description: >-
+  Marionette.js tutorial - an introduction to Plain Objects and The Reqres, how
+  to use them, and what are the differences. 
+slug: marionette-tutorial-objects-commands
 date: '2014-07-15 10:38:01 +0000'
+category: JavaScript development
 author: Maciej Kucharski
-position: Front-end Developer
-image: /assets/images/marionette.jpg
 avatar: /assets/images/maciek.png
-text-preview: A brief introduction to Marionette’s reqres ( request-response ) and commands would be that they are application (or module) level event aggregators that either return a value or cause an action to happen.
+image: /assets/images/marionette.jpg
+text-preview: >-
+  A brief introduction to Marionette’s reqres ( request-response ) and commands
+  would be that they are application (or module) level event aggregators that
+  either return a value or cause an action to happen.
+tags:
+  - JavaScript development
+  - Backbone.js development
 ---
 
 
