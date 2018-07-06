@@ -14,10 +14,16 @@
     }
   }
 
+  &-header {
+    .big-point {
+      font-weight: 500;
+    }
+  }
+
   &-resources {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(1, 260px);
-    grid-gap: 40px;
+    grid-template-rows: repeat(1, 400px);
+    grid-gap: 70px;
     padding-bottom: 90px;
 
     .mobile-tile, .web-tile, .ux-tile {
@@ -26,8 +32,10 @@
       grid-column: unset;
     }
 
-    .resources-tile {
-      padding-bottom: 40px;
+    .tile-text {
+      width: 140px;
+      margin-bottom: 70px;
+      font-size: 21px;
     }
   }
 
