@@ -1,15 +1,20 @@
 ---
 title: From $1B valuation to rescue plan. What have happened to SoundCloud and why?
-tags:
-- Startups
-- Agile
-category: Startups
+description: >-
+  Website loved by many almost collapsed after questionable choices made by its
+  management. Will SoundCloud learn from their own mistakes?
+slug: what-happened-to-soundcloud-and-why
 date: '2017-08-17 10:38:01 +0000'
+category: Startups
 author: Wojciech Miśta
-image: /assets/images/soundcloud.jpg
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: Site loved by many almost collapsed after questionable choices made by management. Will SoundCloud learn from their own mistakes?
+image: /assets/images/soundcloud.jpg
+text-preview: >-
+  Site loved by many almost collapsed after questionable choices made by
+  management. Will SoundCloud learn from their own mistakes?
+tags:
+  - Startups
+  - Agile
 ---
 
 
