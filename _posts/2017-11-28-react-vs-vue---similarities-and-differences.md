@@ -1,17 +1,24 @@
 ---
 title: React vs Vue - similarities and differences
-tags:
-- React.js development
-- Vue.js development
-- Comparison
-- JavaScript development
-category: JavaScript development
+description: >-
+  Both React and Vue have gained a lot of attention and interest from developers
+  in the past 3 years. Here's a brief comparison based on our experience. 
+slug: react-vue-similarities-and-differences
 date: '2017-11-28 10:38:01 +0000'
+category: JavaScript development
 author: Wojciech Miśta
-image: /assets/images/vue-v-react.png
-position: Content Writer
 avatar: /assets/images/wojtek.jpg
-text-preview: Both React and Vue have gained a lot of attention and interest from the developer's community for the past 3 years. Although their technical nature is slightly different, they are often compared to each other due to a similar set of features making them compete in web development market.
+image: /assets/images/vue-v-react.png
+text-preview: >-
+  Both React and Vue have gained a lot of attention and interest from the
+  developer's community for the past 3 years. Although their technical nature is
+  slightly different, they are often compared to each other due to a similar set
+  of features making them compete in web development market.
+tags:
+  - React.js development
+  - Vue.js development
+  - Comparison
+  - JavaScript development
 ---
 
 Both React and Vue have gained a lot of attention and interest from the developer's community for the past 3 years. Although their technical nature is slightly different, they are often compared to each other due to a similar set of features making them compete in web development market.
