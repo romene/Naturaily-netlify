@@ -1,14 +1,19 @@
 ---
 title: Ruby on Rails view components with Trailblazer Cells
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+description: >-
+  How to create view components in your Ruby on Rails applications? With this
+  tutorial, you'll be able to see how to create them using Trailblazer Cells!
+slug: ruby-on-rails-trailblazer-cells
 date: '2016-10-03 10:38:01 +0000'
+category: Ruby on Rails development
 author: Mikołaj Grygiel
-image: /assets/images/trailblazer.jpg
-position: Ruby on Rails Developer
 avatar: /assets/images/claus.jpg
-text-preview: In recent times view components became a really popular web design pattern. View component is standalone part of view, which can be used at many views.
+image: /assets/images/trailblazer.jpg
+text-preview: >-
+  In recent times view components became a really popular web design pattern.
+  View component is standalone part of view, which can be used at many views.
+tags:
+  - Ruby on Rails development
 ---
 
 
