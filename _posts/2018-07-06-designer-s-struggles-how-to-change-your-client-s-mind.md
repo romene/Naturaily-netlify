@@ -80,6 +80,8 @@ Consider spending some time learning how to create statements that will trigger 
 
 Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
 
+![Designer's desk](/assets/images/designer-desk.jpg)
+
 ## Conclusion
 
 Agile and clean communication as well as searching for a common ground. We don’t have to prove that we are experts, but if we call them ourselves,** we should act like them**. The designer who is incapable of an agile communication, approaching, educating and encouraging a client is a bad designer. We can’t treat our clients as fools. It doesn’t matter if they know or don’t know what they want - we have to make certain decisions easier for them and be able to show them the right direction. Sometimes it is impossible, but we have to keep trying until it happens.
@@ -93,3 +95,8 @@ All of our clients’ decisions, that may seem stupid at first, have some kind o
 Clients tend to trust their intuition and emotions, the same way designers do. Our role, our advantage is the awareness of this fact. As designers, we have to use it for our benefit.
 
 When a client is getting emotional we need to play it cool. Give logical arguments, make sure that your client is feeling safe, taken care of, that we are worried and we are doing everything to solve his problems - just like a skilled psychologist.
+
+Special thanks to:
+
+* [Luke Chesser](https://unsplash.com/photos/wnShDP37vB4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
+* [rawpixel](https://unsplash.com/photos/WYEZba2aiVg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on Unsplash
