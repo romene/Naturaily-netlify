@@ -31,6 +31,21 @@
     }
   }
 
+  &-footer {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 80px;
+    h2 {
+      font-size: 1.5rem;
+    }
+    p {
+      font-size: 2rem;
+    }
+    a {
+      color: inherit;
+    }
+  }
+
   &-btn {
     display: inline-block;
     margin-top: 60px;
@@ -39,6 +54,10 @@
   &-benefits-text {
     max-width: 70%;
     padding-left: 30px;
+  }
+
+  .career-more {
+    margin-bottom: 160px;
   }
 
   .benefits-tile {
