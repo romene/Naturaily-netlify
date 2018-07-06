@@ -56,9 +56,9 @@ Conducting detailed research on users that will give your client clear, quantita
 
    Showing solutions created by the competition. Provide explanation why certain solutions are good or bad, why they will work or not in your client’s case. To prove your point, show your client a few real, live examples of these solutions. Try to demonstrate the outcome of certain decisions and their impact on the rest of the project.
 
-3. **Cooperation**\
+3. **Cooperation**
 
-Attempt to develop **solution** along with the client. Try to convince him that the solution is his genius idea. Your goal is to make your client develop a strong bond with the project. This way he will start taking responsibility for its final outcome.
+   Attempt to develop **solution** along with the client. Try to convince him that the solution is his genius idea. Your goal is to make your client develop a strong bond with the project. This way he will start taking responsibility for its final outcome.
 
 4. **Educate**
 
