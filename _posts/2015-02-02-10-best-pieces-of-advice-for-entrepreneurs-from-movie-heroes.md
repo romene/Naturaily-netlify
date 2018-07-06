@@ -1,15 +1,19 @@
 ---
 title: 10 best pieces of advice for entrepreneurs from movie heroes
-tags:
-- Startups
-category: Thoughts on building start-ups
+description: >-
+  Some movies are full of great pieces of advice for entrepreneurs and startup
+  builders. Below you will find some of my favourite examples.
+slug: entrepreneurs-advice-from-movie-heroes
 date: '2015-02-02 10:38:01 +0000'
+category: Thoughts on building start-ups
 author: Marcin Sulikowski
-image: /assets/images/film_quotes.png
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: Some movies are full of great pieces of advice for entrepreneurs and startup builders. Below you will find some of my favourite examples.
-
+image: /assets/images/film_quotes.png
+text-preview: >-
+  Some movies are full of great pieces of advice for entrepreneurs and startup
+  builders. Below you will find some of my favourite examples.
+tags:
+  - Startups
 ---
 
 
