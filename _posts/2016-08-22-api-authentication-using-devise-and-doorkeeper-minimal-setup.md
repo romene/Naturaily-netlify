@@ -1,14 +1,20 @@
 ---
 title: API authentication using Devise and Doorkeeper (minimal setup)
-tags:
-- Ruby on Rails development
-category: Ruby on Rails development
+description: >-
+  Here is a guide on how to create API autherntication using Devise and
+  Doorkeeper in the simplest way possible! 
+slug: api-authentication-devise-doorkeeper-setup
 date: '2016-08-22 10:38:01 +0000'
+category: Ruby on Rails development
 author: Jan Wieczorkowski
-image: /assets/images/ancient-hall.jpg
-position: Ruby and JavaScript Developer
 avatar: /assets/images/janpol.png
-text-preview: Have you ever tried to setup Devise and Doorkeeper in the simplest possible way, without oauth applications etc? Here it is! In this article, I'll show you in a few easy steps that setup you searched for!
+image: /assets/images/ancient-hall.jpg
+text-preview: >-
+  Have you ever tried to setup Devise and Doorkeeper in the simplest possible
+  way, without oauth applications etc? Here it is! In this article, I'll show
+  you in a few easy steps that setup you searched for!
+tags:
+  - Ruby on Rails development
 ---
 
 
