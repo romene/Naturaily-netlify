@@ -1,14 +1,25 @@
 ---
 title: How to find a technical co-founder?
-tags:
-- Startups
-category: Thoughts on building start-ups
+description: >-
+  Finding a technical co-founder is one of the most important tasks, whether
+  you're building a startup or an IT development company. Find out how in this
+  article.
+slug: technical co-founder
 date: '2014-08-11 10:38:01 +0000'
+category: Thoughts on building start-ups
 author: Marcin Sulikowski
-image: /assets/images/cofounder.jpg
-position: Chief Executive Officer
 avatar: /assets/images/marcin.jpg
-text-preview: "Whether you're building a ONE BILLION startup or a smallish web developement agency, as an entrepreneur you have one tough task: finding a technical co-founder. That's probably one of the most important tasks in early days of your empire *in spe*.<!--more--> I've been there a couple of times and I can only say that choosing the right person will result in peace of your mind and growth of your business. But choosing the wrong one, you may end up with plenty of troubles."
+image: /assets/images/cofounder.jpg
+text-preview: >-
+  Whether you're building a ONE BILLION startup or a smallish web developement
+  agency, as an entrepreneur you have one tough task: finding a technical
+  co-founder. That's probably one of the most important tasks in early days of
+  your empire *in spe*.<!--more--> I've been there a couple of times and I can
+  only say that choosing the right person will result in peace of your mind and
+  growth of your business. But choosing the wrong one, you may end up with
+  plenty of troubles.
+tags:
+  - Startups
 ---
 
 Whether you're building a ONE BILLION startup or a smallish web developement agency, as an entrepreneur you have one tough task: finding a technical co-founder. That's probably one of the most important tasks in early days of your empire *in spe*.<!--more--> I've been there a couple of times and I can only say that choosing the right person will result in peace of your mind and growth of your business. But choosing the wrong one, you may end up with plenty of troubles.
