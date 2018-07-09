@@ -46,11 +46,11 @@ Conducting detailed research on users that will give your client clear, quantita
 
 1. **Clear and honest communication**\
    \
-   Understand the issues client is facing, why he thinks the way he does. Ask specific questions to get to the roots of the client’s problems. Lack of understanding and partial flow of information may cause some distortion and will force you to compromise. This often leaves both sides unsatisfied and results in an average UX.
-
-Keep in mind that you have to respect your client’s opinion. You can’t just ignore his or her feedback, even if you’re strongly against them.
-
-You have to help your client understand your thought process and why certain decisions should or should not be made. You should seek a common ground with your client through similar past experiences.
+   Understand the issues client is facing, why he thinks the way he does. Ask specific questions to get to the roots of the client’s problems. Lack of understanding and partial flow of information may cause some distortion and will force you to compromise. This often leaves both sides unsatisfied and results in an average UX.\
+   \
+   Keep in mind that you have to respect your client’s opinion. You can’t just ignore his or her feedback, even if you’re strongly against them.\
+   \
+   You have to help your client understand your thought process and why certain decisions should or should not be made. You should seek a common ground with your client through similar past experiences.
 
 2. **Benchmarking**\
    \
