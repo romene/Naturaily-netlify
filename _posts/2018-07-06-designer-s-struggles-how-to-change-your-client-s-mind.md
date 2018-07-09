@@ -78,7 +78,7 @@ Conducting detailed research on users that will give your client clear, quantita
 
 6. **Be preprared**
 
-   Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
+Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
 
 ![Designer's desk](/assets/images/designer-desk.jpg)
 
