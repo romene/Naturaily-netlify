@@ -44,19 +44,23 @@ To better understand the topic let’s add some real background. In our recent p
 Adding enum to an existing model is a really simple task. First of all, you need to create an appropriate migration. Notice that column type is set to integer and this is how Rails keeps **enums** values in the database.
 
 `rails g migration add_status_to_catalogs status:integer`
-```
+
+```ruby
 class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
   def change
     add_column :catalogs, :status, :integer
   end
 end
 ```
+
 Next step is to declare **enum** attribute in the model.
-```
+
+```ruby
 class Catalog < ActiveRecord::Base
   enum status: [:published, :unpublished, :not_set]
 end
 ```
+
 Run the migrations and that’s it! From now you can take advantage of the whole bunch of extra methods.
 
 For example, you can check if the current status is set to a specific value:
@@ -65,7 +69,7 @@ For example, you can check if the current status is set to a specific value:
 
 or change the status to other value:
 
-```
+```ruby
 catalog.status = "published" # published
 catalog.published! # published
 ```
@@ -84,23 +88,26 @@ This simple solution is great for a start, but you may run into some troubles wh
 
 In this example mapping would be as follow:
 
-```
+```ruby
 class Catalog < ActiveRecord::Base
   enum localization: [:home, :foreign, :none]
 end
 ```
-```
+
+```ruby
 0 -> home
 1 -> foreign
 2 -> none
 ```
+
 That approach is not flexible at all. Imagine that requirements just have changed. From now "foreign" localization should be split into "America" and "Asia". In that case, you should remove old value and add two new ones. But... you cannot remove unused "foreign" type, because it violates an order of remaining values. To avoid this situation you should declare your **enum** as a `Hash`. There is not much to do:
 
-```
+```ruby
 class Catalog < ActiveRecord::Base
   enum localization: { home: 0, foreign: 1, none: 2 }
 end
 ```
+
 This declaration doesn’t depend on an order so you will be able to implement the changes and get rid of unused **enum** value.
 
 ## 2. Integrate ActiveRecord::Enum with PostgreSQL enum
@@ -113,10 +120,11 @@ Working with attributes representing by integers in the database can be annoying
 
 We got an error as we expected:
 
-```
+```ruby
 ActiveRecord::StatementInvalid: PG::InvalidTextRepresentation:
 ERROR: invalid input syntax for integer: "finished"
 ```
+
 This problem occurs only in the array format of `where clause` because the second value is put directly into `SQL where clause` and obviously "finished" is not an integer.
 
 A similar case can appear when you implement complex `SQL query` omitting `ActiveRecord` layer. When the query hasn’t access to the model then you lose meaningful information about values and stay with pure integers without sense. In that case, you need to put an extra effort to make these integers meaningful again.
@@ -136,7 +144,7 @@ Let’s see how it looks this time.
 You need to change attribute type. I don’t recommend creating types like "status". It is likely that another status will appear in the future.
 Next, you need to change migration a little. Most of all it must be **reversible** and could **execute SQL**.
 
-```
+```ruby
 class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
   def up
     execute <<-SQL
@@ -156,7 +164,7 @@ end
 
 Declaration is similar to the previous one:
 
-```
+```ruby
 class Catalog < ActiveRecord::Base
   enum status: { published: "published", unpublished: "unpublished", not_set: "not_set" }
 end
@@ -168,7 +176,7 @@ end
 
 This point is a simple one. It’s highly probable that your **enum** attribute is what can distinguish objects within a particular model. Like with our status: some `Catalogs` are published and others are not. As a consequence, searching or filtering by that attribute will be a quite frequent task, so it is worth to **add an index** to that field. Let's modify our migration:
 
-```
+```ruby
 class AddIndexToCatalogs < ActiveRecord::Migration
   def change
     add_index :catalogs, :status
@@ -195,9 +203,9 @@ Referring to our recent project again, we had a few **enums** in our `Catalog` m
 
 `localization: ["home", "foreign", "none"]`
 
-  To **add prefix or suffix to enum** it’s enough to add that option to the declaration, like so:
+To **add prefix or suffix to enum** it’s enough to add that option to the declaration, like so:
 
-```
+```ruby
 class Catalog < ActiveRecord::Base
   enum status: { published: "published", unpublished: "unpublished", not_set: "not_set" }, _prefix: :status
   enum auction_type: { traditional: "traditional", live: "live", internet: "internet" }, _suffix: true
@@ -206,7 +214,7 @@ end
 
 Let's see why it can be so helpful. In `Catalog` model, we have 4 **enums** and 12 values among them. It creates 12 scopes, very unintuitive scopes.
 
-```
+```ruby
 Catalog.not_set
 Catalog.live
 Catalog.unpublished
@@ -214,41 +222,46 @@ Catalog.in_progress
 ```
 Can you say with ease what these methods return? No, you need to remember all the time how the scopes look. It may be annoying, really.
 
-```
+```ruby
 Catalog.status_not_set
 Catalog.live_auction_type
 Catalog.status_unpublished
 Catalog.state_in_progress
 ```
+
 That looks much better.
 
 Let's suppose now that you need to add one more **enum** to your model. It should keep information about the order of each catalog inside the global catalog. The order of some catalogs may not be specified. Most important is to know which one is first and which is last. We can create another **enum**:
-```
+
+```ruby
 class Catalog < ActiveRecord::Base
   enum order: { first: "first", last: "last", other: "other", none: "none" }
 end
 ```
+
 Let's open `rails console` to test new scopes:
 
 `Catalog.order`
 
 We got an error. It’s self-explanatory.
 
-```
+```ruby
  ArgumentError: You tried to define an enum named "order" on
  the model "Catalog", but this will generate a class method
  "first", which is already defined by Active Record.
 ```
+
 Ok, we can fix it:
 
-```
+```ruby
 class Catalog < ActiveRecord::Base
   enum order: { first_catalog: "first_catalog", last_catalog: "last_catalog", other: "other", none: "none" }
 end
 ```
+
 And again, another error:
 
-```
+```ruby
 ArgumentError (You tried to define an enum named "order" on the
 model "Catalog", but this will generate an instance method
 "none?", which is already defined by another enum.)
@@ -258,7 +271,7 @@ Ok, that is obvious too. We forgot that value "none" was declared in another att
 
 Prefix or suffix options are a perfect fit to avoid these kinds of troubles. We can declare values just like we want, there is no reason to change words which are most descriptive. In that approach, scopes are more intuitive and meaningful. According to new attribute, the declaration should look like this:
 
-```
+```ruby
 class Catalog < ActiveRecord::Base
   enum order: { first: "first", last: "last", other: "other", none: "none" }, _prefix: :order
 end
@@ -275,7 +288,7 @@ I can recommend extracting **enum** attribute into separated **Value Object** in
 
 Ok, let’s introduce sample situation. In our project auction houses (where artworks are sold) are placed all over the country. Poland divides into 16 regions, called voivodeships. Each `AuctionHouse` model has specific `Address` that contains `Voivodeship` attribute. You can imagine that for some reason there will be a necessity to list only northern auction houses or these from most popular voivodeships. In that case it is necessary to put extra logic into our model what makes it fatter. To avoid it you can extract that logic into another class making it **reusable** and **cleaner**.
 
-```
+```ruby
 class Voivodeship
   VOIVODESHIPS = %w(dolnoslaskie kujawsko-pomorskie lubelskie    lubuskie lodzkie
     malopolskie mazowieckie opolskie podkarpackie podlaskie
@@ -308,7 +321,7 @@ end
 
 Then in your corresponding model, you need to overwrite this attribute. In our project it is `Address` model. `array_to_enum_hash` is just helper method converting the `Array` of **enum** values into a `Hash`.
 
-```
+```ruby
 class Address < ApplicationRecord
   enum voivodeship: array_to_enum_hash(Voivodeship::VOIVODESHIPS), _sufix: true
 
@@ -322,7 +335,7 @@ Here is what you achieved. Entire logic related to voivodeships is encapsulated 
 
 Now, when you want to get voivodeship attribute, the object of `Voivodeship` class is returned. This is your **Value Object**.
 
-```
+```ruby
 voivodeship_a = Address.first.voivodeship
 # #<Voivodeship:0x000000000651eef0 @voivodeship="pomorskie">
 
@@ -335,7 +348,7 @@ voivodeship_c = Address.third.voivodeship
 
 Take a look that both voivodeships have the same value, but as objects, they aren’t equal. Thanks to our helper method we can check the equality in that way:
 
-```
+```ruby
 voivodeship_a.eql? voivodeship_b
 # true
 
@@ -345,7 +358,7 @@ voivodeship_a.eql? voivodeship_c
 
 And what is most powerful you can take advantage of all defined methods that representing requirements we specified earlier.
 
-```
+```ruby
 voivodeship_a.northern? # true
 voivodeship_a.popular? # false
 
@@ -363,7 +376,7 @@ Ok, you have passed through **5 enum improvements**. Now it’s time to sum up a
 
 **Migration:**
 
-```
+```ruby
 class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
   def up
     execute <<-SQL
@@ -384,7 +397,7 @@ end
 
 **ValueObject:**
 
-```
+```ruby
 class CatalogStatus
   STATUSES = %w(published unpublished not_set).freeze
 
@@ -398,7 +411,7 @@ end
 
 **Catalog model & enum declaration:**
 
-```
+```ruby
 class Catalog
   enum status: array_to_enum_hash(CatalogStatus::STATUSES), _sufix: true
 

@@ -1,6 +1,10 @@
 .tech-container {
   padding-bottom: 50px;
 
+  .header-h2 {
+    @extend h2;
+  }
+
   .banner {
     padding-top: 60px;
   }
@@ -60,7 +64,7 @@
     z-index: -3;
   }
 
-  h2 {
+  h2, .header-h2 {
     margin-left: 35px;
   }
 
@@ -142,7 +146,7 @@
       flex-grow: 1;
     }
 
-    h2 {
+    h2, .header-h2 {
       margin-left: 0;
       padding-bottom: 20px;
     }
@@ -257,7 +261,7 @@
       padding-left: 0;
     }
 
-    h2 {
+    h2, .header-h2{
       margin: 0;
     }
 
