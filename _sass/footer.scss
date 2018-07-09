@@ -97,6 +97,14 @@ display: grid;
   &-services {
     padding-top: 17px;
     grid-row: 3;
+    a {
+    display: inline-block;
+    color: $color-global-font;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   &-places {
