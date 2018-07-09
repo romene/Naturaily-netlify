@@ -22,6 +22,17 @@ tags:
   - design
   - client
 ---
+1. asdasdada\
+   sadasdasd
+2. asdasa
+
+   \
+   sadas
+
+   \
+   asdasd
+3. sadasdas
+
 In my designer experience, when it comes to project design, clients tend to make unreasonable decisions based on their inner beliefs, convictions, and experiences. They strongly believe that their actions must to be similar to their competition, but what they don’t realize is that the things that work for others may not particularly work for them.
 
 ## Why does it happen?
@@ -44,25 +55,31 @@ First of all - **fear of the unknown, ridicule, failure to understand the projec
 
 Conducting detailed research on users that will give your client clear, quantitative and qualitative results stating that people act differently than him or her.
 
-   1. **Clear and honest communication**  \
-Understand the issues client is facing, why he thinks the way he does. Ask specific questions to get to the roots of the client’s problems. Lack of understanding and partial flow of information may cause some distortion and will force you to compromise. This often leaves both sides unsatisfied and results in an average UX.\
-Keep in mind that you have to respect your client’s opinion. You can’t just ignore his or her feedback, even if you’re strongly against them.\
+1. **Clear and honest communication**
+
+Understand the issues client is facing, why he thinks the way he does. Ask specific questions to get to the roots of the client’s problems. Lack of understanding and partial flow of information may cause some distortion and will force you to compromise. This often leaves both sides unsatisfied and results in an average UX.
+
+Keep in mind that you have to respect your client’s opinion. You can’t just ignore his or her feedback, even if you’re strongly against them.
+
 You have to help your client understand your thought process and why certain decisions should or should not be made. You should seek a common ground with your client through similar past experiences.
 
-   2. **Benchmarking**  \
+2. **Benchmarking**
+
 Showing solutions created by the competition. Provide explanation why certain solutions are good or bad, why they will work or not in your client’s case. To prove your point, show your client a few real, live examples of these solutions. Try to demonstrate the outcome of certain decisions and their impact on the rest of the project.
 
-   3. **Cooperation**  \
+3. **Cooperation**
+
 Attempt to develop **solution** along with the client. Try to convince him that the solution is his genius idea. Your goal is to make your client develop a strong bond with the project. This way he will start taking responsibility for its final outcome.
 
-   4. **Educate**  \
+4. **Educate**
+
 **Educate** your clients about the most recent solutions, design processes, element arrangement, the way to acquire new users - how to move forward, not just keeping the old user base satisfied (unless that’s one of the business goals). Show him the influence of user’s experience and impression.
 
 Build the **trust** with your client. Remind him that the final product is as much important to you as it is for him.
 
 Constantly provide him with clear **updates** on the project, the stage the development is at, what will happen next etc. Solutions have to be presented as complete, logical and rational - don’t base them on your intuition and emotions.
 
-   5. **Hold your opinion**
+5. **Hold your opinion**
 
 Give concise arguments why you think your solution is better and more beneficial. Your words should be a catalyst for making changes. They should influence another person to agree with you.
 
@@ -70,7 +87,7 @@ It’s not about repeating your or your client’s points over and over again. A
 
 Consider spending some time learning how to create statements that will trigger a certain, desired reaction. Your intentions have to be clear. As a UX designer, you have to prove that the project and its certain elements are thought out, logical and did not come from nowhere. Show your clients that they are there for a reason and that there are certain goals behind them. You need to be self-confident and have something to say. You’re the expert after all.
 
-   6. **Be preprared**
+6. **Be preprared**
 
 Note every small detail about the basis of the project that was made from the very beginning of the development process. It will help you defend the solutions by simply showing where they came from, what were their origins, what may influence them and what will be their result.
 
