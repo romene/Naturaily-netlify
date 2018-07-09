@@ -22,22 +22,6 @@ tags:
   - design
   - client
 ---
-1. asdasdad
-
-   sadasdasd
-
-
-2. asdasasd
-
-   sadasd
-
-   asdasd
-
-
-3. sadasdas
-
-   sadasdasd
-
 In my designer experience, when it comes to project design, clients tend to make unreasonable decisions based on their inner beliefs, convictions, and experiences. They strongly believe that their actions must to be similar to their competition, but what they don’t realize is that the things that work for others may not particularly work for them.
 
 ## Why does it happen?
@@ -60,22 +44,20 @@ First of all - **fear of the unknown, ridicule, failure to understand the projec
 
 Conducting detailed research on users that will give your client clear, quantitative and qualitative results stating that people act differently than him or her.
 
-1. **Clear and honest communication**
-
-Understand the issues client is facing, why he thinks the way he does. Ask specific questions to get to the roots of the client’s problems. Lack of understanding and partial flow of information may cause some distortion and will force you to compromise. This often leaves both sides unsatisfied and results in an average UX.
+1. **Clear and honest communication**\
+   \
+   Understand the issues client is facing, why he thinks the way he does. Ask specific questions to get to the roots of the client’s problems. Lack of understanding and partial flow of information may cause some distortion and will force you to compromise. This often leaves both sides unsatisfied and results in an average UX.
 
 Keep in mind that you have to respect your client’s opinion. You can’t just ignore his or her feedback, even if you’re strongly against them.
 
 You have to help your client understand your thought process and why certain decisions should or should not be made. You should seek a common ground with your client through similar past experiences.
 
-2. **Benchmarking**
-
-Showing solutions created by the competition. Provide explanation why certain solutions are good or bad, why they will work or not in your client’s case. To prove your point, show your client a few real, live examples of these solutions. Try to demonstrate the outcome of certain decisions and their impact on the rest of the project.
-
-3. **Cooperation**
-
-Attempt to develop **solution** along with the client. Try to convince him that the solution is his genius idea. Your goal is to make your client develop a strong bond with the project. This way he will start taking responsibility for its final outcome.
-
+2. **Benchmarking**\
+   \
+   Showing solutions created by the competition. Provide explanation why certain solutions are good or bad, why they will work or not in your client’s case. To prove your point, show your client a few real, live examples of these solutions. Try to demonstrate the outcome of certain decisions and their impact on the rest of the project.
+3. **Cooperation**\
+   \
+   Attempt to develop **solution** along with the client. Try to convince him that the solution is his genius idea. Your goal is to make your client develop a strong bond with the project. This way he will start taking responsibility for its final outcome.
 4. **Educate**
 
 **Educate** your clients about the most recent solutions, design processes, element arrangement, the way to acquire new users - how to move forward, not just keeping the old user base satisfied (unless that’s one of the business goals). Show him the influence of user’s experience and impression.
