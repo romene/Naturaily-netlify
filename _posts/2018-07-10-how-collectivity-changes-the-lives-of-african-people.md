@@ -18,7 +18,7 @@ tags:
   - Interview
   - Naturaily Client
 ---
-   1. **Could you describe what Collectivity is about and what it does?**
+1. **Could you describe what Collectivity is about and what it does?**
 
 **Answer:** We’re units in the _Institute of Tropical Medicine_, health economics to be precise. We have been involved for almost 8 years in a lot of knowledge management activities. My Chief of Units, Prof. Bruno Meessen, launched several “Communities of Practice” which are discussion groups about professional thematics (Health Financing).
 
@@ -32,13 +32,13 @@ Collectivity is a platform where people, so far, from public health, Globalhealt
 
 This concept is really interesting because it is not so obvious that people want to work for free, but there are specific activities where people really like what they are doing and are happy to share some expertise and experience.  
 
-_**Collectivity is a platform where an expert can join, talk and eventually contribute to activities.**_
+**_Collectivity is a platform where an expert can join, talk and eventually contribute to activities._**
 
-   2. **Could you briefly tell us the evolution of Collectivity since its launch?**
+2. **Could you briefly tell us the evolution of Collectivity since its launch?**
 
 **Answer:** We released it in November 2016. At that time there were 60 registered users, who were our beta testers, colleagues and friends. Now, we are at around 2000 experts. For us, it is a nice success, just looking at this number. There are lots of challenges, because obviously we don’t have 2000 active users. But so far we have around 300 people who actively contribute to projects. Community is a quite new feature, because we released it last October.
 
-   3. **What were you doing to promote the platform? How did you manage to gain users?**
+3. **What were you doing to promote the platform? How did you manage to gain users?**
 
 **Answer:** Before Collectivity, we managed Google Groups with thousands of users for several years. We tried to make active users of these groups to join it. We also have some voice in the sector because we presented the project in the marketplace of several conferences. Our unit has a strong network - it is recognized and has an influence in fields such as health financing, health policies in developing countries.
 
@@ -48,7 +48,7 @@ Now, we are not contacting specifically people, people join through word of mout
 
 We had a transact release last month, several big institutions like **World Health Organisation** or **UNICEF**, decided to test the platform and to launch a community or an activity. So we see registration of people we don’t know. And people are attracted by these activities. It’s an organic growth now.    
 
-**What was the development process of the platform like?**
+4. **What was the development process of the platform like?**
 
 **Answer:** We were initially founded by the Norwegian government for 3 years. Initially it was planned to develop the platform from scratch with one development team/technical partner “Bluesquare”.
 
