@@ -32,7 +32,7 @@ Collectivity is a platform where people, so far, from public health, Globalhealt
 
 This concept is really interesting because it is not so obvious that people want to work for free, but there are specific activities where people really like what they are doing and are happy to share some expertise and experience.  
 
-**_Collectivity is a platform where an expert can join, talk and eventually contribute to activities._**
+_**Collectivity is a platform where an expert can join, talk and eventually contribute to activities.**_
 
    2. **Could you briefly tell us the evolution of Collectivity since its launch?**
 
@@ -48,7 +48,7 @@ Now, we are not contacting specifically people, people join through word of mout
 
 We had a transact release last month, several big institutions like **World Health Organisation** or **UNICEF**, decided to test the platform and to launch a community or an activity. So we see registration of people we don’t know. And people are attracted by these activities. It’s an organic growth now.    
 
-4. **What was the development process of the platform like?**
+**What was the development process of the platform like?**
 
 **Answer:** We were initially founded by the Norwegian government for 3 years. Initially it was planned to develop the platform from scratch with one development team/technical partner “Bluesquare”.
 
