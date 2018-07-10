@@ -20,7 +20,7 @@ tags:
 ---
 A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Manager at Collectivity. In this post we are going to take a deeper look at how Collectivity, Naturaily's client, improves the lives of African people by allowing experts to share their opinions on certain collaborative projects.
 
-1. **Could you describe what Collectivity is about and what it does?**
+1. ### Could you describe what Collectivity is about and what it does?
 
    **Answer:** We’re units in the _Institute of Tropical Medicine_, health economics to be precise. We have been involved for almost 8 years in a lot of knowledge management activities. My Chief of Units, Prof. Bruno Meessen, launched several “Communities of Practice” which are discussion groups about professional thematics (Health Financing).
 
@@ -36,11 +36,11 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
    **_Collectivity is a platform where an expert can join, talk and eventually contribute to activities._**
 
-2. **Could you briefly tell us the evolution of Collectivity since its launch?**
+2. ### Could you briefly tell us the evolution of Collectivity since its launch?
 
    **Answer:** We released it in November 2016. At that time there were 60 registered users, who were our beta testers, colleagues and friends. Now, we are at around 2000 experts. For us, it is a nice success, just looking at this number. There are lots of challenges, because obviously we don’t have 2000 active users. But so far we have around 300 people who actively contribute to projects. Community is a quite new feature, because we released it last October.
 
-3. **What were you doing to promote the platform? How did you manage to gain users?**
+3. ### What were you doing to promote the platform? How did you manage to gain users?
 
    **Answer:** Before Collectivity, we managed Google Groups with thousands of users for several years. We tried to make active users of these groups to join it. We also have some voice in the sector because we presented the project in the marketplace of several conferences. Our unit has a strong network - it is recognized and has an influence in fields such as health financing, health policies in developing countries.
 
@@ -49,7 +49,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
    Now, we are not contacting specifically people, people join through word of mouth.
    We had a transact release last month, several big institutions like **World Health Organisation** or **UNICEF**, decided to test the platform and to launch a community or an activity. So we see registration of people we don’t know. And people are attracted by these activities. It’s an organic growth now.
 
-4. **What was the development process of the platform like?**
+4. ### What was the development process of the platform like?
 
    **Answer:** We were initially founded by the Norwegian government for 3 years. Initially it was planned to develop the platform from scratch with one development team/technical partner “Bluesquare”.
 
@@ -57,7 +57,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
    We developed it starting from Minimal Viable Product. We add features little by little, according to what people want, what partners want, what we want.
 
-5. **What made you assume that there is a space for an organization like yours among others trying to solve similar problems?**
+5. ### What made you assume that there is a space for an organization like yours among others trying to solve similar problems?
 
    **Answer:** I think it’s an interesting question actually. The “Academic Wall” - it has some qualities, but it also has some limits. The thing is, in general, in our sector, there is a big unbalance between the expertise and there is a lot of silos*.
    For example, academics in the North \[share knowledge] between them. They don’t really communicate well with policy maker, they don’t really communicate well with the experts on the fields while also knowledge, practical knowledge. So the idea behind the communities of practise and Collectivity is to break silos, to bring people in the same place, where they can exchange knowledge and eventually work better on very concrete solutions.
@@ -69,7 +69,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
    _\* SILOS - a system that operates in isolation from others._
 
-6. **What were the challenges in the early stages of Collectivity? What are the main challenges now?**
+6. ### What were the challenges in the early stages of Collectivity? What are the main challenges now?
 
    **Answer:** We are not used to work in this way. We are people who write papers, who go on the field to collect data, we are not really into entrepreneurship, we are not from technological world, even if we are really interested in it.
    So the first challenge for the team was to learn the startup meta, to make a business plan, because we intend to convert Collectivity into something viable; to walk in a different process, by fast learning circles - we learn actually to change our patterns, to be adaptable.
@@ -82,29 +82,29 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
    There are 2 main challenges for the future. The first one is to find money / make the platform viable and the second one is to convince institutions to join the platform on the more regular basis.
 
-7. **So you have plans for monetizing system?**
+7. ### So you have plans for monetizing system?
 
    **Answer:** It’s not yet sure because, let’s say, we are currently inside ITM, we are funded by public money of Norway.
 
    We will see, but if we want to have Collectivity still alive after the time of the project, we obviously need to think about the way to make it a viable and the solution can be to create some strategic value for big institutions or engineers for them, to show them institution value so they could be interested in contributing in the platform.
 
-8. **What Does Success Look Like for Collectivity?**
+8. ### What Does Success Look Like for Collectivity?
 
    **Answer:** Collectivity will be successful if it will continue to attract people,  if it will continue to attract active people. We will be very successful if we manage to have an sufficient pipeline of activities, and activities that produce concrete impact, and by activities I mean significant activities.
 
    Eventually, the ultimate success for Collectivity could be not being limited just to public health but also to extend the concept to other sectors.
 
-9. **What’s the current growth like? What are your plans for the future of Collectivity?**
+9. ### What’s the current growth like? What are your plans for the future of Collectivity?
 
    **Answer:** We are around 2000 people, around 300 users contributed in various activities, we are around  900-1000 people who completed a profile, it is a first sign of an activity for us. 2000 registered and 300 who really contributed last year.
 
     An important thing that we like it’s not just number of people, but it’s also where they come from. We have people from 90 different countries. **It’s what we are aiming for - to exchange expertise around the world.**
 
-10. **Who is your biggest competitor? Are there any other solutions similar to yours? How does Collectivity stand out?**
+10. ### Who is your biggest competitor? Are there any other solutions similar to yours? How does Collectivity stand out?
 
     **Answer:** The difference is in our sector. The fact that we place and release expertise from both South and Center is not so common. So far, I think we are good at mobilizing and reaching these people because we’ve worked with them for years. There are several of the initiatives, launched by big institutions that may have more chance of success. In practise no one joins their platform and contribute actively to the activities. So, so far, what makes the difference is we have more legitimacy than lots of other initiatives because we work for 4 years in this logic.
 
-11. **What are the plans for the future?**
+11. ### What are the plans for the future?
 
     **Answer:** We have several ideas to improve. We would like to add some basic mechanisms that we had developed in the first year, but were not optimal to simplify the user experience. After that we would like to add some new features, but it is not yet particularly clear.
 
