@@ -18,6 +18,8 @@ tags:
   - Interview
   - Naturaily Client
 ---
+A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Manager at Collectivity. In this post we are going to take a deeper look at how Collectivity, Naturaily's client, improves the lives of African people by allowing experts to share their opinions on certain collaborative projects.  
+
 1. **Could you describe what Collectivity is about and what it does?**
 
    **Answer:** We’re units in the _Institute of Tropical Medicine_, health economics to be precise. We have been involved for almost 8 years in a lot of knowledge management activities. My Chief of Units, Prof. Bruno Meessen, launched several “Communities of Practice” which are discussion groups about professional thematics (Health Financing).
@@ -28,7 +30,7 @@ tags:
 
    So I finally come to Collectivity.
 
-   Collectivity is a platform where people, so far, from public health, Globalhealth and world of international cooperation can join and can dedicate time to communities, or activities. **One of our main principles is that we encourage people to contribute to activities in voluntary basis. **
+   Collectivity is a platform where people, so far, from public health, Globalhealth and world of international cooperation can join and can dedicate time to communities, or activities. **One of our main principles is that we encourage people to contribute to activities in voluntary basis.**
 
    This concept is really interesting because it is not so obvious that people want to work for free, but there are specific activities where people really like what they are doing and are happy to share some expertise and experience.  
 
@@ -54,7 +56,7 @@ tags:
 
    We realised with BlueSquare that it would be better to externalise the development, so we gave an update to develop the platform.
 
-      We developed it starting from Minimal Viable Product. We add features little by little, according to what people want, what partners want, what we want.
+   We developed it starting from Minimal Viable Product. We add features little by little, according to what people want, what partners want, what we want.
 
 5. **What made you assume that there is a space for an organization like yours among others trying to solve similar problems?**
 
@@ -98,14 +100,15 @@ tags:
 
 9. **What’s the current growth like? What are your plans for the future of Collectivity?**
 
-   **Answer:** We are around 2000 people, around 300 users contributed in various activities, we are around  900-1000 people who completed a profile, it is a first sign of an activity for us. 2000 registered and 300 who really contributed last year.
+  **Answer:** We are around 2000 people, around 300 users contributed in various activities, we are around  900-1000 people who completed a profile, it is a first sign of an activity for us. 2000 registered and 300 who really contributed last year.
 
    An important thing that we like it’s not just number of people, but it’s also where they come from. We have people from 90 different countries. **It’s what we are aiming for - to exchange expertise around the world.**
 
 10. **Who is your biggest competitor? Are there any other solutions similar to yours? How does Collectivity stand out?**
-
-   **Answer:** The difference is in our sector. The fact that we place and release expertise from both South and Center is not so common. So far, I think we are good at mobilizing and reaching these people because we’ve worked with them for years. There are several of the initiatives, launched by big institutions that may have more chance of success. In practise no one joins their platform and contribute actively to the activities. So, so far, what makes the difference is we have more legitimacy than lots of other initiatives because we work for 4 years in this logic.
-
+    **Answer:** The difference is in our sector. The fact that we place and release expertise from both South and Center is not so common. So far, I think we are good at mobilizing and reaching these people because we’ve worked with them for years. There are several of the initiatives, launched by big institutions that may have more chance of success. In practise no one joins their platform and contribute actively to the activities. So, so far, what makes the difference is we have more legitimacy than lots of other initiatives because we work for 4 years in this logic.
 11. **What are the plans for the future?**
+    **Answer:** We have several ideas to improve. We would like to add some basic mechanisms that we had developed in the first year, but were not optimal to simplify the user experience. After that we would like to add some new features, but it is not yet particularly clear.
 
-   **Answer:** We have several ideas to improve. We would like to add some basic mechanisms that we had developed in the first year, but were not optimal to simplify the user experience. After that we would like to add some new features, but it is not yet particularly clear.
+Make sure to take a look at Collectivity here - <https://www.thecollectivity.org/>
+
+Collectivity case study - XYZXYZXYZ
