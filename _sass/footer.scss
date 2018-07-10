@@ -97,6 +97,7 @@ display: grid;
   &-services {
     padding-top: 17px;
     grid-row: 3;
+    grid-column: 2;
     a {
     display: inline-block;
     color: $color-global-font;
@@ -203,10 +204,10 @@ display: grid;
       grid-column: 1;
     }
     &-headline--offer {
-      grid-column: 2;
+      grid-column: 3;
     }
     &-headline--services {
-      grid-column: 3;
+      grid-column: 2;
       align-self: end;
     }
     &-headline--news {
@@ -226,7 +227,7 @@ display: grid;
     }
     &-offer {
       grid-row: 3;
-      grid-column: 2;
+      grid-column: 3;
     }
     &-places {
       grid-row: 3;
@@ -285,11 +286,23 @@ display: grid;
 
     &-headline--offer {
       grid-column: 1;
-      grid-row: 3;
+      grid-row: 5;
       font-weight: 500;
     }
 
     &-offer {
+      padding-top: 0;
+      grid-row: 6;
+      grid-column: 1 / 5;
+    }
+
+    &-headline--services {
+      grid-column: 1;
+      grid-row: 3;
+      font-weight: 500;
+    }
+
+    &-services {
       padding-top: 0;
       grid-row: 4;
       grid-column: 1 / 5;
