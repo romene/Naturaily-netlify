@@ -102,7 +102,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
 10. **Who is your biggest competitor? Are there any other solutions similar to yours? How does Collectivity stand out?**
 
-   **Answer:** The difference is in our sector. The fact that we place and release expertise from both South and Center is not so common. So far, I think we are good at mobilizing and reaching these people because we’ve worked with them for years. There are several of the initiatives, launched by big institutions that may have more chance of success. In practise no one joins their platform and contribute actively to the activities. So, so far, what makes the difference is we have more legitimacy than lots of other initiatives because we work for 4 years in this logic.
+    **Answer:** The difference is in our sector. The fact that we place and release expertise from both South and Center is not so common. So far, I think we are good at mobilizing and reaching these people because we’ve worked with them for years. There are several of the initiatives, launched by big institutions that may have more chance of success. In practise no one joins their platform and contribute actively to the activities. So, so far, what makes the difference is we have more legitimacy than lots of other initiatives because we work for 4 years in this logic.
 
 11. **What are the plans for the future?**
 
