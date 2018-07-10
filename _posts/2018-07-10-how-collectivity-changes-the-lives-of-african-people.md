@@ -8,7 +8,7 @@ layout: post
 date: '2018-07-09 11:35:00 +0000'
 category: Interview
 author: Wojciech Miśta
-avatar: /assets/images/wojtek.jpg
+avatar: /assets/images/wojciech.jpg
 image: /assets/images/collectivity.jpg
 text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
