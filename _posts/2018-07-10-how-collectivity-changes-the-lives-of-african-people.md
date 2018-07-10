@@ -18,7 +18,7 @@ tags:
   - Interview
   - Naturaily Client
 ---
-A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Manager at Collectivity. In this post we are going to take a deeper look at how Collectivity, Naturaily's client, improves the lives of African people by allowing experts to share their opinions on certain collaborative projects.
+A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Manager at Collectivity. In this post we are going to take a deeper look at how Collectivity, Naturaily's client, improves the lives of African people by allowing experts to share their opinions on certain collaborative projects.  
 
 1. **Could you describe what Collectivity is about and what it does?**
 
@@ -32,7 +32,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
    Collectivity is a platform where people, so far, from public health, Globalhealth and world of international cooperation can join and can dedicate time to communities, or activities. **One of our main principles is that we encourage people to contribute to activities in voluntary basis.**
 
-   This concept is really interesting because it is not so obvious that people want to work for free, but there are specific activities where people really like what they are doing and are happy to share some expertise and experience.
+   This concept is really interesting because it is not so obvious that people want to work for free, but there are specific activities where people really like what they are doing and are happy to share some expertise and experience.  
 
    _**Collectivity is a platform where an expert can join, talk and eventually contribute to activities.**_
 
@@ -48,7 +48,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
    Now, we are not contacting specifically people, people join through word of mouth.
 
-   We had a transact release last month, several big institutions like **World Health Organisation** or **UNICEF**, decided to test the platform and to launch a community or an activity. So we see registration of people we don’t know. And people are attracted by these activities. It’s an organic growth now.
+   We had a transact release last month, several big institutions like **World Health Organisation** or **UNICEF**, decided to test the platform and to launch a community or an activity. So we see registration of people we don’t know. And people are attracted by these activities. It’s an organic growth now.    
 
 4. **What was the development process of the platform like?**
 
@@ -76,7 +76,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
    **Answer:** We are not used to work in this way. We are people who write papers, who go on the field to collect data, we are not really into entrepreneurship, we are not from technological world, even if we are really interested in it.
 
-   So the first challenge for the team was to learn the startup meta, to make a business plan, because we intend to convert Collectivity into something viable; to walk in a different process, by fast learning circles - we learn actually to change our patterns, to be adaptable.
+   So the first challenge for the team was to learn the startup meta, to make a business plan, because we intend to convert Collectivity into something viable; to walk in a different process, by fast learning circles - we learn actually to change our patterns, to be adaptable.  
 
    One of the challenges was to communicate with the devs. During the early stages it was difficult, now I think it is going smoothly and naturally, but the first year was difficult.
 
@@ -106,10 +106,10 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
 10. **Who is your biggest competitor? Are there any other solutions similar to yours? How does Collectivity stand out?**
 
-  **Answer:** The difference is in our sector. The fact that we place and release expertise from both South and Center is not so common. So far, I think we are good at mobilizing and reaching these people because we’ve worked with them for years. There are several of the initiatives, launched by big institutions that may have more chance of success. In practise no one joins their platform and contribute actively to the activities. So, so far, what makes the difference is we have more legitimacy than lots of other initiatives because we work for 4 years in this logic.
+   **Answer:** The difference is in our sector. The fact that we place and release expertise from both South and Center is not so common. So far, I think we are good at mobilizing and reaching these people because we’ve worked with them for years. There are several of the initiatives, launched by big institutions that may have more chance of success. In practise no one joins their platform and contribute actively to the activities. So, so far, what makes the difference is we have more legitimacy than lots of other initiatives because we work for 4 years in this logic.
 11. **What are the plans for the future?**
 
-  **Answer:** We have several ideas to improve. We would like to add some basic mechanisms that we had developed in the first year, but were not optimal to simplify the user experience. After that we would like to add some new features, but it is not yet particularly clear.
+   **Answer:** We have several ideas to improve. We would like to add some basic mechanisms that we had developed in the first year, but were not optimal to simplify the user experience. After that we would like to add some new features, but it is not yet particularly clear.
 
 Make sure to take a look at Collectivity here - <https://www.thecollectivity.org/>
 
