@@ -77,10 +77,12 @@ Because each cell of our grid has equal height and width, we can get away with t
 List of icons
 -------------
 Variables in SASS can contain lists of values separated by either spaces or commas and optionally surrounded by parenthesis. Thanks to that we can create a simple data structure that will hold information about an icon:
+
 ```scss
 $icon: ("<name>", <row>, <column>)
 ```
-Extending this idea let's us create a list of similar data structures that would describe all icons we want to define:
+Extending this idea let`s us create a list of similar data structures that would describe all icons we want to define:
+
 ```scss
 $icon-list: (
     ("settings", 0, 0)
@@ -114,9 +116,10 @@ Wrapping it all together
 ------------------------
 SASS lets us refactor a lot of repeatable code into a single list. Utilizing lists, `nth`, `@each` and mixins we were able to significantly reduce the number of code lines. Still, there is a lot room for improvement - we could account for different size icons, not square grid, scoping variables to reuse the code inside `@each` to create many sets of icons and so on.
 
-Main point of this post is that SASS is so much more than just CSS that allows nesting and that we shouldn't miss out on these exciting features.
+Main point of this post is that SASS is so much more than just CSS that allows nesting and that we shouldn`t miss out on these exciting features.
 
 Complete listing of code:
+
 ```scss
 $class-prefix: "custom-icon--";
 $sprite-image-url: "images/sprite.png";

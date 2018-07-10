@@ -3,7 +3,7 @@ title: How to handle translations in Meteor AutoForm-based forms
 description: >-
   We have been working on a project that required i18n support for forms
   generated with AutoForm. In this Meteor.js tutorial you'll learn how to handle
-  translations. 
+  translations.
 slug: meteor-autoform-translations
 date: '2016-01-11 10:38:01 +0000'
 category: JavaScript development
@@ -18,6 +18,9 @@ tags:
   - Meteor.js development
   - JavaScript development
 ---
+
+
+
 In one of the projects I've been recently working on I needed i18n support for forms generated with AutoForm. For those who don’t know: Autoform is [schema-based](https://github.com/aldeed/meteor-simple-schema) form generator.
 ​
 Since Meteor ecosystem ain’t mature yet, this turned out to be an interesting task which ended up with creating a new package that we’ve published for the benefit of the Meteor community.
@@ -40,24 +43,17 @@ Create a simple application that utilizes AutoForm for custom login and signup f
 ​
   * Get Meteor
   * Create a new application
-    ```
-      meteor create myAwesomeApp
-    ```
+    `meteor create myAwesomeApp`
   * Install AutoForm
-    ```
-      meteor add aldeed:autoform
-    ```
+    `meteor add aldeed:autoform`
   * Add a user account system with password support
-    ```
-      meteor add accounts-password
-    ```
+    `meteor add accounts-password`
   * Add bootstrap (app will look a bit better)
-    ```
-      meteor add twbs:bootstrap
-    ```
+    `meteor add twbs:bootstrap`
   * Create LoginSchema and RegistrationSchema.
     Firstly, clear *.js file. Next, add the code below:
-    ```
+
+    ```javascript
       LoginSchema = new SimpleSchema({
         login: {
           type: String
@@ -72,7 +68,8 @@ Create a simple application that utilizes AutoForm for custom login and signup f
         }
       });
     ```
-    ```
+
+    ```javascript
       RegistrationSchema = new SimpleSchema({
         username: {
           type: String
@@ -104,22 +101,26 @@ Create a simple application that utilizes AutoForm for custom login and signup f
         }
       });
     ```
+
   * Change default templates.
     Your *.html file should look like this one:
-    ```
+
+    ```hbs
+
       <head>
         <title>meteortranslations</title>
       </head>
-  ​
+
       <body>
         <div class="container">
           <h1>Welcome to Meteor!</h1>
-  ​
+          {% raw %}
           {{#if currentUser}}
             {{> forLoggedIn}}
           {{else}}
             {{> forLoggedOut}}
           {{/if}}
+          {% endraw %}
         </div>
       </body>
   ​
@@ -128,19 +129,26 @@ Create a simple application that utilizes AutoForm for custom login and signup f
           logout
         </a>
       </template>
-  ​
+
       <template name="forLoggedOut">
         <h2>Sign in</h2>
-        {{> quickForm id="signInForm" schema="LoginSchema"}}
-  ​
+        {% raw %}
+          {{> quickForm id="signInForm" schema="LoginSchema"}}
+        {% endraw %}
+
         <h2>Sign up</h2>
+        {% raw %}
         {{> quickForm id="signUpForm" schema="RegistrationSchema"}}
+        {% endraw %}
       </template>
+
     ```
+
   * Events handlers.
     Also we need to handle forms and logout button events.
     So add the code below to your *.js file:
-    ```
+
+    ```javascript
       if (Meteor.isClient) {
         AutoForm.hooks({
           signUpForm: {
@@ -165,6 +173,7 @@ Create a simple application that utilizes AutoForm for custom login and signup f
         });
       }
     ```
+
   * Remove *.css file. We don't need this right now.
   Aaand done! We have a sample app :)
 
@@ -172,20 +181,14 @@ Create a simple application that utilizes AutoForm for custom login and signup f
 From a few i18n packages available I chose tap:i18n. It’s not a requirement, but if you’ll choose a different package you won’t be able to use [naturaily:simple-schema-translations](https://atmospherejs.com/naturaily/simple-schema-translations).
 
 * Add tap:i18n
-  ```
-    meteor add tap:i18n
-  ```
+  `meteor add tap:i18n`
 * Add tap:i18n-ui
-  ```
-    meteor add tap:i18n-ui
-  ```
+  `meteor add tap:i18n-ui`
 * Create `i18n` directory
-  ```
-    mkdir i18n
-  ```
+  `mkdir i18n`
 * Create files with translations (english and polish in my case)
 ​
-  ```
+  ```json-doc
     // i18n/en.i18n.json
     {
       "title" : "Welcome to Meteor!",
@@ -194,7 +197,8 @@ From a few i18n packages available I chose tap:i18n. It’s not a requirement, b
       "logout" : "logout"
     }
   ```
-  ```
+
+  ```json-doc
     // i18n/pl.i18n.json
     {
       "title" : "Witaj!",
@@ -203,9 +207,11 @@ From a few i18n packages available I chose tap:i18n. It’s not a requirement, b
       "logout" : "Wyloguj się"
     }
   ```
+
 * Use translations in your HTML file.
   Replace
-  ```
+
+  ```html
     <h1>Welcome to Meteor!</h1>
 ​
     <a id="logout" href="#">
@@ -216,23 +222,26 @@ From a few i18n packages available I chose tap:i18n. It’s not a requirement, b
 ​
     <h2>Sign up</h2>
   ```
+
   with
-  ```
-    <h1>{{_ 'title'}}</h1>
+
+  ```hbs
+    <h1>{% raw %}{{_ 'title'}}{% endraw %}</h1>
 ​
     <a id="logout" href="#">
-      {{_ 'logout'}}
+    {% raw %}{{_ 'logout'}}{% endraw %}
     </a>
 ​
-    <h2>{{_ 'signIn'}}</h2>
+    <h2>{% raw %}{{_ 'signIn'}}{% endraw %}</h2>
 ​
-    <h2>{{_ 'signUp'}}</h2>
+    <h2>{% raw %}{{_ 'signUp'}}{% endraw %}</h2>
   ```
+
 * Add a dropdown `<select>` list of available languages.
   Paste the code below after `h1` tag:
-  ```
-    {{> i18n_dropdown}}
-  ```
+
+  `{{> i18n_dropdown}}`
+
 And now you can change language on your site. Check it out!
 
 ## Translate labels and error messages
@@ -245,7 +254,8 @@ OK, all happy now? Not really… There are still English labels and error messag
 
 #### First approach - simple, universal, with code repeats
 Just use `label` option in your schema and use your translation library:
-  ```
+
+  ```javascript
     LoginSchema = new SimpleSchema({
       login: {
         type: String,
@@ -254,9 +264,12 @@ Just use `label` option in your schema and use your translation library:
         }
       },
     //...
+    })
   ```
+
 Some libraries need to receive language key on the server:
-  ```
+
+  ```javascript
     label: function () {
       if (Meteor.isClient) {
         YourLibrary.translate('key');
@@ -265,11 +278,13 @@ Some libraries need to receive language key on the server:
       }
     }
   ```
+
 #### Second approach - fancy, DRY, all schemas in one namespace
 We want to use function `labels` from `aldeed:simple-schema`. In this example I
 will use `tap:i18n` but you can use any reactive translation library.
 Firstly, we will need a namespace for all our schemas.
-  ```
+
+  ```javascript
     Schemas = {
       LoginSchema: new SimpleSchema({
         //...
@@ -279,20 +294,23 @@ Firstly, we will need a namespace for all our schemas.
       })
     };
   ```
+
 Next, we have to add some translations:
-  ```
+
+  ```json-doc
     {
       //...
       "labels" : {
         //...
-        "login" : "Nazwa użytkownika lub email"
+        "login" : "Nazwa użytkownika lub email",
         "password" : "Hasło",
         "passwordConfirmation" : "Powtórz hasło"
       }
     }
   ```
 Next, we need something like this:
-  ```
+
+  ```javascript
     if (Meteor.isClient) {
       Meteor.startup(function () {
         // TAPi18n.__ returns key instead of object by default
@@ -308,10 +326,12 @@ Next, we need something like this:
       });
     }
   ```
+
 As you can see `translateLabels` function will be invoked each time when language
 will be changed. And now we have to implement this function :) We need to remember
 that SimpleSchema needs empty string to set default label.
-  ```
+
+  ```javascript
     function translateLabels(labels) {
       Schemas.forEach(function (schema) {
         var labelsWithDefaults = _.tap({}, function(object) {
@@ -323,9 +343,13 @@ that SimpleSchema needs empty string to set default label.
       });
     }
   ```
+
 And that's it!
+
 ### Translate error messages
+
 This one’s pretty easy. Just cache default messages and change global messages every time language is changed.
+
   ```javascript
     if (Meteor.isClient) {
       Meteor.startup(function () {
@@ -335,15 +359,16 @@ This one’s pretty easy. Just cache default messages and change global messages
           function translateErrorMessages(translations) {
             var messages = _.extend({}, defaultMessages, translations);
             SimpleSchema.messages(messages);
-          }(TAPi18n.__("errors");
-        }
-      }
+          }(TAPi18n.__("errors"));
+        })
+      })
     }
   ```
 
 ## Translate and display server-side error messages
 Server-side error messages are handled separately thanks to hooks provided by AutoForm. You can use onError hook to catch server error and add it to the form.
-  ```
+
+  ```javascript
     if (Meteor.isClient) {
       // I think that this function explains itself :)
       function parseError(error) {
@@ -402,6 +427,7 @@ Server-side error messages are handled separately thanks to hooks provided by Au
       });
     }
   ```
+
 As you can see I use `addStickyValidationError` instead of non-sticky errors.
 Why? Because form is often revalidated and then custom errors will disappear.
 It's annoying. Really.

@@ -104,11 +104,11 @@ There is another way of handling these overrides, this one will force you to kee
 
 1.	first, in your `app/overrides` directory create the following directories: `spree/shared/_header/`,
 2.	then create a file named `obliterate_the_spree_logo.html.erb.deface` in `_header` folder. A piece of advice: name it whatever you want, but remember that it should not collide with `Deface::Override` engine. And don’t forget about `.deface` extension!
-3.	put this markup inside:
+3. put this markup inside:
 
 ```ruby
-	<!-- replace_contents ‘#logo’ namespaced -->
-	<%= image_tag ‘logo.png’ %>
+	<!-- replace_contents "#logo" namespaced -->
+	<%= image_tag "logo.png" %>
 ```
 
 And that’s it! You’ll get the same result as in the previous example.

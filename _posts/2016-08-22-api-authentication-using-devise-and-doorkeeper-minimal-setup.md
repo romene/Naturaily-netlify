@@ -2,7 +2,7 @@
 title: API authentication using Devise and Doorkeeper (minimal setup)
 description: >-
   Here is a guide on how to create API autherntication using Devise and
-  Doorkeeper in the simplest way possible! 
+  Doorkeeper in the simplest way possible!
 slug: api-authentication-devise-doorkeeper-setup
 date: '2016-08-22 10:38:01 +0000'
 category: Ruby on Rails development
@@ -50,7 +50,7 @@ Let’s install Doorkeeper.
 
 Now edit that new migration, it should look like this:
 
-```
+```ruby
 class CreateDoorkeeperTables < ActiveRecord::Migration
  def change
    create_table :oauth_access_tokens do |t|
@@ -84,11 +84,13 @@ Without that our example won’t work!
 
 Now we can run migrations
 
-```rake db:migrate```
+```ruby
+rake db:migrate
+```
 
 We need to mount doorkeeper in our router. It can be easily done by ```use_doorkeeper``` method. But we should rembember that we need nothing but tokens! So our code in ```config/routes.rb``` can looks like the code below:
 
-```
+```ruby
 use_doorkeeper do
   skip_controllers :authorizations, :applications,
     :authorized_applications
@@ -97,7 +99,7 @@ end
 
 Now let’s integrate Doorkeeper with Devise. First, we need a method to find user by email and password. Let’s edit ```app/models/user.rb```.
 
-```
+```ruby
  class << self
    def authenticate(email, password)
      user = User.find_for_authentication(email: email)
@@ -108,7 +110,7 @@ Now let’s integrate Doorkeeper with Devise. First, we need a method to find us
 
 Next we configure Doorkeeper in ```config/initializers/doorkeeper.rb``` to use this method.
 
-```
+```ruby
  resource_owner_from_credentials do |_routes|
    User.authenticate(params[:email], params[:password])
  end
@@ -116,7 +118,7 @@ Next we configure Doorkeeper in ```config/initializers/doorkeeper.rb``` to use t
 
 Don’t forget to let Doorkeeper access token with a password.
 
-```
+```ruby
  grant_flows %w(password)
 ```
 
@@ -124,7 +126,7 @@ We also want refresh tokens, so we need to uncomment the line with ```use_refres
 
 Next, we skip app authorization.
 
-```
+```ruby
  skip_authorization do
    true
  end
@@ -132,11 +134,11 @@ Next, we skip app authorization.
 
 There we go! We can now log in and log out to our API. Try this (please remember to keep the server launched):
 
-```
-curl -X POST -d 'grant_type=password&email=user@example.com&password=yourpassword’ localhost:3000/oauth/token
+```bash
+curl -X POST -d "grant_type=password&email=user@example.com&password=yourpassword" localhost:3000/oauth/token
 ```
 
-```
+```bash
 {"access_token”:”YourAccessToken”,”token_type":"bearer","expires_in":7200,"refresh_token”:”YourRefreshToken”,”created_at":1470946931}%
 ```
 
@@ -146,7 +148,7 @@ OK, it’s time to use our tokens! Let’s retrieve some Items from our API. How
 
 We need ```app/controllers/api/base_controller.rb```, a really simple one.
 
-```
+```ruby
 class Api::BaseController < ActionController::API
   respond_to :json
 end
@@ -154,7 +156,7 @@ end
 
 And ```app/controller/api/items_controller.rb``` (exemplary implementation).
 
-```
+```ruby
 class Api::ItemsController < Api::BaseController
   before_action :doorkeeper_authorize! # equivalent of authenticate_user!
 
@@ -171,7 +173,7 @@ The most important part of code here is ```before_action :doorkeeper_authorize!`
 
 The last one thing: add a new route
 
-```
+```ruby
 namespace :api do
   resources :items
 end
@@ -179,12 +181,12 @@ end
 
 And that’s it! Let’s give it a try.
 
-```
+```bash
 curl -v localhost:3000/api/items
 < HTTP/1.1 401 Unauthorized
 ```
 
-```
+```bash
 curl -v localhost:3000/api/items?access_token=OurAccessTokenReturnedByAPI
 < HTTP/1.1 200 OK
 [{"id":1,"name":"Item","description":"Amazing Item.","created_at":"2016-08-11T19:25:09.649Z","updated_at":"2016-08-11T19:25:09.649Z"}]

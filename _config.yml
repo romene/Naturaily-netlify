@@ -22,6 +22,7 @@ baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://jekyllnetlify.naturaily.eu' # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+highlighter: rouge
 pagination:
   enabled: true
   per_page: 5
@@ -90,6 +91,8 @@ permalink: /blog/:title
 
 # Build settings
 markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
 #theme: minima
 plugins:
   - jekyll-feed

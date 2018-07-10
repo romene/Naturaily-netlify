@@ -29,11 +29,13 @@ It happens that we need to run our service in the background. What's the easiest
 ## Create the Job
 Our job will be called `ServiceInvocationJob`. It's a good name for our universal job. To create a new Job we need to run one simple task:
 
-    rails g job service_invocation
+```bash
+rails g job service_invocation
+```
 
 And now we should edit newly created file. Right now it looks like this:
 
-```
+```ruby
 # app/jobs/service_invocation_job.rb
 class ServiceInvocationJob < ApplicationJob
   queue_as :default
@@ -46,7 +48,7 @@ end
 
 What do we need to run some service? Service's arguments, of course, and Service class itself! We can't pass `class` as argument, so we'll pass class' name. At the end our Job will be as simple as that:
 
-```
+```ruby
 class ServiceInvocationJob < ApplicationJob
   queue_as :default
 
@@ -62,19 +64,19 @@ Very nice? Don't you think?
 
 We already run our services in the background jobs! Everywhere, where we want to run our service in background, we need to change classic invocation:
 
-```
+```ruby
 DoSomething.call(first_argument, second_argument)
 ```
 
 to this
 
-```
+```ruby
 ServiceInvocationJob.perform_later("DoSomething", [first_argument, second_argument])
 ```
 
 But it doesn't look well. I think this one would be better:
 
-```
+```ruby
 DoSomething.async_call(first_argument, second_argument) # note that async_ prefix!
 ```
 
@@ -82,7 +84,7 @@ Right?
 
 So now we need to update our BaseService a bit! Nothing big. Just add a new static method called `async_call`. There's the updated file:
 
-```
+```ruby
 class BaseService
   private_methods :new
 

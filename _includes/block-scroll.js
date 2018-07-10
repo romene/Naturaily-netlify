@@ -56,3 +56,13 @@ function hasScrolled() {
 
   lastScrollTop = st;
 }
+
+
+
+class Catalog
+  enum status: array_to_enum_hash(CatalogStatus::STATUSES), _sufix: true
+
+  def status
+    @status ||= CatalogStatus.new(read_attribute(:status))
+  end
+end

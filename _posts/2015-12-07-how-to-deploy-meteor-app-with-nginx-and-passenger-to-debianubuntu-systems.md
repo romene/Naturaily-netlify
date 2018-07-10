@@ -2,7 +2,7 @@
 title: How to deploy Meteor app with nginx and passenger to debian/ubuntu systems
 description: >-
   Creating a web application is so easy. This simple Meteor.js tutorial shows
-  how to deploy Meteor.js app with ngnix and passenger. 
+  how to deploy Meteor.js app with ngnix and passenger.
 slug: meteor-app-ngnix-debian
 date: '2015-12-07 10:38:01 +0000'
 category: JavaScript development
@@ -34,19 +34,19 @@ Install nodejs
 
 To install nodejs on debian/ubuntu we can use official repository. First, login as root and install curl - it’s required for nodejs installer:
 
-```
+```bash
     apt-get install -y curl
 ```
 
 Now, add a repository for apt:
 
-```
+```bash
     curl --silent --location https://deb.nodesource.com/setup_0.12 | bash -
 ```
 
 Run command to install nodejs:
 
-```
+```bash
     apt-get install -y nodejs
 ```
 
@@ -57,7 +57,7 @@ Mongodb is not required for Meteor app, but it’s highly recommended - we need 
 
 First, let’s add repository for apt:
 
-```
+```bash
     apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 
     echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.0 main" > /etc/apt/sources.list.d/mongodb-org-3.0.list
@@ -65,13 +65,13 @@ First, let’s add repository for apt:
 
 Run command to install mongodb:
 
-```
+```bash
     apt-get update && apt-get install -y mongodb-org
 ```
 
 Make sure that mongodb is running:
 
-```
+```bash
     /etc/init.d/mongod restart
 ```
 
@@ -80,29 +80,29 @@ Install nginx with passenger
 
 Now the most important part. We need to install nginx web server. Standard debian/ubuntu apt repositories don’t contain passenger. That’s why we will use official passenger repository. To add repository for apt execute:
 
-```
+```bash
     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC40B2F7
 ```
 
-```
+```bash
     apt-get install -y apt-transport-https ca-certificates
 ```
 
 If you have debian ```jessie``` run:
 
-```
+```bash
     echo deb https://oss-binaries.phusionpassenger.com/apt/passenger jessie main > /etc/apt/sources.list.d/passenger.list
 ```
 
 If you have ubuntu ```trusty``` run:
 
-```
+```bash
     echo deb https://oss-binaries.phusionpassenger.com/apt/passenger trusty main > /etc/apt/sources.list.d/passenger.list
 ```
 
 Now we can install nginx with passenger support:
 
-```
+```bash
     apt-get update && apt-get install -y nginx-extras passenger
 ```
 
@@ -111,7 +111,7 @@ Configure nginx to start node/meteor application
 
 Next thing that we need to do is to tell nginx where the Meteor app main directory is. Also, we need to specify url and mongodb access. All services are already available on our machine so it should be easy. Create file ```/etc/nginx/sites-available/example.com``` and put this content:
 
-```
+```ruby
     server {
         listen *:80;
         # put your real domain here
@@ -135,21 +135,21 @@ Next thing that we need to do is to tell nginx where the Meteor app main directo
 
 and that’s all. Copy this file to the available sites dir and make a symlink to enable the app:
 
-```
+```bash
     ln -s /etc/nginx/sites-available/example.com
     /etc/nginx/sites-enabled/example.com
 ```
 
 Now we need to check if passenger configuration has been enabled in nginx.  Open a ```/etc/nginx/nginx.conf``` file and make sure that these two lines are not commented:
 
-```
+```nginx
     passenger_root /usr/lib/ruby/vendor_ruby/phusion_passenger/locations.ini;
     passenger_ruby /usr/bin/passenger_free_ruby;
 ```
 
 restart nginx
 
-```
+```bash
     /etc/init.d/nginx restart
 ```
 
@@ -158,31 +158,31 @@ Build and upload Meteor app to the server
 
 Now we are ready to deploy the app. First we need to build the app. Go to your Meteor app dir on local machine and use this command:
 
-```
+```bash
     meteor build /tmp/
 ```
 
 The compressed build should be available in /tmp directory. Before we upload the image, we need to prepare directories:
 
-```
+```bash
     ssh deploy@example.com "mkdir -p /home/deploy/www/example"
 ```
 
 upload the image to the remote machine:
 
-```
+```bash
     scp /tmp/example.tar.gz deploy@example.com:/home/deploy/www/example
 ```
 
 decompress the image:
 
-```
+```bash
     ssh deploy@example.com "cd /home/deploy/www/example && tar xfz example.tar.gz"
 ```
 
 if we are deploying from MacOSX we need to remove bcrypt package. Then we can install needed packages and bcrypt:
 
-```
+```bash
     ssh deploy@example.com "
     rm -rf /home/deploy/www/example/bundle/programs/server/npm/npm-bcrypt
     cd /home/deploy/www/example/bundle/programs/server && npm install --production && npm install bcrypt
@@ -193,13 +193,13 @@ It will take a minute or two. Warnings can be ignored here.
 
 Create public and tmp dirs because passenger requires them:
 
-```
+```terminal
     ssh deploy@example.com "mkdir -p /home/deploy/www/example/bundle/tmp /home/deploy/www/example/bundle/public"
 ```
 
 Finally we are ready to restart the app:
 
-```
+```bash
     ssh deploy@example.com "cd /home/deploy/www/example && touch bundle/tmp/restart.txt"
 ```
 
@@ -212,7 +212,7 @@ Make automation script for deployment
 
 The deployment process is not complicated but it requires a few commands to execute. We don’t want to repeat them every time. To automate the whole deployment process, we can use simple bash script that will do all above things for us:
 
-```
+```bash
     #!/bin/bash
 
     NAME='example'
@@ -253,7 +253,7 @@ The deployment process is not complicated but it requires a few commands to exec
 
 Please verify that USER and NAME variables are correct. Then we can easily deploy it using single command:
 
-```
+```bash
     ./deploy.sh example.com
 ```
 

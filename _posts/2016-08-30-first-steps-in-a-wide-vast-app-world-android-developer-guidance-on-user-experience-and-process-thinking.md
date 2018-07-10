@@ -47,7 +47,7 @@ With mobile apps the situation is even worse. There are few things in the world 
 
   Want to swipe left to change screen? No problem, but be careful not to move your finger slightly up or down, because it will cause refresh icon to appear and stop changing screens. It gets really annoying when such a simple thing as app navigation causes you trouble. So, how to solve it? Look at some code example:
 
-  ```
+  ```java
   private ViewPager viewPager;
   private ViewPager.OnPageChangeListener mOnPageChangeListener;
 
@@ -88,9 +88,9 @@ With mobile apps the situation is even worse. There are few things in the world 
 
   1) By calling method ```.setCanceledOnTouchOutside(false)``` on ```AlertDialog```
 
-  ```
+  ```java
   AlertDialog.Builder builder = new AlertDialog.Builder(giftListActivity);
-  …
+  ...
   AlertDialog dialog = builder.create();
   dialog.setCanceledOnTouchOutside(false);
   dialog.show()
@@ -98,7 +98,7 @@ With mobile apps the situation is even worse. There are few things in the world 
 
   2) Or calling ```.setCancelable(false)``` on ```AlertDialog.Builder``` or ```AlertDialog``` itself.
 
-  ```
+  ```java
   AlertDialog.Builder builder = new AlertDialog.Builder(giftListActivity);
 
   builder.setCancelable(false);
@@ -111,7 +111,7 @@ With mobile apps the situation is even worse. There are few things in the world 
   As mentioned before, setting cancelable to false doesn’t only turn offs closing dialog window by tapping outside of it but additionally disables back button. User trying to close pop-up dialog by intuitively clicking back on functional menu and seeing nothing happens will be kicked from automatic, no-brainer control stream, which makes an app intuitive.
   So, how to solve it? Obvious idea would be to use our previous solution we created for solving refresh/tabView problem. By adding listeners.
 
-  ```
+  ```java
   private AlertDialog currentDialog;
 
   Dialog.OnKeyListener keyListener = giftListUtils.generateKeyListener(currentDialog);

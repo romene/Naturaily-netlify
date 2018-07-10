@@ -3,7 +3,7 @@ title: 'Backbone.js plugins: Local.Storage and Backbone.validation'
 description: >-
   See what Backbone Local Storage and Backbone Validation is, how to implement
   them and what are the common validation errors while using Backbone.js
-  plugins. 
+  plugins.
 slug: backbone-plugins-local-storage-backbone-validation
 date: '2015-01-29 10:38:01 +0000'
 category: JavaScript development
@@ -33,14 +33,14 @@ How to implement Backbone Local.Storage?
 
 To implement the plugin to our application we just need to download it and add the code below:
 
-```
+```javascript
     var exampleStorage = new Backbone.LocalStorage("ourCollectionName");
 ```
 
 where our Backbone Collection now looks like this:
 
 
-```
+```javascript
     var ourCollectionName = Backbone.Collection.extend({
         localStorage: exampleStorage
     });
@@ -58,7 +58,7 @@ delete items ("removeItem" function, which removes item from the database).
 
 If we want to delete all the data from the server we just need to use clear() function. Local Storage uses "key" values which are stored as strings:
 
-```
+```javascript
     localStorage.getItem("key_word");
     localStorage.setItem("key_word");
     localStorage.removeItem("key_word");
@@ -76,13 +76,13 @@ How to implement Backbone.Validation?
 
 Before we implement Backbone.Validation in our app, we need to attach Backbone.js. Afterwards, we are ready to add our plugin. First of all, we need to add this line of code:
 
-```
+```javascript
     _.extend(Backbone.Model.prototype, Backbone.Validation.mixin);
 ```
 
 to extend our model with Backbone.Validation plugin. Secondly, in our Backbone.Model we should listed all the attributes we want to validate. All attributes are saved as an object and it should look like this:
 
-```
+```javascript
     var nameModel = Backbone.Model.extend({
         validation: {
             name: {
@@ -95,7 +95,7 @@ to extend our model with Backbone.Validation plugin. Secondly, in our Backbone.M
                 range: [1, 80]
             },
             email: {
-                pattern: 'email"
+                pattern: "email"
             },
             difficulty: {
                 oneOf: ["easy", "normal", "hard"]
@@ -110,7 +110,7 @@ Validation errors
 -----------------
 To display validation errors, for example, we can implement [bootstrap](http://getbootstrap.com/) classes which will style our inputs {https://gist.github.com/driehle/2909552}. It is possible to specify an error message by adding an array of validators like in the example below:
 
-```
+```javascript
     modelName = Backbone.Model.extend({
         validation: {
             age:  [{
@@ -134,7 +134,7 @@ Custom validation
 -----------------
 If we do not prefer default settings of Backbone.Validation, we can customize it’s logic. Like it is done in the example:
 
-```
+```javascript
     _.extend(Backbone.Validation.validators, {
         myValidator: function(value, attr, customValue, model) {
             if(value !== customValue){
@@ -144,7 +144,7 @@ If we do not prefer default settings of Backbone.Validation, we can customize it
     });
 ```
 
-```
+```javascript
     var Model = Backbone.Model.extend({
         validation: {
             age: {

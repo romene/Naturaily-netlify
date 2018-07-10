@@ -29,22 +29,24 @@ Responsive grid
 One of the most time-consuming things to deal with when developing a responsive site is creating a grid system that can react well to screen size changes. Normally, you would like your columns to have varying width depending on client width and at some point collapse into single column layout, when screen becomes too narrow to fit more columns.
 
 Foundation comes with two grid system bundled in - each for different screen size. This grants you amazing control over your layout. For example, this:
-```
+```slim
     div.column.large-6.small-12
     div.column.large-6.small-12
 ```
 creates two equal width columns for large screens that automatically change into single column layout when screen width drops below 768px.
 
 That is great, but could be better with a little effort. We decided to change class names to more semantical and created a set of most used classes:
-```
-    small--full
-    small--half
-    small--one-third
+
+```slim
+    .small--full
+    .small--half
+    .small--one-third
     ...
-    large--full
-    large--half
+    .large--full
+    .large--half
     ...
 ```
+
 This makes complex grids somewhat easier to understand.
 
 Responsive, touch enabled content sliders
@@ -54,12 +56,12 @@ Hey, we've got great content to present and need a couple of sliders to do that 
 Mobile optimised images
 -----------------------
 Mobile devices often come with slower bandwidth. This can be a big issue, especially on portfolio-type sites like Naturaily’s where there are a lot of large images. So instead of using media queries and playing with background images we decided to decrease the load time on smaller devices by employing the Interchange plugin. It lets you define different image sources for any media query, device orientation and pixel density with ease. It comes with couple of named queries that you can use:
-```
+```html
 <img src="/path/to/small.jpg" data-interchange="[/path/to/small.jpg, (small)], [/path/to/medium-image.jpg, (medium)] ,[/path/to/large-image.jpg, (large)]">
 <img src="/path/to/landscape.jpg" data-interchange="[/path/to/landscape.jpg, (landscape)], [/path/to/portrait.jpg, (portrait)]">
 ```
 or you can just write your own:
-```
+```html
 <img src="/path/to/default.jpg" data-interchange="[/path/to/image.jpg, (screen and only (min-width: 1000px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2))]">
 ```
 

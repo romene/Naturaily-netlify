@@ -23,7 +23,7 @@ Have you ever needed to save lots of records with unique attribute to database u
 
 I've prepared simple users table with columns: ```first_name```, ```last_name```, uid. The ```uid``` value needs to be unique.
 
-```
+```ruby
 class CreateUsers < ActiveRecord::Migration
   def change
     create_table :users do |t|
@@ -38,7 +38,7 @@ end
 
 In ```User``` model I added just one validation:
 
-```
+```ruby
 class User < ActiveRecord::Base
   validates :uid, uniqueness: true
 end
@@ -46,7 +46,7 @@ end
 
 I will test importing data from the CSV file. I’ve prepared the file with 100,000 records. There are 10,000 records from the file in database already, just to make things more realistic. A small preview of the data:
 
-```
+```plaintext
 ...
 Nicholas,Bates,252
 Leona,Ryan,253
@@ -65,7 +65,7 @@ Cody,Newton,263
 
 For measuring purposes I will use standard Ruby module called [Benchmark](http://ruby-doc.org/stdlib-2.3.1/libdoc/benchmark/rdoc/Benchmark.html). I will measure only time of saving records to database, without processing CSV file. Each method will be wrapped in benchmark service:
 
-```
+```ruby
 require 'csv'
 
 class SaveMethodBenchmark < BaseService
@@ -102,7 +102,7 @@ end
 
   In basic method I use pure ```ActiveRecord```. I load all the data from the file, convert it to array of hashes:
 
-  ```
+  ```ruby
   [
     { first_name: Lida, last_name: Atkins, uid: 1 },
     { first_name: Jorge, last_name: Carson, uid: 2 },
@@ -112,7 +112,7 @@ end
 
   ...and pass the array to ```User.create``` method.
 
-  ```
+  ```ruby
   class User < ActiveRecord::Base
     class << self
       def basic_method(users)
@@ -124,13 +124,13 @@ end
 
    For this method I received the following result:
 
-  ```
+  ```bash
   basic_method  210,824696s real time
   ```
 
   ```210,82s``` - Is it a lot or not? It’s more than 3 minutes. Can we do it faster? Let's look closely at how this method works. For each record we get following queries:
 
-  ```
+  ```bash
     (0.2ms)  BEGIN
   User Exists (3.6ms)  SELECT  1 AS one FROM "users" WHERE "users"."uid" = 1 LIMIT 1
   SQL (7.7ms)  INSERT INTO "users" ("first_name", "last_name", "uid") VALUES ($1, $2, $3) RETURNING "id"  [["first_name", "Lida"], ["last_name", "Atkins"], ["uid", 1]]
@@ -149,7 +149,7 @@ end
 
   First we will try to decrease number of transactions. We will wrap all of our queries in one transaction.
 
-  ```
+  ```ruby
   def basic_method_with_transaction(users)
     transaction do
       create users

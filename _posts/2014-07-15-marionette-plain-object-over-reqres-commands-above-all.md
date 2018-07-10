@@ -2,7 +2,7 @@
 title: 'Marionette: plain object over reqres, commands above all!'
 description: >-
   Marionette.js tutorial - an introduction to Plain Objects and The Reqres, how
-  to use them, and what are the differences. 
+  to use them, and what are the differences.
 slug: marionette-tutorial-objects-commands
 date: '2014-07-15 10:38:01 +0000'
 category: JavaScript development
@@ -20,7 +20,7 @@ tags:
 
 
 A brief introduction to Marionette’s reqres ( request-response ) and commands would be that they are application (or module) level event aggregators that either return a value or cause an action to happen. Both provide similar api to execute and set handlers:
-```
+```coffee
 App = new Marionette.Application()
 
 App.reqres.setHandler “users:get”, (id) ->
@@ -41,7 +41,7 @@ Come to think about it - if requests are synchronous, is there anything more to 
 
 With Marionette.request
 -----------------------
-```
+```coffee
 App = new Marionette.Application()``` // this is going to be a common part
 
 App.module('posts').reqres.setHandler 'post:get', ->
@@ -61,8 +61,8 @@ Now, the very same code, but using a plain object instead of module with reqres.
 
 With js object
 --------------
-```
-// let's skip App definition here
+```coffee
+// let`s skip App definition here
 
 App.posts =
   getPost: ->
@@ -95,11 +95,11 @@ Commands prevail
 
 With all that above, you are probably thinking that I'm going to be mean to commands, too. Commands are actually quite awesome, mostly due to the fact, that they can't be easily replaced by a javascript object since they are asynchronous. They still have inherited some of problems that reqres suffers from, like silent fails, slightly harder testing and general flatness (as in no grouping).
 You might think about dropping commands API for vents, also avaiable in Marionette, but this:
-```
+```coffee
 App.vent.trigger 'some:command', params
 ```
 isn't at all improvement to that:
-```
+```coffee
 App.execute 'some:command', params
 ```
 Second version is of course more concise and readable.

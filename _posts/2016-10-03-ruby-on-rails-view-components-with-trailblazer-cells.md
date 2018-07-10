@@ -78,11 +78,9 @@ Firstly, we need to create files structure. ```TableCell``` is built from one ru
 
 ```table_cell.rb``` is the core of our cell, it contains all helpful methods.
 
-```
-  table_cell.rb
-```
+`table_cell.rb`
 
-```
+```ruby
 
   class TableCell < Cell::ViewModel
     def items
@@ -129,11 +127,9 @@ Firstly, we need to create files structure. ```TableCell``` is built from one ru
 
 The main view part of ```TableCell``` is ```show.erb```, it will be rendered while we will use the cell. It contains table tag and renders ```header.erb``` and ```body.erb``` views.
 
-```
-  table/show.erb
-```
+`table/show.erb`
 
-```
+```erb
   <table>
     <%= header %>
     <%= body %>
@@ -142,11 +138,9 @@ The main view part of ```TableCell``` is ```show.erb```, it will be rendered whi
 
 In ```header.erb``` we put ```thead``` tag and ```th``` tag for each attribute provided to cell.
 
-```
-  table/header.erb
-```
+`table/header.erb`
 
-```
+```erb
   <thead>
     <tr>
       <% attributes.each do |header| %>
@@ -159,11 +153,9 @@ In ```header.erb``` we put ```thead``` tag and ```th``` tag for each attribute p
 
 In ```body.erb``` we render table row for each item provided to cell.
 
-```
-  table/body.erb
-```
+`table/body.erb`
 
-```
+```erb
   <% items.each do |item| %>
     <%= content_tag :tr, row(item) %>
   <% end %>
@@ -171,11 +163,9 @@ In ```body.erb``` we render table row for each item provided to cell.
 
 ```row.erb``` creates ```td``` tag for each attribute of the item.
 
-```
-  table/row.erb
-```
+`table/row.erb`
 
-```
+```erb
   <% row_attributes(@item).each do |attribute| %>
     <%= content_tag :td, attribute %>
   <% end %>
@@ -190,21 +180,17 @@ In ```body.erb``` we render table row for each item provided to cell.
 
 At first we need to add abstract ```PageCell``` with html layout, the main job of layout is including javascript and stylesheets assets. Each view needs to load the layout, so views cells will inherit from the ```PageCell```. We have to create ```app/cells/page_cell.rb``` and ```app/cells/page/layout.erb``` files.
 
-```
-  page_cell.erb
-```
+`page_cell.erb`
 
-```
+```ruby
   class PageCell < Cell::ViewModel
     layout :layout
   end
 ```
 
-```
-  page/layout.erb
-```
+`page/layout.erb`
 
-```
+```erb
   <!DOCTYPE html>
   <html>
     <head>
@@ -223,11 +209,9 @@ At first we need to add abstract ```PageCell``` with html layout, the main job o
 Let’s speed up. I’ve already created ```TitleCell``` and ```NoticeCell```. We need them for ```IndexCell```.
 ```IndexCell``` displays all of needed components on index page.
 
-```
-  index_cell.erb
-```
+`index_cell.erb`
 
-```
+```ruby
   class IndexCell < PageCell
     def items
       model[:items]
@@ -251,11 +235,9 @@ Let’s speed up. I’ve already created ```TitleCell``` and ```NoticeCell```. W
   end
 ```
 
-```
-  index/show.erb
-```
+`index/show.erb`
 
-```
+```erb
   <%=cell NoticeCell, notice: notice %>
 
   <%=cell TitleCell, title: "Listing #{model_name.pluralize.capitalize}" %>
@@ -269,11 +251,9 @@ Let’s speed up. I’ve already created ```TitleCell``` and ```NoticeCell```. W
 Implementation of others cells you can see at the repository.
 So, we have all cells ready. Let’s use them.
 
-```
-  companies_controller.rb
-```
+`companies_controller.rb`
 
-```
+```ruby
   class CompaniesController < ApplicationController
     before_action :set_company, only: [:show, :edit, :update, :destroy]
 
@@ -299,11 +279,9 @@ So, we have all cells ready. Let’s use them.
   ...
 ```
 
-```
-  departments_controller.rb
-```
+`departments_controller.rb`
 
-```
+```ruby
   class DepartmentsController < ApplicationController
     before_action :set_department, only: [:show, :edit, :update, :destroy]
 
@@ -328,11 +306,9 @@ So, we have all cells ready. Let’s use them.
     end
 ```
 
-```
-  employees_controller.rb
-```
+`employees_controller.rb`
 
-```
+```ruby
   class EmployeesController < ApplicationController
     before_action :set_employee, only: [:show, :edit, :update, :destroy]
 
@@ -361,7 +337,7 @@ So, we have all cells ready. Let’s use them.
 
 As you can see we have used the same cells for all controllers. That is the power of cells. Now If you want to change title header size for all pages, you have to just change one file, the ```TitleCell```:
 
-```
+```bash
   diff --git a/app/cells/title/show.erb b/app/cells/title/show.erb
   index 580040d..f8704a2 100644
   --- a/app/cells/title/show.erb

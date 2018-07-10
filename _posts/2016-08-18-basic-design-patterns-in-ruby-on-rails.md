@@ -48,7 +48,7 @@ app/
 
 Now, when we have a place to store our servies, let's define base service, so that we are sure every service uses the same interface to communicate with the rest of the application.
 
-```
+```ruby
 class BaseService
   private_class_method :new
 
@@ -60,7 +60,7 @@ end
 
 That's it! Only one method, nothing more. Now, let's jump to the actual service.
 
-```
+```ruby
 class YourService < BaseService
 
   def initialize(first_variable, second_variable)
@@ -86,7 +86,7 @@ In OOP, decorator gives us ability to extend particular object's behaviour by eq
 
 Draper is usefull when we have methods in models, which are used only in views. Using decorator design patter means puting in them every bit of logic which is used only in views. So, if in User model we have method `full_name`, e.g.
 
-```
+```ruby
 def full_name
   "#{first_name} #{last_name}"
 end
@@ -94,7 +94,7 @@ end
 
 we should move it into `UserDecorator`.
 
-```
+```ruby
 class UserDecorator < Draper::Decorator
   delegate_all
 
@@ -106,11 +106,15 @@ end
 
 Great thing is that not every user object in views will have that method, we have to **decorate** that object before sending it to the view, simply using `user.decorate`. So in controller we have to use:
 
-```
+```ruby
 def show
   @user = User.find(params[:id]).decorate
 end
+```
+
 And then, we can use this code in our views:
+
+```erb
 <%= @user.full_name %>
 ```
 
