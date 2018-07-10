@@ -100,7 +100,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
 9. **What’s the current growth like? What are your plans for the future of Collectivity?**
 
-  **Answer:** We are around 2000 people, around 300 users contributed in various activities, we are around  900-1000 people who completed a profile, it is a first sign of an activity for us. 2000 registered and 300 who really contributed last year.
+   **Answer:** We are around 2000 people, around 300 users contributed in various activities, we are around  900-1000 people who completed a profile, it is a first sign of an activity for us. 2000 registered and 300 who really contributed last year.
 
    An important thing that we like it’s not just number of people, but it’s also where they come from. We have people from 90 different countries. **It’s what we are aiming for - to exchange expertise around the world.**
 
