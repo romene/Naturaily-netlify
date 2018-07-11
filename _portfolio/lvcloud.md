@@ -8,44 +8,49 @@ project-logo: /assets/images/lvcloud-logo.png
 project-logo-class: lvcloud
 banner-bg: /assets/images/projects-background-purple.png
 banner-text: >-
-  LVCloud is an Internet of Things application that monitors and takes care of
-  the grid. Check out how we combined new technologies, like machine learning,
-  into a sophisticated app that solves problems with electric network before
-  anyone knew they existed.
+  LVCloud is an Internet of Things (IoT) application that monitors and takes
+  care of the grid. Check out how we have combined new technologies, such as
+  machine learning, into a sophisticated app that can detect and solve problems
+  with electricity networks before anyone knew they existed.
 banner-tech:
   - 'Ruby on Rails, Vue.js, MQTT'
 step-one: The need
 step-one-title: Taking care of the grid
 step-one-text: >-
-  Electric network malfunction causing serious problems for the society? That is
-  not a science fiction scenario anymore. You could have laughed about it a
-  couple of decades ago, but nowadays we are too dependent on the grid. It needs
-  to be monitored so that specialists can intervene and solve problems
-  quickly.<br><br>Hardware-wise the grid is monitored by reclosers, which are
-  sophisticated fuses. But they need software.
+  When electricity networks malfunction, this can cause serious problems for our
+  society and this is not a science fiction scenario anymore. You could have
+  laughed about it a couple of decades ago, but nowadays we are too dependent on
+  the grid. It needs to be monitored so that specialists can intervene and solve
+  problems quickly before power is lost to businesses and
+  homes<br><br>Hardware-wise the grid is monitored by auto reclosing devices,
+  which are sophisticated circuit breakers. But they need sophisticated software
+  to operate correctly.
 step-two: The solution
 step-two-title: Monitor the grid like a pro
 step-two-text: >-
-  Recloser's main job is to bring back the electricity within the area it
-  operates in. When something goes wrong, the fuse will blow and therefore
-  secure that part of the electricity network. But it will try to reclose and
-  make everything works again.<br><br>It's XXI century so recloser is much more
-  sophisticated and it also enables recording information about the grid's
+  The reclosing device's main job is to restore the electricity supply within
+  the area it operates in. When something goes wrong, the circuit breaker will
+  open and therefore isolate that part of the electricity network where the
+  fault is present. However, using the in-built intelligence of the
+  auto-reclosing circuit breaker, it will test to see if the fault is still
+  present and if not, it will close and restore supplies to customers.
+  <br><br>It's XXI century so the recloser is much more sophisticated and it
+  also enables recording of critical information about the grid's
   state.<br><br>Now this is where Naturaily steps in. We have created software
   that collects information from reclosers and analyzes it to find traces of
   malfunction or physical damage. Any type of non-obvious problems like too high
-  humidity caused by various incidents or worn out cables. Think of “Minority
-  Report” class software for finding electric network prefaults.<br><br>Other
-  devices exist: TDRs (Time-domain reflectometers), ATLMs (ALVIN Transformer
-  Load Monitors). We gather data from all of them. And also enable managing them
-  with our software.<br><br>Apart from dashboard, engineers are notified via
-  email or text.
+  humidity caused by various incidents or cables in a poor state of repair.
+  Think of “Minority Report” class software for finding electricity network
+  pre-faults.<br><br>Other devices exist: TDRs (Time-domain reflectometers),
+  ATLMs (ALVIN Transformer Load Monitors). We gather data from all of them. And
+  also enable managing them with our software.<br><br>In addition to a web based
+  dashboard, engineers are notified via email or text.
 step-three: The tools
 step-three-title: Ruby-based microservices
 step-three-text: >-
   The software is created for large scale: hundreds of thousands of devices and
-  millions of events. But the amount of devices is not the biggest problem. The
-  main requirement was that the application works in real time! To handle this
+  millions of events. But the number of devices is not the biggest problem. The
+  main requirement was that the application works in real time! To handle this,
   we have designed Ruby-based microservices architecture and wrote the most
   critical parts in faster, more concurrent language - Elixir. Apart from
   scalability, we wanted to bring XXI century to this solution and implemented
@@ -94,3 +99,4 @@ image-four: /assets/images/lvcloud-screen-4.png
 image-five: /assets/images/lvcloud-screen-5.png
 image-six: /assets/images/lvcloud-screen-6.png
 ---
+
