@@ -4,24 +4,24 @@
 
 # Categories redirecting
 
-/blog/category/Android                                       /blog/category/Android+mobile+development
-/blog/category/CSS                                           /blog/category/Frontend+development
-/blog/category/Development                                   /blog/category/Ruby+on+Rails+development
-/blog/category/Infographic                                   /blog/category/Startups
-/blog/category/JavaScript                                    /blog/category/JavaScript+development
-/blog/category/Konferencja%20zespołów%20projektowych         /blog/category/Events
-/blog/category/Management                                    /blog/category/Agile
-/blog/category/Online%20marketing                            /blog/category/Online+marketing
-/blog/category/Project%20management		                       /blog/category/Agile
-/blog/category/Remote%20development		                       /blog/category/Remote+work
-/blog/category/Responsive%20Web%20Design		                 /blog/category/Frontend+development
-/blog/category/Ruby%20on%20Rails		                         /blog/category/Ruby+on+Rails+development
-/blog/category/SASS		                                       /blog/category/Frontend+development
-/blog/category/Social%20media		                             /blog/category/Startups
-/blog/category/Spree%20Commerce		                           /blog/category/Spree+development
-/blog/category/Startup		                                   /blog/category/Startups
-/blog/category/Thoughts%20on%20building%20start-ups		       /blog/category/Startups
-/blog/category/Women%20in%20IT		                           /blog/category/Diversity
+/blog/category/Android                                       /blog/tags/Native+mobile+development
+/blog/category/CSS                                           /blog/tags/Frontend+development
+/blog/category/Development                                   /blog/tags/Ruby+on+Rails+development
+/blog/category/Infographic                                   /blog/tags/Startups
+/blog/category/JavaScript                                    /blog/tags/JavaScript+development
+/blog/category/Konferencja%20zespołów%20projektowych         /blog/tags/Events
+/blog/category/Management                                    /blog/tags/Agile
+/blog/category/Online%20marketing                            /blog/tags/Online+marketing
+/blog/category/Project%20management		                       /blog/tags/Agile
+/blog/category/Remote%20development		                       /blog/tags/Remote+work
+/blog/category/Responsive%20Web%20Design		                 /blog/tags/Frontend+development
+/blog/category/Ruby%20on%20Rails		                         /blog/tags/Ruby+on+Rails+development
+/blog/category/SASS		                                       /blog/tags/Frontend+development
+/blog/category/Social%20media		                             /blog/tags/Startups
+/blog/category/Spree%20Commerce		                           /blog/tags/Spree+development
+/blog/category/Startup		                                   /blog/tags/Startups
+/blog/category/Thoughts%20on%20building%20start-ups		       /blog/tags/Startups
+/blog/category/Women%20in%20IT		                           /blog/tags/Diversity
 
 # Tags redirecting
 
