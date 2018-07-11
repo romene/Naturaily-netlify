@@ -39,40 +39,38 @@
       transition: all 0.2s ease-in-out;
     }
 
-    .btn-secondary {
-      display: none;
-      padding-top: 9px;
-      padding-bottom: 9px;
-      font-size: 12px;
-      position: absolute;
-      // bottom: 50px;
-      // margin-top: -40px;
-    }
-
-    .resources-tile {
-      transition: all 0.2s ease-in-out;
-      transform: scale(1);
-      .btn-secondary, img, span {
-        // transform: scale(1);
-      }
-    }
-
-    .resources-tile:hover {
-      transition: all 0.2s ease-in-out;
-      transform: scale(1.1);
-      .btn-secondary {
-        display: block;
-        bottom: 35px;
-      }
-
-      .btn-secondary, img, span {
-        // transform: scale(0.9);
-      }
-      .tile-text {
-        margin-bottom: 110px;
-        transition: all 0.2s ease-in-out;
-      }
-    }
+  //   .btn-secondary {
+  //     display: none;
+  //     padding-top: 9px;
+  //     padding-bottom: 9px;
+  //     font-size: 12px;
+  //     position: absolute;
+  //   }
+  //
+  //   .resources-tile {
+  //     transition: all 0.2s ease-in-out;
+  //     transform: scale(1);
+  //     .btn-secondary, img, span {
+  //       // transform: scale(1);
+  //     }
+  //   }
+  //
+  //   .resources-tile:hover {
+  //     transition: all 0.2s ease-in-out;
+  //     transform: scale(1.1);
+  //     .btn-secondary {
+  //       display: block;
+  //       bottom: 35px;
+  //     }
+  //
+  //     .btn-secondary, img, span {
+  //       // transform: scale(0.9);
+  //     }
+  //     .tile-text {
+  //       margin-bottom: 110px;
+  //       transition: all 0.2s ease-in-out;
+  //     }
+  //   }
   }
 
   &-footer {
