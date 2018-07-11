@@ -269,15 +269,32 @@ pre, code {
 
   .post-navigation {
     grid-template-columns: repeat(2, 1fr);
-
-    .prev {
-      justify-self: end;
-      text-align: right;
-    }
+    padding-top: 40px;
 
     a {
       display: block;
       max-width: 400px;
+      position: relative;
+      padding-left: 50px;
+
+      img {
+        position: absolute;
+        left: 0;
+        top: 15px;
+      }
+    }
+
+    .prev {
+      justify-self: end;
+      text-align: right;
+      grid-column: 2;
+      padding-left: 0;
+      padding-right: 50px;
+
+      img {
+        left: auto;
+        right: 0;
+      }
     }
   }
 }
