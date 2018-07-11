@@ -23,7 +23,7 @@
   &-resources {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 400px);
-    grid-gap: 70px;
+    grid-gap: 60px;
     padding-bottom: 90px;
 
     .mobile-tile, .web-tile, .ux-tile {
@@ -36,6 +36,42 @@
       width: 140px;
       margin-bottom: 70px;
       font-size: 21px;
+      transition: all 0.2s ease-in-out;
+    }
+
+    .btn-secondary {
+      display: none;
+      padding-top: 9px;
+      padding-bottom: 9px;
+      font-size: 12px;
+      position: absolute;
+      // bottom: 50px;
+      // margin-top: -40px;
+    }
+
+    .resources-tile {
+      transition: all 0.2s ease-in-out;
+      transform: scale(1);
+      .btn-secondary, img, span {
+        // transform: scale(1);
+      }
+    }
+
+    .resources-tile:hover {
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.1);
+      .btn-secondary {
+        display: block;
+        bottom: 35px;
+      }
+
+      .btn-secondary, img, span {
+        // transform: scale(0.9);
+      }
+      .tile-text {
+        margin-bottom: 110px;
+        transition: all 0.2s ease-in-out;
+      }
     }
   }
 
@@ -64,10 +100,38 @@
     padding-left: 30px;
   }
 
+  .career-more .services--hover {
+    transition: all 0.2s ease-in-out;
+    &:hover {
+      transition: all 0.2s ease-in-out;
+      transform: scale(1.1);
+      .tile-text {
+        margin-bottom: 80px;
+      }
+      .btn {
+        display: block;
+        bottom: 25px;
+      }
+    }
+
+    .btn {
+      display: none;
+      position: absolute;
+      bottom: 25px;
+      padding: 5px 25px;
+      font-size: 10px;
+    }
+
+    .tile-text {
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
   .career-more {
     margin-bottom: 160px;
     .tile-text {
       width: 100px;
+      margin-bottom: 25px;
     }
   }
 
