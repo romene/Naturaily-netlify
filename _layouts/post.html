@@ -10,11 +10,11 @@ layout: default
       {% if page.image %}
         <img src="{{page.image}}" alt="Post image">
       {% endif %}
-      <p class="post-meta">
+      <div class="post-meta">
         {% if page.avatar %}
           <img class="avatar" src="{{ page.avatar }}" alt="Author avatar">
         {% endif %}
-        <span class="author">
+        <p class="author">
           {% if page.author %}
             <span>{{ page.author }}</span>
           {% endif %}
@@ -22,19 +22,19 @@ layout: default
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             {{ page.date | date: date_format }}
           </time>
-        </span>
+        </p>
+        <div class="post-tags">
+          {% if page.author %}
+            {% for tag in page.tags %}
+              <a href="/blog/tags/{{ tag | cgi_escape }}/">{{ tag }}</a>
+            {% endfor %}
+          {% endif %}
+        </div>
         {% if page.readtime %}
           <span class="read-time">{{ page.readtime }} min czytania</span>
         {% endif %}
-      </p>
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
-      <div class="post-tags">
-        {% if page.author %}
-          {% for tag in page.tags %}
-            <a href="/blog/tags/{{ tag | cgi_escape }}/">{{ tag }}</a>
-          {% endfor %}
-        {% endif %}
       </div>
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
 
       <div class="post-content" itemprop="articleBody">

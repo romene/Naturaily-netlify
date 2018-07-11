@@ -61,13 +61,11 @@ pre, code {
     color: #B36800;
     font-size: 0.9rem;
     font-weight: 300;
-    display: grid;
-    grid-template-columns: 70px 150px auto 100px;
-    grid-template-rows: 60px;
-    margin-bottom: 10px;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 10px;
 
     .avatar {
-      grid-column: 1;
       border-radius: 50%;
       max-width: 60px;
       max-height: 60px;
@@ -75,10 +73,11 @@ pre, code {
     }
 
     .author {
-      grid-column: 2;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+      padding-left: 20px;
+      margin-bottom: 0;
     }
 
     .read-time {
@@ -86,10 +85,17 @@ pre, code {
       align-self: center;
       justify-self: end;
     }
+
+    time {
+      padding-left: 20px;
+    }
   }
 
   &-tags {
-    margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
 
     a {
       font-size: 0.75rem;
@@ -272,6 +278,15 @@ pre, code {
     a {
       display: block;
       max-width: 400px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 810px) {
+  .post {
+    &-tags {
+      display: none;
     }
   }
 }

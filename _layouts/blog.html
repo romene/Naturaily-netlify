@@ -12,11 +12,11 @@ layout: default
         <img class="post-image" src="{{post.image}}" alt="post image">
         {% endif %}
       </a>
-      <p class="post-meta">
+      <div class="post-meta">
         {% if post.avatar %}
           <img class="avatar" src="{{ post.avatar }}" alt="author avatar">
         {% endif %}
-        <span class="author">
+        <p class="author">
           {% if post.author %}
             <span>{{ post.author }}</span>
           {% endif %}
@@ -24,19 +24,19 @@ layout: default
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
             {{ post.date | date: date_format }}
           </time>
-        </span>
+        </p>
+        <div class="post-tags">
+          {% for tag in post.tags %}
+            <a href="/blog/tags/{{ tag | cgi_escape }}/">{{ tag }}</a>
+          {% endfor %}
+        </div>
         {% if post.readtime %}
           <span class="read-time">{{ post.readtime }} min read</span>
         {% endif %}
-      </p>
+      </div>
       <a class="post-link" href="{{ post.url | relative_url }}">
         <h1 class="post-title">{{ post.title | escape }}</h1>
       </a>
-      <div class="post-tags">
-        {% for tag in post.tags %}
-          <a href="/blog/tags/{{ tag | cgi_escape }}/">{{ tag }}</a>
-        {% endfor %}
-      </div>
       {% if post.text-preview %}
         <div class="text-preview">
           {{ post.text-preview }}
