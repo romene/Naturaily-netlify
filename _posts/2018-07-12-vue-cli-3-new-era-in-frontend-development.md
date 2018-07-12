@@ -26,7 +26,7 @@ A few days ago, **Vue CLI** finally changed status from '_Beta_' to '_Release Ca
 
 During Vuejs meeting in Amsterdam February of 2018, Evan You, the creator of Vue have pointed few problems with previous versions of the Vue CLI.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TRJMT9yjONQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<center><iframe width="800" height="450" src="https://www.youtube.com/embed/TRJMT9yjONQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></center>
 
 According to his talk, those problems were:
 
@@ -53,9 +53,7 @@ Vue CLI 3 comes with a list of a few the most useful/popular plugins like 'vuex'
 
 As mentioned earlier, new Vue CLI provides you with a list of the most useful plugins with support out of the box.
 
-All you have to do is to just check plugins that you find interesting in creation process or run '_vue add < plugin name >'_ in existing app.
-
-Thanks to that you can set up your new app really fast, especially when you create your own preset with your the most favorite plugins.
+All you have to do is to just check plugins that you find interesting in creation process or run '_vue add < plugin name >'_ in existing app. Thanks to that you can set up your new app really fast, especially when you create your own preset with your the most favorite plugins.
 
 Plugins which you can choose:
 
@@ -77,7 +75,7 @@ Vue CLI, like others modern CLIs, was built to help you quickly setup your app w
 
 Here's how ejecting is described in the ‘Create React Native App’ documentation:
 
-_"Ejecting" is the process of setting up your own custom builds for your CRNA (Create React Native App) app. It can be necessary to do if you have needs that aren't covered by CRNA, but please note that aside from the use of version control systems (git, hg, etc.) **it is not reversible.**_
+<i>"Ejecting" is the process of setting up your own custom builds for your CRNA (Create React Native App) app. It can be necessary to do if you have needs that aren't covered by CRNA, but please note that aside from the use of version control systems (git, hg, etc.) **it is not reversible.**</i>
 
 _'It is not reversible'_ that's the point why Vue’s ‘_no need to eject_’ is a great option.
 
@@ -116,7 +114,9 @@ Vue CLI have three modes by default: '_development_', '_production_' and '_test_
 
 Webpack is great, as long as when it is working and you don't need to configure it. According to 'zero config setup' idea, default Webpack configuration is also created by CLI.
 
-First time with a new CLI app can be confusing, mainly because there is no Webpack config file. It doesn’t mean that there is no way to change that! All changes are made in 'vue.config.js' file. If you are curious how your Webpack (and other plugins) configuration looks like, all you have to do is run 'vue inspect' command. I suggest dumping that output into a file so that it will be easier to "inspect". 'vue inspect > dump.js' will do the trick.
+First time with a new CLI app can be confusing, mainly because there is no Webpack config file. It doesn’t mean that there is no way to change that! All changes are made in '_vue.config.js_' file. 
+
+If you are curious how your Webpack (and other plugins) configuration looks like, all you have to do is run '_vue inspect_' command. I suggest dumping that output into a file so that it will be easier to "inspect".  '_vue inspect > dump.js_' will do the trick.
 
 ### PWA support
 
@@ -144,16 +144,16 @@ Out of the box, PWA support is an amazing feature and an opportunity to create t
 
 ### Sources
 
-“_Ejecting from Create React Native App_” | <https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md>
+“_Ejecting from Create React Native App_” <strong>|</strong> <https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md>
 
-05.04.2018 Obaseki Nosa | “_Vue CLI 3 — the deep dive_” | <https://blog.logrocket.com/vue-cli-3-the-deep-dive-41dff070ac4a>
+05.04.2018 Obaseki Nosa <strong>|</strong> “_Vue CLI 3 — the deep dive_” <strong>|</strong> <https://blog.logrocket.com/vue-cli-3-the-deep-dive-41dff070ac4a>
 
-26.03.2018 Anthony Gore | “_Vue CLI 3: A Game Changer For Frontend Development_” | <https://vuejsdevelopers.com/2018/03/26/vue-cli-3/>
+26.03.2018 Anthony Gore <strong>|</strong> “_Vue CLI 3: A Game Changer For Frontend Development_” <strong>|</strong> <https://vuejsdevelopers.com/2018/03/26/vue-cli-3/>
 
-01.03.2018 | “_Evan You - State of VueJS 2018 | Vue.js Amsterdam Conference_” | <https://www.youtube.com/watch?v=TRJMT9yjONQ>
+01.03.2018 <strong>|</strong> “_Evan You - State of VueJS 2018 <strong>|</strong> Vue.js Amsterdam Conference_” <strong>|</strong> <https://www.youtube.com/watch?v=TRJMT9yjONQ>
 
-30.03.2018 | “_How Vue-Cli 3 Will Shape Our Future_” | <https://medium.com/vuetify/how-vue-cli-3-will-shape-our-future-eb7c01f4a241>
+30.03.2018 <strong>|</strong> “_How Vue-Cli 3 Will Shape Our Future_” <strong>|</strong> <https://medium.com/vuetify/how-vue-cli-3-will-shape-our-future-eb7c01f4a241>
 
-“_Plugins and Presets_” | <https://cli.vuejs.org/guide/plugins-and-presets.html#plugins>
+“_Plugins and Presets_” <strong>|</strong> <https://cli.vuejs.org/guide/plugins-and-presets.html#plugins>
 
-22.07.2016 Dan Abramov | “_Create Apps with No Configuration_” | <https://reactjs.org/blog/2016/07/22/create-apps-with-no-configuration.html>
+22.07.2016 Dan Abramov <strong>|</strong> “_Create Apps with No Configuration_” <strong>|</strong> <https://reactjs.org/blog/2016/07/22/create-apps-with-no-configuration.html>
