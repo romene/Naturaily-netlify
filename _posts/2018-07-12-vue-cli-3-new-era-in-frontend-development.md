@@ -75,7 +75,9 @@ Vue CLI, like others modern CLIs, was built to help you quickly setup your app w
 
 Here's how ejecting is described in the ‘Create React Native App’ documentation:
 
-<i>"Ejecting" is the process of setting up your own custom builds for your CRNA (Create React Native App) app. It can be necessary to do if you have needs that aren't covered by CRNA, but please note that aside from the use of version control systems (git, hg, etc.) **it is not reversible.**</i>
+> **Ejecting**
+>
+>  is the process of setting up your own custom builds for your CRNA (Create React Native App) app. It can be necessary to do if you have needs that aren't covered by CRNA, but please note that aside from the use of version control systems (git, hg, etc.) **it is not reversible.**
 
 _'It is not reversible'_ that's the point why Vue’s ‘_no need to eject_’ is a great option.
 
