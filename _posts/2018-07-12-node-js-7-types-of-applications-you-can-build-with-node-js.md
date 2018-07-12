@@ -6,7 +6,7 @@ description: >-
   Node.js. 
 slug: node-js-applications
 layout: post
-date: '2018-07-11 10:18:26 +0000'
+date: '2018-07-22 10:18:26 +0000'
 category: Node.js development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
@@ -42,7 +42,7 @@ The service has over 227 million users and over 7.6 billion payment transactions
 
 ## Social platform
 
-### Professional networking - LinkedIn:
+### LinkedIn - Professional networking
 
 LinkedIn is the largest business-oriented social media platform. It has over 530 million members. Currently, it takes the 31th place in the Global Ranking by Alexa Internet. LinkedIn development team switched to Node.js for some parts of its back-end system what resulted in much more performant application than ever before.
 
@@ -50,7 +50,7 @@ LinkedIn is the largest business-oriented social media platform. It has over 530
 
 ~ **Kiran Prasad**, Mobile Director of Engineering for LinkedIn
 
-### A social platform for timelines and stories - Storify:
+### Storify - social platform for timelines and stories
 
 Storify allowed users to create stories and timelines by using posts from other social media platforms such as Twitter, Facebook and YouTube.
 
@@ -81,13 +81,13 @@ He also mentions how numerous development tools, automation libraries and other 
 
 ## Online publishing platform
 
-### Medium:
+### Medium
 
 Medium is an extremely popular online publishing platform where anyone can publish posts, mostly related to the field they work in. In 2016 alone 7.5M articles were published. In that year, site noted over 60 million unique monthly visitors (140% increase compared to previous year).
 
 According to Stackshare, Medium initially leveraged Node.js to do most of the required work, which they later divided into certain sections for other tools. Node.js still remains as the core of the app, but it is being run in multiple instances.
 
-### Wall Street Journal:
+### Wall Street Journal
 
 The first time Wall Street Journal development team used Node.js was during the development of an experimental Facebook reader application. It turned out that Node.js met all their expectations.
 
