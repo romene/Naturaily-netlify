@@ -26,7 +26,7 @@ A few days ago, Vue CLI finally changed status from \`Beta\` to \`Release Candid
 
 During Vuejs meeting in Amsterdam February of 2018, Evan You, the creator of Vue have pointed few problems with previous versions of the Vue CLI.
 
-<iframe width="420" height="315" src="https://www.youtube.com/watch?v=TRJMT9yjONQ"></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TRJMT9yjONQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 According to his talk, those problems were:
 
