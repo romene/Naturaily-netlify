@@ -18,9 +18,9 @@ text-preview: >-
 tags:
   - Vue CLI
   - Vue CLI release
-  - Vue
+  - Vue.js
 ---
-A few days ago, Vue CLI finally changed status from \`Beta\` to \`Release Candidate\`, so now it's a great time to take a deeper look at all the new features the current version has to offer.
+A few days ago, **Vue CLI** finally changed status from '_Beta_' to '_Release Candidate_', so now it's a great time to take a deeper look at all the new features the current version has to offer.
 
 ### Why was the change needed?
 
@@ -39,13 +39,13 @@ If you are interested in these problems, I recommend you watch the video, Evan i
 
 ## New features
 
-The new CLI is an answer to the problems pointed by Evan. The goal of the Vue CLI 3 is to provide a way for developers to get their Vue applications up and running as fast as possible, without thinking about configuration or installation and configuration default, commonly used dependencies, etc.
+The new CLI is an answer to the problems pointed by Evan. The goal of the **Vue CLI 3** is to provide a way for developers to get their Vue applications up and running as fast as possible, without thinking about configuration or installation and configuration default, commonly used dependencies, etc.
 
 Here are some of the new features I find really interesting in the new Vue CLI 3.
 
 ### Plug-and-play structure
 
-One of the biggest innovation coming with Vue CLI 3 is a plugin-based architecture. Thanks to that, applications created in Vue CLI 3 are flexible and extensible. You can easily add any plugin you need at any time of an app’s lifecycle. When you add a plugin to an existing project, the new CLI will change the core webpack configuration and create all required files for you.
+One of the biggest innovation coming with **Vue CLI 3** is a plugin-based architecture. Thanks to that, applications created in **Vue CLI 3** are flexible and extensible. You can easily add any plugin you need at any time of an app’s lifecycle. When you add a plugin to an existing project, the new CLI will change the core webpack configuration and create all required files for you.
 
 Vue CLI 3 comes with a list of a few the most useful/popular plugins like 'vuex' or 'router' by default, but, of course, you are also allowed to create and use your own plugins.
 
@@ -104,7 +104,10 @@ You specify 'env' variables by simply placing \[them] in proper files, with '.en
 Here's file description from Vue CLI docs.
 
 ```
-.env                # loaded in all cases .env.local          # loaded in all cases, ignored by git .env.[mode]         # only loaded in specified mode .env.[mode].local   # only loaded in specified mode, ignored by git
+.env                # loaded in all cases 
+.env.local          # loaded in all cases, ignored by git 
+.env.[mode]         # only loaded in specified mode 
+.env.[mode].local   # only loaded in specified mode, ignored by git
 ```
 
 Vue CLI have three modes by default: '_development_', '_production_' and '_test_', but you can easily also create other modes, just remember to use '_\--mode_' flag.
@@ -117,7 +120,7 @@ First time with a new CLI app can be confusing, mainly because there is no Webpa
 
 ### PWA support
 
-Last but surely not least feature is Progressive Web App support.
+Last but surely not least feature coming to Vue CLI 3 is Progressive Web App support.
 
 PWA is trending approach to create a Web application, if you're not familiar with that term, without doubt, you have to take a look at that! PWA support is a default but optional plugin in the new CLI. When you decide to add this plugin to your app it will build a PWA essence skeleton.
 
@@ -133,7 +136,7 @@ All you have to do is to code the ‘right way’, CLI will do the rest of the w
 
 ### Conclusion
 
-Vue CLI 3 has a lot of great new features which can ensure a rapid and smooth development process. Features shown in this article are probably just a small fraction of the new CLI and I’m sure that there are quite a few other features which you may find useful.
+**Vue CLI 3** has a lot of great new features which can ensure a **rapid and smooth development process**. Features shown in this article are probably just a small fraction of the new CLI and I’m sure that there are quite a few other features which you may find useful.
 
 I really like the plugin structure and all the advantages coming from that architecture. Commercial projects have a tendency to change requirements and the ability to easily add some features such as eg. PWAs in an existing project is a huge advantage.
 
