@@ -9,8 +9,8 @@ layout: post
 date: '2018-07-11 12:26:02 +0000'
 category: Vue.js development
 author: Wojciech Miśta
-avatar: /assets/images/0evfvxi.jpg
-image: /assets/images/0evfvxi.jpg
+avatar: /assets/images/ellen.jpg
+image: /assets/images/vue-js-cli.jpg
 text-preview: >-
   Vue.js gets better and better with each update but this time, the inclusion of
   zero config setup for Vue apps in Vue CLI 3 sets a new standard in the
