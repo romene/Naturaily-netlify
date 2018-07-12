@@ -107,4 +107,4 @@ Quizlet’s CEO Dave Margulius in an interview stated that Node.js allowed them 
 
 Trello is a visual collaboration tools in the world - in various comparisons between similar solutions, it takes the 3rd place and is right behind Slack and G Suite. It is a well-known tool among startups and companies that rely on cooperation. Over **1.1 million users visit Trello every day** and 150,000 join Trello every week.
 
-According to Stackshare, Trello server side is built with Node.js. Developers stated that Node.js it is a great prototyping tool for single-page applications. Also, it turned out to be a good choice for a lot of open connections and instant propagation of updates.
+According to Stackshare, Trello's server side is built with Node.js. Developers stated that Node.js it is a great prototyping tool for single-page applications. Also, it turned out to be a good choice for a lot of open connections and instant propagation of updates.
