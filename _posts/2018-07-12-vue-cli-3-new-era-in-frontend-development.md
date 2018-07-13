@@ -6,9 +6,9 @@ description: >-
   industry.
 slug: vue-cli-3-overview
 layout: post
-date: '2018-07-11 12:26:02 +0000'
+date: '2018-08-06 12:26:02 +0000'
 category: Vue.js development
-author: Wojciech Miśta
+author: Tomasz Żdanuk
 avatar: /assets/images/ellen.jpg
 image: /assets/images/vue-js-cli.jpg
 text-preview: >-
