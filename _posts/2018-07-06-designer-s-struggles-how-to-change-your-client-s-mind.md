@@ -6,7 +6,7 @@ description: >-
   experiences.
 slug: client-designer-struggles
 layout: post
-date: '2018-07-06 02:10:29 +0000'
+date: '2018-07-16 02:10:29 +0000'
 category: Design
 author: Agata Zięba
 avatar: /assets/images/agata.jpg
