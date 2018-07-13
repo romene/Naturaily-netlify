@@ -30,7 +30,7 @@ layout: default
                 </p>
                 <div class="post-tags">
                   {% for tag in post.tags %}
-                    <a href="/blog/tags/{{ tag | cgi_escape }}/">{{ tag }}</a>
+                    <a href="/blog/tags/{{ tag | replace: " ", "&#95;"; }}/">{{ tag }}</a>
                   {% endfor %}
                 </div>
                 {% if post.readtime %}
