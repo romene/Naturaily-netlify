@@ -76,7 +76,7 @@ step-four-text: >-
   sooner maintenance people get information about potential malfunction, the
   better, because you won't even know a problem existed.
 comment-photo: /assets/images/firefield-face.png
-comment-name: Adam McGovan
+comment-name:
 comment-brand: CEO Firefield
 comment-logo: /assets/images/firefield.png
 comment-text: >-
@@ -99,4 +99,3 @@ image-four: /assets/images/lvcloud-screen-4.png
 image-five: /assets/images/lvcloud-screen-5.png
 image-six: /assets/images/lvcloud-screen-6.png
 ---
-
