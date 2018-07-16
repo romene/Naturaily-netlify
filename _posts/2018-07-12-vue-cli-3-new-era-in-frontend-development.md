@@ -20,7 +20,7 @@ tags:
   - Vue CLI release
   - Vue.js
 ---
-A few days ago, **Vue CLI** finally changed status from '_Beta_' to '_Release Candidate_', so now it's a great time to take a deeper look at all the new features the current version has to offer.
+Not so long ago, **Vue CLI** finally changed status from '_Beta_' to '_Release Candidate_', so now it's a great time to take a deeper look at all the new features the current version has to offer.
 
 ### Why was the change needed?
 
@@ -39,7 +39,7 @@ If you are interested in these problems, I recommend you watch the video, Evan i
 
 ## New features
 
-The new CLI is an answer to the problems pointed by Evan. The goal of the **Vue CLI 3** is to provide a way for developers to get their Vue applications up and running as fast as possible, without thinking about configuration or installation and configuration default, commonly used dependencies, etc.
+The new CLI is an answer to the problems pointed by Evan. The goal of the **Vue CLI 3** is to provide a way for developers to get their Vue applications up and running as fast as possible, without thinking about configuration.
 
 Here are some of the new features I find really interesting in the new Vue CLI 3.
 
@@ -53,7 +53,7 @@ Vue CLI 3 comes with a list of a few the most useful/popular plugins like 'vuex'
 
 As mentioned earlier, new Vue CLI provides you with a list of the most useful plugins with support out of the box.
 
-All you have to do is to just check plugins that you find interesting in creation process or run '_vue add < plugin name >'_ in existing app. Thanks to that you can set up your new app really fast, especially when you create your own preset with your the most favorite plugins.
+All you have to do is to just check plugins that you find interesting in creation process or run _`vue add < plugin name >`_ in existing app. Thanks to that you can set up your new app really fast, especially when you create your own preset with your the most favorite plugins.
 
 Plugins which you can choose:
 
@@ -66,6 +66,8 @@ Plugins which you can choose:
 * Linter
 * Unit Testing
 * E2E Testing
+
+![vue-cli-3-built-in-features](/assets/images/vue-cli-3-built-in-features.jpg)
 
 ### No need to eject
 
@@ -95,6 +97,8 @@ Globally installed Vue CLI 3 allows you to serve .js or .vue files, just using '
 
 Quite a cool feature in the new CLI is also Graphical User Interface. If you are not a huge fan of typing in the console and you prefer more "windows" style configuration that's probably a great feature for you.
 
+![vue-cli-3-gui](/assets/images/vue-cli-3-gui.jpg)
+
 ### Environment Variables and Modes
 
 Every project needs at least 2 environments: development and production. At Naturaily, we prefer the 3-environmental approach with an additional staging step. All environments always need different variables, called Environment Variables. Vue CLI 3 gives us out of the box built in tool to easily manage those variables. 
@@ -116,9 +120,9 @@ Vue CLI have three modes by default: '_development_', '_production_' and '_test_
 
 Webpack is great, as long as when it is working and you don't need to configure it. According to 'zero config setup' idea, default Webpack configuration is also created by CLI.
 
-First time with a new CLI app can be confusing, mainly because there is no Webpack config file. It doesn’t mean that there is no way to change that! All changes are made in '_vue.config.js_' file. 
+First time with a new CLI app can be confusing, mainly because there is no Webpack config file. It doesn’t mean that there is no way to change that! All changes are made in _`vue.config.js`_ file. 
 
-If you are curious how your Webpack (and other plugins) configuration looks like, all you have to do is run '_vue inspect_' command. I suggest dumping that output into a file so that it will be easier to "inspect".  '_vue inspect > dump.js_' will do the trick.
+If you are curious how your Webpack (and other plugins) configuration looks like, all you have to do is run '_vue inspect_' command. I suggest dumping that output into a file so that it will be easier to "inspect".  _`vue inspect > dump.js`_ will do the trick.
 
 ### PWA support
 
@@ -126,7 +130,7 @@ Last but surely not least feature coming to Vue CLI 3 is Progressive Web App sup
 
 PWA is trending approach to create a Web application, if you're not familiar with that term, without doubt, you have to take a look at that! PWA support is a default but optional plugin in the new CLI. When you decide to add this plugin to your app it will build a PWA essence skeleton.
 
-PWA support creates files such as: '_manifest.json_', '_registerServiceWorker.js_', and adds all required dependencies like workbox for Service Workers. All you have to do to make your app PWA is to add Service Worker and configure manifest.json.
+PWA support creates files such as: _`manifest.json`_, _`registerServiceWorker.js`_, and adds all required dependencies like workbox for Service Workers. All you have to do to make your app PWA is to add Service Worker and configure manifest.json.
 
 Stay tuned, I'm gonna create a tutorial on how to do it!
 
@@ -134,7 +138,24 @@ Stay tuned, I'm gonna create a tutorial on how to do it!
 
 The new CLI gives you an opportunity to build your app in few different modes. Default and probably the most popular mode is the ‘app mode’. It's a typical build in the production version. A bit more interesting are two other modes: Library and Web Component.
 
-All you have to do is to code the ‘right way’, CLI will do the rest of the work. Thanks to that, you can easily reuse your code in another project and save some time.
+According to their names it's gonna build Library and Web Component from your code.
+
+To build your code to in certain mode use this command:
+
+```
+shell
+vue-cli-service build --target <target-name> --name <name> [entry]
+```
+
+You can choose: `app`, `lib`, `wc` or `wc-async`.
+
+Library mode will build you several files, for different use cases, i.e `*.common.js` file for CommonJS bundle, `*.umd.js` for UMD bundle, `*.umd.min.js` as minified version of UMD bundle, and extract your css's to `*.css` file.
+
+**NOTE:** Be aware that in lib mode, Vue is externalized!
+
+Web components can be build in two different modes: as normal wc, or as asynchronous web component. Web component mode will produce a single JavaScript file, which you can later resue on your another app.
+
+For more informations visit [Vue CLI official docs](https://cli.vuejs.org/guide/build-targets.html#app)
 
 ### Conclusion
 
