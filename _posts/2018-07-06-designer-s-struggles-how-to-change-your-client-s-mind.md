@@ -22,7 +22,7 @@ tags:
   - design
   - client
 ---
-In my designer experience, when it comes to project design, clients tend to make unreasonable decisions based on their inner beliefs, convictions, and experiences. They strongly believe that their actions must to be similar to their competition, but what they don’t realize is that the things that work for others may not particularly work for them.
+In my designer experience, when it comes to project design, clients tend to make unreasonable decisions based on their inner beliefs, convictions, and experiences. They strongly believe that their actions must be similar to their competition's, but what they don’t realize is that the things that work for others may not particularly work for them.
 
 ## Why does it happen?
 
