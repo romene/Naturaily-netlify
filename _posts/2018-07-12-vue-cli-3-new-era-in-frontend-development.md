@@ -9,7 +9,7 @@ layout: post
 date: '2018-08-06 12:26:02 +0000'
 category: Vue.js development
 author: Tomasz Żdanuk
-avatar: /assets/images/ellen.jpg
+avatar: /assets/images/tomasz.jpg
 image: /assets/images/vue-js-cli.jpg
 text-preview: >-
   Vue.js gets better and better with each update but this time, the inclusion of
