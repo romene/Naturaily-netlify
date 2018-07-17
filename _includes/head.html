@@ -7,11 +7,11 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
   <meta property="og:description"  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >
-  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/assets/images/ogfacebook.png{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/images/ogfacebook.png{% endif %}">
 
   <meta property="twitter:title"  content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" >
   <meta property="twitter:description"  content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" >
-  <meta property="twitter:image"  content="{% if page.image %}{{ page.image }}{% else %}{{ site.url }}/assets/images/ogfacebook.png{% endif %}">
+  <meta property="twitter:image"  content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}{{ site.url }}/assets/images/ogfacebook.png{% endif %}">
   <meta name="twitter:card" content="summary">
 
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
