@@ -1,7 +1,10 @@
 ---
 title: Junior QA Engineer
-description: Junior QA Engineer
+description: >-
+  We are looking for Junior QA Engineer to help us test great digital products
+  we build.
 layout: career-details
+image: /assets/images/naturaily-junior-qa-engineer-social-media.png
 location: Wrocław / Warszawa
 who_we_are: >-
   We are an agile development team using Ruby on Rails, node.js, React.js and
@@ -32,6 +35,6 @@ offer:
   - Variety of projects to work on
   - Great environment to learn and enhance your skills.
 salary-range:
-  - 3500-6000
+  - 3500-6000 PLN + VAT (B2B)
 ---
 
