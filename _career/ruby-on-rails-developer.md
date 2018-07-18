@@ -29,9 +29,8 @@ nicehave:
   - Worked in Agile environment
   - 'Some experience with devOps work (docker&#44; CI & CD tools)'
 offer:
-  - Interesting web projects and proven team
+  - Variety of projects to work on
   - Great environment to learn and enhance your skills
-  - FVAT or UOD
 salary-range:
   - 6000-13000 PLN + VAT (B2B)
 ---
