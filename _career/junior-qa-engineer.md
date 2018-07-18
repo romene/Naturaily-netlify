@@ -32,6 +32,6 @@ offer:
   - Variety of projects to work on
   - Great environment to learn and enhance your skills.
 salary-range:
-  - 3500-6000
+  - 3500-6000 PLN + VAT (B2B)
 ---
 
