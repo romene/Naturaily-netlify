@@ -2,7 +2,7 @@
 title: Ruby on Rails Developer
 description: Ruby on Rails Developer
 layout: career-details
-type: programming
+type: Development
 salary: '6000'
 responsibilities:
   - Programming web apps backend
@@ -34,4 +34,3 @@ offer:
 salary-range:
   - 6000-13000 PLN + VAT (B2B)
 ---
-
