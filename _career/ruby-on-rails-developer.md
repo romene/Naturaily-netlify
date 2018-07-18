@@ -5,19 +5,20 @@ layout: career-details
 type: programming
 salary: '6000'
 responsibilities:
-  - >-
-    Programming web apps backend Designing application architecture Programmings
-    APIs
+  - Programming web apps backend
+  - Designing application architecture
+  - Programmings APIs
 requirements:
   - >-
-    Have at least 2y (more is a big +) experience with Ruby and Ruby on Rails
-    Hands-on experience with RDBMSes (PostgreSQL mostly) and noSQLs
+    Have at least 2y (the more the better) experience with Ruby and Ruby on
+    Rails
+  - Hands-on experience with RDBMSes (PostgreSQL mostly) and noSQLs
+  - Hands-on experience with JavaScript
   - >-
-    Hands-on experience with JavaScript Good English - both spoken and written -
-    you can communicate with Clients and team members (at least B2) Good coding
-    habits: good naming
-  - testable functions
-  - 'readable code Being collaborative: listen to'
+    Good English - both spoken and written - you can communicate with Clients
+    and team members without stress (at least B2)
+  - 'Good coding habits: good naming&#44; testable functions&#44;  readable code'
+  - 'Being collaborative: listen to'
   - learn from
   - and teach other team members
 nicehave:
