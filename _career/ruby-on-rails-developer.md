@@ -2,6 +2,12 @@
 title: Ruby on Rails Developer
 description: Ruby on Rails Developer
 layout: career-details
+image: /assets/images/naturaily-ruby-on-rails-developer-social-media.png
+location: Wrocław / Warszawa / remote
+who_we_are: >-
+  We are an agile development team using Ruby on Rails, node.js, React.js and
+  Vue.js craft great digital experiences. We work with startups and grown-up
+  companies.
 type: Development
 salary: '6000'
 responsibilities:
@@ -34,3 +40,4 @@ offer:
 salary-range:
   - 6000-13000 PLN + VAT (B2B)
 ---
+
