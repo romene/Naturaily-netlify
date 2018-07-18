@@ -1,6 +1,8 @@
 ---
 title: Ruby on Rails Developer
-description: Ruby on Rails Developer
+description: >-
+  We are looking for talented Ruby on Rails Developer to help us build great
+  digital products.
 layout: career-details
 image: /assets/images/naturaily-ruby-on-rails-developer-social-media.png
 location: Wrocław / Warszawa / remote
