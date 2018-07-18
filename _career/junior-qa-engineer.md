@@ -1,6 +1,8 @@
 ---
 title: Junior QA Engineer
-description: Junior QA Engineer
+description: >-
+  We are looking for Junior QA Engineer to help us test great digital products
+  we build.
 layout: career-details
 image: /assets/images/naturaily-junior-qa-engineer-social-media.png
 location: Wrocław / Warszawa
