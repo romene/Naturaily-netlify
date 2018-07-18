@@ -2,6 +2,7 @@
 title: Junior QA Engineer
 description: Junior QA Engineer
 layout: career-details
+image: /assets/images/naturaily-junior-qa-engineer-social-media.png
 location: Wrocław / Warszawa
 who_we_are: >-
   We are an agile development team using Ruby on Rails, node.js, React.js and
