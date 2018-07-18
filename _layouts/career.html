@@ -5,13 +5,13 @@ layout: default
 {% assign carrer_types = types | uniq | join: ' ' %}
 
 <div class="career__wave"></div>
-<h2 class="l-content l-career-header">
+<div class="l-content l-career-header">
   <span class="big-point">
-    Careers,
+    <h1>Careers</h1>,
   </span>
-  There is something here for everyone!
+  <h2>Naturally, there is something here for everyone!</h2>
   <br>
-</h2>
+</div>
 
 
 {% for carrer_type in carrer_types %}
@@ -20,7 +20,7 @@ layout: default
     {% if carrer_type contains "Development" %}
       <div class="l-career-container">
         <div class="main-point">
-          Programming
+          Development
         </div>
         {% for job in site.career %}
           {% if job.type contains "Development" %}
@@ -33,7 +33,7 @@ layout: default
     {% if carrer_type contains "UX/UI" %}
       <div class="l-career-container">
         <div class="main-point blue-dot">
-          Design
+          UX/UI
         </div>
         {% for job in site.career %}
           {% if job.type contains "UX/UI" %}
@@ -45,8 +45,8 @@ layout: default
 
     {% if carrer_type contains "Sales&Marketing" %}
       <div class="l-career-container">
-        <div class="main-point blue-dot">
-          Design
+        <div class="main-point green-dot">
+          Sales&Marketing
         </div>
         {% for job in site.career %}
           {% if job.type contains "Sales&Marketing" %}
@@ -59,7 +59,7 @@ layout: default
     {% if carrer_type contains "Business Development" %}
       <div class="l-career-container">
         <div class="main-point blue-dot">
-          Design
+          Business Development
         </div>
         {% for job in site.career %}
           {% if job.type contains "Business Development" %}
@@ -71,8 +71,8 @@ layout: default
 
     {% if carrer_type contains "Operations" %}
       <div class="l-career-container">
-        <div class="main-point blue-dot">
-          Design
+        <div class="main-point green-dot">
+          Operations
         </div>
         {% for job in site.career %}
           {% if job.type contains "Operations" %}
@@ -84,7 +84,7 @@ layout: default
 
     {% if carrer_type contains "Other" %}
       <div class="l-career-container">
-        <div class="main-point green-dot">
+        <div class="main-point blue-dot">
           Other
         </div>
         {% for job in site.career %}

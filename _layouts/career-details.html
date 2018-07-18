@@ -2,14 +2,14 @@
 layout: default
 ---
 <div class="career__wave"></div>
-<h2 class="l-content l-career-header l-career-header-details">
+<div class="l-content l-career-header l-career-header-details">
   <span class="big-point">
-    {{page.title}}
+    <h1>{{page.title}}</h1>
   </span>
-  <span class="point-where">
+  <h2 class="point-where">
     {{page.location}}
-  </span>
-</h2>
+  </h2>
+</div>
 <div class="l-content career-details l-career-container career-detail-wider">
   <p class="career-details--who">
     {{page.who_we_are}}
@@ -19,7 +19,7 @@ layout: default
       <span>
         Responsibilities
       </span>
-      <ul>
+      <ul class="requirements">
         {% for req in page.responsibilities %}
         <li>{{ req }}</li>
         {% endfor %}
@@ -30,7 +30,7 @@ layout: default
       <span>
         Requirements
       </span>
-      <ul>
+      <ul class="requirements">
         {% for req in page.requirements %}
         <li>{{ req }}</li>
         {% endfor %}
@@ -41,7 +41,7 @@ layout: default
       <span>
         Nice to have
       </span>
-      <ul>
+      <ul class="requirements">
         {% for req in page.nicehave %}
         <li>{{ req }}</li>
         {% endfor %}
@@ -52,7 +52,7 @@ layout: default
       <span>
         Offer
       </span>
-      <ul>
+      <ul class="requirements">
         {% for req in page.offer %}
         <li>{{ req }}</li>
         {% endfor %}
@@ -80,13 +80,6 @@ layout: default
         Expect more!
       </span>
       <h2 class="title">What we offer</h2>
-      <ul class="requirements">
-        <li>Consistent growth and full control over your career path</li>
-        <li>Lots of opportunities to fully develop your potential</li>
-        <li>The real inpact on decisions made inside the organization</li>
-        <li>Flexible working hours and a partially remote work if needed</li>
-        <li>Weekly lunches, fresh fruits, coffee and snacks...</li>
-      </ul>
     </div>
     <div class="benefits">
       <div class="benefits-tile benefit-1">
