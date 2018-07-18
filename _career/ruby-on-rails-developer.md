@@ -1,20 +1,26 @@
 ---
 title: Ruby on Rails Developer
+description: Ruby on Rails Developer
 layout: career-details
 type: programming
 salary: '6000'
 responsibilities:
   - Programming web apps backend
-  - Designing apps architecture
+  - Designing application architecture
+  - Programmings APIs
 requirements:
-  - Have at least 1y (more is a big +) experience with Ruby and Ruby on Rails
-  - Acquainted yourself with RDBMSes (PostgreSQL mostly) and noSQLs
-  - Basics of JavaScript
-  - Can communicate in English with team and customers (at least B2)
-  - 'Good coding habits: good naming&#44; testable functions&#44; readable code'
   - >-
-    Being collaborative: listen to&#44; learn from&#44; and teach other team
-    members
+    Have at least 2y (the more the better) experience with Ruby and Ruby on
+    Rails
+  - Hands-on experience with RDBMSes (PostgreSQL mostly) and noSQLs
+  - Hands-on experience with JavaScript
+  - >-
+    Good English - both spoken and written - you can communicate with Clients
+    and team members without stress (at least B2)
+  - 'Good coding habits: good naming&#44; testable functions&#44;  readable code'
+  - 'Being collaborative: listen to'
+  - learn from
+  - and teach other team members
 nicehave:
   - >-
     Knowledge of some modern JavaScript framework (frontend -
@@ -23,10 +29,9 @@ nicehave:
   - Worked in Agile environment
   - 'Some experience with devOps work (docker&#44; CI & CD tools)'
 offer:
-  - Interesting web projects and proven team
+  - Variety of projects to work on
   - Great environment to learn and enhance your skills
-  - FVAT or UOD
 salary-range:
-  - 6000-12000 PLN + VAT (B2B)
+  - 6000-13000 PLN + VAT (B2B)
 ---
 
