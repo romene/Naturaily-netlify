@@ -2,7 +2,7 @@
 title: Growth hacker
 description: reasons!
 layout: career-details
-type: other
+type: Other
 salary: '3500'
 responsibilities:
   - >-
@@ -36,4 +36,3 @@ offer:
 salary-range:
   - '3500-7000 PLN nett&#44; FVAT or UOD'
 ---
-

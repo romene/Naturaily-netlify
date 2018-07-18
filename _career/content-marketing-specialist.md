@@ -1,7 +1,7 @@
 ---
 title: Content Marketing Specialist
 layout: career-details
-type: other
+type: Other
 salary: '3000'
 responsibilities:
   - >-
@@ -28,4 +28,3 @@ offer:
 salary-range:
   - 3000-5000 PLN + VAT
 ---
-
