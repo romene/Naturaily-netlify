@@ -18,7 +18,7 @@ text-preview: >-
   their competition, but what they don’t realize is that the things that work
   for others may not particularly work for them.
 tags:
-  - Designer
+  - designer
   - design
   - client
 ---
