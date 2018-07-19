@@ -14,9 +14,9 @@ text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
   look at how Collectivity, with our help, improves the lives of African people.
 tags:
-  - collectivity
-  - interview
-  - naturaily client
+  - Collectivity
+  - Interview
+  - Naturaily Client
 ---
 A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Manager at Collectivity. In this post we are going to take a deeper look at how Collectivity, Naturaily's client, improves the lives of African people by allowing experts to share their opinions on certain collaborative projects.
 
