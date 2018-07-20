@@ -26,9 +26,9 @@ requirements:
     Good English - both spoken and written - you can communicate with Clients
     and team members without stress (at least B2)
   - 'Good coding habits: good naming&#44; testable functions&#44;  readable code'
-  - 'Being collaborative: listen to'
-  - learn from
-  - and teach other team members
+  - >-
+    Being collaborative: listen to&#44; learn from&#44; and teach other team
+    members
 nicehave:
   - >-
     Knowledge of some modern JavaScript framework (frontend -
