@@ -30,6 +30,7 @@ SoundCloud, iTunes, and Spotify have all been flooded with lots of superb podcas
 Thoughtful, provoking and inspiring. ‘Success! How I did it’ focuses on a conversation with people who have successful careers. Listen to life stories of Reid Hoffman (co-founder of LinkedIn and PayPal), Sheryl Sandberg (COO of Facebook), CEOs of Dropbox, Microsoft. ‘Success! How I did it’ is often reviewed as one of the best business-themed podcasts out there and it is available on every major podcast streaming platform - [iTunes](https://itunes.apple.com/ca/podcast/success-how-i-did-it/id1205997729?mt=2){:rel="nofollow"}, [Acast](https://www.acast.com/howididit){:rel="nofollow"}.  
 <br>
 <br>
+
 ![podcasts-guide-digiday-live](/assets/images/podcasts-guide-digiday-live.jpg)
 
 ### Digiday Live
@@ -37,13 +38,15 @@ Thoughtful, provoking and inspiring. ‘Success! How I did it’ focuses on a co
 Digiday Live talks are recorded during various kinds of business events. You can listen to people working in the administration of big enterprises sharing their tips and opinions that are specific to their division and expertise. Each podcast has a unique theme and tries to answer the question asked in its title. Check it out on [iTunes](https://itunes.apple.com/us/podcast/digiday-live/id1101905472?mt=2){:rel="nofollow"} or [the official website](https://digiday.com/series/digiday-live/){:rel="nofollow"}.  
 <br>
 <br>
+
 ![podcasts-guide-recode-decode](/assets/images/podcasts-guide-recode-decode.jpg)
 
 ### Recode Decode
 
-Kara Swisher is a technology business journalist with a rich/extensive experience. She worked at very well known press such as The Wall Street Journal and The Washington Post. Currently, she’s a journalist for a website she co-founded - Recode. The topics of her talks are rather interesting, for example how LSD inspired Silicon Valley inventors or interviews with successful people such as Tim Cook or Reid Hoffman. Check out Recode Decode here - [iTunes](https://itunes.apple.com/us/podcast/recode-decode-hosted-by-kara-swisher/id1011668648?mt=2){:rel="nofollow"}, [SoundCloud](https://soundcloud.com/recode-decode){:rel="nofollow"} or [the official website](https://www.recode.net/podcasts){:rel="nofollow"}. 
+Kara Swisher is a technology business journalist with a rich/extensive experience. She worked at very well known press such as The Wall Street Journal and The Washington Post. Currently, she’s a journalist for a website she co-founded - Recode. The topics of her talks are rather interesting, for example how LSD inspired Silicon Valley inventors or interviews with successful people such as Tim Cook or Reid Hoffman. Check out Recode Decode here - [iTunes](https://itunes.apple.com/us/podcast/recode-decode-hosted-by-kara-swisher/id1011668648?mt=2){:rel="nofollow"}, [SoundCloud](https://soundcloud.com/recode-decode){:rel="nofollow"} or [the official website](https://www.recode.net/podcasts){:rel="nofollow"}.  
 <br>
 <br>
+
 ![podcasts-guide-how-i-built-this](/assets/images/podcasts-guide-how-i-built-this.png)
 
 ### How I Built This
@@ -51,6 +54,7 @@ Kara Swisher is a technology business journalist with a rich/extensive experienc
 “How I Built This” is a podcast that shows the backstory of great entrepreneurs, their struggles and finally their way to success. Guy Raz conducted very interesting talks with the founders of Stripe, Wikipedia, Dell and many more. You can listen to “How I Built This” podcasts on [iTunes](https://itunes.apple.com/us/podcast/how-i-built-this-with-guy-raz/id1150510297?mt=2){:rel="nofollow"}, [Spotify](https://open.spotify.com/show/6E709HRH7XaiZrMfgtNCun){:rel="nofollow"} or [here](https://www.npr.org/podcasts/510313/how-i-built-this?t=1532348803372){:rel="nofollow"}.  
 <br>
 <br>
+
 ![podcasts-guide-a16z-podcast](/assets/images/podcasts-guide-a16z-podcast.jpg)
 
 ### a16z podcast
