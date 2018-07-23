@@ -9,16 +9,17 @@ date: '2018-08-06 10:42:09 +0000'
 category: Vue.js development
 author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
-image: /assets/images/foundation.jpg
+image: /assets/images/pwa-vue-cli-3.jpg
 text-preview: >-
-  Learn how to create Progressive Web Applications in Vue CLI 3.0 using plugins.
-  Let's jump into the world of PWA!
+  In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin
+  as one of the greatest features in my opinion. In this post, I'd like to
+  introduce you into PWA world using Vue CLI 3.0.
 tags:
   - PWA
   - Vue CLI 3
   - Vue applications
 ---
-In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin as one of the greatest features in my opinion. In this post I'd like to introduce you into PWA world using Vue CLI 3.0.
+In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin as one of the greatest features in my opinion. In this post, I'd like to introduce you into PWA world using Vue CLI 3.0.
 
 ## First of all, what's the PWA?
 
