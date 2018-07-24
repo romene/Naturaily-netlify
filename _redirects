@@ -2,7 +2,7 @@
 
 /tech                                                        /
 
-# Categories redirecting
+# Categories redirects
 
 /blog/category/Android                                               /blog/tags/Native-mobile-development
 /blog/category/CSS                                                   /blog/tags/Frontend-development
@@ -24,7 +24,7 @@
 /blog/category/Thoughts%20on%20building%20start-ups		               /blog/tags/Startups
 /blog/category/Women%20in%20IT		                                   /blog/tags/Diversity
 
-# Tags redirecting
+# Tags redirects
 
 /blog/tag/google                                             /blog/tags/Agile
 /blog/tag/design%20sprint                                    /blog/tags/Agile
@@ -153,7 +153,7 @@
 /blog/tags/Ember.js_development                              /blog/tags/Ember-js-development
 /blog/tag/ruby%20on%20rails                                  /blog/tags/ruby-on-rails-development
 
-# Posts redirecting
+# Posts redirects
 
 /blog/post/why-we-used-foundation-framework-on-naturailycom                                                               /blog/foundation-framework-naturaily
 /blog/post/why-foundation                                                                                                 /blog/foundation-framework-naturaily
@@ -208,7 +208,7 @@
 /blog/post/what-is-design-sprint-and-why-does-your-company-need-it                                                        /blog/what-is-design-sprint
 /blog/post/ruby-on-rails---how-to-create-perfect-enum-in-5-steps                                                          /blog/ruby-on-rails-enum
 
-# Pagination resirects
+# Pagination redirects
 
 /blog/more/10                                                /blog/3
 /blog/more/15                                                /blog/4
