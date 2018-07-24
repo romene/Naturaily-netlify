@@ -4,24 +4,25 @@
 
 # Categories redirecting
 
-/blog/category/Android                                       /blog/tags/Native-mobile-development
-/blog/category/CSS                                           /blog/tags/Frontend-development
-/blog/category/Development                                   /blog/tags/Ruby-on-Rails-development
-/blog/category/Infographic                                   /blog/tags/Startups
-/blog/category/JavaScript                                    /blog/tags/JavaScript-development
-/blog/category/Konferencja%20zespołów%20projektowych         /blog/tags/Events
-/blog/category/Management                                    /blog/tags/Agile
-/blog/category/Online%20marketing                            /blog/tags/Online-marketing
-/blog/category/Project%20management		                       /blog/tags/Agile
-/blog/category/Remote%20development		                       /blog/tags/Remote-work
-/blog/category/Responsive%20Web%20Design		                 /blog/tags/Frontend-development
-/blog/category/Ruby%20on%20Rails		                         /blog/tags/Ruby-on-Rails-development
-/blog/category/SASS		                                       /blog/tags/Frontend-development
-/blog/category/Social%20media		                             /blog/tags/Startups
-/blog/category/Spree%20Commerce		                           /blog/tags/Spree-development
-/blog/category/Startup		                                   /blog/tags/Startups
-/blog/category/Thoughts%20on%20building%20start-ups		       /blog/tags/Startups
-/blog/category/Women%20in%20IT		                           /blog/tags/Diversity
+/blog/category/Android                                               /blog/tags/Native-mobile-development
+/blog/category/CSS                                                   /blog/tags/Frontend-development
+/blog/category/Development                                           /blog/tags/Ruby-on-Rails-development
+/blog/category/Infographic                                           /blog/tags/Startups
+/blog/category/JavaScript                                            /blog/tags/JavaScript-development
+/blog/category/Konferencja%20zespołów%20projektowych                 /blog/tags/Events
+/blog/category/Konferencja%20zespo%C5%82%C3%B3w%20projektowych       /blog/tags/events
+/blog/category/Management                                            /blog/tags/Agile
+/blog/category/Online%20marketing                                    /blog/tags/Online-marketing
+/blog/category/Project%20management		                               /blog/tags/Agile
+/blog/category/Remote%20development		                               /blog/tags/Remote-work
+/blog/category/Responsive%20Web%20Design		                         /blog/tags/Frontend-development
+/blog/category/Ruby%20on%20Rails		                                 /blog/tags/Ruby-on-Rails-development
+/blog/category/SASS		                                               /blog/tags/Frontend-development
+/blog/category/Social%20media		                                     /blog/tags/Startups
+/blog/category/Spree%20Commerce		                                   /blog/tags/Spree-development
+/blog/category/Startup		                                           /blog/tags/Startups
+/blog/category/Thoughts%20on%20building%20start-ups		               /blog/tags/Startups
+/blog/category/Women%20in%20IT		                                   /blog/tags/Diversity
 
 # Tags redirecting
 
@@ -36,12 +37,12 @@
 /blog/tag/communication                                      /blog/tags/Agile
 /blog/tag/scrum                                              /blog/tags/Agile
 /blog/tag/kanban                                             /blog/tags/Agile
-/blog/tag/backbone                                           /blog/tags/Backbone.js-development
-/blog/tag/validation                                         /blog/tags/Backbone.js-development
-/blog/tag/local%20storage                                    /blog/tags/Backbone.js-development
-/blog/tag/marionette                                         /blog/tags/Backbone.js-development
+/blog/tag/backbone                                           /blog/tags/Backbone-js-development
+/blog/tag/validation                                         /blog/tags/Backbone-js-development
+/blog/tag/local%20storage                                    /blog/tags/Backbone-js-development
+/blog/tag/marionette                                         /blog/tags/Backbone-js-development
 /blog/tag/learning                                           /blog/tags/Diversity
-/blog/tag/EmberJS                                            /blog/tags/Ember.js-development
+/blog/tag/EmberJS                                            /blog/tags/Ember-js-development
 /blog/tag/PWr                                                /blog/tags/Events
 /blog/tag/non-profit                                         /blog/tags/Events
 /blog/tag/banking                                            /blog/tags/Fintech
@@ -56,23 +57,25 @@
 /blog/tag/foundation                                         /blog/tags/Frontend-development
 /blog/tag/java                                               /blog/tags/Java-development
 /blog/tag/javascript                                         /blog/tags/JavaScript-development
-/blog/tag/meteor                                             /blog/tags/Meteor.js-development
-/blog/tag/i18n                                               /blog/tags/Meteor.js-development
-/blog/tag/autoform                                           /blog/tags/Meteor.js-development
-/blog/tag/deployment                                         /blog/tags/Meteor.js-development
-/blog/tag/nginx                                              /blog/tags/Meteor.js-development
-/blog/tag/passenger                                          /blog/tags/Meteor.js-development
-/blog/tag/tutorial                                           /blog/tags/Meteor.js-development
+/blog/tag/meteor                                             /blog/tags/Meteor-js-development
+/blog/tag/i18n                                               /blog/tags/Meteor-js-development
+/blog/tag/autoform                                           /blog/tags/Meteor-js-development
+/blog/tag/deployment                                         /blog/tags/Meteor-js-development
+/blog/tag/nginx                                              /blog/tags/Meteor-js-development
+/blog/tag/passenger                                          /blog/tags/Meteor-js-development
+/blog/tag/tutorial                                           /blog/tags/Meteor-js-development
 /blog/tag/mobile%20development                               /blog/tags/Native-mobile-development
 /blog/tag/Android                                            /blog/tags/Native-mobile-development
-/blog/tag/application                                        /blog/tags/Node.js-development
-/blog/tag/Nodejs                                             /blog/tags/Node.js-development
+/blog/tag/android                                            /blog/tags/Native-mobile-development
+/blog/tag/application                                        /blog/tags/Node-js-development
+/blog/tag/Nodejs                                             /blog/tags/Node-js-development
 /blog/tag/twitter                                            /blog/tags/Online-marketing
 /blog/tag/zapier                                             /blog/tags/Online-marketing
 /blog/tag/competition                                        /blog/tags/Online-marketing
 /blog/tag/analysis                                           /blog/tags/Online-marketing
+/blog/tags/Online_marketing                                  /blog/tags/Online-marketing
 /blog/tag/react%20native                                     /blog/tags/React-Native-development
-/blog/tag/react                                              /blog/tags/React.js-development
+/blog/tag/react                                              /blog/tags/React-js-development
 /blog/tag/books                                              /blog/tags/Reading
 /blog/tag/outsourcing                                        /blog/tags/Remote-development-team
 /blog/tag/remote                                             /blog/tags/Remote-development-team
@@ -101,6 +104,8 @@
 /blog/tag/rack                                               /blog/tags/Ruby-on-Rails-development
 /blog/tag/rake                                               /blog/tags/Ruby-on-Rails-development
 /blog/tag/migrations                                         /blog/tags/Ruby-on-Rails-development
+/blog/tag/ActiveRecord                                       /blog/tags/Ruby-on-Rails-development
+/blog/tags/Ruby_on_Rails_development                         /blog/tags/Ruby-on-Rails-development
 /blog/tag/Spree                                              /blog/tags/Spree-development
 /blog/tag/e-commerce                                         /blog/tags/Spree-development
 /blog/tag/startup                                            /blog/tags/Startups
@@ -131,14 +136,31 @@
 /blog/tag/showcase                                           /blog/tags/User-experience-design
 /blog/tag/material                                           /blog/tags/User-experience-design
 /blog/tag/process%20thinking                                 /blog/tags/User-experience-design
-/blog/tag/vue                                                /blog/tags/Vue.js-development
+/blog/tag/vue                                                /blog/tags/Vue-js-development
+/blog/tags/Native_mobile_development                         /blog/tags/Native-mobile-development
+/blog/tags/Frontend_development                              /blog/tags/Frontend-development
+/blog/tags/React_Native_development                          /blog/tags/React-native-development/
+/blog/tags/Meteor.js_development                             /blog/tags/Meteor-js-development/
+/blog/tags/Remote_work                                       /blog/tags/Remote-work/
+/blog/tags/User_experience_design                            /blog/tags/User-experience-design
+/blog/tags/JavaScript_development                            /blog/tags/Javascript-development
+/blog/tags/Backbone.js_development                           /blog/tags/Backbone-js-development
+/blog/tags/Spree_development                                 /blog/tags/Spree-development
+/blog/tags/Remote_development_team                           /blog/tags/Remote-work
+/blog/tags/Node.js_development                               /blog/tags/Node-js-development
+/blog/tags/Vue.js_development                                /blog/tags/Vue-js-development
+/blog/tags/React.js_development                              /blog/tags/React-js-development
+/blog/tags/Ember.js_development                              /blog/tags/Ember-js-development
+/blog/tag/ruby%20on%20rails                                  /blog/tags/ruby-on-rails-development
 
 # Posts redirecting
 
 /blog/post/why-we-used-foundation-framework-on-naturailycom                                                               /blog/foundation-framework-naturaily
+/blog/post/why-foundation                                                                                                 /blog/foundation-framework-naturaily
 /blog/post/generate-icon-classes-from-sprite-using-sass                                                                   /blog/sprite-icon-classes-sass
 /blog/post/a-definitive-guide-to-responsive-text                                                                          /blog/responsive-text-guide
 /blog/post/how-spree-handles-overriding-on-the-frontend-and-the-backend                                                   /blog/spree-override-views
+/blog/post/how-to-remove-old-database-migrations-in-ruby-on-rails-apps                                                    /blog/remove-old-migrations-ruby-on-rails
 /blog/post/how-to-remove-old-database-migrations-in-ruby-on-rails                                                         /blog/remove-old-migrations-ruby-on-rails
 /blog/post/marionette-plain-object-over-reqres-commands-above-all                                                         /blog/marionette-tutorial-objects-commands
 /blog/post/how-to-find-a-technical-co-founder                                                                             /blog/how-to-find-technical-co-founder
@@ -185,3 +207,23 @@
 /blog/post/biggest-startup-failures-and-successes-of-2017                                                                 /blog/startup-failures-successes-2017
 /blog/post/what-is-design-sprint-and-why-does-your-company-need-it                                                        /blog/what-is-design-sprint
 /blog/post/ruby-on-rails---how-to-create-perfect-enum-in-5-steps                                                          /blog/ruby-on-rails-enum
+
+# Pagination resirects
+
+/blog/more/10                                                /blog/3
+/blog/more/15                                                /blog/4
+/blog/more/40                                                /blog/9
+/blog/more/5                                                 /blog/2
+/blog/more/20                                                /blog/5
+
+# Jubs redirects
+
+/jobs/android-developer                                      /careers
+/jobs/ios-developer                                          /careers
+/jobs/project-manager                                        /careers
+/jobs                                                        /careers
+/jobs/frontend-engineer                                      /careers
+/jobs/office-manager                                         /careers
+/jobs/ruby-on-rails-developer                                /join/ruby-on-rails-developer
+/jobs/junior-qa-engineer                                     /join/junior-qa-engineer
+/jobs/backend-developer                                      /join/ruby-on-rails-developer
