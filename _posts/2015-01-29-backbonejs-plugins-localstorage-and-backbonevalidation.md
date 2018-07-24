@@ -18,7 +18,7 @@ text-preview: >-
   backend, they can use Local.Storage.
 tags:
   - JavaScript development
-  - Backbone.js development
+  - Backbone js development
 ---
 
 

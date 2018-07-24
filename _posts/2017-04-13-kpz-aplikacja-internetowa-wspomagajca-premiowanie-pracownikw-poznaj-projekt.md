@@ -18,7 +18,7 @@ text-preview: >-
 tags:
   - Events
   - Ruby on Rails development
-  - Ember.js development
+  - Ember js development
   - Team
 ---
 Celem projektu jest zaimplementowanie aplikacji internetowej, która ma zadanie wspierać firmy w działaniach z zakresu HR i employer brandingu, w tym premiowanie pracowników.

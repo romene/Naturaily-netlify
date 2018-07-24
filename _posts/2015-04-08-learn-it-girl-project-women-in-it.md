@@ -20,7 +20,7 @@ text-preview: >-
   front-end developer. I’ve learnt how to build responsive and functional web
   applications and I found it very entertaining. It actually became my passion.
 tags:
-  - Backbone.js development
+  - Backbone js development
   - Diversity
   - JavaScript development
   - Events

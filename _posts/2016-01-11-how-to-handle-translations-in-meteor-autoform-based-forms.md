@@ -15,7 +15,7 @@ text-preview: >-
   forms generated with AutoForm. For those who don’t know: Autoform is
   [schema-based](https://github.com/aldeed/meteor-simple-schema) form generator.
 tags:
-  - Meteor.js development
+  - Meteor js development
   - JavaScript development
 ---
 

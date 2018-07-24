@@ -15,7 +15,7 @@ text-preview: >-
   either return a value or cause an action to happen.
 tags:
   - JavaScript development
-  - Backbone.js development
+  - Backbone js development
 ---
 
 

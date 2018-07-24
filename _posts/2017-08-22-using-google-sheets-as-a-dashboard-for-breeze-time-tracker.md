@@ -18,7 +18,7 @@ text-preview: >-
   solutions our team came up with.
 tags:
   - Agile
-  - Node.js development
+  - Node js development
 ---
 
 

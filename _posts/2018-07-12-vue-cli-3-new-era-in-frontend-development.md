@@ -7,7 +7,7 @@ description: >-
 slug: vue-cli-3-overview
 layout: post
 date: '2018-07-23 12:26:02 +0000'
-category: Vue.js development
+category: Vue js development
 author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
 image: /assets/images/vue-js-cli.jpg

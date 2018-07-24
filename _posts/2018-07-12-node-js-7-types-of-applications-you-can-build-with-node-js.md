@@ -7,7 +7,7 @@ description: >-
 slug: node-js-applications
 layout: post
 date: '2018-07-30 10:18:26 +0000'
-category: Node.js development
+category: Node js development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/node-js-applications.jpg
@@ -18,7 +18,7 @@ text-preview: >-
 tags:
   - Node.js
   - Node.js Applications
-  - Node.js Development
+  - Node js development
 ---
 Node.js took IT world by storm, no surprise the number of Node.js applications is constantly growing. Here are our top picks of applications built using Node.js.
 
