@@ -216,7 +216,7 @@
 /blog/more/5                                                 /blog/2
 /blog/more/20                                                /blog/5
 
-# Jubs redirects
+# Jobs redirects
 
 /jobs/android-developer                                      /careers
 /jobs/ios-developer                                          /careers
@@ -228,6 +228,7 @@
 /jobs/junior-qa-engineer                                     /join/junior-qa-engineer
 /jobs/backend-developer                                      /join/ruby-on-rails-developer
 
+# Authors redirects
 
 /blog/author/Wojciech%20Mi%C5%9Bta                           /blog
 /blog/author/Marcin%20Sulikowski                             /blog
