@@ -36,7 +36,7 @@ One of these projects was a piece of our own product. We combined the power of R
 
 ![vue-js-artinfo](/assets/images/artinfo.jpg)
 
-If you’re interested check it out - [Live Artinfo](https://live.artinfo.pl/) - unfortunately it’s in Polish.
+If you’re interested check it out - [Live Artinfo](https://live.artinfo.pl/) (Polish only).
 
 Let’s not forget about other applications. **GitLab** has leveraged Vue.js back in 2016. On their development blog, we can find some really promising opinions about the framework. GitLab developers reported that using Vue.js, as they describe, ‘the proper way’ results in improved performance, reduced page load time and overall performance increase.
 
