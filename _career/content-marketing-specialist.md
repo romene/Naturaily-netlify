@@ -1,8 +1,16 @@
 ---
 title: Content Marketing Specialist
+description: >-
+  We are looking for talented Content Marketing Specialist to help us take our
+  content marketing efforts to the next level.
 layout: career-details
+location: Wrocław / Warszawa / remote
+who_we_are: >-
+  We are an agile development team using Ruby on Rails, node.js, React.js and
+  Vue.js craft great digital experiences. We work with startups and grown-up
+  companies.
 type: Other
-salary: '3000'
+salary: '4000'
 responsibilities:
   - >-
     Creating interesting and shareable content for our blog and social media
@@ -11,7 +19,7 @@ responsibilities:
   - Maintaining publication calendar
 requirements:
   - 'Fluent English&#44; both written and spoken'
-  - Passion for startups and technology
+  - Passion for technology
   - 'Ease in grasping content ideas from people&#44; media&#44; books or whatever'
   - >-
     Knowing your way around Reddit&#44; Quora&#44; Hackernews&#44; Linkedin&#44;
@@ -23,8 +31,9 @@ requirements:
   - Being a quick learner
   - Experience in tech blogging is a plus
 offer:
-  - Interesting web projects and proven team
-  - Great environment to learn and enhance you skills
+  - Interesting content marketing challanges
+  - Great environment to learn and enhance your skills
 salary-range:
-  - 3000-5000 PLN + VAT
+  - 4000-6000 PLN + VAT (B2B)
 ---
+
