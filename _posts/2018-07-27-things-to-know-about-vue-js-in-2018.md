@@ -48,6 +48,6 @@ There is basically no limitations in terms of how Vue.js can be implemented on t
 
 ![vue-js-china](/assets/images/vue-js-china.jpg)
 
-It’s also worth mentioning that Vue.js stands really strong in the Chinese market partially because the creator of Vue.js, Evan You, is from China and there is no ‘big multi-billion western company’ standing behind it. This is why Vue.js is often used by Chinese giant companies such as Alibaba (Aliexpress parent company), Baidu, Tencent, even Xiaomi and DJI instead of React or Angular.
+It’s also worth mentioning that Vue.js stands really strong in the Chinese market partially because the creator of Vue.js, Evan You, is from China and there is no ‘big multi-billion western company’ standing behind it. This is why Vue.js is often used by Chinese giant companies such as Alibaba (Aliexpress' parent company), Baidu, Tencent, even Xiaomi and DJI instead of React or Angular.
 
 Here’s a brief comparison between Vue.js and React we did a while back. Check it out if you’re interested in both frameworks - [React vs Vue - similarities and differences](https://naturaily.com/blog/react-vue-similarities-and-differences).
