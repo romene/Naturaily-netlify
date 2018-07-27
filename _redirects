@@ -243,3 +243,8 @@
 /blog/author/Mateusz%20Barczak                               /blog
 /blog/author/Sebastian%20Brych                               /blog
 /blog/author/Patryk%20Szeliga                                /blog
+
+
+blog/tags/Designer/                                          /blog/tags/User-experience-design
+blog/tags/design/                                            /blog/tags/User-experience-design
+blog/tags/client/                                            /blog/tags/User-experience-design
