@@ -14,11 +14,11 @@ image: /assets/images/vuejs-2018.jpg
 text-preview: >-
   Vue.js, the so-called progressive framework took the JavaScript community by
   storm. Now, the state of Vue.js in 2018 puts it in a very strong position
-  among the competition. Learn why in this blog post.
+  against the competition. Learn why in this blog post.
 tags:
   - Vue js development
 ---
-Vue.js, the so-called progressive framework took the JavaScript community by storm. Now, the state of Vue.js in 2018 puts it in a very strong position among the competition. Learn why in this blog post.
+Vue.js, the so-called progressive framework took the JavaScript community by storm. Now, the state of Vue.js in 2018 puts it in a very strong position against the competition. Learn why in this blog post.
 
 ## Popularity
 
