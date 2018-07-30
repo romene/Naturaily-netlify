@@ -6,7 +6,7 @@ description: >-
   Ruby on Rails.
 slug: ruby-on-rails-design-patterns
 date: '2016-08-18 10:38:01 +0000'
-category: Ruby on Rails development
+category: Marcin Mantke
 author: Marcin Mantke
 avatar: /assets/images/mantle.png
 image: /assets/images/patterns.jpg

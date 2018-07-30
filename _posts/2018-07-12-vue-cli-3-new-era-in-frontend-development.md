@@ -7,7 +7,7 @@ description: >-
 slug: vue-cli-3-overview
 layout: post
 date: '2018-07-23 12:26:02 +0000'
-category: Vue js development
+category: Tomasz Żdanuk
 author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
 image: /assets/images/vue-js-cli.jpg
@@ -100,16 +100,16 @@ Quite a cool feature in the new CLI is also Graphical User Interface. If you are
 
 ### Environment Variables and Modes
 
-Every project needs at least 2 environments: development and production. At Naturaily, we prefer the 3-environmental approach with an additional staging step. All environments always need different variables, called Environment Variables. Vue CLI 3 gives us out of the box built in tool to easily manage those variables. 
+Every project needs at least 2 environments: development and production. At Naturaily, we prefer the 3-environmental approach with an additional staging step. All environments always need different variables, called Environment Variables. Vue CLI 3 gives us out of the box built in tool to easily manage those variables.
 
 You specify 'env' variables by simply placing \[them] in proper files, with '.env' name and eventual mode name.
 
 Here's file description from Vue CLI docs.
 
 ```
-.env                # loaded in all cases 
-.env.local          # loaded in all cases, ignored by git 
-.env.[mode]         # only loaded in specified mode 
+.env                # loaded in all cases
+.env.local          # loaded in all cases, ignored by git
+.env.[mode]         # only loaded in specified mode
 .env.[mode].local   # only loaded in specified mode, ignored by git
 ```
 
@@ -119,7 +119,7 @@ Vue CLI have three modes by default: '_development_', '_production_' and '_test_
 
 Webpack is great, as long as when it is working and you don't need to configure it. According to 'zero config setup' idea, default Webpack configuration is also created by CLI.
 
-First time with a new CLI app can be confusing, mainly because there is no Webpack config file. It doesn’t mean that there is no way to change that! All changes are made in _`vue.config.js`_ file. 
+First time with a new CLI app can be confusing, mainly because there is no Webpack config file. It doesn’t mean that there is no way to change that! All changes are made in _`vue.config.js`_ file.
 
 If you are curious how your Webpack (and other plugins) configuration looks like, all you have to do is run '_vue inspect_' command. I suggest dumping that output into a file so that it will be easier to "inspect".  _`vue inspect > dump.js`_ will do the trick.
 

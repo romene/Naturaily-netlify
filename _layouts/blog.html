@@ -5,6 +5,7 @@ layout: default
 <div class="blog__wave"></div>
 
 <div class="l-content l-blog">
+
   {% for post in paginator.posts %}
     <div class="post-preview">
       <a class="post-link" href="{{ post.url | relative_url }}">
@@ -17,8 +18,8 @@ layout: default
           <img class="avatar" src="{{ post.avatar }}" alt="author avatar">
         {% endif %}
         <p class="author">
-          {% if post.author %}
-            <span>{{ post.author }}</span>
+          {% if post.category %}
+            <a href="/blog/authors/{{ post.category | replace: " ", "-"; }}/">{{ post.category }}</a>
           {% endif %}
           <time>
             {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}

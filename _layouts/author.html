@@ -7,8 +7,8 @@ layout: default
   <div class="container">
     <div class="row">
       <section>
-        {% if site.tags[page.filter_tag] %}
-          {% for post in site.tags[page.filter_tag] %}
+        {% if site.categories[page.filter_author] %}
+          {% for post in site.categories[page.filter_author] %}
             <div class="post-preview">
               <a class="post-link" href="{{ post.url | relative_url }}">
                 {% if post.image %}

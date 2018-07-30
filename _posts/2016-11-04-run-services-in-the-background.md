@@ -6,7 +6,7 @@ description: >-
   services.
 slug: ruby-on-rails-background-services
 date: '2016-11-04 10:38:01 +0000'
-category: Ruby on Rails development
+category: Jan Wieczorkowski
 author: Jan Wieczorkowski
 avatar: /assets/images/janpol.png
 image: /assets/images/random_console.png

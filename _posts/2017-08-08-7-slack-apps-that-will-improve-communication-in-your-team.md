@@ -3,10 +3,10 @@ title: 7 Slack apps that will improve communication in your team
 description: >-
   Communication between our team members is the key to success. That is why we
   use Slack as our main communicator with some great apps that improve our
-  workflow. 
+  workflow.
 slug: slack-apps-improving-team-communication
 date: '2017-08-08 10:38:01 +0000'
-category: Management
+category: Marcin Sulikowski
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/slack.jpg

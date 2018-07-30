@@ -230,19 +230,21 @@
 
 # Authors redirects
 
-/blog/author/Wojciech%20Mi%C5%9Bta                           /blog
-/blog/author/Marcin%20Sulikowski                             /blog
-/blog/author/Miko%C5%82aj%20Grygiel                          /blog
-/blog/author/Sebastian%20Kubiak                              /blog
-/blog/author/Jan%20Wieczorkowski                             /blog
-/blog/author/Jacek%20Hiszpa%C5%84ski                         /blog
-/blog/author/Marcin%20Mantke                                 /blog
-/blog/author/Maciej%20Kucharski                              /blog
-/blog/author/Agnieszka%20Bugajska                            /blog
-/blog/author/B%C5%82a%C5%BCej%20Pichur                       /blog
-/blog/author/Mateusz%20Barczak                               /blog
-/blog/author/Sebastian%20Brych                               /blog
-/blog/author/Patryk%20Szeliga                                /blog
+/blog/author/Wojciech%20Mi%C5%9Bta                           /blog/authors/Wojciech-Miśta
+/blog/author/Marcin%20Sulikowski                             /blog/authors/Marcin-Sulikowski
+/blog/author/Miko%C5%82aj%20Grygiel                          /blog/authors/Mikołaj-Grygiel
+/blog/author/Sebastian%20Kubiak                              /blog/authors/Sebastian-Kubiak
+/blog/author/Jan%20Wieczorkowski                             /blog/authors/Jan-Wieczorkowski
+/blog/author/Jacek%20Hiszpa%C5%84ski                         /blog/authors/Jacek-Hiszpański
+/blog/author/Marcin%20Mantke                                 /blog/authors/Marcin-Mantke
+/blog/author/Maciej%20Kucharski                              /blog/authors/Maciej-Kucharski
+/blog/author/Agnieszka%20Bugajska                            /blog/authors/Agnieszka-Bugajska
+/blog/author/B%C5%82a%C5%BCej%20Pichur                       /blog/authors/Błażej-Pichur
+/blog/author/Mateusz%20Barczak                               /blog/authors/Mateusz-Barczak
+/blog/author/Sebastian%20Brych                               /blog/authors/Sebastian-Brych/
+/blog/author/Patryk%20Szeliga                                /blog/authors/Patryk-Szeliga
+/blog/author/Kamil%20buczel                                  /blog/authors/Kamil-Buczel
+/blog/author/Przemys%C5%82aw%20%C5%9Awiercz                  /blog/authors/Przemysław-Świercz
 
 
 /blog/tags/Designer/                                          /blog/tags/User-experience-design

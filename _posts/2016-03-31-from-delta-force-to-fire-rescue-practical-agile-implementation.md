@@ -2,10 +2,10 @@
 title: From “Delta Force” to “Fire Rescue”. Practical Agile implementation.
 description: >-
   Learn how we have practically implemented agile manifesto, including Scrum and
-  Kanban, in our everyday work in software development. 
+  Kanban, in our everyday work in software development.
 slug: practical-agile-implementation
 date: '2016-03-31 10:38:01 +0000'
-category: Project management
+category: Sebastian Kubiak
 author: Sebastian Kubiak
 avatar: /assets/images/seba.jpg
 image: /assets/images/fire.jpg

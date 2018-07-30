@@ -39,11 +39,16 @@ collections:
   tech:
     output: true
     permalink: /:path
+
 blog:
   tags:
     url: /blog/tags/
     title_prefix: " "
     layout: tag.html
+  authors:
+    url: /blog/authors/
+    title_prefix: " "
+    layout: author.html
 
 
 defaults:
@@ -80,7 +85,6 @@ defaults:
       type: 'tech'
     values:
       layout: 'tech'
-
 
 include:
   - _redirects

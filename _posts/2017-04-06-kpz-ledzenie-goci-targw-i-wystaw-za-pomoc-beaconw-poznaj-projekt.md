@@ -2,10 +2,10 @@
 title: 'KPZ: Śledzenie gości targów i wystaw za pomocą beaconów (poznaj projekt)'
 description: >-
   Projekt KZP, aplikacja, której celem jest stworzenie systemu pozwalającego na
-  śledzenie zainteresowanych stanowiskami na targach czy wystawach. 
+  śledzenie zainteresowanych stanowiskami na targach czy wystawach.
 slug: kpz-projekt-sledzenie-uczestnikow-beacon
 date: '2017-04-06 10:38:01 +0000'
-category: Konferencja zespołów projektowych
+category: Marcin Sulikowski
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/kpz-1-sledzenie.jpg

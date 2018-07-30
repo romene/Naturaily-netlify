@@ -6,7 +6,7 @@ description: >-
 slug: collectivity-interview
 layout: post
 date: '2018-08-06 11:35:00 +0000'
-category: Interview
+category: Wojciech Miśta
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/collectivity.jpg
@@ -92,7 +92,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
 ### What Does Success Look Like for Collectivity?
 
-   **Answer:** Collectivity will be successful if it will continue to attract people,  if it will continue to attract active people. We will be very successful if we manage to have a sufficient pipeline of activities, and activities that produce a concrete impact, and by activities, I mean significant activities. 
+   **Answer:** Collectivity will be successful if it will continue to attract people,  if it will continue to attract active people. We will be very successful if we manage to have a sufficient pipeline of activities, and activities that produce a concrete impact, and by activities, I mean significant activities.
 
    Eventually, the ultimate success for Collectivity could be not being limited just to public health but also to extend the concept to other sectors.
 
