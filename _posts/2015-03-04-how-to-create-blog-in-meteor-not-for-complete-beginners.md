@@ -2,10 +2,10 @@
 title: How to create blog in Meteor (NOT for complete beginners!)
 description: >-
   Let's speed up the development of your very own blog app in MeteorJS with this
-  tutorial! 
+  tutorial!
 slug: meteor-blog-tutorial
 date: '2015-03-04 10:38:01 +0000'
-category: JavaScript development
+category: Sebastian Brych
 author: Sebastian Brych
 avatar: /assets/images/no-image.png
 image: /assets/images/meteor_blog.jpg
@@ -796,4 +796,4 @@ and maybe a little description of your app, if you decide to finish it.
 
 Good luck.
 
-![We're done](http://mrwgifs.com/wp-content/uploads/2013/04/Were-Done-Here-Bunny-Meyer-Reaction-Gif.gif)
+![We're done](https://mrwgifs.com/wp-content/uploads/2013/04/Were-Done-Here-Bunny-Meyer-Reaction-Gif.gif)

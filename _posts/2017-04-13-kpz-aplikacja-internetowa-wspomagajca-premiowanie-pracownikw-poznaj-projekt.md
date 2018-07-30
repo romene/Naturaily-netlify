@@ -4,10 +4,10 @@ title: >-
   projekt)
 description: >-
   Projekt KZP, aplikacja, której celem jest stworzenie systemu pozwalającego na
-  śledzenie zainteresowanych stanowiskami na targach czy wystawach. 
+  śledzenie zainteresowanych stanowiskami na targach czy wystawach.
 slug: kpz-projekt-premiowanie-pracownikow
 date: '2017-04-13 10:38:01 +0000'
-category: Konferencja zespołów projektowych
+category: Marcin Sulikowski
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/kpz-4-aplikacja-hr.jpg

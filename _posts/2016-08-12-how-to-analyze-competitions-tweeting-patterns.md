@@ -2,10 +2,10 @@
 title: How to analyze competition’s tweeting patterns
 description: >-
   Keeping track of your competition can be tricky and tedious. Luckily, with
-  this tutorial, you can analyze their tweeting patterns like a pro! 
+  this tutorial, you can analyze their tweeting patterns like a pro!
 slug: analyzing-competitions-tweeting-patterns
 date: '2016-08-12 10:38:01 +0000'
-category: Online marketing
+category: Marcin Sulikowski
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/analyze_competition.jpg

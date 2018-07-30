@@ -2,10 +2,10 @@
 title: Buying software development services is a skill
 description: >-
   Let's debunk some of the myths, that you probably believe, regarding buying
-  software development services, shall we? 
+  software development services, shall we?
 slug: buying-software-development-services
 date: '2015-11-02 10:38:01 +0000'
-category: Thoughts on building start-ups
+category: Marcin Sulikowski
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/hipster2.jpg

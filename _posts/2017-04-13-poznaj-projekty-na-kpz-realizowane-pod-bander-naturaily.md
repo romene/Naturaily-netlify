@@ -3,10 +3,10 @@ title: Poznaj projekty na KPZ realizowane pod banderą Naturaily
 description: >-
   KPZ to coroczna Konferencja Projektów Zespołowych realizowanych przez
   studentów studiów inżynierskich na Wydziale Elektroniki Politechniki
-  Wrocławskiej. 
+  Wrocławskiej.
 slug: projekty-kpz-naturaily
 date: '2017-04-13 10:38:01 +0000'
-category: Konferencja zespołów projektowych
+category: Marcin Sulikowski
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/kpz-pwr.jpg

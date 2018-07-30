@@ -2,10 +2,10 @@
 title: A definitive guide to responsive text
 description: >-
   Creating a responsive web design can sometimes make us forget about webpage's
-  most important piece - the text. Check out our guide to responsive text! 
+  most important piece - the text. Check out our guide to responsive text!
 slug: responsive-text-guide
 date: '2014-01-28 10:38:01 +0000'
-category: Frontend development
+category: Maciej Kucharski
 author: Maciej Kucharski
 avatar: /assets/images/maciek.png
 image: /assets/images/responsivetext.jpg

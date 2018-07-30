@@ -2,10 +2,10 @@
 title: The biggest fears of software developers
 description: >-
   Software development is not a walk in the park. It's rather a 24-hour run
-  through a misty jungle full of spider webs and creepy creatures! 
+  through a misty jungle full of spider webs and creepy creatures!
 slug: software-developers-fears
 date: '2016-10-28 10:38:01 +0000'
-category: Startups
+category: Marcin Sulikowski
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
 image: /assets/images/fears.png

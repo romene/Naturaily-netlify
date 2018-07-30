@@ -3,18 +3,18 @@ title: 'Node.js: 7 types of applications you can build with Node.js'
 description: >-
   Node.js took IT world by storm, no surprise the number of Node.js applications
   is constantly growing. Here are our top picks of applications built using
-  Node.js. 
+  Node.js.
 slug: node-js-applications
 layout: post
 date: '2018-07-30 10:18:26 +0000'
-category: Node js development
+category: Wojciech Miśta
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/node-js-applications.jpg
 text-preview: >-
   Node.js took IT world by storm, no surprise the number of Node.js applications
   is constantly growing. Here are our top picks of applications built using
-  Node.js. 
+  Node.js.
 tags:
   - Node.js
   - Node.js Applications
@@ -75,7 +75,7 @@ Since Netflix’s migration from Java to Node.js they experienced significant im
 
 ### eBay
 
-With over 113 million unique visitors every month, 9.6B revenue in 2017 alone, I think it is clear that eBay is one of the e-commerce giants. According to eBay's developers, Node.js has become their front-end web stack and it powers many of their web flows. eBay Engineer Senthil Padmanabhan says that the modern web was built with Node.js in mind and it allows them to benefit from it. 
+With over 113 million unique visitors every month, 9.6B revenue in 2017 alone, I think it is clear that eBay is one of the e-commerce giants. According to eBay's developers, Node.js has become their front-end web stack and it powers many of their web flows. eBay Engineer Senthil Padmanabhan says that the modern web was built with Node.js in mind and it allows them to benefit from it.
 
 He also mentions how numerous development tools, automation libraries and other useful components are distributed as Node.js modules and that web developers, since **they already know JavaScript, can intuitively work with Node.js**.
 
