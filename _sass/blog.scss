@@ -58,7 +58,7 @@ pre, code {
   }
 
   &-meta {
-    color: #B36800;
+    color: $color-accent-gold;
     font-size: 0.9rem;
     font-weight: 300;
     display: flex;
@@ -78,6 +78,10 @@ pre, code {
       justify-content: center;
       padding-left: 20px;
       margin-bottom: 0;
+      
+      a {
+        color: $color-accent-gold;
+      }
     }
 
     .read-time {
