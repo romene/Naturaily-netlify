@@ -8,7 +8,6 @@ slug: vue-cli-3-overview
 layout: post
 date: '2018-07-23 12:26:02 +0000'
 category: Tomasz Żdanuk
-author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
 image: /assets/images/vue-js-cli.jpg
 text-preview: >-
@@ -106,7 +105,7 @@ You specify 'env' variables by simply placing \[them] in proper files, with '.en
 
 Here's file description from Vue CLI docs.
 
-```
+```shell
 .env                # loaded in all cases
 .env.local          # loaded in all cases, ignored by git
 .env.[mode]         # only loaded in specified mode
@@ -141,8 +140,7 @@ According to their names it's gonna build Library and Web Component from your co
 
 To build your code to in certain mode use this command:
 
-```
-shell
+```shell
 vue-cli-service build --target <target-name> --name <name> [entry]
 ```
 
