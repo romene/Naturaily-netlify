@@ -246,7 +246,13 @@
 /blog/author/Kamil%20buczel                                  /blog/authors/Kamil-Buczel
 /blog/author/Przemys%C5%82aw%20%C5%9Awiercz                  /blog/authors/Przemysław-Świercz
 
+# Additional redirects
 
 /blog/tags/Designer/                                          /blog/tags/User-experience-design
+/blog/tags/designer/                                          /blog/tags/User-experience-design
 /blog/tags/design/                                            /blog/tags/User-experience-design
 /blog/tags/client/                                            /blog/tags/User-experience-design
+/blog/tags/Vue.js/                                            /blog/tags/Vue-js-development
+/blog/tags/Vue-CLI-release/                                   /blog/tags/Vue-js-development
+/blog/category/sass		                                        /blog/tags/Frontend-development
+/blog/tags/strona_główna_bloga                                /blog
