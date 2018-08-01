@@ -41,9 +41,9 @@ The service has over 227 million users and over 7.6 billion payment transactions
 
 ## Social platform
 
-[![node-js-linkedin](/assets/images/node-js-linkedin.png)](https://www.linkedin.com/){:rel=nofollow}   
+ 
 
-### LinkedIn - Professional networking
+### [![node-js-linkedin](/assets/images/node-js-linkedin.png)](https://www.linkedin.com/){:rel=nofollow}   LinkedIn - Professional networking
 
 LinkedIn is the largest business-oriented social media platform. It has over 530 million members. Currently, it takes the 31th place in the Global Ranking by Alexa Internet. LinkedIn development team switched to Node.js for some parts of its back-end system what resulted in much more performant application than ever before.
 
