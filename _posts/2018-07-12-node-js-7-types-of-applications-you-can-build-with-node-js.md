@@ -33,9 +33,7 @@ So what types of apps can you build using Node.js? Without further ado, let me p
 
 ## Online payment system
 
-[![node-js-paypal](/assets/images/node-js-paypal.png)](https://www.paypal.com/us/home){:rel=nofollow}   
-
-### Paypal
+[![node-js-paypal](/assets/images/node-js-paypal.png =50x)](https://www.paypal.com/us/home){:rel=nofollow} ### Paypal
 
 Paypal was co-founded by very well-known entrepreneur Elon Musk. It provides online payment solutions to its users and it is a featured payment method on the e-commerce giant platform - eBay.
 
