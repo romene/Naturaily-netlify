@@ -5,7 +5,7 @@ title: >-
 description: Placeholder
 slug: rails-elastic-aggregation-drapper
 layout: post
-date: '2018-09-10 11:43:08 +0000'
+date: '2018-08-02 11:43:08 +0000'
 category: Arek Poczobut
 avatar: /assets/images/maurice.png
 image: /assets/images/designer-desk.jpg
