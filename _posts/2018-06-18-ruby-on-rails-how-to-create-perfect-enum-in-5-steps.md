@@ -6,7 +6,6 @@ description: >-
 slug: ruby-on-rails-enum
 date: '2018-06-18 10:00:00 +0000'
 category: Ruby on Rails development
-author: Błażej Pichur
 avatar: /assets/images/blazej.png
 image: /assets/images/perfect-enum.jpg
 text-preview: >-
@@ -369,7 +368,7 @@ class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
     execute <<-SQL
       CREATE TYPE catalog_status AS ENUM ('published', 'unpublished', 'not_set');
     SQL
-    add_column :catalogs, :status, :catalogs_status
+    add_column :catalogs, :status, :catalog_status
     add_index :catalogs, :status
   end
 
