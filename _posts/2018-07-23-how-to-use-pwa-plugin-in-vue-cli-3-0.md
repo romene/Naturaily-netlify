@@ -6,7 +6,7 @@ description: >-
 slug: pwa-vue-cli-3
 layout: post
 date: '2018-08-06 10:42:09 +0000'
-category: Vue.js development
+category: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
 image: /assets/images/pwa-vue-cli-3.jpg
 text-preview: >-
@@ -14,9 +14,7 @@ text-preview: >-
   as one of the greatest features in my opinion. In this post, I'd like to
   introduce you into PWA world using Vue CLI 3.0.
 tags:
-  - PWA
-  - Vue CLI 3
-  - Vue applications
+  - Vue.js development
 ---
 In my previous post about Vue CLI 3.0 I've mentioned about PWA support plugin as one of the greatest features in my opinion. In this post, I'd like to introduce you into PWA world using Vue CLI 3.0.
 
