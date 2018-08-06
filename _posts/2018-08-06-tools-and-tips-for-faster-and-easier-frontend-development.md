@@ -9,7 +9,7 @@ layout: post
 date: '2018-08-06 03:55:15 +0000'
 category: Bartosz Zienkiewicz
 avatar: /assets/images/maurice.png
-image: /assets/images/node-js-applications.jpg
+image: /assets/images/frontend-development-easier-faster.jpg
 text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
   frontend development. So buckle-up, and let’s jump into the vast world of the
