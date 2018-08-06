@@ -5,9 +5,8 @@ description: >-
   look at how Collectivity, with our help, improves the lives of African people.
 slug: collectivity-interview
 layout: post
-date: '2018-08-06 11:35:00 +0000'
+date: '2018-08-13 11:35:00 +0000'
 category: Wojciech Miśta
-author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/collectivity.jpg
 text-preview: >-
@@ -56,6 +55,8 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
    We realised with BlueSquare that it would be better to externalise the development, so we gave an update to develop the platform.
 
    We developed it starting from Minimal Viable Product. We add features little by little, according to what people want, what partners want, what we want.
+
+Learn more about the project. **Read [Collectivity case study](https://naturaily.com/project/thecollectivity)!**
 
 ### What made you assume that there is a space for an organization like yours among others trying to solve similar problems?
 
