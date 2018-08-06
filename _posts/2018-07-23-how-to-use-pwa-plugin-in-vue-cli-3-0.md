@@ -7,7 +7,6 @@ slug: pwa-vue-cli-3
 layout: post
 date: '2018-08-06 10:42:09 +0000'
 category: Vue.js development
-author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
 image: /assets/images/pwa-vue-cli-3.jpg
 text-preview: >-
