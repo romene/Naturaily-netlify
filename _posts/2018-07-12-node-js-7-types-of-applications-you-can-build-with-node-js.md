@@ -15,9 +15,9 @@ text-preview: >-
   is constantly growing. Here are our top picks of applications built using
   Node.js.
 tags:
-  - Node.js
-  - Node.js Applications
   - Node js development
+  - Node js
+  - Node js Applications
 ---
 Node.js took IT world by storm, no surprise the number of Node.js applications is constantly growing. Here are our top picks of applications built using Node.js.
 
