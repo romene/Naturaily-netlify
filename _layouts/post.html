@@ -9,6 +9,7 @@ layout: default
       {% if page.image %}
         <img src="{{page.image}}" alt="Post image">
       {% endif %}
+      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
       <div class="post-meta">
         {% if page.avatar %}
           <img class="avatar" src="{{ page.avatar }}" alt="Author avatar">
@@ -33,7 +34,6 @@ layout: default
           <span class="read-time">{{ page.readtime }} min czytania</span>
         {% endif %}
       </div>
-      <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
 
       <div class="post-content" itemprop="articleBody">

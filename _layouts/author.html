@@ -15,6 +15,9 @@ layout: default
                   <img class="post-image" src="{{post.image}}" alt="Post image">
                 {% endif %}
               </a>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                <h1 class="post-title">{{ post.title | escape }}</h1>
+              </a>
               <div class="post-meta">
                 {% if post.avatar %}
                   <img class="avatar" src="{{ post.avatar }}" alt="Post author">
@@ -37,9 +40,6 @@ layout: default
                   <span class="read-time">{{ post.readtime }} min read</span>
                 {% endif %}
               </div>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                <h1 class="post-title">{{ post.title | escape }}</h1>
-              </a>
               {% if post.text-preview %}
                 <div class="text-preview">
                   {{ post.text-preview }}

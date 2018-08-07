@@ -22,6 +22,7 @@ pre, code {
   white-space: normal;
   white-space: pre-wrap;
   word-break: break-all;
+  font-size: 14px;
 }
 
 .post {
@@ -40,6 +41,7 @@ pre, code {
 
   &-content {
     font-weight: 300;
+    font-size: 17px;
 
     a {
       color: $color-accent-yellow;
@@ -78,9 +80,13 @@ pre, code {
       justify-content: center;
       padding-left: 20px;
       margin-bottom: 0;
-      
+
       a {
         color: $color-accent-gold;
+      }
+
+      time {
+        color: $color-text-muted;
       }
     }
 
@@ -208,6 +214,7 @@ pre, code {
       color: $color-primary;
     }
   }
+
 }
 
 @media (min-width: 576px) {
@@ -262,11 +269,6 @@ pre, code {
     h2 {
       margin-top: 40px;
     }
-  }
-
-  .post-content {
-    padding-right: 100px;
-    padding-left: 30px;
   }
 
   .post-navigation {
