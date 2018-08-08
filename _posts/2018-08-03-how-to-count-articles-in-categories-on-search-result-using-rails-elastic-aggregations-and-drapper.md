@@ -242,7 +242,7 @@ Now we can take care of searching and aggregates.
 
 ### Oh look! We're halfway through the post! Here's a picture of a cute kitten:
 
-![alt text](http://en.bcdn.biz/Images/2018/6/12/d8472a04-0d67-4dfe-ba33-faae2ef90ffd.jpg)
+<img src="http://en.bcdn.biz/Images/2018/6/12/d8472a04-0d67-4dfe-ba33-faae2ef90ffd.jpg" width="100%" alt="Cate">
 
 Add a simple class for the search form:
 
