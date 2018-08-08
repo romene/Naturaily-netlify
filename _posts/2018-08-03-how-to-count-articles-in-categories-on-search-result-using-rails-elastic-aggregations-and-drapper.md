@@ -8,7 +8,7 @@ layout: post
 date: '2018-08-02 11:43:08 +0000'
 category: Arek Poczobut
 avatar: /assets/images/maurice.png
-image: /assets/images/designer-desk.jpg
+image: /assets/images/rails-elastic-aggregation-drapper.jpg
 text-preview: Placeholder
 tags:
   - Ruby on Rails development
