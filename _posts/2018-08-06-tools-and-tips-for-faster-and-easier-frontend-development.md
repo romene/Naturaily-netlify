@@ -45,6 +45,8 @@ There are tons of applications that can replace Photoshop in terms of exporting 
 * [**Adobe Cloud**](https://www.adobe.io/apis/creativecloud/overview.html){:rel=nofollow}
 * [**Photopea**](https://www.photopea.com/){:rel=nofollow}
 
+Besides Sketch and other tools mentioned above, there are many more, of course, that can be used to design the UI of your application. Check out [Figma](https://www.figma.com/){:rel=nofollow} that offers collaborative design, [Adobe XD](https://www.adobe.com/products/xd.html){:rel=nofollow} or [Affinity Designer](https://affinity.serif.com/en-gb/){:rel=nofollow} which is a great and inexpensive tool for vector graphics.
+
 ## Frontend development stage
 
 ### Choosing an editor
