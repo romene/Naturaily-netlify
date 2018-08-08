@@ -19,11 +19,12 @@ Have you ever needed to calculate how many articles are in categories after sear
 
 I'll skip steps taken to create the app and to add some layout. I'll use controller articles with action index for listing and search.
 
-Install prerequisites:
+### Install prerequisites:
+
 * elastic search or use docker image,
 * add these gems to the Gemfile:
-  * gem 'elasticsearch-model' 
-  * gem 'elasticsearch-rails' 
+  * gem 'elasticsearch-model'
+  * gem 'elasticsearch-rails'
   * gem 'draper' 
 * github: 'drapergem/draper'
 * bundle install
@@ -40,7 +41,7 @@ Install prerequisites:
   Elasticsearch::Model.client = Elasticsearch::Client.new(config)
 ```
 
-Create models:
+### Create models:
 
 ```
    rails g model category name:string
@@ -96,7 +97,7 @@ Later this will allow to set the `article_count` based on aggregations.
     end
 ```
 
-### In the Article model
+## The Article model
 
 Include `Searchable`:
 
@@ -469,12 +470,12 @@ We will return object with categories and articles.
 ### Working app
 
 That's all, you can check working example downloading repo:
-* clone or download repo,
+* clone or [download](https://github.com/Naturaily/elastic-aggs){:rel=nofollow} repo,
 * install docker if needed,
 * run.
 
 ```
-docker-compose build
+  docker-compose build
   docker-compose run web bundle install
   docker-compose run web rake db:create db:migrate db:seed
 ```
