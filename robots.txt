@@ -1,2 +1,4 @@
-Sitemap: https://naturaily.com/sitemap.xml
+User-agent: *
 Disallow: /tech
+
+Sitemap: https://naturaily.com/sitemap.xml
