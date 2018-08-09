@@ -1,0 +1,2 @@
+Sitemap: https://naturaily.com/sitemap.xml
+Disallow: /tech
