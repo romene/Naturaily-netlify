@@ -1,19 +1,30 @@
 ---
-title: >-
-  How to count articles in categories on search result using rails elastic
-  aggregations and drapper
-description: Placeholder
+title: Count articles by category on search in Ruby on Rails
+description: >-
+  Have you ever wanted to calculate how many articles will be left in a certain
+  category after search? Elasic aggregations and Drapper are significant in a
+  Ruby on Rails development, find out why! 
 slug: rails-elastic-aggregation-drapper
 layout: post
 date: '2018-08-02 11:43:08 +0000'
 category: Arek Poczobut
 avatar: /assets/images/maurice.png
 image: /assets/images/rails-elastic-aggregation-drapper.jpg
-text-preview: Placeholder
+text-preview: >
+  Have you ever wanted to calculate how many articles will be left in a certain
+  category after search? In this blogpost, I will show you how to use elastic
+  aggregations to achieve this.
 tags:
   - Ruby on Rails development
 ---
-Have you ever needed to calculate how many articles are in categories after search? In this blogpost I will show you how to use elastic aggregations to achieve this.
+Have you ever wanted to count how many articles will be left in a certain category after search? To give you an idea of what I mean, as an example let’s use the application that will be the outcome of this tutorial. Our database contains music albums which are categorized by the genre and subgenre.
+
+After searching for, let’s say ‘Miles’ the album count in a category will change according to how many articles (albums in this case) meet the search requirement.
+
+My solution utilizes Ruby on Rails elastic aggregations and Drapper. The best thing about it is that it doesn’t make additional requests to the database. Elastic makes the searching process much easier and faster. A solution on the basis of a database is much more time-consuming to develop and heavier on the server than mine.
+
+The only downside I can think of is that you need to create an additional service.
+
 
 ### Steps
 
