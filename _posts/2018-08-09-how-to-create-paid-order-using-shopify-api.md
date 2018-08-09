@@ -15,8 +15,6 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-## How to Create Paid Order Using Shopify API
-
 Creating an order using Shopify API with status set to 'paid' might be somewhat a tough and tricky task. Surprisingly, this is not a practical or a trivial issue. In fact, an ability to catch a payment outside of Shopify, using a custom payment gateway, can be really convenient.
 
 Let me present you a proposition on how to efficiently deal with this problem.
