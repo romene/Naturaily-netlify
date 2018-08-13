@@ -187,6 +187,7 @@
 /blog/post/first-steps-in-a-wide-vast-app-world-android-developer-guidance-on-showing-help-screens                        /blog/android-developer-guide-help-screens
 /blog/post/ruby-on-rails-view-components-with-trailblazer-cells                                                           /blog/ruby-on-rails-trailblazer-cells
 /blog/post/ruby-on-rails-implementation-of-a-ranking-system-using-postgresql-window-functions                             /blog/ranking-system-implementation-postgresql
+/blog/post/ruby-on-rails-implementation-of-a-ranking-system-using-postgresql-window-functions%0A                          /blog/ranking-system-implementation-postgresql
 /blog/post/the-biggest-fears-of-software-developers                                                                       /blog/software-developers-fears
 /blog/post/run-services-in-the-background                                                                                 /blog/ruby-on-rails-background-services
 /blog/post/7-aspects-of-our-lives-revolutionized-by-fin-tech                                                              /blog/life-revolutionized-by-fin-tech
@@ -217,6 +218,7 @@
 /blog/more/40                                                /blog/9
 /blog/more/5                                                 /blog/2
 /blog/more/20                                                /blog/5
+/blog/more/30                                                /blog/6
 
 # Jobs redirects
 
@@ -256,5 +258,7 @@
 /blog/tags/client/                                            /blog/tags/User-experience-design
 /blog/tags/Vue.js/                                            /blog/tags/Vue-js-development
 /blog/tags/Vue-CLI-release/                                   /blog/tags/Vue-js-development
+/blog/tags/Node.js-Applications/                              /blog/tags/Node-js-applications/
+/blog/tags/node.js/                                           /blog/tags/Node-js/
 /blog/category/sass/		                                      /blog/tags/Frontend-development
 /blog/tags/strona_g%C5%82%C3%B3wna_bloga                      /blog
