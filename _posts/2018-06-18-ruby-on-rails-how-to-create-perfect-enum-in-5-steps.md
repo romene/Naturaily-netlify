@@ -5,7 +5,8 @@ description: >-
   on to find out how to better implement enums in Ruby on Rails.
 slug: ruby-on-rails-enum
 date: '2018-06-18 10:00:00 +0000'
-category: Ruby on Rails development
+category: Błażej-Pichur
+author: Błażej-Pichur
 avatar: /assets/images/blazej.png
 image: /assets/images/perfect-enum.jpg
 text-preview: >-
