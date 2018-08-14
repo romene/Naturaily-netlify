@@ -36,9 +36,9 @@ collections:
   portfolio:
     output: true
     permalink: /project/:path
-  tech:
+  services:
     output: true
-    permalink: /:path
+    permalink: /services/index.html
 
 blog:
   tags:
@@ -82,9 +82,9 @@ defaults:
   -
     scope:
       path: ''
-      type: 'tech'
+      type: 'services'
     values:
-      layout: 'tech'
+      layout: 'services'
 
 include:
   - _redirects

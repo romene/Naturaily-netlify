@@ -129,7 +129,7 @@ collections:
     name: "technologie"
     label: "Technologies"
     label_singular: "Technology Landing"
-    folder: "_tech"
+    folder: "_services"
     create: true
     slug: "{{slug}}"
     fields:

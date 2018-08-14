@@ -4,7 +4,7 @@ description: >-
   We create advanced software with Vue.js - lightweight and performant
   applications
 layout: tech
-permalink: vue-js-development
+permalink: /services/vue-js-development
 heading: Vue.js development
 desc: >-
   We create advanced software with Vue.js - lightweight and performant
@@ -71,4 +71,3 @@ competences:
   - tech-name: Ember
 competences-text: Vue
 ---
-

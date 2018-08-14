@@ -4,7 +4,7 @@ description: >-
   We create awesome software with Ruby on Rails - a go-to technology for
   startups and businesses that require the fastest development possible
 layout: tech
-permalink: ruby-on-rails-development
+permalink: /services/ruby-on-rails-development
 heading: Ruby on Rails Development
 desc: >-
   We create awesome software with Ruby on Rails - a go-to technology for
@@ -45,7 +45,7 @@ advantage-desc-three: >-
   active community and a great number of resources. Code written in Ruby is
   praised by developers for its clarity and simplicity. It makes working with
   Rails easy and fast what eventually leads the project to be bug-free and
-  delivered in no time. 
+  delivered in no time.
 advantage-desc-four-title: Clean Code
 advantage-desc-four: >-
   Ruby on Rails is one of the most mature solutions you can find, it has an
@@ -87,4 +87,3 @@ competences:
   - tech-name: Ember
 competences-text: Ruby on Rails
 ---
-
