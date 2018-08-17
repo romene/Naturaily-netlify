@@ -98,6 +98,37 @@
   }
 }
 
+.right-column {
+  .categories-aside {
+    padding-bottom: 32px;
+
+    &--head {
+      font-weight: 200;
+      padding-top: 32px;
+      padding-bottom: 32px;
+      font-size: 1.5em;
+      margin: 0;
+    }
+
+    &--list {
+      margin-left: 0;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    li {
+      padding: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      padding: 16px 50px 18px;
+      display: flex;
+    }
+  }
+}
+
 @media (min-width: 992px) {
   .values {
     display: grid;
