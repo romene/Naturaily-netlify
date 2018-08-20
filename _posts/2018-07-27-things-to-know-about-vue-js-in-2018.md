@@ -6,7 +6,7 @@ description: >-
   among the competition. Learn why in this blog post.
 slug: vue-js-2018
 layout: post
-date: '2018-07-26 10:02:20 +0000'
+date: '2018-08-20 11:59:20 +0200'
 category: Vue.js development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
