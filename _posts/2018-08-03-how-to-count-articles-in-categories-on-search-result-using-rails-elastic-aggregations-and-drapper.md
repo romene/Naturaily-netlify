@@ -6,9 +6,10 @@ description: >-
   Ruby on Rails development, find out why! 
 slug: rails-elastic-aggregation-drapper
 layout: post
-date: '2018-08-02 11:43:08 +0000'
-category: Arek Poczobut
-avatar: /assets/images/maurice.png
+date: '2018-08-27 11:55:08 +0200'
+category: Ruby on Rails development
+author: Arek Poczobut
+avatar: /assets/images/arek.jpg
 image: /assets/images/rails-elastic-aggregation-drapper.jpg
 text-preview: >
   Have you ever wanted to calculate how many articles will be left in a certain
@@ -24,7 +25,6 @@ After searching for, let’s say ‘Miles’ the album count in a category will 
 My solution utilizes Ruby on Rails elastic aggregations and Drapper. The best thing about it is that it doesn’t make additional requests to the database. Elastic makes the searching process much easier and faster. A solution on the basis of a database is much more time-consuming to develop and heavier on the server than mine.
 
 The only downside I can think of is that you need to create an additional service.
-
 
 ### Steps
 
@@ -64,6 +64,7 @@ I'll skip steps taken to create the app and to add some layout. I'll use control
 ```
 
 ### Create a decorator for the Category:
+
 ```
 rails generate decorator Category
 ```
@@ -112,7 +113,6 @@ Later this will allow to set the `article_count` based on aggregations.
 
 Include `Searchable`:
 
-
 Add associations:
 
 ```
@@ -121,6 +121,7 @@ has_many :article_categories
 ```
 
 Delegate `author_name`:
+
 ```
  delegate :name, to: :author, prefix: true
 ```
@@ -242,7 +243,6 @@ Article.recreate_index!
 Article.import
 ```
 
-
 The last two lines in the seed create the index in elastic, so:
 
 ```
@@ -253,7 +253,7 @@ Now we can take care of searching and aggregates.
 
 ### Oh look! We're halfway through the post! Here's a picture of a cute kitten:
 
-<img src="http://en.bcdn.biz/Images/2018/6/12/d8472a04-0d67-4dfe-ba33-faae2ef90ffd.jpg" width="100%" alt="Cate">
+![cate](/assets/images/kitten.jpg)
 
 Add a simple class for the search form:
 
@@ -354,6 +354,7 @@ and add them to search definition object:
 ```
 
 Result of our query object at the end should look like a.e.
+
 ```
 {
     :size => 100,
@@ -417,8 +418,8 @@ Extract them:
                                  .deep_symbolize_keys[:aggregations][:by_categories][:buckets]
                                  .map{ |bucket| OpenStruct.new(bucket) }
   end
-
 ```
+
 map `categories_ids`:
 
 ```
@@ -457,6 +458,7 @@ Update public method call:
        )
      end
 ```
+
 We will return object with categories and articles.
 
 ### Last step is to add some logic to `ArticlesController`
@@ -481,9 +483,11 @@ We will return object with categories and articles.
 ### Working app
 
 That's all, you can check working example downloading repo:
+
 * clone or [download](https://github.com/Naturaily/elastic-aggs){:rel=nofollow} repo,
 * install docker if needed,
 * run.
+
 
 ```
   docker-compose build
