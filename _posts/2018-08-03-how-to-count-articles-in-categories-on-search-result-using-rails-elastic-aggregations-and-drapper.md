@@ -356,56 +356,77 @@ and add them to search definition object:
 Result of our query object at the end should look like a.e.
 
 ```
-{
-    :size => 100,
-    :from => 0,
-    :query => {
-      :query_string => {
-        :query => "*miles*"
+{: size => 100, : from => 0, : query => {: query_string => {: query => "*miles*"
         }
-      },
-    :aggs => {
-      :by_categories => {
-        :terms=> { :field =>: category_ids }
-      }
+    }, : aggs => {: by_categories => {: terms => {: field => : category_ids
+            }
+        }
     }
-  }
+}
 ```
 
 When we assign a search object to a search variable as `search = Article.search(query)` then we check `search.response` on search object which should look like this:
 
 ```
-    {
-        "took"=>62,
-        "timed_out"=>false,
-        "_shards"=>{"total"=>1, "successful"=>1, "skipped"=>0, "failed"=>0},
-        "hits"=> {
-          "total"=> 8,
-          "max_score" => 1.0,
-          "hits" => [
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"1", "_score"=>1.0, "_source"=>{"name"=>"Bitches Brew", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"2", "_score"=>1.0, "_source"=>{"name"=>"A Tribute to Jack Johnson", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"3", "_score"=>1.0, "_source"=>{"name"=>"Miles In The Sky", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"4", "_score"=>1.0, "_source"=>{"name"=>"Pangaea", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"5", "_score"=>1.0, "_source"=>{"name"=>"Kind of Blue", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"6", "_score"=>1.0, "_source"=>{"name"=>"Sketches Of Spain", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"7", "_score"=>1.0, "_source"=>{"name"=>"Birth of the Cool", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"8", "_score"=>1.0, "_source"=>{"name"=>"Porgy And Bess", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}}
-          ]
-        },
-        "aggregations" => {
-          "by_categories" => {
-            "doc_count_error_upper_bound"=>0,
-            "sum_other_doc_count"=>0,
-            "buckets"=>[
-              {"key"=>1, "doc_count"=>8},
-              {"key"=>2, "doc_count"=>4},
-              {"key"=>3, "doc_count"=>4},
-              {"key"=>4, "doc_count"=>4}
-            ]
-          }
-        }
-      }
+ {
+     "took" => 62,
+     "timed_out" => false,
+     "_shards" => {
+         "total" => 1, "successful" => 1, "skipped" => 0, "failed" => 0
+     },
+     "hits" => {
+         "total" => 8,
+         "max_score" => 1.0,
+         "hits" => [{
+             "_index" => "article-development", "_type" => "article", "_id" => "1", "_score" => 1.0, "_source" => {
+                 "name" => "Bitches Brew", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "2", "_score" => 1.0, "_source" => {
+                 "name" => "A Tribute to Jack Johnson", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "3", "_score" => 1.0, "_source" => {
+                 "name" => "Miles In The Sky", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "4", "_score" => 1.0, "_source" => {
+                 "name" => "Pangaea", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "5", "_score" => 1.0, "_source" => {
+                 "name" => "Kind of Blue", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "6", "_score" => 1.0, "_source" => {
+                 "name" => "Sketches Of Spain", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "7", "_score" => 1.0, "_source" => {
+                 "name" => "Birth of the Cool", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "8", "_score" => 1.0, "_source" => {
+                 "name" => "Porgy And Bess", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }]
+     },
+     "aggregations" => {
+         "by_categories" => {
+             "doc_count_error_upper_bound" => 0,
+             "sum_other_doc_count" => 0,
+             "buckets" => [{
+                 "key" => 1, "doc_count" => 8
+             }, {
+                 "key" => 2, "doc_count" => 4
+             }, {
+                 "key" => 3, "doc_count" => 4
+             }, {
+                 "key" => 4, "doc_count" => 4
+             }]
+         }
+     }
+ }
 ```
 
 In `aggregations` => `by_categories` we can find `buckets` and that's what we're interested in! Key `buckets` contain counts for `category_ids`.
