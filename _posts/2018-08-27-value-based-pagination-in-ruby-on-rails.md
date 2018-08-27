@@ -37,7 +37,7 @@ The most popular ones, among the Ruby on Rails community, are:
 * [kaminari](https://github.com/kaminari/kaminari)
 * [will_paginate](https://github.com/mislav/will_paginate)
 
-The main principle of their work is quite simple: get \_n\_ records with \_m\_ offset, or in other words get first/second/... \_n\_ records, where \_n\_ and \_m/page number\_ is set by user or developer. We used to call it \_offset pagination\_.
+The main principle of their work is quite simple: get _n_ records with _m_ offset, or in other words get first/second/… page containing _n_ records, where _n_ and _m/page number_ is set by user or developer. We used to call it _offset pagination_.
 
 ## Issues with ‘offset’ pagination
 
@@ -76,13 +76,13 @@ Pagination should be:
 
 * **Safe**, because it will be working with user input, so every parameter should be sanitized.
 
-* **Customizable**, because you don’t want to always paginate your content by the default \*created_at\* attribute.
+* **Customizable**, because you don’t want to always paginate your content by the default **created_at** attribute.
 
 * [        ] This is a place for your ideas! If you have, any more ideas what other requirements should be satisfied, drop me the line in the comments section below!
 
 
 
-<h2> How did I meet the requirements stated above? </h2>
+## How did I meet the requirements stated above?
 
 1. **Ease of Access.** To achieve easy and global access to my pagination method, I’ve decided to extend the `ApplicationRecord` class. Every Ruby on Rails* model should extend this class, thanks to that I'm sure that this method will be accessible by every registered model objects collection. Thanks to `ApplicationRecord` I can also be sure that I'm not shadowing any other method in the model by using `ActiveRecord::Base`, for example in gems.
 
@@ -156,3 +156,7 @@ To check this type of pagination in practice take a look at [Gizmodo](https://gi
 **What are yours experiences with pagination in Ruby on Rails?** Do you have any suggestions regarding my solution? Let me know in the comments down below! 
 
 Thanks for reading!
+
+Sources:
+
+[The art of pagination – Offset vs. value based paging ](https://blog.novatec-gmbh.de/art-pagination-offset-vs-value-based-paging/){:rel="nofollow"}
