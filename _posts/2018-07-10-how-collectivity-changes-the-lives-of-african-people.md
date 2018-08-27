@@ -5,7 +5,7 @@ description: >-
   look at how Collectivity, with our help, improves the lives of African people.
 slug: collectivity-interview
 layout: post
-date: '2018-08-27 11:35:00 +0200'
+date: '2018-09-03 11:35:00 +0200'
 category: Interview
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
