@@ -128,7 +128,7 @@ collections:
       - {label: "Image six", name: "image-six", widget: "image"}
   -
     name: "services"
-    label: "Serviesc"
+    label: "Services"
     label_singular: "Services Landing"
     folder: "_services"
     create: true
