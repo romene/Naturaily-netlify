@@ -106,3 +106,54 @@ Pagination should be:
 
 
 **NOTE:** *ApplicationRecord appears in Ruby on Rails 5, if you have older Ruby on Rails version you can try to extend ActiveRecords::Base, or simply choose another method to include this method to your codebase*
+
+## Stop talking! Just give me the solution!
+
+```
+# ./models/application_record.rb
+
+class ApplicationRecord < ActiveRecord::Base
+  self.abstract_class = true
+
+  class << self
+    def start_at(id: 1, timestamp: Time.now, column: :created_at, limit: 10)
+      params = parsed_params(id, timestamp, column, limit)
+      where("#{table_name}.#{params[:column_name]} < :value OR\
+               (#{table_name}.#{params[:column_name]} = :value AND id > :id)",
+            value: params[:timestamp], id: params[:id])
+        .order(column => :desc)
+        .limit(params[:limit])
+    rescue ArgumentError
+      order(created_at: :desc).first(params[:limit])
+    end
+
+    private
+
+    def parsed_params(id, timestamp, column, limit)
+      parsed_id = id.to_i
+      parsed_timestamp = Time.parse timestamp.to_s
+      column_type = columns_hash[column.to_s].type
+      raise ArgumentError unless [:date, :datetime, :time, :timestamp].include?(column_type)
+      parsed_limit = [limit.to_i, 1].max
+      column_name = ActiveRecord::Base.connection.quote_column_name(column)
+
+      {
+        id: parsed_id,
+        timestamp: parsed_timestamp,
+        column_name: column_name,
+        limit: parsed_limit
+      }
+    end
+  end
+end
+```
+
+## Conclusion
+
+There is still much room for improvement, anyway I think that this solution is a good point to start with. As mentioned earlier, presented solution is not the Holy Grail of value-based pagination in Rails, it means that in some situations it will fit better, in others it will be the worst solution ever, so choose wisely!
+
+To check this type of pagination in practice take a look at [Gizmodo](https://gizmodo.com/) site and focus your attention at address bar when clicking `More stories` button.
+
+**What are yours experiences with pagination in Ruby on Rails?** Do you have any suggestions regarding my solution? Let me know in the comments down below! 
+
+Thanks for reading!
