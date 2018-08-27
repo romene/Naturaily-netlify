@@ -42,7 +42,7 @@ I'll skip steps taken to create the app and to add some layout. I'll use control
 * add elastic initializer to point elastic host
 
 
-```
+```ruby
  config = {
     host: 'http://elasticsearch:9200',
     transport_options: {
@@ -54,7 +54,7 @@ I'll skip steps taken to create the app and to add some layout. I'll use control
 
 ### Create models:
 
-```
+```ruby
    rails g model category name:string
     rails g model author name:string
     rails g model article name:string author:references
@@ -65,7 +65,7 @@ I'll skip steps taken to create the app and to add some layout. I'll use control
 
 ### Create a decorator for the Category:
 
-```
+```ruby
 rails generate decorator Category
 ```
 
@@ -75,7 +75,7 @@ Add `attr_accessor :article_count` to the decorator of the class.
 
 Add an `apply_counts` method  with a `buckets_counts` argument.
 
-```
+```ruby
    class CategoriesDecorator < Draper::CollectionDecorator
       def apply_counts(buckets_counts)
         each { |obj| obj.article_count = buckets_counts[obj.id] }
@@ -87,7 +87,7 @@ Later this will allow to set the `article_count` based on aggregations.
 
 ### Add module `Searchable` to `concerns`
 
-```
+```ruby
  module Searchable
       extend ActiveSupport::Concern
 
@@ -122,13 +122,13 @@ has_many :article_categories
 
 Delegate `author_name`:
 
-```
+```ruby
  delegate :name, to: :author, prefix: true
 ```
 
 In the `models` folder create `Articles::Index` module to define the elastic index:
 
-```
+```ruby
 module Articles
     module Index
     extend ActiveSupport::Concern
@@ -172,7 +172,7 @@ Include the `Articles::Index` in Article model.
 
 I've prepared the seed with some jazz albums with assigned jazz sub-genres.
 
-```
+```ruby
 jazz = Category.create(name: 'jazz')
 fusion = Category.create(name: 'jazz fusion')
 bebop = Category.create(name: 'bebop')
@@ -245,7 +245,7 @@ Article.import
 
 The last two lines in the seed create the index in elastic, so:
 
-```
+```ruby
 rake db:seed
 ```
 
@@ -257,7 +257,7 @@ Now we can take care of searching and aggregates.
 
 Add a simple class for the search form:
 
-```
+```ruby
 class SearchForm
   include ActiveModel::Model
 
@@ -271,7 +271,7 @@ end
 
 Add search query object:
 
-```
+```ruby
 class SearchQuery
   def initialize(search_form)
     @search_form = search_form
@@ -297,7 +297,7 @@ To do this we will need a little bit more complex query which we'll prepare usin
 
 Search definition object will do almost the same thing as the search above.
 
-```
+```ruby
 def query
       {
         size: 100,
@@ -328,7 +328,7 @@ Attributes `:size`, `:from` are for paging, default elastic page size is 10.
 
 How to add aggregations? Using elastic DSL allows us to define aggs criteria:
 
-```
+```ruby
      def aggs_categories
         {
           by_categories:{
@@ -342,7 +342,7 @@ How to add aggregations? Using elastic DSL allows us to define aggs criteria:
 
 and add them to search definition object:
 
-```
+```ruby
      def query
         {
           size: 100,
@@ -355,64 +355,85 @@ and add them to search definition object:
 
 Result of our query object at the end should look like a.e.
 
-```
-{
-    :size => 100,
-    :from => 0,
-    :query => {
-      :query_string => {
-        :query => "*miles*"
+```ruby
+{: size => 100, : from => 0, : query => {: query_string => {: query => "*miles*"
         }
-      },
-    :aggs => {
-      :by_categories => {
-        :terms=> { :field =>: category_ids }
-      }
+    }, : aggs => {: by_categories => {: terms => {: field => : category_ids
+            }
+        }
     }
-  }
+}
 ```
 
 When we assign a search object to a search variable as `search = Article.search(query)` then we check `search.response` on search object which should look like this:
 
-```
-    {
-        "took"=>62,
-        "timed_out"=>false,
-        "_shards"=>{"total"=>1, "successful"=>1, "skipped"=>0, "failed"=>0},
-        "hits"=> {
-          "total"=> 8,
-          "max_score" => 1.0,
-          "hits" => [
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"1", "_score"=>1.0, "_source"=>{"name"=>"Bitches Brew", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"2", "_score"=>1.0, "_source"=>{"name"=>"A Tribute to Jack Johnson", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"3", "_score"=>1.0, "_source"=>{"name"=>"Miles In The Sky", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"4", "_score"=>1.0, "_source"=>{"name"=>"Pangaea", "author_name"=>"Miles Davis", "category_names"=>["jazz", "jazz fusion"], "category_ids"=>[1, 2]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"5", "_score"=>1.0, "_source"=>{"name"=>"Kind of Blue", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"6", "_score"=>1.0, "_source"=>{"name"=>"Sketches Of Spain", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"7", "_score"=>1.0, "_source"=>{"name"=>"Birth of the Cool", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}},
-            {"_index"=>"article-development", "_type"=>"article", "_id"=>"8", "_score"=>1.0, "_source"=>{"name"=>"Porgy And Bess", "author_name"=>"Miles Davis", "category_names"=>["jazz", "bebop", "cool jazz"], "category_ids"=>[1, 3, 4]}}
-          ]
-        },
-        "aggregations" => {
-          "by_categories" => {
-            "doc_count_error_upper_bound"=>0,
-            "sum_other_doc_count"=>0,
-            "buckets"=>[
-              {"key"=>1, "doc_count"=>8},
-              {"key"=>2, "doc_count"=>4},
-              {"key"=>3, "doc_count"=>4},
-              {"key"=>4, "doc_count"=>4}
-            ]
-          }
-        }
-      }
+```ruby
+ {
+     "took" => 62,
+     "timed_out" => false,
+     "_shards" => {
+         "total" => 1, "successful" => 1, "skipped" => 0, "failed" => 0
+     },
+     "hits" => {
+         "total" => 8,
+         "max_score" => 1.0,
+         "hits" => [{
+             "_index" => "article-development", "_type" => "article", "_id" => "1", "_score" => 1.0, "_source" => {
+                 "name" => "Bitches Brew", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "2", "_score" => 1.0, "_source" => {
+                 "name" => "A Tribute to Jack Johnson", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "3", "_score" => 1.0, "_source" => {
+                 "name" => "Miles In The Sky", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "4", "_score" => 1.0, "_source" => {
+                 "name" => "Pangaea", "author_name" => "Miles Davis", "category_names" => ["jazz", "jazz fusion"], "category_ids" => [1, 2]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "5", "_score" => 1.0, "_source" => {
+                 "name" => "Kind of Blue", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "6", "_score" => 1.0, "_source" => {
+                 "name" => "Sketches Of Spain", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "7", "_score" => 1.0, "_source" => {
+                 "name" => "Birth of the Cool", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }, {
+             "_index" => "article-development", "_type" => "article", "_id" => "8", "_score" => 1.0, "_source" => {
+                 "name" => "Porgy And Bess", "author_name" => "Miles Davis", "category_names" => ["jazz", "bebop", "cool jazz"], "category_ids" => [1, 3, 4]
+             }
+         }]
+     },
+     "aggregations" => {
+         "by_categories" => {
+             "doc_count_error_upper_bound" => 0,
+             "sum_other_doc_count" => 0,
+             "buckets" => [{
+                 "key" => 1, "doc_count" => 8
+             }, {
+                 "key" => 2, "doc_count" => 4
+             }, {
+                 "key" => 3, "doc_count" => 4
+             }, {
+                 "key" => 4, "doc_count" => 4
+             }]
+         }
+     }
+ }
 ```
 
 In `aggregations` => `by_categories` we can find `buckets` and that's what we're interested in! Key `buckets` contain counts for `category_ids`.
 
 Extract them:
 
-```
+```ruby
  def buckets_categories_counts
     @categories_counts ||= search.response
                                  .deep_symbolize_keys[:aggregations][:by_categories][:buckets]
@@ -422,7 +443,7 @@ Extract them:
 
 map `categories_ids`:
 
-```
+```ruby
  def buckets_categories_ids
     buckets_categories_counts.map(&:key)
   end
@@ -430,7 +451,7 @@ map `categories_ids`:
 
 prepare the bucket hash:
 
-```
+```ruby
  def buckets_hash
     buckets_categories_counts.each_with_object({}) do |bucket, obj|
       obj[bucket.key]= bucket.doc_count
@@ -440,7 +461,7 @@ prepare the bucket hash:
 
 Find categories, decorate the collection and apply counts:
 
-```
+```ruby
  def categories
     ::CategoriesDecorator.decorate(
       Category.where(id: buckets_categories_ids)
@@ -450,7 +471,7 @@ Find categories, decorate the collection and apply counts:
 
 Update public method call:
 
-```
+```ruby
     def call
        OpenStruct.new(
          categories: categories,
@@ -463,7 +484,7 @@ We will return object with categories and articles.
 
 ### Last step is to add some logic to `ArticlesController`
 
-```
+```ruby
   class ArticlesController < ApplicationController
      def index
        @search_form = SearchForm.new(search_text)
@@ -489,7 +510,7 @@ That's all, you can check working example downloading repo:
 * run.
 
 
-```
+```ruby
   docker-compose build
   docker-compose run web bundle install
   docker-compose run web rake db:create db:migrate db:seed
