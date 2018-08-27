@@ -15,7 +15,6 @@ text-preview: >-
   pagination in Ruby on Rails and where to use it.
 tags:
   - Ruby on Rails development
-  - Value based pagination
 ---
 Have you ever had a situation like this: You are browsing the Internet, and on the page number 889 you find a bunch of great articles, which you want to share with your friends or just save in your browser tab to read it later. Seems like a good idea, right? Unfortunately, after few hours/days/month/decades, you realize that the link you have saved is now pointing to a completely different content! What a shame!
 
@@ -95,7 +94,7 @@ Pagination should be:
 
    * `value` - this parameter should represent the upper bound value before which all records should be returned. In my case, I chose `timestamp`, because it fits my purposes the best and it simplifies the whole thing a bit. Because of that my `value` has to be time type, the easiest way to achieve and ensure this is to parse input to `Time` class.
 
-   * `column` - this parameter says what column will be used to paginate our content. This column should exist in our model, to check this I used `columns_hash` method. To be sure that column name is properly quoted string, I've used \`ActiveRecord::Base.connection.quote_column_name\` method.
+   * `column` - this parameter says what column will be used to paginate our content. This column should exist in our model, to check this I used `columns_hash` method. To be sure that column name is properly quoted string, I've used `ActiveRecord::Base.connection.quote_column_name` method.
 
    * `limit` - last, but not least, the parameter should specify the upper limit of returned records (the upper limit, because in some cases, like the last page, there could be fewer records returned), `limit` always should be a positive integer number.
 
