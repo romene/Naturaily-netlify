@@ -5,6 +5,7 @@ description: >-
   startups and businesses that require the fastest development possible
 layout: service
 permalink: /services/ruby-on-rails-development
+posts-tag: Ruby on Rails development
 heading: Ruby on Rails Development
 desc: >-
   We create awesome software with Ruby on Rails - a go-to technology for

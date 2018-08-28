@@ -5,6 +5,7 @@ description: >-
   applications
 layout: service
 permalink: /services/vue-js-development
+posts-tag: Vue js development
 heading: Vue.js development
 desc: >-
   We create advanced software with Vue.js - lightweight and performant
