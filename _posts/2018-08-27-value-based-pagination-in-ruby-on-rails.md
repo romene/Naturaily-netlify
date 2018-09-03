@@ -113,7 +113,7 @@ Pagination should be:
 
 **NOTE:** _Order clause is a part of preparing data, if you have properly ordered data, feel free to remove it. Ordering is always the most time consuming part in all SQL queries_
 
-```
+```ruby
 # ./models/application_record.rb
 
 class ApplicationRecord < ActiveRecord::Base
