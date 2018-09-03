@@ -5,7 +5,7 @@ description: >-
   pagination in Ruby on Rails and where to use it.
 slug: value-based-pagination-rails
 layout: post
-date: '2018-08-27 09:29:02 +0200'
+date: '2018-09-03 09:29:02 +0200'
 category: Ruby on Rails development
 author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
