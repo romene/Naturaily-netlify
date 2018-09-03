@@ -35,6 +35,8 @@ The main principle of their work is quite simple: get _n_ records with _m_ offse
 
 ## Issues with ‘offset’ pagination
 
+[photo] Offset image
+
 For many basic situations this approach is good enough so don't be afraid to use it in your projects if it suits your needs! But... (there is always ‘a but’) in situations when:
 
 * you want to have a consistent content regardless of when you are visiting the link or your content is changing so quickly, 
@@ -48,15 +50,13 @@ SQL `OFFSET` is a very time-consuming method, the more records your database con
 
 One more real-life situation, where value-based pagination in Rails fits perfectly is SPA chat messages infinite scroll. In a situation when new messages arrive constantly without reloading the page, traditional pagination may have a problem with getting proper results on the first shot. I have tested this in real life app! Time based pagination seems to work really good in this scenario, at least it is much more reliable than a traditional pagination, for sure!
 
-## Value based Image
+[photo] Value based Image
 
 I've made a very simple benchmark of these two methods to test how big of a time difference we are talking about.
 
 I've created 2 milion simple records which was used to this test.
 
-In the first scenario, I was requesting the last page in offset pagination, and some randomly selected records for value based pagination:
-
-\[coś tu ma być?]
+In the first scenario, I was requesting the last page in offset pagination, and some randomly selected records for value based pagination.
 
 In **value based pagination** loading data time is constant, just take a look at screenshots.
 
@@ -109,7 +109,9 @@ Pagination should be:
 
 **NOTE:** _ApplicationRecord appears in Ruby on Rails 5, if you have older Ruby on Rails version you can try to extend ActiveRecords::Base, or simply choose another method to include this method to your codebase_
 
-## Stop talking! Just give me the solution!
+## Stop talking! Give me the solution!
+**NOTE:** *Order clause is a part of preparing data, if you have properly ordered data, feel free to remove it. Ordering is always the most time consuming part in all SQL queries*
+
 
 ```
 # ./models/application_record.rb
@@ -149,6 +151,7 @@ class ApplicationRecord < ActiveRecord::Base
   end
 end
 ```
+
 
 ## Conclusion
 
