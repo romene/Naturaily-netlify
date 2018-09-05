@@ -60,11 +60,11 @@ In the first scenario, I was requesting the last page in offset pagination, and 
 
 In **value based pagination** loading data time is constant, just take a look at screenshots.
 
-![value-based-pagination-offset-1](/assets/images/value-based-pagination-offset-1.png)
+![value-based-pagination-offset-1](/assets/images/value-based-pagination-value-1.png)
 
-![value-based-pagination-offset-2](/assets/images/value-based-pagination-offset-2.png)
+![value-based-pagination-offset-2](/assets/images/value-based-pagination-value-2.png)
 
-![value-based-pagination-offset-3](/assets/images/value-based-pagination-offset-3.png)
+![value-based-pagination-offset-3](/assets/images/value-based-pagination-value-3.png)
 
 As you've probably guessed, **offset pagination** is dependent on the amount and the location of data. 
 
