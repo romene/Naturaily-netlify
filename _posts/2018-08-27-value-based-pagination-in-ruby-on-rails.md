@@ -11,7 +11,7 @@ author: Tomasz Żdanuk
 avatar: /assets/images/tomasz.jpg
 image: /assets/images/value-based-pagination.jpg
 text-preview: >-
-  This is a quick tutorial that will show you how to handle properly value-based
+  This is a quick tutorial that will show you how to properly handle value-based
   pagination in Ruby on Rails and where to use it.
 tags:
   - Ruby on Rails development
