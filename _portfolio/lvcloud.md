@@ -75,17 +75,17 @@ step-four-text: >-
   network and your life. Charging your Tesla can overload the grid, so the
   sooner maintenance people get information about potential malfunction, the
   better, because you won't even know a problem existed.
-comment-photo: /assets/images/firefield-face.png
-comment-name:
-comment-brand: CEO Firefield
-comment-logo: /assets/images/firefield.png
+comment-photo: /assets/images/ChrisLowsley.jpg
+comment-name: Chris Lowsley
+comment-brand: Director – LV Solutions at EA Technology
+comment-logo: /assets/images/ea-tech-logo.png
 comment-text: >-
-  Firefield had the good fortune of getting introduced to Marcin and the
-  Naturaily team at the end of 2015. Since then a number of their resources have
-  helped us to bring our clients’ products and visions to life. The members of
-  the Naturaily team combine a level of professionalism, experience, and
-  collaboration that is hard to find in today’s technology landscape. We would
-  recommended them and their partnership-driven commitment to anyone.
+  Working with Naturaily has been a pleasure from the start of the project to
+  our continuing development of our product suite, Naturaily have vision and a
+  dynamic approach to getting the project completed, they have showed EA
+  Technology what good is and far exceeded the initial project scope, nothing is
+  too much trouble and they are always willing to assist in getting things
+  right.
 slide-left: Snipsl
 slide-left-logo: /assets/images/snipsl.png
 slide-left-link: /project/snipsl
@@ -99,3 +99,4 @@ image-four: /assets/images/lvcloud-screen-4.png
 image-five: /assets/images/lvcloud-screen-5.png
 image-six: /assets/images/lvcloud-screen-6.png
 ---
+
