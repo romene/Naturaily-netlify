@@ -9,7 +9,7 @@ date: '2018-09-07 09:38:04 +0200'
 category: Ruby on Rails development
 author: Marcin Mantke
 avatar: /assets/images/marcin-mantke.png
-image: /assets/images/entrepreneurship-podcasts.jpg
+image: /assets/images/kafka-mosquitto-microservices.jpg
 text-preview: '[Placeholder]'
 tags:
   - Ruby on Rails development
