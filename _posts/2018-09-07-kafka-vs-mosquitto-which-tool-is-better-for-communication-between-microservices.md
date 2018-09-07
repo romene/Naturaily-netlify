@@ -22,15 +22,19 @@ tags:
 ---
 Recently microservices architecture is becoming more and more popular. Orchestration tools like Docker and Kubernetes make it very simple to create and maintain such applications. One can say that these tools are even forcing microservices architecture.
 
+## Communication between microservices
+
 Unfortunately, such an architecture, apart from many advantages, has some challenges, too! And one of them is finding a good way of communication between microservices.
 
 If you had such a problem, you surely heard about three solutions: **REST API, MQTT or Kafka**. Believe me or not, but REST API is a no-go for this use case. So we are left with two solutions: MQTT and Kafka.
 
 Both are messaging brokers which have **different protocols** and **serve different purposes**, so let’s make a comparison of these two. 
 
+## Perfect messaging broker
+
 Let's start with things that are the most important for microservices.
 
-Microservices should have **persisted data storage**. They should be able to take a **high volume traffic** and massive datasets. Also, they should have an ability to split the traffic into separated, logical parts, for example topics. Lastly, microservices should have a very high **reliability** and events deliverability. 
+Microservices should have **persisted data storage**. They should be able to take a **high volume traffic** and massive datasets. Also, they should have an ability to split the traffic into separated, logical parts, for example, topics. Lastly, microservices should have a very high **reliability** and events deliverability. 
 
 So with these requirements in mind let’s jump into the **comparison between Kafka and Mosquitto**.
 
@@ -55,3 +59,7 @@ Mosquitto is licensed under EPL/END meaning that it is open source, also it is a
 ## Answer: 
 
 Kafka is better suited for microservices. It has persistent storage, so events from particular topic can be replayed from the beginning allowing to introduce **Event Sourcing** pattern.
+
+Check out both tools here:
+* [Eclipse Mosquitto](https://mosquitto.org/){:rel=nofollow}
+* [Apache Kafka](https://kafka.apache.org/){:rel=nofollow}
