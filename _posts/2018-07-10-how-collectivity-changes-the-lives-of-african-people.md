@@ -4,7 +4,8 @@ title: >-
   Health sector
 description: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
-  look at how Collectivity, with our help, improves the lives of African people.
+  look at how Collectivity, with our help, improves knowledge sharing and
+  co-production in the Global Health sector.
 slug: collectivity-interview
 layout: post
 date: '2018-09-10 11:35:00 +0200'
@@ -14,7 +15,8 @@ avatar: /assets/images/wojciech.jpg
 image: /assets/images/collectivity.jpg
 text-preview: >-
   In this interview with Maxime Rouve, PM at Collectivity, we will take a deeper
-  look at how Collectivity, with our help, improves the lives of African people.
+  look at how Collectivity, with our help, improves knowledge sharing and
+  co-production in the Global Health sector.
 tags:
   - Collectivity
   - Interview
@@ -51,15 +53,15 @@ The two main partners of the project were ITM – in charge of bringing its expe
 Collectivity was developed from scratch, starting with a **Minimal Viable Product** developed from our identified needs. In 2018 we still regularly add features, doing our best to understand and conciliate what our members want, what our partners want, and what we want.
 
 
-## Learn more about the project. Read [Collectivity case study](https://naturaily.com/project/thecollectivity)!
+## Learn more about the project. Read [Collectivity case study](https://naturaily.com/project/thecollectivity)
 
 * ### What were the challenges in the early stages of Collectivity? What are the main challenges now?
 
-**Answer:** Our team was not used to work with “Agile” or “Scrum” methodologies. So the first challenge for the team was to learn the startup meta, to work on a business plan, to work in a different process, by fast learning circles - we learnt actually to change our patterns, to be more flexible.
+**Answer:** Our team was not used to work with 'Agile' or 'Scrum' methodologies. So the first challenge for the team was to learn the startup meta, to work on a business plan, to work in a different process, by fast learning circles - we learnt actually to change our patterns, to be more flexible.
 
 One of the initial challenges was to communicate efficiently with the devs (*“why are you asking me “users stories”, I wrote you a 10 pages Word doc!”*). But past the early stages, it is now going smoothly and naturally… but maybe better to ask them?
  
-As a non-scientific (sensu stricto) project living in a temple of academic research, it is sometimes still a challenge to make people around us understand what we are trying to do, and why; To encourage a vision of what really means “having an impact”, beyond the sacrosanct academic concept of “impact factor” – the number of people that are likely to read the scientific journal where you published the article that took you two years of hard work to produce, and that will finally be downloaded 10 times max in total and will never be of any use in the real World. Bitter, me? Maybe a little bit! But sometimes it's so frustrating to see so many brilliant minds not trying to have more impact… what could be done by interacting more with others (policy makers, field workers, experts in different disciplines). 
+As a non-scientific (sensu stricto) project living in a temple of academic research, it is sometimes still a challenge to make people around us understand what we are trying to do, and why; To encourage a vision of what really means 'having an impact', beyond the sacrosanct academic concept of 'impact factor' – the number of people that are likely to read the scientific journal where you published the article that took you two years of hard work to produce, and that will finally be downloaded 10 times max in total and will never be of any use in the real World. Bitter, me? Maybe a little bit! But sometimes it's so frustrating to see so many brilliant minds not trying to have more impact… what could be done by interacting more with others (policy makers, field workers, experts in different disciplines). 
 
 
    **Challenges for the future:**
@@ -89,15 +91,16 @@ We have people from 90 different countries, with a significant part of them from
 
 **Answer:** Today, the importance of Knowledge Management – and in particular knowledge sharing, is getting more and more acknowledged in our sector of activities. All big institutions are launching knowledge management initiatives. But changing old patterns takes time, and it’s where I think we are good: our team already have nearly a decade of experience and focuses from the very beginning on giving more visibility to experts “*from the South*”. 
 
-So far, I think we are good at **mobilizing and reaching these people** because we’ve worked with them for years. There are several of the initiatives, launched by big international actors that may have in theory more chance of success. In practices, often no one joins their platform and contribute actively. So far, what makes the difference is that we have maybe more “legitimacy”, and clearly more experience than a lot of other initiatives.
+So far, I think we are good at **mobilizing and reaching these people** because we’ve worked with them for years. There are several of the initiatives, launched by big international actors that may have in theory more chance of success. In practices, often no one joins their platform and contribute actively. So far, what makes the difference is that we have maybe more 'legitimacy', and clearly more experience than a lot of other initiatives.
 
 
-* ### What are the plans for the future?
+* ### What are your plans for the future?
 
 **Answer:** We have several ideas of new features to improve Collectivity. Maybe a little too much actually! 
 
-The coming months will be a very exciting phase for our platform : as the project is now over, Collectivity needs to “exit” from the ITM. We are now working on the next steps: integrating the platform in a new legal entity. But that’s is another subject!
+The coming months will be a very exciting phase for our platform : as the project is now over, Collectivity needs to 'exit' from the ITM. We are now working on the next steps: integrating the platform in a new legal entity. But that’s is another subject!
 
+<hr>
 
 Make sure to take a look at **Collectivity** here - <https://www.thecollectivity.org/>
 
