@@ -9,7 +9,7 @@ description: >-
 slug: collectivity-interview
 layout: post
 date: '2018-09-10 11:35:00 +0200'
-category: Interview
+category: Naturaily Client
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/collectivity.jpg
@@ -20,7 +20,6 @@ text-preview: >-
 tags:
   - Collectivity
   - Interview
-  - Naturaily Client
 ---
 A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Manager at Collectivity. In this post we are going to take a deeper look at how Collectivity, Naturaily's client, improves the lives of African people by allowing experts to share their opinions on certain collaborative projects.
 
@@ -28,7 +27,7 @@ A while back, I've had the pleasure of interviewing Maxime Rouve, the Project Ma
 
 **Answer:** Collectivity is a platform where professionals active in the Global Health or International Cooperation sectors are invited to dedicate time to discussion groups or projects. **One of our main principles is that we encourage people to contribute to activities in voluntary basis.**
 
-**_Collectivity is a platform where an expert can join, talk and eventually contribute to activities._**
+_**Collectivity is a platform where an expert can join, talk and eventually contribute to activities.**_
 
 * ### Could you briefly tell us the evolution of Collectivity since its launch?
 
@@ -58,10 +57,9 @@ Collectivity was developed from scratch, starting with a **Minimal Viable Produc
 
 **Answer:** Our team was not used to work with 'Agile' or 'Scrum' methodologies. So the first challenge for the team was to learn the startup meta, to work on a business plan, to work in a different process, by fast learning circles - we learnt actually to change our patterns, to be more flexible.
 
-One of the initial challenges was to communicate efficiently with the devs (*“why are you asking me “users stories”, I wrote you a 10 pages Word doc!”*). But past the early stages, it is now going smoothly and naturally… but maybe better to ask them?
- 
-As a non-scientific (sensu stricto) project living in a temple of academic research, it is sometimes still a challenge to make people around us understand what we are trying to do, and why; To encourage a vision of what really means 'having an impact', beyond the sacrosanct academic concept of 'impact factor' – the number of people that are likely to read the scientific journal where you published the article that took you two years of hard work to produce, and that will finally be downloaded 10 times max in total and will never be of any use in the real World. Bitter, me? Maybe a little bit! But sometimes it's so frustrating to see so many brilliant minds not trying to have more impact… what could be done by interacting more with others (policy makers, field workers, experts in different disciplines). 
+One of the initial challenges was to communicate efficiently with the devs (_“why are you asking me “users stories”, I wrote you a 10 pages Word doc!”_). But past the early stages, it is now going smoothly and naturally… but maybe better to ask them?
 
+As a non-scientific (sensu stricto) project living in a temple of academic research, it is sometimes still a challenge to make people around us understand what we are trying to do, and why; To encourage a vision of what really means 'having an impact', beyond the sacrosanct academic concept of 'impact factor' – the number of people that are likely to read the scientific journal where you published the article that took you two years of hard work to produce, and that will finally be downloaded 10 times max in total and will never be of any use in the real World. Bitter, me? Maybe a little bit! But sometimes it's so frustrating to see so many brilliant minds not trying to have more impact… what could be done by interacting more with others (policy makers, field workers, experts in different disciplines). 
 
 **Challenges for the future:**
 
@@ -79,7 +77,6 @@ There are 2 main challenges for the future. The first one is to make the platfor
 
 Eventually, the ultimate success for Collectivity could be to grow out of  the “Global Health” sector of activity. We are around 2500 people, around 600 users actively contributed in various activities.
 
-
 * ### What’s the current growth like? What are your plans for the future of Collectivity?
 
 **Answer:** We are around 2000 people, around 300 users contributed in various activities, we are around  900-1000 people who completed a profile, it is a first sign of an activity for us. 2000 registered and 300 who really contributed last year.
@@ -88,10 +85,9 @@ We have people from 90 different countries, with a significant part of them from
 
 * ### Who is your biggest competitor? Are there any other solutions similar to yours? How does Collectivity stand out?
 
-**Answer:** Today, the importance of Knowledge Management – and in particular knowledge sharing, is getting more and more acknowledged in our sector of activities. All big institutions are launching knowledge management initiatives. But changing old patterns takes time, and it’s where I think we are good: our team already have nearly a decade of experience and focuses from the very beginning on giving more visibility to experts “*from the South*”. 
+**Answer:** Today, the importance of Knowledge Management – and in particular knowledge sharing, is getting more and more acknowledged in our sector of activities. All big institutions are launching knowledge management initiatives. But changing old patterns takes time, and it’s where I think we are good: our team already have nearly a decade of experience and focuses from the very beginning on giving more visibility to experts “_from the South_”. 
 
 So far, I think we are good at **mobilizing and reaching these people** because we’ve worked with them for years. There are several of the initiatives, launched by big international actors that may have in theory more chance of success. In practices, often no one joins their platform and contribute actively. So far, what makes the difference is that we have maybe more 'legitimacy', and clearly more experience than a lot of other initiatives.
-
 
 * ### What are your plans for the future?
 
