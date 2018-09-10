@@ -50,10 +50,9 @@ As we build Collectivity in an iterative way, new features are regularly added. 
 
 The two main partners of the project were ITM – in charge of bringing its experience in knowledge management and documenting the process, and “BlueSquare” – a Belgian technological company. After the first year and half, “Naturaily” has been identified to perform the development of the platform. 
 
+<h4 align="center">Learn more about the project. Read <a href="https://naturaily.com/project/thecollectivity">Collectivity case study</a></h4 >
+
 Collectivity was developed from scratch, starting with a **Minimal Viable Product** developed from our identified needs. In 2018 we still regularly add features, doing our best to understand and conciliate what our members want, what our partners want, and what we want.
-
-
-## Learn more about the project. Read [Collectivity case study](https://naturaily.com/project/thecollectivity)
 
 * ### What were the challenges in the early stages of Collectivity? What are the main challenges now?
 
@@ -64,7 +63,7 @@ One of the initial challenges was to communicate efficiently with the devs (*“
 As a non-scientific (sensu stricto) project living in a temple of academic research, it is sometimes still a challenge to make people around us understand what we are trying to do, and why; To encourage a vision of what really means 'having an impact', beyond the sacrosanct academic concept of 'impact factor' – the number of people that are likely to read the scientific journal where you published the article that took you two years of hard work to produce, and that will finally be downloaded 10 times max in total and will never be of any use in the real World. Bitter, me? Maybe a little bit! But sometimes it's so frustrating to see so many brilliant minds not trying to have more impact… what could be done by interacting more with others (policy makers, field workers, experts in different disciplines). 
 
 
-   **Challenges for the future:**
+**Challenges for the future:**
 
 There are 2 main challenges for the future. The first one is to make the platform viable and the second one is to convince institutions to join the platform on a more regular basis.
 
@@ -100,8 +99,10 @@ So far, I think we are good at **mobilizing and reaching these people** because 
 
 The coming months will be a very exciting phase for our platform : as the project is now over, Collectivity needs to 'exit' from the ITM. We are now working on the next steps: integrating the platform in a new legal entity. But that’s is another subject!
 
+<br>
 <hr>
+<br>
 
 Make sure to take a look at **Collectivity** here - <https://www.thecollectivity.org/>
 
-Want to learn more about this project? Read **[Collectivity case study](https://naturaily.com/project/thecollectivity)**!
+Want to **learn more about this project**? Read **[Collectivity case study](https://naturaily.com/project/thecollectivity)**!
