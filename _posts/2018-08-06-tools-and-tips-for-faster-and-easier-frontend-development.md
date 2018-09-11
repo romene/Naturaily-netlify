@@ -6,7 +6,7 @@ description: >-
   web!
 slug: faster-easier-frontend-development
 layout: post
-date: '2018-09-10 09:55:15 +0200'
+date: '2018-09-17 09:55:15 +0200'
 category: Frontend development
 author: Bartek Zienkiewicz
 avatar: /assets/images/bartek.jpg
