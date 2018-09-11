@@ -6,16 +6,19 @@ description: >-
   web!
 slug: faster-easier-frontend-development
 layout: post
-date: '2018-08-06 03:55:15 +0000'
-category: Bartosz Zienkiewicz
-avatar: /assets/images/maurice.png
+date: '2018-09-17 09:55:15 +0200'
+category: Frontend development
+author: Bartek Zienkiewicz
+avatar: /assets/images/bartek.jpg
 image: /assets/images/frontend-development-easier-faster.jpg
 text-preview: >-
   In this post, I'll share some tips, tricks, and tools I use every day in
   frontend development. So buckle-up, and let’s jump into the vast world of the
   web!
 tags:
-  - Frontend development
+  - JavaScript development
+  - Vue.js development
+  - ''
 ---
 In this post, I'll share some tips, tricks, and tools I use every day in frontend development. So buckle-up, and let’s jump into the vast world of the web!
 
