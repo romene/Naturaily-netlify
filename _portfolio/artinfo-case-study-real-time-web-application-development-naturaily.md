@@ -88,11 +88,11 @@ step-four-image-one: /assets/images/collectivity.png
 step-four-image-two: /assets/images/collectivity.png
 step-four-image-three: /assets/images/collectivity.png
 testimonial:
-  testimonial-brand: '1'
-  testimonial-logo: /assets/images/0r6jptq.jpg
-  testimonial-name: '1'
-  testimonial-photo: /assets/images/0r6jptq.jpg
-  testimonial-text: '1'
+  testimonial-brand: ''
+  testimonial-logo: ''
+  testimonial-name: ''
+  testimonial-photo: ''
+  testimonial-text: ''
 slide-left: LVCloud
 slide-left-logo: /assets/images/lvcloud-logo.png
 slide-left-link: /project/lvcloud
