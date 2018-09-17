@@ -1,6 +1,7 @@
 ---
 title: 'Collectivity case study: NGO web app development | Naturaily'
 description: Case study on developing a successful web-based app for NGO.
+slug: thecollectivity
 layout: portfolio-details
 project-screenshot: /assets/images/collectivity.png
 project-logo: /assets/images/collectivity-logo.png
