@@ -93,13 +93,13 @@ collections:
       - {label: "Banner text(not more than 300 characters)", name: "banner-text", widget: "string"}
       - {label: "Banner technologies(3 to 5 separated by commas)", name: "banner-tech", widget: "list", allow_add: true}
       - {label: "The need title(50 characters max)", name: "step-one-title", widget: "string"}
-      - {label: "The need Description", name: "step-one-text", widget: "string"}
+      - {label: "The need description", name: "step-one-text", widget: "markdown"}
       - {label: "The need image", name: "step-one-image", widget: "image", required: false}
       - {label: "The solution title(50 characters max)", name: "step-two-title", widget: "string"}
-      - {label: "The solution description", name: "step-two-text", widget: "string"}
+      - {label: "The solution description", name: "step-two-text", widget: "markdown"}
       - {label: "The solution image", name: "step-two-image", widget: "image", required: false}
       - {label: "The tools title(50 characters max)", name: "step-three-title", widget: "string"}
-      - {label: "The tools description", name: "step-three-text", widget: "string"}
+      - {label: "The tools description", name: "step-three-text", widget: "markdown"}
       - {label: "The tools image", name: "step-three-image", widget: "image", required: false}
       - {label: "The tools - development stack technology left", name: "src-stack-1", widget: "image", required: false}
       - {label: "The tools - development stack technology alt left", name: "alt-stack-1", widget: "string", required: false}
@@ -108,7 +108,7 @@ collections:
       - {label: "The tools - development stack technology right", name: "src-stack-3", widget: "image", required: false}
       - {label: "The tools - development stack technology alt right", name: "alt-stack-3", widget: "string", required: false}
       - {label: "The results title(50 characters max)", name: "step-four-title", widget: "string"}
-      - {label: "The results description", name: "step-four-text", widget: "string"}
+      - {label: "The results description", name: "step-four-text", widget: "markdown"}
       - {label: "The results first image", name: "step-four-image-one", widget: "image", required: false}
       - {label: "The results second image", name: "step-four-image-two", widget: "image", required: false}
       - {label: "The results third image", name: "step-four-image-three", widget: "image", required: false}
