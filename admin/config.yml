@@ -123,10 +123,10 @@ collections:
           - {label: "Testimonial logo", name: "testimonial-logo", widget: "image", required: false}
           - {label: "Testimonial statement", name: "testimonial-text", widget: "string", required: false}
       - {label: "Previous case study", name: "slide-left", widget: "string", required: false}
-      - {label: "Previous case study logo", name: "slide-left-logo", widget: "image", required: false}
+      - {label: "Previous case study image", name: "slide-left-logo", widget: "image", required: false}
       - {label: "Previous case study link", name: "slide-left-link", widget: "string", default: "/project/project_name", required: false}
       - {label: "Next case study", name: "slide-right", widget: "string", required: false}
-      - {label: "Next case study logo", name: "slide-right-logo", widget: "image", required: false}
+      - {label: "Next case study image", name: "slide-right-logo", widget: "image", required: false}
       - {label: "Next case study link", name: "slide-right-link", widget: "string", default: "/project/project_name", required: false}
   -
     name: "services"
