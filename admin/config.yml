@@ -91,7 +91,7 @@ collections:
       - {label: "Project logo class(if necessary)", name: "project-logo-class", widget: "string", required: false}
       - {label: "Banner background image", name: "banner-bg", widget: "image"}
       - {label: "Banner text(not more than 300 characters)", name: "banner-text", widget: "string"}
-      - {label: "Banner technologies(3 to 5 separated by commas)", name: "banner-tech", widget: "list", allow_add: true}
+      - {label: "Banner technologies(3 to 5 separated by commas)", name: "banner-tech", widget: "string"}
       - {label: "The need title(50 characters max)", name: "step-one-title", widget: "string"}
       - {label: "The need description", name: "step-one-text", widget: "markdown"}
       - {label: "The need image", name: "step-one-image", widget: "image", required: false}
