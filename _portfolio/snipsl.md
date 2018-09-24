@@ -5,7 +5,7 @@ slug: snipsl
 layout: portfolio-details
 project-screenshot: /assets/images/snipsl.png
 project-logo: /assets/images/snipsl-logo.png
-banner-bg: /assets/images/projects-background-red.png
+banner-bg: /assets/images/projects-background-blue.png
 banner-text: >-
   Snipsl is a platform for sharing stories and books for both readers and
   authors. Check out our case study to see how Naturaily helped the company to

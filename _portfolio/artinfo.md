@@ -88,7 +88,7 @@ step-three-text: >
   PostgreSQL database. Ultimately, all data will be migrated to the PostgreSQL
   database at the future stages of the development.
 step-three-image: /assets/images/art-scr-3.jpg
-src-stack-1: /assets/images/rails-logo-alt.png
+src-stack-1: /assets/images/ruby-logo.png
 alt-stack-1: ruby on rails
 src-stack-2: /assets/images/vue-logo.png
 alt-stack-2: vue.js
