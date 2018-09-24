@@ -23,7 +23,7 @@ tags:
 ---
 Creating an order using Shopify API with status set to 'paid' might be somewhat a tough and tricky task. Surprisingly, this is not a practical or a trivial issue. In fact, an ability to catch a payment outside of Shopify, using a custom payment gateway, can be really convenient.
 
-### Let me present you a proposition on how to efficiently deal with this problem.
+### How to efficiently deal with this problem?
 
 Before we start, I assume that your application has already added 'shopify_api' gem to your Gemfile and you have full project configuration set up. There is a lot of materials on how to prepare your project to query **Shopify API** using 'shopify_api' gem.
 
