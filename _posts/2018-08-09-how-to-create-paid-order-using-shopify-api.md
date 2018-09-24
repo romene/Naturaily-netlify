@@ -23,13 +23,13 @@ tags:
 ---
 Creating an order using Shopify API with status set to 'paid' might be somewhat a tough and tricky task. Surprisingly, this is not a practical or a trivial issue. In fact, an ability to catch a payment outside of Shopify, using a custom payment gateway, can be really convenient.
 
-Let me present you a proposition on how to efficiently deal with this problem.
+### Let me present you a proposition on how to efficiently deal with this problem.
 
-Before we start, I assume that your application has already added 'shopify_api' gem to your Gemfile and you have full project configuration set up. There is a lot of materials on how to prepare your project to query Shopify API using 'shopify_api' gem.
+Before we start, I assume that your application has already added 'shopify_api' gem to your Gemfile and you have full project configuration set up. There is a lot of materials on how to prepare your project to query **Shopify API** using 'shopify_api' gem.
 
 But, let’s get back to our 'Orders' issue….
 
-In a basic payment flow, we would like to set an order to 'Paid' after payment was successfully processed. Unfortunately, changing this status via API will not be easy. However, a great solution to this problem is to create a 'Draft Order' first and, after a user has paid, we can transform it into our needed state.
+In a basic payment flow, we would like to set an order to 'Paid' after payment was successfully processed. Unfortunately, changing this status via **API** will not be easy. However, a great solution to this problem is to create a 'Draft Order' first and, after a user has paid, we can transform it into our needed state.
 
 #### app/services/shopify_draft_order_creator.rb
 
@@ -50,7 +50,7 @@ draft_order.save
 draft_order.complete
 ```
 
-And that’s it! We have successfully created a new paid order using Shopify API. As you can see in the example, this code can be implemented into the job to have an ability to perform it in the background. Additionally, this piece of code also shows how to add tags, which will appear in future orders. So basically 'draft_order.complete' might be enough for you to close the 'Draft Order.'
+And that’s it! We have successfully created a new paid order using **Shopify API**. As you can see in the example, this code can be implemented into the job to have an ability to perform it in the background. Additionally, this piece of code also shows how to add tags, which will appear in future orders. So basically `draft_order.complete` might be enough for you to close the 'Draft Order.'
 
 Let’s take a look at an example payments controller just to realize how a full payment action would look like with this implementation.
 
@@ -72,7 +72,7 @@ def create
 end
 ```
 
-This example shows how this logic might be used in real action.
+### This example shows how this logic might be used in real action.
 
 Choosing this solution has **one additional advantage**. 
 
