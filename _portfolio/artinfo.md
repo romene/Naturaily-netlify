@@ -3,6 +3,7 @@ title: 'Artinfo case study: Real-time web application development | Naturaily'
 description: Case study on developing a live auction application for the art world.
 slug: artinfo
 layout: portfolio-details
+image: /assets/images/art-scr-6.jpg
 project-screenshot: /assets/images/artinfo-laptop.png
 project-logo: /assets/images/artinfo.svg
 banner-bg: /assets/images/projects-background-red.png

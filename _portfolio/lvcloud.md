@@ -3,6 +3,7 @@ title: 'LVCloud case study: IoT application development | Naturaily'
 description: Case study on developing a successful IoT solution for energy market.
 slug: lvcloud
 layout: portfolio-details
+image: /assets/images/lvcloud-screen-5.png
 project-font-colour: purple
 project-screenshot: /assets/images/LVCloud.png
 project-logo: /assets/images/lvcloud-logo.png

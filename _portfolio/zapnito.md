@@ -3,6 +3,7 @@ title: "Zapnito case study: refactoring and bug fixing | Naturaily"
 description: Case study on upgrading Ruby on Rails and taking care of the service.
 slug: zapnito
 layout: portfolio-details
+image: /assets/images/zapnito-screen-4.png
 project-screenshot: /assets/images/zapnito.png
 project-logo: /assets/images/zapnito-logo.png
 banner-bg: /assets/images/projects-background-red.png
