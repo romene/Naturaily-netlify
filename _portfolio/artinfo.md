@@ -101,8 +101,8 @@ step-four-text: >-
   interested in buying art online. The process of auction storing has been
   significantly optimized, Artinfo can now easily monetize the archives.
 step-four-image-one: /assets/images/art-scr-4.jpg
-step-four-image-two: /assets/images/art-scr-6.jpg
-step-four-image-three: /assets/images/art-scr-5.jpg
+step-four-image-two: /assets/images/art-scr-5.jpg
+step-four-image-three: /assets/images/art-scr-6.jpg
 testimonial:
   testimonial-brand: ''
   testimonial-logo: ''

@@ -93,7 +93,8 @@
 
     .image-right,
     .image-left {
-      height: 400px;
+      max-width: 500px;
+      height: auto;
     }
 
     .step-image {
