@@ -8,7 +8,7 @@ description: >-
 slug: paid-order-shopify-api
 layout: post
 twitter-card: summary_large_image
-date: '2018-08-09 02:30:25 +0000'
+date: '2018-09-24 12:30:25 +0200'
 category: Ruby on Rails development
 author: Piotrek Musielak
 avatar: /assets/images/piotrek-musielak.jpg
