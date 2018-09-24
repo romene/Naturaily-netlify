@@ -4,6 +4,7 @@ description: Case study on fixing and improving a romance writing and publishing
 slug: snipsl
 layout: portfolio-details
 image: /assets/images/snipsl-screen-4.png
+twitter-card: summary_large_image
 project-screenshot: /assets/images/snipsl.png
 project-logo: /assets/images/snipsl-logo.png
 banner-bg: /assets/images/projects-background-blue.png

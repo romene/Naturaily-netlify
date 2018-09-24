@@ -19,6 +19,7 @@ collections:
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
       - {label: "Date posted", name: "date", format: "YYYY-MM-DD hh:mm:ss +0200", widget: "datetime"}
       - {label: "Category(with spaces)", name: "category", widget: "string"}
       - {label: "Author name(name and surname, with spaces)", name: "author", widget: "string"}
@@ -42,6 +43,7 @@ collections:
       - {label: "Meta Description(optimally 150 characters)", name: "description", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "career-details"}
       - {label: "Meta Image", name: "image", widget: "image", required: false}
+      - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
       - {label: "Location", name: "location", widget: "string"}
       - {label: "Who we are", name: "who_we_are", widget: "text"}
       - label: "Offer type"
@@ -86,6 +88,7 @@ collections:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "portfolio-details"}
       - {label: "Meta image(optimally 800x313px)", name: "image", widget: "image"}
+      - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
       - {label: "Project font colour(if necessary)", name: "project-font-colour", widget: "string", required: false}
       - {label: "Project screenshot", name: "project-screenshot", widget: "image"}
       - {label: "Project logo(max 50px height)", name: "project-logo", widget: "image"}
@@ -139,6 +142,7 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "description", name: "description", widget: "string"}
+      - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
       - {label: "Layout", name: "layout", widget: "hidden", default: "tech"}
       - {label: "permalink", name: "permalink", widget: "string"}
       - {label: "posts-tag", name: "posts-tag", widget: "string"}

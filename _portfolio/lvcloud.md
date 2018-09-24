@@ -4,6 +4,7 @@ description: Case study on developing a successful IoT solution for energy marke
 slug: lvcloud
 layout: portfolio-details
 image: /assets/images/lvcloud-screen-5.png
+twitter-card: summary_large_image
 project-font-colour: purple
 project-screenshot: /assets/images/LVCloud.png
 project-logo: /assets/images/lvcloud-logo.png

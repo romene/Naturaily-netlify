@@ -4,6 +4,7 @@ description: Case study on developing a successful web-based app for NGO.
 slug: thecollectivity
 layout: portfolio-details
 image: /assets/images/collectivity-screen-5.png
+twitter-card: summary_large_image
 project-screenshot: /assets/images/collectivity.png
 project-logo: /assets/images/collectivity-logo.png
 banner-bg: /assets/images/projects-background-green.png

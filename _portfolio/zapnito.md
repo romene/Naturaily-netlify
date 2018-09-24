@@ -4,6 +4,7 @@ description: Case study on upgrading Ruby on Rails and taking care of the servic
 slug: zapnito
 layout: portfolio-details
 image: /assets/images/zapnito-screen-4.png
+twitter-card: summary_large_image
 project-screenshot: /assets/images/zapnito.png
 project-logo: /assets/images/zapnito-logo.png
 banner-bg: /assets/images/projects-background-red.png

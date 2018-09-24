@@ -4,6 +4,7 @@ description: Case study on developing a live auction application for the art wor
 slug: artinfo
 layout: portfolio-details
 image: /assets/images/art-scr-6.jpg
+twitter-card: summary_large_image
 project-screenshot: /assets/images/artinfo-laptop.png
 project-logo: /assets/images/artinfo.svg
 banner-bg: /assets/images/projects-background-red.png
