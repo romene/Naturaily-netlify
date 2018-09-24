@@ -1,11 +1,17 @@
 ---
 title: How to Create Paid Order Using Shopify API
-description: Placeholder
+description: >-
+  Creating an order using Shopify API with status set to 'paid' might be
+  somewhat a tough and tricky task. Surprisingly, this is not a practical or a
+  trivial issue. In fact, an ability to catch a payment outside of Shopify,
+  using a custom payment gateway, can be really convenient.
 slug: paid-order-shopify-api
 layout: post
+twitter-card: summary_large_image
 date: '2018-08-09 02:30:25 +0000'
-category: Piotrek Musielak
-avatar: /assets/images/maurice.png
+category: Ruby on Rails development
+author: Piotrek Musielak
+avatar: /assets/images/piotrek-musielak.jpg
 image: /assets/images/vuejs-2018.jpg
 text-preview: >-
   Creating an order using Shopify API with status set to 'paid' might be
