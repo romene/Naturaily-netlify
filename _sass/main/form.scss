@@ -43,10 +43,18 @@
   padding-top: 0;
 
   .form-wave {
-    height: 545px;
+    height: 660px;
 
     @media (max-width: 640px) {
-      height: 605px;
+      height: 790px;
+    }
+
+    @media (max-width: 480px) {
+      height: 900px;
+    }
+
+    @media (max-width: 360px) {
+      height: 920px;
     }
   }
 }
