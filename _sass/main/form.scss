@@ -20,7 +20,7 @@
     top: -50px;
     z-index: -1;
     max-width: none;
-    height: 640px;
+    height: 730px;
     min-width: 100%;
   }
 
@@ -32,7 +32,19 @@
   @media (max-width: 640px) {
     margin-bottom: 120px;
     .form-wave {
-      height: 750px;
+      height: 790px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .form-wave {
+      height: 900px;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .form-wave {
+      height: 920px;
     }
   }
 }
