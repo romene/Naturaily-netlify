@@ -8,7 +8,8 @@ description: >-
   (Mosquitto). 
 slug: kafka-mosquitto-microservices
 layout: post
-date: '2018-09-07 09:38:04 +0200'
+twitter-card: summary_large_image
+date: '2018-10-01 10:00:04 +0200'
 category: Ruby on Rails development
 author: Marcin Mantke
 avatar: /assets/images/marcin-mantke.png
