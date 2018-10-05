@@ -6,9 +6,11 @@ description: >-
   utilize Vue.js in their applications.
 slug: companies-vue-js-applications
 layout: post
-date: '2018-08-08 09:38:31 +0000'
-category: Wojciech Miśta
-avatar: /assets/images/maurice.png
+twitter-card: summary_large_image
+date: '2018-10-08 10:40:31 +0200'
+category: Vue.js development
+author: Wojciech Miśta
+avatar: /assets/images/wojtek.jpg
 image: /assets/images/companies-vue-js-applications.jpg
 text-preview: >-
   The popularity of Vue.js is continuously growing at a rapid rate, so now it's
