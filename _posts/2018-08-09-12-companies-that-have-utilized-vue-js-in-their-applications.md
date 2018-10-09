@@ -25,6 +25,8 @@ The popularity of Vue.js is continuously growing at a rapid rate, so now it's a 
 
 Here’s a quick summary of our post that answers this question: [State of Vue.js in 2018](https://naturaily.com/blog/vue-js-2018). Vue.js lets developers create frontend side of an application **remarkably fast**. Since it is a JavaScript framework, and Vue.js is reasonably easy to learn, your development team can pick up the framework with no problems. On top of that, applications developed with Vue.js are **highly performant**.
 
+## Which companies use Vue?
+
 ### [![vue-js-grammarly](/assets/images/vue-js-grammarly.png)](https://www.grammarly.com/){:rel=nofollow} Grammarly
 
 Grammarly is a service that helps you write better in English. You can use it in the editor mode on grammarly.com, or download an extension for your browser. Grammarly scans your text in search of misspells, contextual and punctuation errors. All of these features the editor offers are wrapped up in a **beautiful, simplistic design**. It's not really a surprise that the editor was developed using Vue.js. 
