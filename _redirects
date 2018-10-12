@@ -1,27 +1,28 @@
 # Categories redirects
 
-/blog/category/Android                                               /blog/tags/Native-mobile-development
-/blog/category/CSS                                                   /blog/tags/Frontend-development
-/blog/category/css                                                   /blog/tags/Frontend-development
-/blog/category/SASS		                                               /blog/tags/Frontend-development
-/blog/category/sass		                                               /blog/tags/Frontend-development
-/blog/category/Responsive%20Web%20Design		                         /blog/tags/Frontend-development
-/blog/category/Development                                           /blog/tags/Ruby-on-Rails-development
-/blog/category/Ruby%20on%20Rails		                                 /blog/tags/Ruby-on-Rails-development
-/blog/category/Infographic                                           /blog/tags/Startups
-/blog/category/Startup		                                           /blog/tags/Startups
-/blog/category/Thoughts%20on%20building%20start-ups		               /blog/tags/Startups
-/blog/category/Social%20media		                                     /blog/tags/Startups
-/blog/category/JavaScript                                            /blog/tags/JavaScript-development
-/blog/category/Konferencja%20zespołów%20projektowych                 /blog/tags/Events
-/blog/category/Konferencja%20zespo%C5%82%C3%B3w%20projektowych       /blog/tags/Events
-/blog/category/Management                                            /blog/tags/Agile
-/blog/category/Project%20management		                               /blog/tags/Agile
-/blog/category/Project%20managment		                               /blog/tags/Agile
-/blog/category/Online%20marketing                                    /blog/tags/Online-marketing
-/blog/category/Remote%20development		                               /blog/tags/Remote-work
-/blog/category/Spree%20Commerce		                                   /blog/tags/Spree-development
-/blog/category/Women%20in%20IT		                                   /blog/tags/Diversity
+/blog/category/Android                                               /blog/categories/Native-mobile-development
+/blog/category/CSS                                                   /blog/categories/Frontend-development
+/blog/category/css                                                   /blog/categories/Frontend-development
+/blog/category/SASS		                                               /blog/categories/Frontend-development
+/blog/category/sass		                                               /blog/categories/Frontend-development
+/blog/category/Responsive%20Web%20Design		                         /blog/categories/Frontend-development
+/blog/category/Development                                           /blog/categories/Ruby-on-Rails-development
+/blog/category/Ruby%20on%20Rails		                                 /blog/categories/Ruby-on-Rails-development
+/blog/category/Spree%20Commerce		                                   /blog/categories/Ruby-on-Rails-development
+/blog/category/Infographic                                           /blog/categories/Startups
+/blog/category/Startup		                                           /blog/categories/Startups
+/blog/category/Thoughts%20on%20building%20start-ups		               /blog/categories/Startups
+/blog/category/Social%20media		                                     /blog/categories/Startups
+/blog/category/JavaScript                                            /blog/categories/JavaScript-development
+/blog/category/Konferencja%20zespołów%20projektowych                 /blog/categories/Events
+/blog/category/Konferencja%20zespo%C5%82%C3%B3w%20projektowych       /blog/categories/Events
+/blog/category/Management                                            /blog/categories/Agile
+/blog/category/Project%20management		                               /blog/categories/Agile
+/blog/category/Project%20managment		                               /blog/categories/Agile
+/blog/category/Online%20marketing                                    /blog/categories/Online-marketing
+/blog/category/Remote%20development		                               /blog/categories/Remote-work
+/blog/category/Women%20in%20IT		                                   /blog/categories/Diversity
+/blog/categories/vue.js-development                                  /blog/categories/frontend-development
 
 # Tags redirects
 

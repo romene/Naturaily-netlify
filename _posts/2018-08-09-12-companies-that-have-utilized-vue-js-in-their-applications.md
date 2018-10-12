@@ -8,7 +8,7 @@ slug: companies-vue-js-applications
 layout: post
 twitter-card: summary_large_image
 date: '2018-10-08 10:40:31 +0200'
-category: Vue.js development
+category: Frontend development
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
 image: /assets/images/companies-vue-js-applications.jpg
@@ -29,7 +29,7 @@ Here’s a quick summary of our post that answers this question: [State of Vue.j
 
 ### [![vue-js-grammarly](/assets/images/vue-js-grammarly.png)](https://www.grammarly.com/){:rel=nofollow} Grammarly
 
-Grammarly is a service that helps you write better in English. You can use it in the editor mode on grammarly.com, or download an extension for your browser. Grammarly scans your text in search of misspells, contextual and punctuation errors. All of these features the editor offers are wrapped up in a **beautiful, simplistic design**. It's not really a surprise that the editor was developed using Vue.js. 
+Grammarly is a service that helps you write better in English. You can use it in the editor mode on grammarly.com, or download an extension for your browser. Grammarly scans your text in search of misspells, contextual and punctuation errors. All of these features the editor offers are wrapped up in a **beautiful, simplistic design**. It's not really a surprise that the editor was developed using Vue.js.
 
 ### [![vue-js-9gag](/assets/images/vue-js-9gag.png)](https://www.9gag.com/){:rel=nofollow} 9GAG
 
