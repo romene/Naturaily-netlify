@@ -108,7 +108,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
-  - jekyll-sitemap
+
 
 exclude:
   - Gemfile
