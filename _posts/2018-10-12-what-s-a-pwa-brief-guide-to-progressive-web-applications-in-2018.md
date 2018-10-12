@@ -24,8 +24,6 @@ Many say that PWAs will be the new standard in the future world of mobile apps, 
 
 # What is a PWA?
 
-<br>
-
 The Progressive Web Application is a relatively new concept in the mobile and Internet world. PWAs are developed using certain technologies and approaches to create apps that take advantage of both native and web application features. Essentially, it is a mixture of mobile and web applications. 
 
 Thanks to the concept of Progressive Enhancement they work no matter what browser you use. PWAs give users a great experience on every modern smart device - phone, tablet, PC, you name it. Even though they are ‘just’ web applications, **PWAs act like a regular native app** (with some limitations of course). 
@@ -36,21 +34,13 @@ PWA concept as a whole allows for easier user engagement with your content. Sinc
 
 As we’ve mentioned in one of our [previous posts](https://naturaily.com/blog/pwa-vue-cli-3), during the Google I/O 2017 presentation dedicated to PWA, it was mentioned that even though web applications on mobile have almost **3 times more unique users** compared to native apps, the native apps are 20 times more engaging than web apps. It clearly shows that **PWA is a perfect technology** that will merge these two worlds for your and users’ benefit. 
 
-<br>
-
 ## Read: [How to use PWA plugin in Vue CLI 3.0](https://naturaily.com/blog/pwa-vue-cli-3)
-
-<br>
 
 Here’s a cool showcase of what PWAs can are capable of. Grab your phone and go to this link in your browser: <http://paperplanes.world/>{:rel=nofollow}.
 
 To have the best experience I recommend you to open it on your PC or laptop as well. As you will see, even though you’re just in a browser, the web application behaves just like a native app. It gets an access to your location, accelerometers, and goes fullscreen giving you a **native app-like experience**. How cool is that?!
 
-<br>
-
 # Why PWAs are the next big thing?
-
-<br>
 
 ### Data-friendly
 
@@ -96,8 +86,6 @@ Of course, there are some requirements that have to be met but, fear not, the In
 
 ### So… what do developers use?
 
-<br>
-
 ### React
 
 When it comes to JavaScript frameworks, React seems to be the most popular choice. It is widely used among programmers for web development. There’s a popular tool used for PWA development called `create-react-app` which allows for creating React apps with no build configuration.
@@ -111,8 +99,6 @@ Speaking of React, there’s a really exciting alternative to this popular frame
 With the recent release of Vue CLI 3, easy PWA implementation was introduced to the world of Vue. Developers can use plugins at any point of the development to implement a Progressive Web Application in their project.
 
 ## Read: [Vue CLI 3: New Era in Frontend Development](https://naturaily.com/blog/vue-cli-3-overview)
-
-<br>
 
 # Use Cases
 
