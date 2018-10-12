@@ -24,6 +24,8 @@ Many say that PWAs will be the new standard in the future world of mobile apps, 
 
 # What is a PWA?
 
+<br>
+
 The Progressive Web Application is a relatively new concept in the mobile and Internet world. PWAs are developed using certain technologies and approaches to create apps that take advantage of both native and web application features. Essentially, it is a mixture of mobile and web applications. 
 
 Thanks to the concept of Progressive Enhancement they work no matter what browser you use. PWAs give users a great experience on every modern smart device - phone, tablet, PC, you name it. Even though they are ‘just’ web applications, **PWAs act like a regular native app** (with some limitations of course). 
@@ -34,14 +36,21 @@ PWA concept as a whole allows for easier user engagement with your content. Sinc
 
 As we’ve mentioned in one of our [previous posts](https://naturaily.com/blog/pwa-vue-cli-3), during the Google I/O 2017 presentation dedicated to PWA, it was mentioned that even though web applications on mobile have almost **3 times more unique users** compared to native apps, the native apps are 20 times more engaging than web apps. It clearly shows that **PWA is a perfect technology** that will merge these two worlds for your and users’ benefit. 
 
+<br>
+
 ## Read: [How to use PWA plugin in Vue CLI 3.0](https://naturaily.com/blog/pwa-vue-cli-3)
 
-Here’s a cool showcase of what PWAs can are capable of. Grab your phone and go to this link in your browser: [http://paperplanes.world/](http://paperplanes.world/){:rel=nofollow}.
+<br>
+
+Here’s a cool showcase of what PWAs can are capable of. Grab your phone and go to this link in your browser: <http://paperplanes.world/>{:rel=nofollow}.
 
 To have the best experience I recommend you to open it on your PC or laptop as well. As you will see, even though you’re just in a browser, the web application behaves just like a native app. It gets an access to your location, accelerometers, and goes fullscreen giving you a **native app-like experience**. How cool is that?!
 
+<br>
 
 # Why PWAs are the next big thing?
+
+<br>
 
 ### Data-friendly
 
@@ -63,6 +72,8 @@ Your dev team can update the app whenever they want since there is no App Store 
 
 Lastly, with Progressive Web Apps you don’t have to worry about the security of your app - they are served via HTTPS. This encryption ensures that your application is safe and sound, no one unauthorized can tinker with it.
 
+<br>
+
 ## How are PWAs adjusted for poor connection?
 
 As you can see, a lot of companies aim to develop lightweight apps that will work with slow, 2G connection. Since they want to expand their services on emerging markets, it’s one of their main goals. But how are they managing to do that?
@@ -73,13 +84,19 @@ Designers utilize the power of SVGs as opposed to PNGs or JPEGs. It is essential
 
 Unfortunately, when it comes to PWAs, many of the features from the native equivalent may be stripped down. It’s likely to do with saving data or even PWA support limitations.
 
+<br>
+
 ## What technologies do PWA developers use?
 
 As we’ve mentioned before, PWAs are essentially web apps that, with some help, behave like a native application. What does that mean? The development process for a PWA is quite similar as for a regular web application.
 
 Of course, there are some requirements that have to be met but, fear not, the Internet is full of online tools that will guide you, and make the PWA development simple. Judah Gabriel Himango in his [blog post](https://medium.freecodecamp.org/i-built-a-pwa-and-published-it-in-3-app-stores-heres-what-i-learned-7cb3f56daf9b){:rel=nofollow} has briefly explained the whole process of converting and publishing a web application as a PWA on 3 major platforms - iOS, Android and Windows. He mentioned a very interesting tool called [PWABuilder](https://www.pwabuilder.com/){:rel=nofollow} which can convert a web application into a PWA, give developers some tips on what’s missing in their app and even return ready to publish packages for major platforms.
 
+<br>
+
 ### So… what do developers use?
+
+<br>
 
 ### React
 
@@ -95,6 +112,8 @@ With the recent release of Vue CLI 3, easy PWA implementation was introduced to 
 
 ## Read: [Vue CLI 3: New Era in Frontend Development](https://naturaily.com/blog/vue-cli-3-overview)
 
+<br>
+
 # Use Cases
 
 Let’s jump into some examples of PWAs you may be using today without even noticing!
@@ -103,13 +122,13 @@ Let’s jump into some examples of PWAs you may be using today without even noti
 
 Aliexpress pays close attention to mobile commerce. Unfortunately, they’ve noticed that the mobile Aliexpress website is not as fast and responsive as the native counterpart. The solution was creating a cross-browser Progressive Web Application to reach a broader audience. Aliexpress noted a 104% increase (!!!) in conversion rate across all browsers and 74% increase in time spent per session.
 
-Link: [http://m.aliexpress.com/](http://m.aliexpress.com/){:rel=nofollow}
+Link: <http://m.aliexpress.com/>{:rel=nofollow}
 
 ### Twitter Lite
 
 You can think of Twitter Lite as one of the flagship Progressive Web Applications. It works almost as smooth as the native counterpart. Twitter was aiming to expand their service in emerging markets. This is why Lite version was specifically designed to work great with a poor connection. Twitter Lite takes only 5 seconds to get interactive over 3G! They saw a 75% increase in Tweets sent and 65% increase in pages per session. Average load times were reduced by over 30%.
 
-Link: [http://mobile.twitter.com/](http://mobile.twitter.com/){:rel=nofollow}
+Link: <http://mobile.twitter.com/>{:rel=nofollow}
 
 ### Trivago
 
@@ -137,7 +156,7 @@ Link: [https://pinterest.com/](https://pinterest.com){:rel=nofollow}
 
 Uber wanted to implement native experience in a lightweight web application to expand their services on new markets and platforms. The release of Uber PWA was a great success. The m.uber app loads quickly even with a poor, 2G connection. They’ve used several tricks to make the app as lightweight as possible, and it worked! Core m.uber app comes in at just 50 kB.
 
-Link: [https://m.uber.com/](https://m.uber.com/){:rel=nofollow}
+Link: <https://m.uber.com/>{:rel=nofollow}
 
 ### Tinder
 
