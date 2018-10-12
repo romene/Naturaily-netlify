@@ -24,7 +24,7 @@ layout: default
         </p>
         <div class="post-tags">
           {% for tag in page.tags %}
-            <a href="/blog/tags/{{ tag | replace: " ", "-" }}/">{{ tag }}</a>
+            <a href="/blog/tags/{{ tag | replace: " ", "-" | downcase }}/">{{ tag }}</a>
           {% endfor %}
         </div>
         {% if page.readtime %}
@@ -43,7 +43,7 @@ layout: default
     </article>
     <div class="right-column">
       {% include blog-categories.html %}
-      {% include blog-recentpost.html %}
+      {% include blog-recentpost-by-category.html %}
       {% include blog-meetus.html %}
     </div>
     <div class="post-navigation">

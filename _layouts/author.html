@@ -31,7 +31,7 @@ layout: default
                 </p>
                 <div class="post-tags">
                   {% for tag in post.tags %}
-                    <a href="/blog/tags/{{ tag | replace: " ", "-" }}/">{{ tag }}</a>
+                    <a href="/blog/tags/{{ tag | replace: " ", "-" | downcase }}/">{{ tag }}</a>
                   {% endfor %}
                 </div>
                 {% if post.readtime %}
