@@ -7,7 +7,7 @@ description: >-
 slug: four-reasons-why-qa-team
 layout: post
 twitter-card: summary_large_image
-date: '2018-10-24 10:26:01 +0200'
+date: '2018-10-25 11:00:01 +0200'
 category: Agile
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
