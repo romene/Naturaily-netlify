@@ -29,11 +29,7 @@ This position is often perceived as just a regular software tester. It’s not e
 
 How is this process different for a Quality Assurance Engineer? QAs are involved in every stage of software development. They share their insightful knowledge with Design teams, Developers and Product Owners. QAs find issues and edge cases with the product’s features before they are even developed. It’s easier to do something right from the ground up rather than to fix developed software, right? 
 
-<br>
-
-Why should you invest in a Quality Assurance Engineer?
-
-<br>
+### Why should you invest in a Quality Assurance Engineer?
 
 ## 1. QA gives a different perspective for your team
 
