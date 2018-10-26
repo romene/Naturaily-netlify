@@ -20,11 +20,11 @@ Is love at first sight even a thing? I believe it is! And our new site is a resu
 
 We’ve started thinking about new site quite some time ago but from the start we had some ideas of what it should look like. Here’s what we wanted:
 
-super fast loading time
-scalable architecture
-reliable hosting
-secure
-easy to develop and flexible
+* super fast loading time,
+* scalable architecture,
+* reliable hosting,
+* secure,
+* easy to develop and flexible.
 
 The decision to go static was obvious, but just having a static HTMLs won’t cut it as we wanted blog to be a major part of our site. The next decision to make was to pick a static site generator. Of course, there were a few popular candidates on the horizon such as:
 
