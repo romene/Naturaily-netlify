@@ -8,14 +8,14 @@ image: /assets/images/naturaily-ruby-on-rails-developer-social-media.png
 location: Wrocław / Warszawa / remote
 who_we_are: >-
   We are an agile development team using Ruby on Rails, node.js, React.js and
-  Vue.js craft great digital experiences. We work with startups and grown-up
+  Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: Development
 salary: '6000'
 responsibilities:
   - Programming web apps backend
   - Designing application architecture
-  - Programmings APIs
+  - Programming APIs
 requirements:
   - >-
     Have at least 2y (the more the better) experience with Ruby and Ruby on
