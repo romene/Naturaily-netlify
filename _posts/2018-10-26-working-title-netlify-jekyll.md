@@ -1,10 +1,11 @@
 ---
-title: Working Title Netlify Jekyll
+title: Why You should use Jekyll and Netlify CMS for your site
 description: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
   result of that love.
 slug: working-title-netlify-jekyll
 layout: post
+twitter-card: summary_large_image
 date: '2018-10-26 02:32:17 +0200'
 category: Ruby on Rails development
 author: Paweł Cybulski
@@ -37,9 +38,9 @@ The decision to go static was obvious, but just having a static HTMLs won’t cu
 
 But let’s face it, with our background, and the fact that Ruby is dear to our hearts, the choice was obvious that it had to be Jekyll.
 
-Now what is Jekyll exactly? Jekyll is a static site generator written by a co-founder of Github, Tom Preston-Werner. Blog focused generator, super easy to operate, gives us power of Ruby in form of plugin system for creating custom content for our site, and many more.You can read about that on the Jekyll site.
+Now what is Jekyll exactly? Jekyll is a static site generator written by a co-founder of Github, Tom Preston-Werner. Blog focused generator, super easy to operate, gives us power of Ruby in form of plugin system for creating custom content for our site, and many more. You can read about that on the Jekyll site.
 
-## Title needed
+## Why Netlify?
 
 At first, we wanted to use Jekyll exclusively with [jekyll-admin](https://github.com/jekyll/jekyll-admin){:rel="nofollow"} gem and just host it on our server, but after rethinking this a little we opted for hosting our site on Netlify, as it gives us some really cool perks. To name a few:
 
@@ -54,9 +55,7 @@ So choosing Netlify seemed like a good idea though there still was the case of j
 
 What’s this Editorial Workflow all about actually? It gives our content creators ability to write content (posts, case studies, testimonials and such), request changes, edit it and then, when it’s ready, publish it. Thanks to the way Netlify CMS implements that, each post, testimonial, etc. can be published without any involvement from a developer, but the cool thing about this is that before going live our changes can be previewed on a separate site which is deployed by Netlify out of the box.
 
-
-
-![](/assets/images/netlify-editorial-workflow.png)
+![null](/assets/images/netlify-editorial-workflow.png)
 
 ## Admin
 
@@ -68,10 +67,10 @@ To fully utilise Netlify and for Editorial Workflow to actually work we have to 
 
 In my opinion widgets are the main awesomeness of using Netlify CMS. They give use power to make any page editable through the admin panel, pretty much anything can be edited there. It gives our content creators an ability to set name of  url, title and description, add images, change layouts, and anything else you may think about.
 
-![](/assets/images/netlify-widget-1.jpg)
+![null](/assets/images/netlify-widget-1.jpg)
 
-![](/assets/images/netlify-widget-2.jpg)
+![null](/assets/images/netlify-widget-2.jpg)
 
 ## Is that all?
 
-Of course not, there are many more features that Netlify along with Netlify CMS offer that we haven't used like _Forms_, _Prerendering_ for single page applications, _Split Testing_, _Lambda functions_ for thoese who want more, we can even create custom _Widgets_ and remember that features are constantly added soe you can check and test/use some _Beta Features_. You can check all that on Netlify Documentation [page](https://www.netlify.com/docs){:rel="nofollow" target="_blank"}, as well as Netlify CMS Docs [page](https://www.netlifycms.org/docs){:rel="nofollow" target="_blank"}
+Of course not, there are many more features that Netlify along with Netlify CMS offer that we haven't used like _Forms_, _Prerendering_ for single page applications, _Split Testing_, _Lambda functions_ for thoese who want more, we can even create custom _Widgets_ and remember that features are constantly added so you can check and test (or use) some _Beta Features_. You can check all that on Netlify Documentation [page](https://www.netlify.com/docs){:rel="nofollow" target="_blank"}, as well as Netlify CMS Docs [page](https://www.netlifycms.org/docs){:rel="nofollow" target="_blank"}
