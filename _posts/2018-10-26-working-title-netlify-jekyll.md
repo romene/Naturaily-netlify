@@ -3,7 +3,7 @@ title: Why You should use Jekyll and Netlify CMS for your site
 description: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
   result of that love.
-slug: working-title-netlify-jekyll
+slug: why-jekyll-netlify-cms
 layout: post
 twitter-card: summary_large_image
 date: '2018-10-26 02:32:17 +0200'
