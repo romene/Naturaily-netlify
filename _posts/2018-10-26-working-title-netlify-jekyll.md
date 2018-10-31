@@ -6,7 +6,7 @@ description: >-
 slug: why-jekyll-netlify-cms
 layout: post
 twitter-card: summary_large_image
-date: '2018-10-26 02:32:17 +0200'
+date: '2018-10-31 10:40:17 +0200'
 category: Ruby on Rails development
 author: Paweł Cybulski
 avatar: /assets/images/lighto.jpg
