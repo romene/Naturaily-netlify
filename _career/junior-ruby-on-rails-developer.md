@@ -4,7 +4,7 @@ description: >-
   We are looking for talented Junior Ruby on Rails Developer to help us build
   great digital products.
 layout: career-details
-image: /assets/images/naturaily-ruby-on-rails-developer-social-media.png
+image: /assets/images/naturaily-junior-ruby-on-rails-developer-social-media.png
 twitter-card: summary_large_image
 location: Wrocław
 who_we_are: >-
