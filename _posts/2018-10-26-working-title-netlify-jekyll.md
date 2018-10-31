@@ -9,7 +9,7 @@ twitter-card: summary_large_image
 date: '2018-10-26 02:32:17 +0200'
 category: Ruby on Rails development
 author: Paweł Cybulski
-avatar: /assets/images/maurice.png
+avatar: /assets/images/lighto.jpg
 image: /assets/images/netlify-jekyll.jpg
 text-preview: >-
   Is love at first sight even a thing? I believe it is! And our new site is a
