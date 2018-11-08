@@ -33,9 +33,8 @@ Amazing tools for startups you’ve probably never heard of.
 
 Teams from all around the world say that if you like Trello then you will love Monday. Monday lets you manage a variety of tasks, broken down into manageable projects that you are in complete control of. The tool makes it easy for startups and teams to keep track of the projects by creating boards that show them in current or completed stages. It’s easy to create a priority and set a deadline.
 
-[yt vid]
-
-<iframe width=100% height="300" src="https://youtu.be/1UbaEcto56k"></iframe>
+<iframe width=100% height="300" src="https://youtube.com/embed/1UbaEcto56k"></iframe>
+Check it out here: <https://monday.com/>
 
 ## Carrd.co - Easy website builder
 
