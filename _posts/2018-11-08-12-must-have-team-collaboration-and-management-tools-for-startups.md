@@ -5,7 +5,7 @@ description: >-
   work a little bit easier?
 slug: 12-team-collaboration-management-tools-startups
 layout: post
-twitter-card: summary_large-image
+twitter-card: summary_large_image
 date: '2018-11-09 12:50:51 +0200'
 category: Agile
 author: Wojciech Miśta
