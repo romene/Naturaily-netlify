@@ -6,7 +6,7 @@ description: >-
 slug: 12-team-collaboration-management-tools-startups
 layout: post
 twitter-card: summary_large-image
-date: '2018-11-08 12:21:51 +0200'
+date: '2018-11-09 12:50:51 +0200'
 category: Agile
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
