@@ -9,8 +9,8 @@ twitter-card: summary_large-image
 date: '2018-11-08 12:21:51 +0200'
 category: Agile
 author: Wojciech Miśta
-avatar: /assets/images/maurice.png
-image: /assets/images/vuejs-2018.jpg
+avatar: /assets/images/wojciech.jpg
+image: /assets/images/12-management-collaboration-tools-startups.jpg
 text-preview: >-
   So you have founded a startup. It wasn’t easy, was it? How about making your
   work a little bit easier? Don’t let tedious and recurring tasks drive you away
