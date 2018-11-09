@@ -23,7 +23,7 @@ So you have founded a startup. It wasn’t easy, was it?
 
 How about making your work a little bit easier? Don’t let tedious and recurring tasks drive you away from launching a successful product. You’ve got more important things to do than individually keeping an eye on every team member just to make sure they are doing their job, right?
 
-Don’t make your already difficult work even more difficult. In this post we’ve prepared a list of tools that will make your and yours team job much easier, faster and productive. Some of them are loosely about collaboration and management but bare with me, they will certainly help you with your everyday work. ‘Cause no one wants to work hard, right?
+Don’t make your already difficult work even more difficult. In this post we’ve prepared a list of tools that will make your and yours team job much easier, faster and productive. Some of them are loosely about collaboration and management but bare with me, they will certainly **help you with your everyday work**. ‘Cause no one wants to work hard, right?
 
 Let’s jump into the best online tools for startups, management and collaboration. 
 
@@ -59,7 +59,7 @@ AirTable is a flexible, web-based application that reinvents the way you think o
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/r0lsyTaAuJE" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [HeySpace](https://airtable.com/){:rel=nofollow}
+Check it out here: [AirTable](https://airtable.com/){:rel=nofollow}
 
 ## Coda - collaboration for product teams
 
@@ -67,7 +67,7 @@ Coda is a management and collaboration tool that was created with product teams 
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/Wgtjaxa43e8" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [HeySpace](https://coda.io/){:rel=nofollow}
+Check it out here: [Coda](https://coda.io/){:rel=nofollow}
 
 ## Zapier - automate your workflow
 
@@ -75,23 +75,23 @@ Zapier allows you to automate your tasks by connecting apps you use together. Th
 
 <iframe width="100%" height="450px" src="https://www.youtube.com/embed/yG90m3H_kgA" frameborder="0" allowfullscreen></iframe>
 
-Check it out here: [HeySpace](https://zapier.com/){:rel=nofollow}
+Check it out here: [Zapier](https://zapier.com/){:rel=nofollow}
 
 ## Hootsuite - become a social media ninja
 
 Manage all your social media, including Facebook, Twitter, Google+, YouTube, from one simple dashboard. You can integrate your favourite services like MailChimp, Tumblr, Zapier, Slack and many more. Hootsuite allows you to schedule your posts, create analytics based on your social media pages, monitor popular topics, manage your social media team and many more. 
 
-Check it out here: [HeySpace](https://hootsuite.com/){:rel=nofollow}
+Check it out here: [Hootsuite](https://hootsuite.com/){:rel=nofollow}
 
 ## Shopify - Sophisticated e-commerce platform
 
 Shopify allows you to create highly customisable online store quick and easy. The platform is packed with great features such as Shopify Payments, ready to use themes, sales channels, responsive design, lots of SEO and marketing tools and many more. You can even use your own domain name or sell in retail using an iPad as a POS device. 
 
-Check it out here: [HeySpace](https://shopify.com/){:rel=nofollow}
+Check it out here: [Shopify](https://shopify.com/){:rel=nofollow}
 
 <br>
 
-Now that we have those out of the way, let’s dive deep into some obvious ones that are extremely useful. I have also included most popular alternatives if you’re looking for some new things for you or your team.
+Now that we have those out of the way, let’s dive deep into some **obvious ones that are extremely useful**. I have also included most popular alternatives if you’re looking for some new things for you or your team.
 
 ## Trello
 
@@ -102,7 +102,7 @@ Trello is a web-based project management application that can significantly impr
 **Alternatives for Trello:**
 Asana, Basecamp and recently released Microsoft TFS. 
 
-Check it out here: [HeySpace](https://trello.com/){:rel=nofollow}
+Check it out here: [Trello](https://trello.com/){:rel=nofollow}
 
 ## Slack
 
@@ -111,7 +111,7 @@ The most popular collaboration tool - Slack. It is by far the best solution for 
 **Alternatives for Slack:**
 Let’s just focus on the big guys: Microsoft Teams, Google Hangouts, Facebook Workplace.
 
-Check it out here: [HeySpace](https://slack.com/){:rel=nofollow}
+Check it out here: [Slack](https://slack.com/){:rel=nofollow}
 
 ## Google Tools
 
@@ -124,14 +124,14 @@ Google also offers other interesting tools for marketing and SEO such as Google 
 **Alternatives for Google Suite:**
 Microsoft Office 365 with OneDrive is a much more sophisticated, but premium solution that offers similar collaboration experience to Google’s. 
 
-## Lastpass - Password Manager
+## LastPass - Password Manager
 
 Simplify your life with a password manager. If you want to give your employees access to one company account eg. analytics or e-learning platform, but you don’t want your password to fly around Slack channels, you should consider using a password manager such as LastPass. The service can hook up accounts of your employees to the core one where the passwords and the logins are being stored. It allows them to simply and securely login to accounts of your choice that are used by many people. 
 
 **Alternatives for LastPass:**
 Sticky notes on the edge of your computer screen, Dashlane, Keeper.
 
-Check it out here: [HeySpace](https://lastpass.com/){:rel=nofollow}
+Check it out here: [LastPass](https://lastpass.com/){:rel=nofollow}
 
 <br>
 
