@@ -26,9 +26,9 @@ Naturaily is a great place to work on your existing skills and developing new on
 
 We put emphasis on personal development. At Naturaily we often send our employees to various events including but not limited to lectures, workshops or conferences. If you’re looking for professional improvement you will certainly find something for yourself.
 
-## Codemaggedon
+## From zero to hero
 
-Recently we’ve introduced a new path for Junior Developers that we call… Codemaggedon. It’s an amazing opportunity for you and other aspiring developers to grow and seek knowledge. In a reasonable period of time we will teach you all of the good programming practices, how to use new tools such as Docker and how to work effectively within your team. Also, we’re a huge Agile lovers so expect to learn this too! You will become a mid or even a senior in no time! 
+Recently we’ve introduced a new path for Junior Developers that we call… **Codemaggedon**. It’s an amazing opportunity for you and other aspiring developers to grow and obtain knowledge. Within a reasonable time we will teach you all of the good programming practices, how to use new tools such as Docker and how to work effectively within your team. Also, we’re a huge Agile lovers so expect to learn this too! You will become a mid or even a senior in no time! 
 
 ## Like pizza? We’ll buy it
 
@@ -46,11 +46,11 @@ Each week we have a ‘weekly’ (what a surprise, right?) meeting. It allows us
 
 ## Like new Macs? Easy
 
-![](/assets/images/why-work-at-naturaily.jpg)
-
 On your first day at Naturaily, you will be equipped with a MacBook so you won’t have to use your own device at work. You will also have access to every peripheral you may possibly need such as mice, touchpads, screens, all sorts of cables and dongles. All you have to do is ask our friendly Office Manager, Anna.
 
 What would great hardware be without great software? We use all sorts of tools and applications to make our lives easier and more productive. From Slack and Appear.in, to always keep in touch with other team members, Adobe Cloud, InVision and Sketch for those beautiful UI designs, to PluralSight so that every team member can always learn and improve their skills.
+
+![](/assets/images/why-work-at-naturaily.jpg)
 
 ## Like informal atmosphere? Join us
 
@@ -59,3 +59,5 @@ When you first join Naturaily you may be stressed out that you won’t fit in or
 After time-consuming and challenging tasks you can go relax in our chill room. If you’re feeling ambitious you can even play with other team members on an Xbox. FIFA is our favorite game!
 
 There is no hierarchy in our teams. We highly value equality. Everyone is allowed to speak their minds and is treated equally, no matter their position or experience.
+
+# Check out [Careers at Naturaily](https://naturaily.com/careers)!
