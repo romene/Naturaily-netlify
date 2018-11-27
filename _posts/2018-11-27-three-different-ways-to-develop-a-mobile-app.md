@@ -53,7 +53,7 @@ All the advantages of hybrid apps stem from the fact that, instead of building m
 
 One of the biggest disadvantages of hybrid apps is their performance. Getting those types of apps to work cross-platform can be a lot of work. Sometimes the total cost of developing and maintaining the app may reach the cost of developing separate native apps, thus rendering the cost benefits negligible. It seems the same goes for time - a hybrid app may take less time to develop but if it is complicated and you want it to look right on different operating systems - it will likely take even more time than native development.
 
-## [Progressive Web Applications](https://naturaily.com/blog/pwa-guide)
+## Progressive Web Applications 
 
 In 2015, designer Frances Berriman and Google Chrome engineer Alex Russell coined the term "progressive web apps" to describe apps taking advantage of new features supported by modern browsers, including service workers and web app manifests, that let users upgrade web apps to progressive web applications in their native operating system. Progressive web applications (PWAs) are web applications that load like regular web pages or websites but can offer the user functionality such as working offline, push notifications, and device hardware access that used to only be available in native mobile applications. PWAs are an emerging technology that combine the open standards of the web offered by modern browsers and the benefits of a rich mobile experience. Simply put - PWAs are mobile sites, designed to work like a native app. 
 
@@ -61,6 +61,7 @@ Unfortunately PWA are still relatively new and not broadly supported (Android on
 
 As the technology improves, there definitely emerge some good use cases for PWAs. For instance, large social media sites are a good example of something that would do well as a PWA. Twitter Lite and Pinterest both demonstrate how you can bring your mobile web experience almost on par with your native app, which would work well in markets with poor or expensive connectivity.
 
+Find out more about PWAs [here](https://naturaily.com/blog/pwa-guide).
 <br><br>
 
 Once you develop and release your app, it will most likely grow and change, so the conditions that caused you to make your original choice as to which type of app to built might also change. Whether you decide on native, hybrid or web, very much depends on the nature of your project, what your goals are, and what your users’ expectations are. There is no single answer for every project. 
