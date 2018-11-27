@@ -28,10 +28,11 @@ We hope the guide below will help you make an informed decision that will benefi
 
 Native apps are developed and designed specifically for the operating system that they are running on.
 
-* iOS - Swift or Objective-C
-  Objective-C is the older and currently more favoured language. It is a bit more difficult to learn, but the majority of experienced developers are already familiar with it. Swift is still new but it is growing more and more popular. It is easier to learn, but with that said, it isn’t recommended for big projects.
-* Android - Kotlin or Java
-  Similarly to iOS, when it comes to Android languages, Java is the older and more popular language, but Kotlin isn’t far behind and is said to catch up soon. This is all due to Google announcing it to be Android’s official programming language at Google I/O Developer Conference in  2017.
+* iOS - Swift or Objective-C<br>Objective-C is the older and currently more favoured language. It is a bit more difficult to learn, but the majority of experienced developers are already familiar with it. Swift is still new but it is growing more and more popular. It is easier to learn, but with that said, it isn’t recommended for big projects.
+
+
+
+* Android - Kotlin or Java<br>Similarly to iOS, when it comes to Android languages, Java is the older and more popular language, but Kotlin isn’t far behind and is said to catch up soon. This is all due to Google announcing it to be Android’s official programming language at Google I/O Developer Conference in  2017.
 
 One of the biggest advantages of building a native app is the fact that it makes use of the device’s security, speed and specific features in full. Native code runs fastest for on-screen interactions or processing data that is stored locally. The user experience is usually much better due to the fact that the app looks and acts like other apps on the user’s device. Moreover, an access to wide range of APIs puts no limitation on app usage. 
 
