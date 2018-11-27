@@ -24,6 +24,8 @@ Building a mobile app involves a lot more choices varying from the design, type,
 
 We hope the guide below will help you make an informed decision that will benefit the user experience and not elevate the costs and time of development.
 
+<br>
+
 ## Native
 
 Native apps are developed and designed specifically for the operating system that they are running on.
@@ -38,12 +40,14 @@ One of the biggest advantages of building a native app is the fact that it makes
 
 The biggest disadvantage to building native apps is the cost. The developers must build a separate app for every operating system. This means you might need separate developers for each platform that you want your app to work on.
 
+<br>
+
 ## Hybrid
 
 Hybrid apps are build using a multi-platform technology powered by JavaScript, CSS, HTML5 or all three, and are essentially web apps in a native wrapper. See examples of hybrid frameworks below:
 
-* [Vue Native](https://naturaily.com/services/vue-js-development)
-* [React Native](https://naturaily.com/blog/react-native-things-to-know) - developed by Facebook
+* Vue Native - [read more](https://naturaily.com/blog/vue-js-2018)
+* React Native (developed by Facebook) - [read more](https://naturaily.com/blog/react-native-things-to-know)
 * Angular Mobile (developed by Google) 
 * Flutter (developed by Google) 
 * Xamarin (developed by Microsoft)
@@ -52,6 +56,8 @@ Hybrid apps are build using a multi-platform technology powered by JavaScript, C
 All the advantages of hybrid apps stem from the fact that, instead of building multiple native apps for each operating system, you are only building one core app and only modifying it to work on all platforms. A single code-base makes for fewer developers (lower cost of development), faster and easier updates and lower maintenance cost. If your app seems like it would be a good fit for hybrid, this can considerably reduce your time to market.
 
 One of the biggest disadvantages of hybrid apps is their performance. Getting those types of apps to work cross-platform can be a lot of work. Sometimes the total cost of developing and maintaining the app may reach the cost of developing separate native apps, thus rendering the cost benefits negligible. It seems the same goes for time - a hybrid app may take less time to develop but if it is complicated and you want it to look right on different operating systems - it will likely take even more time than native development.
+
+<br>
 
 ## Progressive Web Applications 
 
@@ -62,7 +68,12 @@ Unfortunately PWA are still relatively new and not broadly supported (Android on
 As the technology improves, there definitely emerge some good use cases for PWAs. For instance, large social media sites are a good example of something that would do well as a PWA. Twitter Lite and Pinterest both demonstrate how you can bring your mobile web experience almost on par with your native app, which would work well in markets with poor or expensive connectivity.
 
 Find out more about PWAs [here](https://naturaily.com/blog/pwa-guide).
-<br><br>
+
+<br>
+
+<br>
+
+<br>
 
 Once you develop and release your app, it will most likely grow and change, so the conditions that caused you to make your original choice as to which type of app to built might also change. Whether you decide on native, hybrid or web, very much depends on the nature of your project, what your goals are, and what your users’ expectations are. There is no single answer for every project. 
 
