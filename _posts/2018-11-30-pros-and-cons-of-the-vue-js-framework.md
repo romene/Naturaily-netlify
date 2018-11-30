@@ -19,11 +19,11 @@ text-preview: >-
 tags:
   - Vue js development
   - Frontend development
-  - Javascript development
+  - JavaScript development
 ---
 Despite being relatively new, the Vue.js framework is growing more and more popular everyday. Just last month it’s been downloaded over **2.4 million times**. Last year it received the highest amount of stars on GitHub out of all JavaScript projects out there, demonstrating how much developers enjoy and appreciate it. The fact that many developers are thinking of trying it out, has inspired us to compile a list of the pros and cons of Vue.js.
 
-
+<br>
 
 ## <span style="color:green">Pros</span> of VueJS
 
@@ -55,6 +55,7 @@ Vue has a native support for **TypeScript**. The team is adding new features and
 ### Browser devtools extensions
 Vue team has released some really good browser devtools extensions for their framework. They let programmers check the current state of Vuex, components, views, manually change particular data or even take a deeper look at events. Fully utilized makes working with Vue a walk in the park.
 
+<br>
 
 ## <span style="color:red">Cons</span> of VueJS 
 
@@ -65,6 +66,7 @@ A corresponding issue might be that there isn’t a lot of libraries/extensions 
 ### (Over-)Flexibility
 Sure it’s nice to have flexibility and many options within a framework that you’re working with. However, when working on a bigger project with many developers involved, this may become an issue. Over-flexibility can over-complicate a project and lead to more errors and irregularities within the code, which in turn would delay the project and increase the cost of development.
 
+<br>
 
 ## Conclusion
 
