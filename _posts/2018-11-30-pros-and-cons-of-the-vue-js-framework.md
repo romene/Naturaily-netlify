@@ -25,7 +25,7 @@ Despite being relatively new, the Vue.js framework is growing more and more popu
 
 
 
-## Pros of VueJS
+## <span style="color:green">Pros</span> of VueJS
 
 ### Size
 We can’t talk the advantages of Vue.js without first mentioning its size. After gzipping it weighs only **18kB**, compared to approximately 80kB for minified jQuery (depending on what version you use) and 29kB after gzipping. The entire Vue ecosystem is small and fast so choosing it means you are getting one of the best speed parameters available. 
@@ -56,7 +56,7 @@ Vue has a native support for **TypeScript**. The team is adding new features and
 Vue team has released some really good browser devtools extensions for their framework. They let programmers check the current state of Vuex, components, views, manually change particular data or even take a deeper look at events. Fully utilized makes working with Vue a walk in the park.
 
 
-## Cons of VueJS 
+## <span style="color:red">Cons</span> of VueJS 
 
 ### Small community
 Vue is still very new and evolving fast. It doesn’t yet have the widespread support of its fellow frameworks as it is not as popular as React or Angular. It was created by a Chinese-American and the majority of the users are non-English speaking. Most of the coding is written in Chinese, which complicates things for English-speaking developers. Unfortunately, since it’s evolving fast, many tutorials that you find online may already be outdated. This means if you get stuck, it might take longer for you to find a solution. 
