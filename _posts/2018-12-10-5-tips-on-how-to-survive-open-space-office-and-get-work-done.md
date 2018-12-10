@@ -1,5 +1,5 @@
 ---
-title: 5 tips on how to survive open space office and get work done
+title: 5 tips on how to survive in an open space office and get work done
 description: >-
   Want to know how to work and survive in an open-space office? Check out our 5
   tips and you'll do just fine!
