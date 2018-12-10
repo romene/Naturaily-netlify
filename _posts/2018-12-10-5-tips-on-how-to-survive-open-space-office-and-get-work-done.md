@@ -52,7 +52,7 @@ Remember to **breathe** deeply when you're outside, too, to get as much air into
 
 ### 4. Technology
 
-Sometimes all it takes is a little technology to help you withstand the challenges of an open office. Can't stand your colleagues' constant chatter? Try wearing **noise-cancelling headphones** while you work. You can also look for a website that has a variety of **white noise** and environmental sounds to use for background. If you prefer music at work, a (study)[https://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work] showed that, for best results, listen to classical music if you're dealing with numbers; pop music for data entry or deadlines and dance music when proofreading or problem-solving. 
+Sometimes all it takes is a little technology to help you withstand the challenges of an open office. Can't stand your colleagues' constant chatter? Try wearing **noise-cancelling headphones** while you work. You can also look for a website that has a variety of **white noise** and environmental sounds to use for background. If you prefer music at work, a [study](https://www.telegraph.co.uk/business/2016/06/02/this-is-the-kind-of-music-you-should-listen-to-at-work) showed that, for best results, listen to classical music if you're dealing with numbers; pop music for data entry or deadlines and dance music when proofreading or problem-solving. 
 
 ### 5. The Pomodoro Technique
 
