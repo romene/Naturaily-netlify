@@ -129,6 +129,12 @@ Recently we have developed a really interesting application for handling online 
 
 
 
+
+“*GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength.*”
+~Fabio Akita, Akita on Rails
+
+
+
 I could go on and on and give you examples of apps you’re probably using quite often that have utilized Ruby on Rails on their backends. My point is, Ruby on Rails is still a widely used and semi-popular technology. It’s not about how fast the performance is out of the box, it’s about how you use it. 
 
 
@@ -312,19 +318,9 @@ You can read more about Amazon Lambda [here](https://aws.amazon.com/lambda/).
 ## Opinions
 
 
-[To można dać embeded do posta, fajnie będzie wyglądać]
-
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">rails keeps ruby alive and hurts ruby at the same time</p>&mdash; Grzegorz Wilczynski (@gwilczyn_ski) <a href="https://twitter.com/gwilczyn_ski/status/751545252100571136?ref_src=twsrc%5Etfw">July 8, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-
-
 
 “*Ruby world ends on one web framework. Rails keeps Ruby alive and hurts Ruby at the same time.*” - Grzegorz Wilczyński, Software Engineer, Lunarem [https://lunarem.com]
 
-
-
-“*GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength.*”
-~Fabio Akita, Akita on Rails
 
 
 
@@ -356,6 +352,8 @@ It wasn’t all that great. The development team run into some challenges. They 
 
 
 Few years back, Matz has announced that he’s working on the new version of Ruby code-named ‘3x3’. It is supposedly going to be 3-times faster than Ruby 2.0. Unfortunately, the release date is unknown. It is believed that this version is scheduled to be released by the end of 2020.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">rails keeps ruby alive and hurts ruby at the same time</p>&mdash; Grzegorz Wilczynski (@gwilczyn_ski) <a href="https://twitter.com/gwilczyn_ski/status/751545252100571136?ref_src=twsrc%5Etfw">July 8, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 
 
