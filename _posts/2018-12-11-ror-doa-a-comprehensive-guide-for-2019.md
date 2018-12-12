@@ -20,13 +20,13 @@ tags:
 ---
 Let’s face it. Ruby on Rails is old. Really old. But judging by the changes that happen on the tech market it’s an extremely mature technology, so it makes perfect sense to use it in certain cases and applications.
 
-Why are we talking about it again? Ruby and Ruby on Rails community has been having a tough time in the past few years due to evident decrease in interest from companies and developers. More and more startups and development teams opt for alternative technologies because of many significant downsides these two technologies have by today’s standards.
+Why are we talking about it again? Ruby and Ruby on Rails community has been having a tough time in the past few years, due to evident decrease in interest from companies and developers. More and more startups and development teams opt for alternative technologies because of many significant downsides these two technologies have by today’s standards.
 
 One may argue that “Ruby is dead” or “Rails is dead” and they may be having a valid point. These rumours didn’t come from nowhere. 
 
-RoR used to be Web 2.0 poster child. After many painful years spent on creating spaghetti code in PHP you could simply build a blog in under 15 minutes. No kidding! On top of that the code looked beautiful! 
+RoR used to be Web 2.0 poster child. After many painful years spent on creating spaghetti code in PHP, you could simply build a blog in under 15 minutes. No kidding! On top of that the code looked beautiful! 
 
-For the first couple of years since the launch, Ruby on Rails turned out to be good enough to build products such as marketplaces, e-commerce sites or even social networks. Everything has changed when smartphones began to be popular. Things got significantly complicated. 
+For the first couple of years since the launch, Ruby on Rails turned out to be good enough to build products such as marketplaces, e-commerce sites or even social networks. Everything has changed when smartphones began to gain popularity. Things got significantly more complicated. 
 
 It turned out that Ruby on Rails is not a perfect technology after all! It is certainly not the best choice to handle problems such as Machine Learning or Blockchain (is it still a thing in 2019?). Twitter moved from Ruby on Rails to Scala, other platforms opted for Go or Rust. It was a big hit for RoR community. People realized that it is not a good technology to handle hundreds of millions of users globally. Unless you’re willing to scale it on multiple servers but that’s a different and expensive story. 
 
@@ -91,6 +91,8 @@ Less and less Gems are being created each year and the same thing goes about the
 ## So it’s almost 2019. What apps are still using Ruby on Rails?
 
 Well, quite a lot actually.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">This is pretty amazing. Both GitHub and Shopify are huge, billion dollar companies running on the original apps made over a decade ago. And they now both on the latest Rails, helping to push the framework forward 🙏🌟👏 <a href="https://t.co/DsWqCjyFjK">https://t.co/DsWqCjyFjK</a></p>&mdash; DHH (@dhh) <a href="https://twitter.com/dhh/status/1030528476250562569?ref_src=twsrc%5Etfw">August 17, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 Currently **GitHub** has over 22 million users and whooping 61 million repositories worldwide. Wow. It is the biggest code repository in the world. 
 
