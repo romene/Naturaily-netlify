@@ -44,17 +44,7 @@ According to the results from StackOverflow’s survey (January 2018), globally 
 
 Things look a bit different if we focus only on the United States.
 
-**The data will be presented as a graph once the post is finished**
-
-Data from Indeed.com:
-
-Ruby - 5 843 jobs, $124,293
-Rails - 2 440,  $124,602
-JavaScript - 32,032, $111,219 (in general, front-end and back-end)
-Node - 9,775, $91,353
-Java - 35 046 jobs, $100,816
-Python - 29,075, $120,207
-Clojure - 253, $103,535
+![ruby-on-rails-salary-indeed-com](/assets/images/ruby-on-rails-salary-indeed.jpg)
 
 You can clearly see that Ruby developer is still one of the highest paying jobs in this category but the number of available positions are getting lower and lower. There are nearly 2-times more open positions for a Node JS developer than there is for a Ruby on Rails developer. 
 
@@ -105,8 +95,8 @@ If you’re a startup then you have probably heard or even are using **Basecamp*
 
 Recently we have developed a really interesting application for handling online real-time bidding during auctions. We have used Ruby on Rails on the backend and VueJS for frontend. It truly works like a charm. You can read more about it here [Artinfo - Portfolio](https://naturaily.com/project/artinfo). 
 
->“GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength."
->~Fabio Akita, Akita on Rails
+> “GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength."
+> ~Fabio Akita, Akita on Rails
 
 I could go on and on and give you examples of apps you’re probably using quite often that have utilized Ruby on Rails on their backends. My point is, Ruby on Rails is still a widely used and semi-popular technology. It’s not about how fast the performance is out of the box, it’s about how you use it. 
 
@@ -247,7 +237,6 @@ Unfortunately, with maturity comes stagnation. As mentioned above, in the past f
 > For at least a couple of years now Ruby is no longer exciting. And it doesn’t have to be - in the long run I don’t expect programming languages to be exciting, I want them to be mature, stable, and reliable. And that’s how I see Ruby in 2019. Every year there are fewer areas in which I need to turn to languages other than Ruby. It’s not and I doubt it will ever be a true “enterprise” technology, but when you need to move fast and be flexible - Ruby will remain a great choice for the coming years.
 >
 > ~Filip Tepper, Senior Engineer, [Castle Intelligence](https://castle.io/)
-
 
 ## Conclusion
 
