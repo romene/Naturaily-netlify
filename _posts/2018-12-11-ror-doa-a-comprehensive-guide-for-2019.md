@@ -154,7 +154,7 @@ As there are gems for every e-commerce feature that you could need, Ruby on Rail
 
 History has shown that many large companies have started with Rails, for example Twitter, AirBnB, Hulu, Netflix (for more check out our list here\[link]), and have either opted for a different framework as the project got larger or just sticked with it. Ruby on Rails has been allowing companies to build a small application or a MVP in no-time. Quick development process allows to early acquire more users what eventually leads to quicker and more profitable monetization of the app. 
 
-Bottom line is that you could, you can and you will be able for a very long time to build all sorts of applications with Rails, from social networks, online shops, auction sites to information systems if you will come to an agreement with some of Rails’ limitations. Ruby and Rails do just a few things but it does them really well.
+Bottom line is that you could, you can and you will be able for a very long time to build all sorts of applications with Rails, from social networks, online shops, auction sites to information systems if you will come to an agreement with some of Rails’ limitations. Ruby and Rails do just a few things but they do them really well.
 
 ## Where Rails falls short?
 
