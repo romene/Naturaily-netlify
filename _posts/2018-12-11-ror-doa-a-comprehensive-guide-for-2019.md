@@ -84,6 +84,11 @@ While we’re at this topic let’s see how are Gem downloads holding up. _Infin
 
 Less and less Gems are being created each year and the same thing goes about their releases. On the other hand, Ruby on Rails downloads are looking much better compared to the previous year. 
 
+> 2019 - there was never a better way for Ruby than 2018, but 2019 shows even bigger potential.
+> Ruby is growing very quickly in the niche it dominates - web development and backend APIs. I’m observing the Ruby market since 2004 and I have never been as excited abour Ruby than now. I see people from different languages switching to Ruby (only at Arkency alone there are 2 ex-c# programmers). Ruby keeps making the developers happy, while at the same time it’s a much more mature ecosystem. I’m especially excited about the growing adoption of DDD/CQRS/Event Sourcing techniqes and mutation testing in the community.
+>
+> ~Andrzej Krzywda, Arkency
+
 ## So it’s almost 2019. What apps are still using Ruby on Rails?
 
 Well, quite a lot actually.
@@ -100,8 +105,8 @@ If you’re a startup then you have probably heard or even are using **Basecamp*
 
 Recently we have developed a really interesting application for handling online real-time bidding during auctions. We have used Ruby on Rails on the backend and VueJS for frontend. It truly works like a charm. You can read more about it here [Artinfo - Portfolio](https://naturaily.com/project/artinfo). 
 
-“_GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength._”
-~Fabio Akita, Akita on Rails
+>“GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength."
+>~Fabio Akita, Akita on Rails
 
 I could go on and on and give you examples of apps you’re probably using quite often that have utilized Ruby on Rails on their backends. My point is, Ruby on Rails is still a widely used and semi-popular technology. It’s not about how fast the performance is out of the box, it’s about how you use it. 
 
@@ -211,21 +216,7 @@ Amazon Lambda and the whole Serverless technology is relatively new. It’s diff
 
 You can read more about Amazon Lambda [here](https://aws.amazon.com/lambda/).
 
-## Opinions
-
-> 2019 - there was never a better way for Ruby than 2018, but 2019 shows even bigger potential.
-> Ruby is growing very quickly in the niche it dominates - web development and backend APIs. I’m observing the Ruby market since 2004 and I have never been as excited abour Ruby than now. I see people from different languages switching to Ruby (only at Arkency alone there are 2 ex-c# programmers). Ruby keeps making the developers happy, while at the same time it’s a much more mature ecosystem. I’m especially excited about the growing adoption of DDD/CQRS/Event Sourcing techniqes and mutation testing in the community.
-> ~Andrzej Krzywda, Arkency
-
-
-> For at least a couple of years now Ruby is no longer exciting. And it doesn’t have to be - in the long run I don’t expect programming languages to be exciting, I want them to be mature, stable, and reliable. And that’s how I see Ruby in 2018 \[2019?]. Every year there are fewer areas in which I need to turn to languages other than Ruby. It’s not and I doubt it will ever be a true “enterprise” technology, but when you need to move fast and be flexible - Ruby will remain a great choice for the coming years.
-> ~Filip Tepper, Senior Engineer,
->
-> [ Castle Intelligence](https://castle.io/)
->
->
-
-**GitLab**
+**GitLab's take on Ruby**
 
 A while back, GitLab has shared their development story about Ruby on Rails. GitLab which is (arguably) the second most popular repository ‘storage’? In the world, is using Ruby on Rails for its backend. GitLab CEO Sid Sijbrandij stated that opting for RoR was a great choice. He said that the ecosystem has allowed them to shape a lot of functionality at a high quality and is still without par. 
 
@@ -239,7 +230,7 @@ Few years back, Matz has announced that he’s working on the new version of Rub
 
 > “Ruby world ends on one web framework. Rails keeps Ruby alive and hurts Ruby at the same time.”
 >
-> ~Grzegorz Wilczyński, Software Engineer, Lunarem \[https://lunarem.com]
+> ~Grzegorz Wilczyński, Software Engineer, [Lunarem](https://lunarem.com)
 
 Fans have noticed that some of the parts of the new version already live in the preview of Ruby 2.6. Various benchmarks show a significant increase in performance due to the inclusion of JIT compiler \[link]. Of course, it’s not the only thing there’s going be changed. Matz stated in an interview that Ruby 2.6 will be released on Christmas Day and will also have some type of concurrency abstraction. 
 
@@ -252,6 +243,11 @@ StackOverflow Developer Survey shows an unfortunate fact - less and less develop
 Ruby is in a point of maturity not many programming language can brag about. It’s currently one of the oldest yet still popular languages out there. It’s a proven and reliable technology that is still widely used all around the world. The community is always there to help. If you got stuck on a problem with your code, chances are that thousands of people had too, thus it’s quite easy to find a solution.
 
 Unfortunately, with maturity comes the stagnation. As mentioned above, in the past few years there hasn’t been many changes or cool new features that would make Ruby ‘hot’ again. Some people may say Ruby and its community are dying. In my opinion this technology is stagnating. To put simply, it’s really slowly becoming a legacy technology. 
+
+> For at least a couple of years now Ruby is no longer exciting. And it doesn’t have to be - in the long run I don’t expect programming languages to be exciting, I want them to be mature, stable, and reliable. And that’s how I see Ruby in 2019. Every year there are fewer areas in which I need to turn to languages other than Ruby. It’s not and I doubt it will ever be a true “enterprise” technology, but when you need to move fast and be flexible - Ruby will remain a great choice for the coming years.
+>
+> ~Filip Tepper, Senior Engineer, [Castle Intelligence](https://castle.io/)
+
 
 ## Conclusion
 
