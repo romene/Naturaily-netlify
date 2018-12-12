@@ -134,7 +134,7 @@ As there are gems for every e-commerce feature that you could need, Ruby on Rail
 
 **Custom Database Solutions** - Ruby on Rails framework works really well for advanced database structures that are required for new and innovative business models. The framework has an excellent Object Relational Mapping, called ActiveRecord which allows developers for easy database manipulation without the need to use SQL. On top of that, Ruby on Rails can smoothly integrate with Database Management Systems such as PostgreSQL. 
 
-**Content Management** - In the Ruby on Rails ecosystem there are so many great, SEO-friendly tools for content creation and management. Maybe a content-centric website would be more right up your alley? If so, then make sure to give Jekyll a shot. It’s the heart of the site you’re reading right now! Learn more about Netlify and Jekyll combo here. \[Link do bloga]
+**Content Management** - In the Ruby on Rails ecosystem there are so many great, SEO-friendly tools for content creation and management. Maybe a content-centric website would be more right up your alley? If so, then make sure to give Jekyll a shot. It’s the heart of the site you’re reading right now! Learn more about Netlify and Jekyll combo [here](https://naturaily.com/blog/why-jekyll-netlify-cms). 
 
 **You don’t have a fixed app concept** - One of the most important advantages of building your application with Ruby on Rails is that you don’t need to have everything planned ahead. Instead, you can add more features as the development goes. It’s one of the reasons Rails is so popular among startups. 
 
@@ -142,7 +142,7 @@ As there are gems for every e-commerce feature that you could need, Ruby on Rail
 
 ## Ruby on Rails and Prototyping
 
-History has shown that many large companies have started with Rails, for example Twitter, AirBnB, Hulu, Netflix (for more check out our list here\[link]), and have either opted for a different framework as the project got larger or just sticked with it. Ruby on Rails has been allowing companies to build a small application or a MVP in no-time. Quick development process allows to early acquire more users what eventually leads to quicker and more profitable monetization of the app. 
+History has shown that many large companies have started with Rails, for example Twitter, AirBnB, Hulu, Netflix (for more check out our list [here](https://naturaily.com/blog/ruby-on-rails-apps)), and have either opted for a different framework as the project got larger or just sticked with it. Ruby on Rails has been allowing companies to build a small application or a MVP in no-time. Quick development process allows to early acquire more users what eventually leads to quicker and more profitable monetization of the app. 
 
 Bottom line is that you could, you can and you will be able for a very long time to build all sorts of applications with Rails, from social networks, online shops, auction sites to information systems if you will come to an agreement with some of Rails’ limitations. Ruby and Rails do just a few things but they do them really well.
 
@@ -214,15 +214,15 @@ It wasn’t all that great. The development team run into some challenges. They 
 
 **Future of Ruby Language**
 
-\[photo] Yukihiro ‘Matz’ Matsumoto - The creator of Ruby programming language
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Link: Ruby is alive and well and thinking about the next 25 years | TechRadar: <a href="https://t.co/ywNBrVjabC">https://t.co/ywNBrVjabC</a></p>&mdash; Yukihiro Matsumoto (@yukihiro_matz) <a href="https://twitter.com/yukihiro_matz/status/978646733927297024?ref_src=twsrc%5Etfw">March 27, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
-Few years back, Matz has announced that he’s working on the new version of Ruby code-named ‘3x3’. It is supposedly going to be 3-times faster than Ruby 2.0. Unfortunately, the release date is unknown. It is believed that this version is scheduled to be released by the end of 2020.
+Few years back, Yukihiro ‘Matz’ Matsumoto - The creator of Ruby programming language, has announced that he’s working on the new version of Ruby code-named ‘3x3’. It is supposedly going to be 3-times faster than Ruby 2.0. Unfortunately, the release date is unknown. It is believed that this version is scheduled to be released by the end of 2020.
 
 > “Ruby world ends on one web framework. Rails keeps Ruby alive and hurts Ruby at the same time.”
 >
 > ~Grzegorz Wilczyński, Software Engineer, [Lunarem](https://lunarem.com)
 
-Fans have noticed that some of the parts of the new version already live in the preview of Ruby 2.6. Various benchmarks show a significant increase in performance due to the inclusion of JIT compiler \[link]. Of course, it’s not the only thing that’s going be to changed. Matz stated in an interview that Ruby 2.6 will be released on Christmas Day and will also have some type of concurrency abstraction. 
+Fans have noticed that some of the parts of the new version already live in the preview of Ruby 2.6. Various benchmarks show a significant increase in performance due to the inclusion of JIT compiler. Of course, it’s not the only thing that’s going be to changed. Matz stated in an interview that Ruby 2.6 will be released on Christmas Day and will also have some type of concurrency abstraction. 
 
 Matsumoto has also stated that in the past Ruby applications haven’t been compatible with other versions. He created “a big gap” by introducing various changes, dividing Ruby community. Now, he’s sure that this mistake won’t happen again. Matz guarantees that every Ruby 2 program will run with Ruby 3 which is a very bold claim. 
 
