@@ -42,11 +42,12 @@ advantage-desc-two: >-
   your project up and running in no time.
 advantage-desc-three-title: Versatile technology
 advantage-desc-three: >-
-  Ruby on Rails is one of the most mature solutions you can find. It has an
-  active community and a great number of resources. Code written in Ruby is
-  praised by developers for its clarity and simplicity. It makes working with
-  Rails easy and fast what eventually leads the project to be bug-free and
-  delivered in no time.
+  Ruby on Rails proved itself to be a perfect match for many types of
+  applications, it is extremely versatile. Airbnb, Twitch, Shopify, Github,
+  Basecamp, Netflix, Hulu - completely different businesses, united by Ruby on
+  Rails technology. All of them deal with extreme user number and traffic, so
+  don’t worry, your Rails-based application will be very reliable and
+  highly-performant.
 advantage-desc-four-title: Clean Code
 advantage-desc-four: >-
   Ruby on Rails is one of the most mature solutions you can find, it has an
@@ -88,3 +89,4 @@ competences:
   - tech-name: Ember
 competences-text: Ruby on Rails
 ---
+
