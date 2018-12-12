@@ -34,13 +34,9 @@ Now, a few years later we ask ourselves a question. Is Ruby on Rails really dead
 
 ## Statistics
 
-
-
 ![ruby-on-rails-stackoverflow-trends](/assets/images/ruby-on-rails-stackoverflow-trends.jpg)
 
 Let’s start with some data from StackOverflow. We can clearly see a significant decrease in community engagement from Ruby and Ruby on Rails compared to Node.js. Yet, Node.js’ community is continuously growing and getting highly popular. Interest in Ruby on Rails framework and Ruby language is closer to 0% than ever before. 
-
-
 
 ![ruby-on-rails-stackoverflow-survey-2018](/assets/images/ruby-on-rails-stackoverflow-survey-2018.jpg)
 
@@ -217,14 +213,17 @@ You can read more about Amazon Lambda [here](https://aws.amazon.com/lambda/).
 
 ## Opinions
 
-“_Ruby world ends on one web framework. Rails keeps Ruby alive and hurts Ruby at the same time._” - Grzegorz Wilczyński, Software Engineer, Lunarem \[https://lunarem.com]
+> 2019 - there was never a better way for Ruby than 2018, but 2019 shows even bigger potential.
+> Ruby is growing very quickly in the niche it dominates - web development and backend APIs. I’m observing the Ruby market since 2004 and I have never been as excited abour Ruby than now. I see people from different languages switching to Ruby (only at Arkency alone there are 2 ex-c# programmers). Ruby keeps making the developers happy, while at the same time it’s a much more mature ecosystem. I’m especially excited about the growing adoption of DDD/CQRS/Event Sourcing techniqes and mutation testing in the community.
+> ~Andrzej Krzywda, Arkency
 
-_2019 - there was never a better way for Ruby than 2018, but 2019 shows even bigger potential.
-Ruby is growing very quickly in the niche it dominates - web development and backend APIs. I’m observing the Ruby market since 2004 and I have never been as excited abour Ruby than now. I see people from different languages switching to Ruby (only at Arkency alone there are 2 ex-c# programmers). Ruby keeps making the developers happy, while at the same time it’s a much more mature ecosystem. I’m especially excited about the growing adoption of DDD/CQRS/Event Sourcing techniqes and mutation testing in the community._
-~Andrzej Krzywda, Arkency
 
-_For at least a couple of years now Ruby is no longer exciting. And it doesn’t have to be - in the long run I don’t expect programming languages to be exciting, I want them to be mature, stable, and reliable. And that’s how I see Ruby in 2018 \[2019?]. Every year there are fewer areas in which I need to turn to languages other than Ruby. It’s not and I doubt it will ever be a true “enterprise” technology, but when you need to move fast and be flexible - Ruby will remain a great choice for the coming years._
-~Filip Tepper, Senior Engineer, [Castle Intelligence](https://castle.io/)
+> For at least a couple of years now Ruby is no longer exciting. And it doesn’t have to be - in the long run I don’t expect programming languages to be exciting, I want them to be mature, stable, and reliable. And that’s how I see Ruby in 2018 \[2019?]. Every year there are fewer areas in which I need to turn to languages other than Ruby. It’s not and I doubt it will ever be a true “enterprise” technology, but when you need to move fast and be flexible - Ruby will remain a great choice for the coming years.
+> ~Filip Tepper, Senior Engineer,
+>
+> [ Castle Intelligence](https://castle.io/)
+>
+>
 
 **GitLab**
 
@@ -238,7 +237,9 @@ It wasn’t all that great. The development team run into some challenges. They 
 
 Few years back, Matz has announced that he’s working on the new version of Ruby code-named ‘3x3’. It is supposedly going to be 3-times faster than Ruby 2.0. Unfortunately, the release date is unknown. It is believed that this version is scheduled to be released by the end of 2020.
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">rails keeps ruby alive and hurts ruby at the same time</p>&mdash; Grzegorz Wilczynski (@gwilczyn_ski) <a href="https://twitter.com/gwilczyn_ski/status/751545252100571136?ref_src=twsrc%5Etfw">July 8, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+> “Ruby world ends on one web framework. Rails keeps Ruby alive and hurts Ruby at the same time.”
+>
+> ~Grzegorz Wilczyński, Software Engineer, Lunarem \[https://lunarem.com]
 
 Fans have noticed that some of the parts of the new version already live in the preview of Ruby 2.6. Various benchmarks show a significant increase in performance due to the inclusion of JIT compiler \[link]. Of course, it’s not the only thing there’s going be changed. Matz stated in an interview that Ruby 2.6 will be released on Christmas Day and will also have some type of concurrency abstraction. 
 
