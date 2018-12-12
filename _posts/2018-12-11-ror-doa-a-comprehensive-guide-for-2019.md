@@ -1,7 +1,7 @@
 ---
 title: RoR - DOA? A comprehensive guide for 2019
 description: >-
-  Every year we hear Ruby on Rails is dead or dying. We're hear to tell you why
+  Every year we hear Ruby on Rails is dead or dying. We're here to tell you why
   you'll still be using it in 2019
 slug: ruby-on-rails-dead-or-alive
 layout: post
@@ -106,7 +106,7 @@ So as you can see, Ruby and Ruby on Rails have gotten popular for a reason! Ther
 
 ### Quick development process
 
-There are not many frameworks/is nothing that can beat Rails in terms of how fast it is to develop a project. It is definitely a go-to technology for startups and companies wanting to release a MVP. Creating a project or a product with Ruby on Rails is extremely fast and easy. Developers who use Ruby on Rails can build applications about 40% faster than teams that use other stacks/technologies. 
+There is nothing that can beat Rails in terms of how fast it is to develop a project. It is definitely a go-to technology for startups and companies wanting to release a MVP. Creating a project or a product with Ruby on Rails is extremely fast and easy. Developers who use Ruby on Rails can build applications about 40% faster than teams that use other stacks. 
 
 ### Easy business logic implementation
 
@@ -120,7 +120,7 @@ Ruby is often praised for the massive library of gems developed by its community
 
 Chances are that if you get stuck at developing a certain feature or implementing external application within your app, there probably already is a ready-to-use gem for it. Ruby library makes developers’ lives much easier and significantly reduces required time-to-market. 
 
-There are certainly many other applications and projects where Ruby or Ruby on Rails fit perfectly. Check out our list of companies that actively use Rails in their apps and products - [here](<>).
+There are certainly many other applications and projects where Ruby or Ruby on Rails fit perfectly. Check out our list of companies that actively use Rails in their apps and products - [here](https://naturaily.com/blog/ruby-on-rails-apps).
 
 ## What type of projects Ruby on Rails is good for?
 
