@@ -1,8 +1,8 @@
 ---
 title: Top JavaScript Trends To Look For In 2019
 description: >-
-  When it comes to backend frameworks written in JavaScript, Node still has no
-  competition, but look out for GraphQL - it might surprise you in the future!
+  If you’re wondering what 2019 will bring when it comes to top JavaScript
+  development check out our newest blog post about upcoming trends. 
 slug: javascript-trends-2019
 layout: post
 twitter-card: summary_image_large
@@ -12,8 +12,8 @@ author: Epifany Bojanowska
 avatar: /assets/images/epifany_bojanowska-2.jpg
 image: /assets/images/javascript-trends-2019.png
 text-preview: >-
-  When it comes to backend frameworks written in JavaScript, Node still has no
-  competition, but look out for GraphQL - it might surprise you in the future!
+  If you’re wondering what 2019 will bring when it comes to top JavaScript
+  development check out our newest blog post about upcoming trends. 
 tags:
   - JavaScript development
   - Frontend development
