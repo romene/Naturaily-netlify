@@ -18,11 +18,11 @@ tags:
   - JavaScript development
   - Frontend development
 ---
-According Stack Overflow Report, JavaScript is one of the most popular languages for software development for many years and we predict it’s not going to lose its position any time soon (thank you Captain Obvious - right?). 
+According Stack Overflow Report, JavaScript has been one of the most popular languages for software development for many years, and we predict it’s not going to lose its position any time soon (thank you Captain Obvious - right?). 
 
 JavaScript frameworks and libraries listed below are usually the top choice for developers of web and mobile applications. One of the reasons why, is that frontend developers that are familliar with JavaScript can build backend applications with the lanugage they already know.
 
-JavaScript development world is changing and doind it fast. Last year was a time when different frameworks aimed to overtakethe competition to become the most used and recognizable among developers. Many projects have switched frameworks and it's a trend we don't see going away any time soon (such as 9GAG that has switched from React to Vue).
+JavaScript development world is changing and doing it fast. We've come upon a time when different frameworks constantly aim to overtake the competition, and become the most used and recognizable framework among developers. Many projects have switched frameworks and it's a trend we don't see going away any time soon (such as 9GAG that has switched from React to Vue).
 
 No matter the size and needs of your company, if you work with JavaScript - it worth taking a look at the trends that are forming. So without further a do, here are the top JavaScript trends to look forward to in 2019.
 
@@ -48,13 +48,12 @@ Due to its popularity and established position (mostly because of support from s
 
 Even if you're new to JavaScript you surely heard about Angular. Developed by Google, this framework is usually used to develop single page applications. 
 
-Every couple of months Google comes up with a new version - from Angular 1 through 7. They keep improving they product and have a devoted following in their community. **However** it is already being surpassed by forementioned Vue when it comes to popularity.
+Every couple of months Google comes up with a new version - from Angular 1 through 7. They keep improving their product and have a devoted following in their community. **However** it is already being surpassed by forementioned Vue when it comes to popularity.
 
 ## The backend of Node.js 
 
-The list of javascript frameworks is incomplete without mentioning Node.js. It is the most popular among backend developers who work with this language. When it comes to the server-side of programming with JS - Node has no competition. It is built on Google Chrome’s JavaScript Engine (V8 Engine). 
+The list of javascript frameworks can't be complete without Node.js. It is the most popular framework among backend developers who work with this language. When it comes to the server-side of programming with JS - **Node has no competition**.
 
-**Node.js is the most popular JavaScript framework** when it comes to back-end and it’s not likely that this is going to change. 
 
 ## Worth mentioning - GraphQL
 
@@ -64,7 +63,7 @@ Many consider that GraphQL is the replacement for the REST APIs in 2019. Since G
 
 ## Conclusion
 
-The community is currently standing strong behind React, and other libraries are following in their technical steps. It’s a safe career choice but you should also consider Vue.js since its rise in popularity is steady and fast. It has already passed Angular, but to be fair this framework still has some adamant followers and specific uses.
+The community is currently standing strong behind React, and other libraries are following in their technical steps. It’s a safe career choice but you should also consider Vue.js, since its rise in popularity is steady and fast. It has already passed Angular, but to be fair this framework still has some adamant followers and specific uses.
 
 
 When it comes to backend frameworks written in JavaScript, Node still has no competition, but look out for GraphQL - it might surprise you in the future!
