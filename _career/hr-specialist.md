@@ -30,10 +30,10 @@ responsibilities:
   - >-
     Administrative duties&#44; including upkeep of employee records
     (attendance&#44; EEO data etc.)
-  - Forecast hiring needs and ensure recruitment process runs smoothly
+  - Forecasting hiring needs and ensuring recruitment process runs smoothly
 requirements:
   - >-
-    1+ years if successful work experience as a Human Resources Specialist&#44;
+    1+ years of successful work experience as a Human Resources Specialist&#44;
     officer&#44; administrator or other HR position
   - >-
     Strong working knowledge of HR functions and procedures (e.g. pay and
@@ -52,8 +52,7 @@ offer:
   - Work-Life balance
   - Flexible working hours and/or home-office
   - Location in the heart of Wrocław’s Old Town
-  - 'Coffee&#44; tea'
-  - 'snacks&#44; fresh fruit'
+  - 'Coffee&#44; tea&#44; snacks&#44; fresh fruit'
   - Pizza Friday
   - 'Workshops&#44; conferences&#44; training'
 salary-range:
