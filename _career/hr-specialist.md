@@ -34,7 +34,7 @@ responsibilities:
 requirements:
   - >-
     1+ years of successful work experience as a Human Resources Specialist&#44;
-    officer&#44; administrator or other HR position
+    officer&#44; administrator or other HR position in the tech industry
   - >-
     Strong working knowledge of HR functions and procedures (e.g. pay and
     benefits&#44; recruitment&#44; training&#44; and development)
@@ -47,7 +47,6 @@ nicehave:
   - >-
     Higher education&#44; preferably related to Human Resources&#44;
     Administration
-  - Experience in the tech industry
 offer:
   - Work-Life balance
   - Flexible working hours and/or home-office
