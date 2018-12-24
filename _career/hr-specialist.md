@@ -10,7 +10,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Business Development
-salary: '4500'
+salary: '6000'
 responsibilities:
   - >-
     Preparing or updating employment records related to hiring&#44;
@@ -31,5 +31,32 @@ responsibilities:
     Administrative duties&#44; including upkeep of employee records
     (attendance&#44; EEO data etc.)
   - Forecast hiring needs and ensure recruitment process runs smoothly
+requirements:
+  - >-
+    1+ years if successful work experience as a Human Resources Specialist&#44;
+    officer&#44; administrator or other HR position
+  - >-
+    Strong working knowledge of HR functions and procedures (e.g. pay and
+    benefits&#44; recruitment&#44; training&#44; and development)
+  - >-
+    Commitment to staying current on understanding of labor laws and
+    disciplinary procedures
+  - 'Proficiency in Microsoft Office&#44; knowledge of HRMS is a plus'
+  - Ethical and discrete handling of confidential information
+nicehave:
+  - >-
+    Higher education&#44; preferably related to Human Resources&#44;
+    Administration
+  - Experience in the tech industry
+offer:
+  - Work-Life balance
+  - Flexible working hours and/or home-office
+  - Location in the heart of Wrocław’s Old Town
+  - 'Coffee&#44; tea'
+  - 'snacks&#44; fresh fruit'
+  - Pizza Friday
+  - 'Workshops&#44; conferences&#44; training'
+salary-range:
+  - 4000-6000 PLN + VAT (B2B)
 ---
 
