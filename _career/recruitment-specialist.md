@@ -42,6 +42,6 @@ offer:
   - Pizza Friday
   - 'Workshops&#44; conferences&#44; training'
 salary-range:
-  - 4000 PLN + VAT (B2B)
+  - 4000 PLN net
 ---
 
