@@ -4,6 +4,8 @@ description: >-
   Working at Naturaily is a great opportunity to enhance your skills and spend
   time with honest and open people. Join us, let's build great things together!
 layout: career-details
+image: /assets/images/recruitment-specialist-naturaily-job-offer.png
+twitter-card: summary_large_image
 location: Wrocław
 who_we_are: >-
   We are an agile development team using Ruby on Rails, node.js, React.js and
