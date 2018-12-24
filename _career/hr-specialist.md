@@ -10,7 +10,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Other
-salary: '6000'
+salary: '4000'
 responsibilities:
   - >-
     Preparing or updating employment records related to hiring&#44;
@@ -55,6 +55,6 @@ offer:
   - Pizza Friday
   - 'Workshops&#44; conferences&#44; training'
 salary-range:
-  - 4000-6000 PLN + VAT (B2B)
+  - 4000 + VAT (B2B)
 ---
 
