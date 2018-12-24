@@ -9,7 +9,7 @@ who_we_are: >-
   We are an agile development team using Ruby on Rails, node.js, React.js and
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
-type: Business Development
+type: Other
 salary: '4000'
 responsibilities:
   - Managing full lifecycle recruitment for different positions
