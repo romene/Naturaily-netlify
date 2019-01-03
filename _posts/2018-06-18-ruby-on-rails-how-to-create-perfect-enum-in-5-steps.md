@@ -142,7 +142,7 @@ class AddStatusToCatalogs < ActiveRecord::Migration[5.1]
     execute <<-SQL
       CREATE TYPE catalog_status AS ENUM ('published', 'unpublished', 'not_set');
     SQL
-    add_column :catalogs, :status, :catalogs_status
+    add_column :catalogs, :status, :catalog_status
   end
 
   def down
