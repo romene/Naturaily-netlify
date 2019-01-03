@@ -27,15 +27,15 @@ responsibilities:
   - Forecasting hiring needs and actively seeking new Talent
 requirements:
   - >-
-    1+ years of experience in recruitment for technical positions (software
+    1+ years of experience in recruitment for technical IT positions (software
     developers&#44; testers)
-  - 'Proficiency in Microsoft Office&#44; knowledge of HRMS is a plus.'
-  - Ethical and discrete handling of confidential information.
-  - Knowledge of Applicant Tracking Systems
+  - Ethical and discrete handling of confidential information
+  - Knowledge of Applicant Tracking System
 nicehave:
   - >-
     Higher education&#44; preferably related to Human Resources&#44;
     Administration
+  - Knowledge of HRMS is a plus
 offer:
   - Work-Life balance
   - Flexible working hours and/or home-office
