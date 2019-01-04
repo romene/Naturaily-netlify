@@ -1,5 +1,5 @@
 ---
-title: What's a PWA? Brief guide to Progressive Web Applications in 2018
+title: What's a PWA? Brief guide to Progressive Web Applications in 2019
 description: >-
   Many say that PWAs will be the new standard in the future world of mobile
   apps, and they're probably right! With tech giants behind it, Progressive Web
@@ -8,7 +8,7 @@ description: >-
 slug: pwa-guide
 layout: post
 twitter-card: summary_large_image
-date: '2018-10-16 09:00:45 +0200'
+date: '2019-01-04 09:00:45 +0200'
 category: Frontend development
 author: Wojciech Miśta
 avatar: /assets/images/wojtek.jpg
