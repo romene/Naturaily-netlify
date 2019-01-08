@@ -31,28 +31,23 @@ According to BuiltWith.com, over **97,000 live websites** are currently using Vu
 
 Next up, NPM downloads.
 
-\[graph z npm-stat.com]
-
-\[sprawdzić czy w styczniu się nic nie zmieniło!!!]
-
+![npm stats 2019 vue react](/assets/images/npm-stat-2019-vue-react.jpg)
 
 December of 2018 has been the best month for Vue by far. That month there were over **2 600 000 downloads of the Vue package**! React had a great year too! In October there were over 14 millions downloads of React. 
 
-As we have mentioned in this post [Vue JS 2018](https://naturaily.com/blog/vue-js-2018), developers are most excited to learn Vue JS out of any other frontend JavaScript frameworks. We can see that from the results of a survey conducted by StateOfJS.com. Statistically, more developers would use VueJS again in future projects than Angular, Preact, Ember or Polymer. 
+As we have mentioned in this post [Vue JS 2018](https://naturaily.com/blog/vue-js-2018), developers are most excited to learn Vue JS out of any other frontend JavaScript frameworks. We can see that from the results of a survey conducted by [StateOfJS.com](https://2018.stateofjs.com/front-end-frameworks/vuejs/){:rel="nofollow"}. Statistically, more developers would use VueJS again in future projects than Angular, Preact, Ember or Polymer. 
 
-### What do developers like most about Vue? 
+### What do developers like most about Vue?
 
 First of all, it’s easy to learn due to detailed and easy to follow documentation. Applications created with Vue are lightweight and have a really good performance. On top of that Vue is full of features making sure that your application can be robust. 
-
-
 
 ## So what will change in 2019 in the world of Vue?
 
 Quite a lot! The Vue codebase is now written using TypeScript. Wait, what? Yeah, it’s really happening. It’s going to be entirely rewritten from ground up. But why?
 
-Multiple sources show that TypeScript is growing with tremendous speed. In 2017 and 2018 it’s surpassed Shell, Ruby and C in the number of projects created on GitHub. 
+Multiple sources show that TypeScript is growing with tremendous speed. In 2017 and 2018 it’s surpassed Shell, Ruby and C in the number of projects created on \[GitHub](https://octoverse.github.com/projects){:rel="nofollow"}. 
 
-\[github octoverse graph]
+![github octoverse typescript 2019](/assets/images/typescript-2019-github.jpg)
 
 StackOverflow survey shows that TypeScript is the 12th most popular programming language among developers. Due to its static type checking nature (think of Java) it’s a bit easier to learn and debug that JavaScript since developers are fully in control of each and every variable, array etc. within their codes. TypeScript doesn’t have type coercion, which can be both good and bad, but ultimately, it leads to less bugs and improves readability which is a big thing for large teams as your code has to be perfectly clear for others. 
 
@@ -60,7 +55,7 @@ TypeScript is a superset of ECMAScript. As a Vue developer, you don’t have to 
 
 ### Are there any benefits of using TypeScript?
 
-Yes! *Evan You*, in his recent presentation, has stated that Vue 3 will be much faster than Vue 2 thanks to the mentioned above migration. Source code will be more maintainable and the whole Vue package will be shrinked down from 20kb gzipped to just below 10kb. 
+Yes! _Evan You_, in his recent presentation, has stated that Vue 3 will be much faster than Vue 2 thanks to the mentioned above migration. Source code will be more maintainable and the whole Vue package will be shrinked down from 20kb gzipped to just below 10kb. 
 
 Considering everything I’ve mentioned above, I think it’s no surprise that the previous TypeScript [support](https://vuejs.org/v2/guide/typescript.html){:rel="nofollow"} Vue’s had is going to be significantly improved with Vue 3.
 
