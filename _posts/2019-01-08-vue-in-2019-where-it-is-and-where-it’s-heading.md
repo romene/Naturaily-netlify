@@ -45,7 +45,7 @@ First of all, it’s easy to learn due to detailed and easy to follow documentat
 
 Quite a lot! The Vue codebase is now written using TypeScript. Wait, what? Yeah, it’s really happening. It’s going to be entirely rewritten from ground up. But why?
 
-Multiple sources show that TypeScript is growing with tremendous speed. In 2017 and 2018 it’s surpassed Shell, Ruby and C in the number of projects created on \[GitHub](https://octoverse.github.com/projects){:rel="nofollow"}. 
+Multiple sources show that TypeScript is growing with tremendous speed. In 2017 and 2018 it’s surpassed Shell, Ruby and C in the number of projects created on [GitHub](https://octoverse.github.com/projects){:rel="nofollow"}. 
 
 ![github octoverse typescript 2019](/assets/images/typescript-2019-github.jpg)
 
