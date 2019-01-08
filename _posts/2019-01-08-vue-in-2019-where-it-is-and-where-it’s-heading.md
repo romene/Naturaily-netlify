@@ -35,7 +35,7 @@ Next up, NPM downloads.
 
 December of 2018 has been the best month for Vue by far. That month there were over **2 600 000 downloads of the Vue package**! React had a great year too! In October there were over 14 millions downloads of React. 
 
-As we have mentioned in this post [Vue JS 2018](https://naturaily.com/blog/vue-js-2018), developers are most excited to learn Vue JS out of any other frontend JavaScript frameworks. We can see that from the results of a survey conducted by [StateOfJS.com](https://2018.stateofjs.com/front-end-frameworks/vuejs/){:rel="nofollow"}. Statistically, more developers would use VueJS again in future projects than Angular, Preact, Ember or Polymer. 
+As we have mentioned in this post [Vue JS 2018](https://naturaily.com/blog/vue-js-2018), developers are most excited to learn Vue JS out of any other frontend JavaScript frameworks. We can see that from the results of a survey conducted by [StateOfJS.com](https://2018.stateofjs.com/front-end-frameworks/vuejs/){:rel="nofollow"}. Statistically, more developers would use VueJS again in future projects than Ember, Polymer or even Angular. 
 
 ### What do developers like most about Vue?
 
