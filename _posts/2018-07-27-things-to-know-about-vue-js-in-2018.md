@@ -29,7 +29,7 @@ Vue.js, the so-called progressive framework took the JavaScript community by sto
 
 Vue.js’ popularity is constantly growing and there are no signs of slowing down! Recently, in June of 2018, it has reached the highest NPM download since its very launch - around **1.6 million monthly downloads**. It received the highest amount of stars on GitHub in 2017 out of all JavaScript projects, even **more than React and Angular**!
 
-Check out this [Star History](http://www.timqian.com/star-history/){:rel="nofollow"} graph. In 2018, the VueJS project has surpassed Facebook's React in tearms of popularity on GitHub.
+Check out this [Star History](http://www.timqian.com/star-history/){:rel="nofollow"} graph. In 2018, the VueJS project has surpassed Facebook's React in terms of popularity on GitHub.
 
 <img src="/assets/images/vue-js-2018-github.png" alt="VueJS in 2018 Github" style="width:100%;height:100%;">
 
