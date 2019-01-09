@@ -19,8 +19,6 @@ tags:
   - Vue js development
   - JavaScript development
 ---
-*Edit 09.01.2018: Updated links*
-
 Vue.js, the so-called progressive framework took the JavaScript community by storm. Now, the state of Vue.js in 2018 puts it in a very strong position against the competition. Learn why in this blog post.
 
 # Read: [Vue in 2019 - where it is and where it's heading](https://naturaily.com/blog/vue-2019)
@@ -70,3 +68,4 @@ It’s also worth mentioning that Vue.js stands really strong in the Chinese mar
 Here’s a brief comparison between Vue.js and React we did a while back. Check it out if you’re interested in both frameworks - [React vs Vue - similarities and differences](https://naturaily.com/blog/react-vue-similarities-and-differences).
 
 ## Read: [Vue.js resources](https://naturaily.com/vue-resources)
+*Edit 09.01.2018: Updated links*
