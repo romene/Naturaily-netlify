@@ -21,11 +21,13 @@ tags:
 ---
 Vue.js, the so-called progressive framework took the JavaScript community by storm. Now, the state of Vue.js in 2018 puts it in a very strong position against the competition. Learn why in this blog post.
 
+# Read: [Vue in 2019 - where it is and where it's heading](https://naturaily.com/blog/vue-2019)
+
 ## Popularity
 
 Vue.js’ popularity is constantly growing and there are no signs of slowing down! Recently, in June of 2018, it has reached the highest NPM download since its very launch - around **1.6 million monthly downloads**. It received the highest amount of stars on GitHub in 2017 out of all JavaScript projects, even **more than React and Angular**!
 
-Check out this [Star History](http://www.timqian.com/star-history/){:rel="nofollow"} graph. In 2018, the VueJS project has surpassed Facebook's React in tearms of popularity on GitHub.
+Check out this [Star History](http://www.timqian.com/star-history/){:rel="nofollow"} graph. In 2018, the VueJS project has surpassed Facebook's React in terms of popularity on GitHub.
 
 <img src="/assets/images/vue-js-2018-github.png" alt="VueJS in 2018 Github" style="width:100%;height:100%;">
 
@@ -66,3 +68,4 @@ It’s also worth mentioning that Vue.js stands really strong in the Chinese mar
 Here’s a brief comparison between Vue.js and React we did a while back. Check it out if you’re interested in both frameworks - [React vs Vue - similarities and differences](https://naturaily.com/blog/react-vue-similarities-and-differences).
 
 ## Read: [Vue.js resources](https://naturaily.com/vue-resources)
+*Edit 09.01.2018: Updated links*
