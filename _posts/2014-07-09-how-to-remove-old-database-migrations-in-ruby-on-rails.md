@@ -43,7 +43,9 @@ The solution
 
 We can just create new migration and copy all add/create statements from `schema.rb`
 
+```console
 rails g migration CreateStructure
+```
 
 The migration can look like this:
 ```ruby
