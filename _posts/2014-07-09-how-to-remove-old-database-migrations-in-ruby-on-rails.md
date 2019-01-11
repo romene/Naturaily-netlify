@@ -4,6 +4,7 @@ description: >-
   In this step-by-step tutorial, we've explained how to remove old database
   migrations in Ruby on Rails. With our guide, it's easier than you think!
 slug: remove-old-migrations-ruby-on-rails
+twitter-card: summary_large_image
 date: '2014-07-09 10:38:01 +0000'
 category: Ruby on Rails development
 author: Jacek Hiszpański
