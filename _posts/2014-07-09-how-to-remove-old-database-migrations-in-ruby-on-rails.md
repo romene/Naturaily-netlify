@@ -4,7 +4,8 @@ description: >-
   In this step-by-step tutorial, we've explained how to remove old database
   migrations in Ruby on Rails. With our guide, it's easier than you think!
 slug: remove-old-migrations-ruby-on-rails
-date: '2014-07-09 10:38:01 +0000'
+twitter-card: summary_large_image
+date: '2019-01-11 10:38:01 +0200'
 category: Ruby on Rails development
 author: Jacek Hiszpański
 avatar: /assets/images/jacek.png
@@ -42,7 +43,9 @@ The solution
 
 We can just create new migration and copy all add/create statements from `schema.rb`
 
+```console
 rails g migration CreateStructure
+```
 
 The migration can look like this:
 ```ruby
