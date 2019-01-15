@@ -5,7 +5,7 @@ description: >-
   you'll still be using it in 2019
 slug: who-gives-f-about-rails
 layout: post
-twitter-card: summary_image_large
+twitter-card: summary_large_image
 date: '2019-01-15 11:45:05 +0200'
 category: Ruby on Rails development
 author: Wojciech Miśta
