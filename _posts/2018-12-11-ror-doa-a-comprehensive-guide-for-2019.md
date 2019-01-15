@@ -222,7 +222,7 @@ Few years back, Yukihiro ‘Matz’ Matsumoto - The creator of Ruby programming 
 >
 > ~Grzegorz Wilczyński, Software Engineer, [Lunarem](https://lunarem.com)
 
-Fans have noticed that some of the parts of the new version already live in the preview of Ruby 2.6. Various benchmarks show a significant increase in performance due to the inclusion of JIT compiler. Of course, it’s not the only thing that’s going be to changed. Matz stated in an interview that Ruby 2.6 will be released on Christmas Day and will also have some type of concurrency abstraction. 
+Fans have noticed that some of the parts of the new version already live in the preview of Ruby 2.6. Various benchmarks show a significant increase in performance due to the inclusion of JIT compiler. Of course, it’s not the only thing that’s going be to changed. Matz stated in an interview that Ruby 2.6 will be released on [Christmas](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/){:rel=nofollow} Day and will also have some type of concurrency abstraction. 
 
 Matsumoto has also stated that in the past Ruby applications haven’t been compatible with other versions. He created “a big gap” by introducing various changes, dividing Ruby community. Now, he’s sure that this mistake won’t happen again. Matz guarantees that every Ruby 2 program will run with Ruby 3 which is a very bold claim. 
 
