@@ -77,9 +77,9 @@ Less and less Gems are being created each year and the same thing goes for their
 > 2019 - there was never a better way for Ruby than 2018, but 2019 shows even bigger potential.
 > Ruby is growing very quickly in the niche it dominates - web development and backend APIs. I’m observing the Ruby market since 2004 and I have never been as excited abour Ruby than now. I see people from different languages switching to Ruby (only at Arkency alone there are 2 ex-c# programmers). Ruby keeps making the developers happy, while at the same time it’s a much more mature ecosystem. I’m especially excited about the growing adoption of DDD/CQRS/Event Sourcing techniqes and mutation testing in the community.
 >
-> ~Andrzej Krzywda, Arkency
+> ~Andrzej Krzywda, [Arkency](https://arkency.com){:rel=nofollow}
 
-## So it’s almost 2019. What apps are still using Ruby on Rails?
+## So it’s 2019. What apps are still using Ruby on Rails?
 
 Well, quite a lot actually.
 
@@ -89,14 +89,14 @@ Currently **GitHub** has over 22 million users and a whooping 61 million reposit
 
 What about Airbnb? It uses Ruby on Rails too since the very beginning of its existence. Millions of users book rooms in over 65,000 locations all around the world every month.
 
-If you’re a startup then you have probably heard or even are using **Basecamp**. Would you be surprised if I told you that Basecamp is not only actively using Ruby on Rails but RoR was born there! And they have even developed a really cool JS framework to work with it - [StimulusJS](https://stimulusjs.org/).
+If you’re a startup then you have probably heard or even are using **Basecamp**. Would you be surprised if I told you that Basecamp is not only actively using Ruby on Rails but RoR was born there! And they have even developed a really cool JS framework to work with it - [StimulusJS](https://stimulusjs.org/){:rel=nofollow}.
 
 **Shopify**, a gigantic e-commerce platform. 
 
 Recently we have developed a really interesting application for handling online real-time bidding during auctions. We have used Ruby on Rails on the backend and VueJS for frontend. It truly works like a charm. You can read more about it here [Artinfo - Portfolio](https://naturaily.com/project/artinfo). 
 
 > “GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength."
-> ~Fabio Akita, Akita on Rails
+> ~Fabio Akita, [Akita on Rails](http://www.akitaonrails.com){:rel:nofollow}
 
 I could go on and on and give you examples of apps you’re probably using quite often that have utilized Ruby on Rails on their backends. My point is, Ruby on Rails is still a widely used and semi-popular technology. It’s not about how fast the performance is out of the box, it’s about how you use it. 
 
@@ -156,9 +156,7 @@ It has to be mentioned - Rails is not a speed demon. If you really/dramatically 
 
 ### Scaling
 
-We all remember the whole Twitter vs Rails drama. It caused many discussions “Rails is not scalable” to surface. Is that really true? Yes, you can scale Ruby on Rails. 
-_I’m shooketh GIF_
-You can either upgrade the server Rails is on or divide the work to multiple servers and tools. Is it worth it? Well, it really depends on your application. 
+We all remember the whole Twitter vs Rails drama. It caused many discussions “Rails is not scalable” to surface. Is that really true? Yes, you can scale Ruby on Rails. You can either upgrade the server Rails is on or divide the work to multiple servers and tools. Is it worth it? Well, it really depends on your application. 
 
 As I have mentioned in the previous paragraph, Rails is considered as relatively less performant back-end technology. Simply put: To achieve the same performance as other framework and back-end solution you may have to “burn” a lot of money on a proper and more performant server infrastructure. Opting for a more performant technology, such as NodeJS or Pheonix, may save you up to a few thousands dollars monthly. 
 
@@ -241,6 +239,8 @@ Unfortunately, with maturity comes stagnation. As mentioned above, in the past f
 ## Conclusion
 
 Even though, after reading this post, using Ruby and Ruby on Rails may seem counterproductive and not like a very good idea, Ruby ecosystem has still a lot going for it. If you fully utilize Ruby on Rails potential then you will be able to develop sophisticated applications in no time. It’s a feature not many frameworks can proudly boast about, as (say it with me!) there’s a gem for everything. 
+
+
 
 New version of Ruby, Ruby 2.6, is supposed to be released within upcoming weeks. Hopefully it will make a significant impact on the market. 
 
