@@ -76,7 +76,7 @@ RedMonk takes GitHub and StackOverflow interest in the language and then compare
 
 **GitHub Stats**
 
-![github-osctoverse-ruby-on-rails](/assets/images/github-octoverse-ruby-on-rails.jpg)
+![github-osctoverse-ruby-on-rails](/assets/images/github-octoverse-ruby-on-rails.jpg){:.float}
 
 This comparison shows how popular a certain language is among GitHub contributors - in other words, how many repositories are developed in a certain technology. It’s quite clear who’s the real winner. As we can see, less and less projects opt for Ruby. Even though it is still in the top 10 most popular languages out there, it’s used less and less each year.
 
