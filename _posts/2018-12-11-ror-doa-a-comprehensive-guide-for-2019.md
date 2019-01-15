@@ -38,9 +38,13 @@ Now, a few years later we ask ourselves a question. Is Ruby on Rails really dead
 
 Let’s start with some data from StackOverflow. We can clearly see a significant decrease in community engagement from Ruby and Ruby on Rails compared to Node.js. Yet, Node.js’ community is continuously growing and getting highly popular. Interest in Ruby on Rails framework and Ruby language is closer to 0% than ever before. 
 
+### StackOverflow Developer Survey
+
 ![ruby-on-rails-stackoverflow-survey-2018](/assets/images/ruby-on-rails-stackoverflow-survey-2018.jpg){:.float}
 
 According to the results from StackOverflow’s survey (January 2018), globally Ruby developers have a salary of $64 000. That’s quite lower than Clojure ($72 000), Rust ($69 000), Erlang ($67 000) or even Go ($66 000) but much higher than JavaScript ($55 000). 
+
+### Indeed
 
 Things look a bit different if we focus only on the United States.
 
