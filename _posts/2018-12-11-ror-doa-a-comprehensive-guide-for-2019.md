@@ -26,8 +26,8 @@ One may argue that “Ruby is dead” or “Rails is dead” and they may be hav
 
 
 >Being in business since 2011 and a Ruby shop since the beginning, here at Rebased we have evaluated numerous alternatives for server-side web application development. Currently, at the end of 2018, I am certain that Ruby on Rails is still the best tool for quick, secure and high quality development of web applications, for most use cases. The rise of rich JavaScript applications have shifted some of the logic onto the frontend and together with emergence of “serverless” tools it means shrinking backend’s responsibilities, maybe even down to just SQL-JSON translation and authorization, but with that being said Ruby on Rails remains as our choice for building backends that are bigger than a few remote function calls. That does not mean Rails is our only-and-always choice, as there are cases when we pick a different technology that’s a better fit for some specific applications, but overall it seems 2019 will also be a year of mostly-Rails for us.
-
->Tomasz Stachewicz, CEO of [Rebased](http://rebased.com){:rel=nofollow}
+>
+>~Tomasz Stachewicz, CEO of [Rebased](http://rebased.com){:rel=nofollow}
 
 
 RoR used to be Web 2.0 poster child. After many painful years spent on creating spaghetti code in PHP, you could simply build a blog in under 15 minutes. No kidding! On top of that the code looked beautiful! 
@@ -114,6 +114,7 @@ If you’re a startup then you have probably heard or even are using **Basecamp*
 Recently we have developed a really interesting application for handling online real-time bidding during auctions. We have used Ruby on Rails on the backend and VueJS for frontend. It truly works like a charm. You can read more about it here [Artinfo - Portfolio](https://naturaily.com/project/artinfo). 
 
 > “GitHub, Heroku, CodeClimate, TravisCI, Shopify. The Rails community is the most influencial community of the past decade, everything else is just following the lead and they’re still years away from surpassing the maturity we achieved through sheer strength."
+>
 > ~Fabio Akita, [Akita on Rails](http://www.akitaonrails.com){:rel:nofollow}
 
 I could go on and on and give you examples of apps you’re probably using quite often that have utilized Ruby on Rails on their backends. My point is, Ruby on Rails is still a widely used and semi-popular technology. It’s not about how fast the performance is out of the box, it’s about how you use it. 
