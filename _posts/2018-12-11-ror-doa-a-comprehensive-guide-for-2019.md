@@ -48,6 +48,10 @@ StacOverflow's annual tradition is to ask developers what they think about certa
 
 According to the results from the same survey, globally Ruby developers have a salary of $64 000. That’s quite lower than Clojure ($72 000), Rust ($69 000), Erlang ($67 000) or even Go ($66 000) but much higher than JavaScript ($55 000). 
 
+<br>
+<br>
+<br>
+
 ### Indeed
 
 Things look a bit different if we focus only on the United States.
