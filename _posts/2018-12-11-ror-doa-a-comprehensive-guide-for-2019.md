@@ -1,12 +1,12 @@
 ---
-title: Who gives a F*** about Rails?
+title: Who gives a F*** about Rails in 2019?
 description: >-
   Every year we hear Ruby on Rails is dead or dying. We're here to tell you why
   you'll still be using it in 2019
 slug: who-gives-f-about-rails
 layout: post
 twitter-card: summary_image_large
-date: '2018-12-11 09:44:05 +0200'
+date: '2019-01-15 11:45:05 +0200'
 category: Ruby on Rails development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
