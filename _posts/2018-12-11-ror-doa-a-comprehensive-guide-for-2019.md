@@ -1,5 +1,5 @@
 ---
-title: RoR - DOA? A comprehensive guide for 2019
+title: Who gives a F*** about Rails?
 description: >-
   Every year we hear Ruby on Rails is dead or dying. We're here to tell you why
   you'll still be using it in 2019
@@ -9,8 +9,8 @@ twitter-card: summary_image_large
 date: '2018-12-11 09:44:05 +0200'
 category: Ruby on Rails development
 author: Wojciech Miśta
-avatar: /assets/images/maurice.png
-image: /assets/images/companies-vue-js-applications.jpg
+avatar: /assets/images/wojciech.jpg
+image: /assets/images/ror_doa_2019.png
 text-preview: >-
   Let’s face it. Ruby on Rails is old. Really old. But judging by the changes
   that happen on the tech market it’s an extremely mature technology, so it
@@ -240,8 +240,4 @@ Unfortunately, with maturity comes stagnation. As mentioned above, in the past f
 
 Even though, after reading this post, using Ruby and Ruby on Rails may seem counterproductive and not like a very good idea, Ruby ecosystem has still a lot going for it. If you fully utilize Ruby on Rails potential then you will be able to develop sophisticated applications in no time. It’s a feature not many frameworks can proudly boast about, as (say it with me!) there’s a gem for everything. 
 
-
-
-New version of Ruby, Ruby 2.6, is supposed to be released within upcoming weeks. Hopefully it will make a significant impact on the market. 
-
-Recent releases of Ruby on Rails sound very promising. Many complaints have been fixed and... tbc.
+Recent and upcoming releases of Ruby on Rails sound very promising. Many of developers' complaints have been fixed, new exciting features are added with every new [version](https://www.ruby-lang.org/en/news/2018/12/25/ruby-2-6-0-released/){:rel=nofollow}. Hopefully Ruby and Rails will both rise again in the near future.
