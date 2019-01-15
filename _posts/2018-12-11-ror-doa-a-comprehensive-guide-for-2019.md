@@ -3,7 +3,7 @@ title: Who gives a F*** about Rails?
 description: >-
   Every year we hear Ruby on Rails is dead or dying. We're here to tell you why
   you'll still be using it in 2019
-slug: ruby-on-rails-dead-or-alive
+slug: who-gives-f-about-rails
 layout: post
 twitter-card: summary_image_large
 date: '2018-12-11 09:44:05 +0200'
