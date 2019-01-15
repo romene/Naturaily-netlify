@@ -24,6 +24,12 @@ Why are we talking about it again? Ruby and Ruby on Rails community has been hav
 
 One may argue that “Ruby is dead” or “Rails is dead” and they may be having a valid point. These rumours didn’t come from nowhere. 
 
+
+>Being in business since 2011 and a Ruby shop since the beginning, here at Rebased we have evaluated numerous alternatives for server-side web application development. Currently, at the end of 2018, I am certain that Ruby on Rails is still the best tool for quick, secure and high quality development of web applications, for most use cases. The rise of rich JavaScript applications have shifted some of the logic onto the frontend and together with emergence of “serverless” tools it means shrinking backend’s responsibilities, maybe even down to just SQL-JSON translation and authorization, but with that being said Ruby on Rails remains as our choice for building backends that are bigger than a few remote function calls. That does not mean Rails is our only-and-always choice, as there are cases when we pick a different technology that’s a better fit for some specific applications, but overall it seems 2019 will also be a year of mostly-Rails for us.
+
+>Tomasz Stachewicz, CEO of [Rebased](http://rebased.com){:rel=nofollow}
+
+
 RoR used to be Web 2.0 poster child. After many painful years spent on creating spaghetti code in PHP, you could simply build a blog in under 15 minutes. No kidding! On top of that the code looked beautiful! 
 
 For the first couple of years since the launch, Ruby on Rails turned out to be good enough to build products such as marketplaces, e-commerce sites or even social networks. Everything has changed when smartphones began to gain popularity. Things got significantly more complicated. 
