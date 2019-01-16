@@ -84,13 +84,13 @@ RedMonk takes GitHub and StackOverflow interest in the language and then compare
 
 ![github-osctoverse-ruby-on-rails](/assets/images/github-octoverse-ruby-on-rails.jpg){:.float}
 
-This comparison shows how popular a certain language is among GitHub contributors - in other words, how many repositories are developed in a certain technology. It’s quite clear who’s the real winner. As we can see, less and less projects opt for Ruby. Even though it is still in the top 10 most popular languages out there, it’s used less and less each year.
+This comparison shows how popular a certain language is among GitHub contributors - in other words, how many repositories are developed in a certain technology. It’s quite clear who’s the real winner. As we can see, fewer and fewer projects opt for Ruby. Even though it is still in the top 10 most popular languages out there, it’s used less and less each year.
 
 **Ruby Gems**
 
-While we’re at this topic let’s see how are Gem downloads holding up. _Infinium_ made a really cool comparison of Gem downloads. They have been tracking the downloads for quite some time and storing in on their database. As a result we can learn more about the current situation Ruby on Rails is in and it doesn’t look really good. 
+While we’re at this topic let’s see how are Gem downloads holding up. _Infinium_ made a really cool [comparison of Gem downloads](https://infinum.co/the-capsized-eight/analyzing-rubygems-stats-v2017){:rel=nofollow}. They have been tracking the downloads for quite some time and storing in on their database. As a result we can learn more about the current situation Ruby on Rails is in and it doesn’t look really good. 
 
-Less and less Gems are being created each year and the same thing goes for their releases. On the other hand, Ruby on Rails downloads are looking much better compared to the previous year. 
+According to data gathered by Infinium, Fewer and fewer Gems are being created each year and the same thing goes for their releases. On the other hand, Ruby on Rails downloads are looking much better compared to the previous year. 
 
 > 2019 - there was never a better way for Ruby than 2018, but 2019 shows even bigger potential.
 > Ruby is growing very quickly in the niche it dominates - web development and backend APIs. I’m observing the Ruby market since 2004 and I have never been as excited abour Ruby than now. I see people from different languages switching to Ruby (only at Arkency alone there are 2 ex-c# programmers). Ruby keeps making the developers happy, while at the same time it’s a much more mature ecosystem. I’m especially excited about the growing adoption of DDD/CQRS/Event Sourcing techniqes and mutation testing in the community.
