@@ -13,6 +13,11 @@ who_we_are: >-
   companies.
 type: Development
 salary: '6000'
+responsibilities:
+  - Developing new user-facing features
+  - Working and collaborating with other team members
+  - Building reusable components and front-end libraries
+  - Making sure the final product works well on multiple platforms
 requirements:
   - Good React knowledge
   - >-
