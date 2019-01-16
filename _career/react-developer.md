@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Development
-salary: '15000'
+salary: '6000'
 requirements:
   - Good React knowledge
   - >-
@@ -24,7 +24,6 @@ requirements:
   - Understanding GIT
   - Good English - both spoken and written
   - 'Good coding habits: good naming&#44; testable functions&#44; readable code'
-  - ''
 nicehave:
   - Experience with consuming RESTful API and JSON
   - Knowledge of some modern JavaScript framework (frontend - Vue/Angular/Ember)
