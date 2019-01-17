@@ -34,7 +34,7 @@ requirements:
   - Good English - both spoken and written
   - 'Good coding habits: good naming&#44; testable functions&#44; readable code'
 nicehave:
-  - Experience with consuming RESTful API and JSON
+  - Experience with consuming RESTful and JSON APIs
   - Knowledge of some modern JavaScript framework (frontend - Vue/Angular/Ember)
   - Knowledge of app optimization and performance
   - 'Familiar with Web Sockets&#44; Web Workers&#44; Web Services&#44; PWA'
