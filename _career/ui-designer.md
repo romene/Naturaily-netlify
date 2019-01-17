@@ -12,11 +12,11 @@ who_we_are: >-
   Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: UX/UI
-salary: Freelance
+salary: freelance
 responsibilities:
   - >-
-    Designing and creating beautiful; intuitive and functional user interfaces
-    based on client’s briefs
+    Designing and creating beautiful&#44; intuitive and functional user
+    interfaces based on client’s briefs
   - Designing visual identification elements
 requirements:
   - 1+ years of experience
