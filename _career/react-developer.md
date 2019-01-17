@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Development
-salary: '6000'
+salary: from 6000 PLN net
 responsibilities:
   - >-
     Development of web-based interface that has reusable components; is both
@@ -20,9 +20,7 @@ responsibilities:
   - >-
     Working and collaborating with other team members (engineering; graphics;
     product)
-  - Making sure the end product works well on multiple platforms
   - Predicting; and adapting to; user interactions
-  - Creating user interfaces that are easily navigated
   - Writing clean; and easily maintainable code
 requirements:
   - Good React knowledge
