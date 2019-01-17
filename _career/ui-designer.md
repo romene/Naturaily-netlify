@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: UX/UI
-salary: let's talk about moneyz
+salary: B2B
 responsibilities:
   - >-
     Designing and creating beautiful; intuitive and functional user interfaces
