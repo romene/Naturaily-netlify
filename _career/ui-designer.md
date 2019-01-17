@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: UX/UI
-salary: B2B
+salary: Freelance
 responsibilities:
   - >-
     Designing and creating beautiful; intuitive and functional user interfaces
@@ -33,6 +33,6 @@ offer:
   - Variety of projects to work on
   - Great environment to learn and enhance your skills
 salary-range:
-  - good stuff
+  - B2B
 ---
 
