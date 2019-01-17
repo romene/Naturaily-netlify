@@ -32,5 +32,7 @@ nicehave:
 offer:
   - Variety of projects to work on
   - Great environment to learn and enhance your skills
+salary-range:
+  - good stuff
 ---
 
