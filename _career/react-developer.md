@@ -14,7 +14,16 @@ who_we_are: >-
 type: Development
 salary: '6000'
 responsibilities:
-  - uzupelnic
+  - >-
+    Development of web-based interface that has reusable components; is both
+    functional and highly-responsive
+  - >-
+    Working and collaborating with other team members (engineering; graphics;
+    product)
+  - Making sure the end product works well on multiple platforms
+  - Predicting; and adapting to; user interactions
+  - Creating user interfaces that are easily navigated
+  - Writing clean; and easily maintainable code
 requirements:
   - Good React knowledge
   - >-
