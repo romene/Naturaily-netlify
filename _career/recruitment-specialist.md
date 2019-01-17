@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Other
-salary: '4000'
+salary: 'from 4000 pln net'
 responsibilities:
   - Managing full lifecycle recruitment for different positions
   - Creating and implementing long-term recruitment strategies
@@ -46,4 +46,3 @@ offer:
 salary-range:
   - 4000 PLN net
 ---
-

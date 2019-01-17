@@ -50,7 +50,7 @@ collections:
         name: "type"
         widget: "select"
         options: ["Development", "UX/UI", "Sales&Marketing", "Business Development", "Operations", "Other"]
-      - {label: "Salary", name: "salary", widget: "number", valueType: "string", min: 1}
+      - {label: "Salary", name: "salary", widget: "string", default: "salary from XXXX pln net"}
       - label: "Responsibilities"
         name: "responsibilities"
         widget: "list"

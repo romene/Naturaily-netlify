@@ -11,7 +11,7 @@ who_we_are: >-
   Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: Development
-salary: '6000'
+salary: 'from 6000 pln net'
 responsibilities:
   - Programming web apps backend
   - Designing application architecture
@@ -42,4 +42,3 @@ offer:
 salary-range:
   - 6000-13000 PLN + VAT (B2B)
 ---
-

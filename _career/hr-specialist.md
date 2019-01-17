@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Other
-salary: '6000'
+salary: 'from 6000 pln net'
 responsibilities:
   - >-
     Preparing or updating employment records related to hiring&#44;
@@ -59,4 +59,3 @@ offer:
 salary-range:
   - 6000 PLN net
 ---
-

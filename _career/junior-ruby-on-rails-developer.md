@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: Development
-salary: '3300'
+salary: 'from 3300 pln net'
 responsibilities:
   - >-
     Programming Ruby (on Rails) applications together with more experienced
@@ -41,4 +41,3 @@ salary-range:
   - 3300-7000 + VAT B2B
   - 2800-7000 gross UOP
 ---
-
