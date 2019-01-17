@@ -15,13 +15,13 @@ type: Development
 salary: from 6000 PLN net
 responsibilities:
   - >-
-    Development of web-based interface that has reusable components; is both
+    Development of web-based interface that has reusable components&#44; is both
     functional and highly-responsive
   - >-
-    Working and collaborating with other team members (engineering; graphics;
-    product)
-  - Predicting; and adapting to; user interactions
-  - Writing clean; and easily maintainable code
+    Working and collaborating with other team members (engineering&#44;
+    graphics&#44; product)
+  - 'Predicting&#44; and adapting to&#44; user interactions'
+  - 'Writing clean&#44; and easily maintainable code'
 requirements:
   - Good React knowledge
   - >-
