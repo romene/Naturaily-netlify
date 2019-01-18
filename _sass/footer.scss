@@ -59,18 +59,17 @@
       display: flex;
       flex-direction: column;
 
-      a {
-        color: $color-global-font;
-
-        &:hover {
-          color: $color-accent-yellow;
-        }
+      a:hover {
+        color: $color-accent-yellow;
       }
+    }
+
+    a {
+      color: $color-global-font;
     }
 
     span {
       margin-top: 20px;
-      float: left;
 
       p {
         margin: 0;
@@ -79,8 +78,7 @@
     }
 
     .tos {
-      margin-top: 15px;
-      color: $color-global-font;
+      margin: 15px 0;
     }
   }
 
