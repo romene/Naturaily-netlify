@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Other
-salary: salary from 5000 pln net
+salary: from 5000 pln net
 responsibilities:
   - 'Being in direct contact with clients (e-mail&#44; Skype&#44; Slack)'
   - Managing tasks
