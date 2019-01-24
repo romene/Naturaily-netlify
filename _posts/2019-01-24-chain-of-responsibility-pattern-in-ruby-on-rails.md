@@ -36,7 +36,7 @@ We were working with big and messy legacy code. There was a gigant `if else` sta
 
 ## Another reason
 
-Services are usually used for everything in Rails, which may not always be an ideal solution. This is our old, but good post about (basic design patterns)[https://naturaily.com/blog/ruby-on-rails-design-patterns]. Services may be very helpful when we have a lot of processes to accomplish, but in our opinion they are overused. Also services should be responsible for only one thing, as deciding how to handle something and handling it are two completely different things
+Services are usually used for everything in Rails, which may not always be an ideal solution. This is our old, but good post about [basic design patterns](https://naturaily.com/blog/ruby-on-rails-design-patterns). Services may be very helpful when we have a lot of processes to accomplish, but in our opinion they are overused. Also services should be responsible for only one thing, as deciding how to handle something and handling it are two completely different things
 
 
 ### Our Idea?
