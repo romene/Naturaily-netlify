@@ -47,22 +47,22 @@ We have created main Chain object, which initializes all handlers and creates a 
 
 ```ruby
 class BasicChain
-  class << self
-    def resolve(*args)
-      reversed_handlers[0...-1].each_with_index do |handler, index|
-        reversed_handlers[index + 1].successor = handler
-      end
-      reversed_handlers.last.call(*args)
-    end
+ class << self
+   def resolve(*args)
+     mapped_handlers[0...-1].each_with_index do |handler, index|
+       mapped_handlers[index + 1].successor = handler
+     end
+     mapped_handlers.last.call(*args)
+   end
 
-    def handlers
-      []
-    end
+   def handlers
+     []
+   end
 
-    def reversed_handlers
-      @reversed_handlers ||= handlers.reverse.map(&:new)
-    end
-  end
+   def mapped_handlers
+     @mapped_handlers ||= handlers.map(&:new)
+   end
+ end
 end
 ```
 
@@ -94,9 +94,9 @@ module ShippingProviderChain
     class << self
       def handlers
         [
-          ShippingProviderChain::FirstProviderHandler,
+          ShippingProviderChain::DefaultProviderHandler,
           ShippingProviderChain::SecondProviderHandler,
-          ShippingProviderChain::DefaultProviderHandler
+          ShippingProviderChain::FirstProviderHandler
         ]
       end
     end
@@ -165,4 +165,4 @@ There is definitely a lot of room for improvement in our implementation but at t
 
 What other solutions would you suggest for our case and why? We’re always happy to learn new things! 
 
-Special thanks to the co-author of this post: Jakub Flasiński. 
+**Special thanks to the reviewer of this post: Jakub Flasiński.**
