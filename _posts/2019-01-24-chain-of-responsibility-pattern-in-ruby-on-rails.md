@@ -21,7 +21,7 @@ While we were working on a project we stumbled upon some legacy code that consis
 ## What is the definition of the Chain of responsibility pattern? 
 
 >Chain the receiving objects and pass the request along the chain until an object handles it.
-
+>
 >~Krzysztof Kempiński, [Chain of Responsibility Design Pattern in Ruby](https://medium.com/kkempin/chain-of-responsibility-design-pattern-in-ruby-e0b756d4bb3b){:rel=nofollow}
 
 It may be useful if we need to store some data that is not related to any model. Essentially, it’s an object oriented version of `if … elsif … elsif … else … end` that is much much easier to extend. Because of that we can’t use hashes. Processing objects, aka handlers, contain logic for handling exactly one case. 
