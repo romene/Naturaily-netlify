@@ -6,7 +6,7 @@ layout: post
 twitter-card: summary_large_image
 date: '2019-01-24 12:45:21 +0200'
 category: Ruby on Rails development
-author: Wojciech Miśta
+author: Klaudia Chudy
 avatar: /assets/images/klaudusia.jpg
 image: /assets/images/chain-of-responsibility-pattern.jpg
 text-preview: >-
