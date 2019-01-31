@@ -177,7 +177,7 @@ It has to be mentioned - Rails is not a speed demon. If you really/dramatically 
 
 We all remember the whole Twitter vs Rails drama. It caused many discussions “Rails is not scalable” to surface. Is that really true? Yes, you can scale Ruby on Rails. You can either upgrade the server Rails is on or divide the work to multiple servers and tools. Is it worth it? Well, it really depends on your application. 
 
-As I have mentioned in the previous paragraph, Rails is considered as relatively less performant back-end technology. Simply put: To achieve the same performance as other framework and back-end solution you may have to “burn” a lot of money on a proper and more performant server infrastructure. Opting for a more performant technology, such as NodeJS or Pheonix, may save you up to a few thousands dollars monthly. 
+As I have mentioned in the previous paragraph, Rails is considered as relatively less performant back-end technology. Simply put: To achieve the same performance as other framework and back-end solution you may have to “burn” a lot of money on a proper and more performant server infrastructure. Opting for a more performant technology, such as NodeJS or Phoenix, may save you up to a few thousands dollars monthly. 
 
 ### Not really flexible - opinionated
 
