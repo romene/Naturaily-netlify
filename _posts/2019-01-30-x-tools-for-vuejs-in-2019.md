@@ -1,7 +1,10 @@
 ---
-title: X Tools for VueJS in 2019
-description: X Tools for VueJS in 2019
-slug: tools-vuejs-2019
+title: 10 Tools and Components for Vue in 2019
+description: >-
+  We guarantee that these tools and components will significantly speed up the
+  process of creating an application and at the same time make sure that it will
+  look awesome.
+slug: 10-tools-vuejs-2019
 layout: post
 twitter-card: summary_large_image
 date: '2019-01-30 01:36:02 +0200'
@@ -9,11 +12,14 @@ category: Frontend development
 author: Wojciech Miśta
 avatar: /assets/images/maurice.png
 image: /assets/images/pros-cons-vue-js.jpg
-text-preview: X Tools for VueJS in 2019
+text-preview: >-
+  We guarantee that these tools and components will significantly speed up the
+  process of creating an application and at the same time make sure that it will
+  look awesome.
 tags:
   - Frontend development
 ---
-Lead...
+In this post we've gathered some our favorite tools and components we often use in development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into 10 Vue.js Tools and Components you should be using in 2019. 
 
 ![null](/assets/images/vuetify.jpg)
 
@@ -25,7 +31,7 @@ Lead...
 
 Vuetify is a widely-loved and praised by developers component framework for Vue. It provides ready-to-use components created according to Google’s Material Design. This framework makes building an application a breeze. Plus, it supports all modern browsers, including IE11 and Safari 9+. 
 
-![](/assets/images/bootstrap-vue.jpg)
+![null](/assets/images/bootstrap-vue.jpg)
 
 ### Bootstrap-vue
 
@@ -35,7 +41,7 @@ Vuetify is a widely-loved and praised by developers component framework for Vue.
 
 Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 components and grid systems for Vue. It allows you to build great looking, responsive web applications with not necessary knowledge of CSS. 
 
-![](/assets/images/fontawesome.png)
+![null](/assets/images/fontawesome.png)
 
 ### Fontawesome
 
@@ -57,6 +63,13 @@ Fontawesome is a great resource to get your icons and SVGs from. It has a wide l
 
 Bulma is a CSS framework that is based on flexbox meaning that it is essentially environment agnostic - it can work with every JavaScript framework! 
 
+![null](/assets/images/sweetmodal.gif)
+
+### SweetModal
+
+**Website**: [SweetModal](https://github.com/adeptoas/sweet-modal-vue)
+SweetModal allows for easy implementation of various kind of modals. Good looking modals are a must-have on every modern website!
+
 ![null](/assets/images/vue-i18n.jpg)
 
 ### Vue-i18n
@@ -75,7 +88,7 @@ This plugin makes an internalization of your application a breeze. I18n has a si
 
 Have you ever wanted to implement a masonry layout in your Vue application? With Vue-masonry-css it’s easy! And thanks to removal of additional Virtual DOM layer, it’s very fast too! Not to mention, the implementation is truly effortless. 
 
-![](/assets/images/vue-select.gif)
+![null](/assets/images/vue-select.gif)
 
 ### Vue-select
 
@@ -83,13 +96,15 @@ Have you ever wanted to implement a masonry layout in your Vue application? With
 
 **Stats**: 2,458
 
-Desc...
+Quick and easy way to implement drop-down list in your Vue application. jQuery free guaranteed! 
+
+![](/assets/images/veevalidate.jpg)
 
 ### VeeValidate
 
 **Website**: [VeeValidate](https://baianat.github.io/vee-validate/)
 
-VeeValidate is a validation library that is similar to HTML5 validation. It allows you to valudate HTML5 inputs as well as custom Vue components.
+VeeValidate is a validation library that is similar to HTML5 validation. It allows you to valudate HTML5 inputs as well as custom Vue components. On top of that, VeeValidate has some neat features such as async validation, delayed (debounced) validation, form localization and many more! 
 
 ![null](/assets/images/paralaxy.gif)
 
@@ -99,10 +114,6 @@ VeeValidate is a validation library that is similar to HTML5 validation. It allo
 
 Great and easy way to implement the parallax effect in you project. Parallaxy is an easy to use component that promises 60 FPS scroll effect. It allows you to customize it by changing CSS classes - you can easily do that using props.  
 
-![null](/assets/images/sweetmodal.gif)
 
-### SweetModal
 
-**Website**: [Vue-Parallaxy](https://github.com/apertureless/vue-parallax)
-
-Great and easy way to implement the parallax effect in you project. Parallaxy is an easy to use component that promises 60 FPS scroll effect. It allows you to customize it by changing CSS classes - you can easily do that using props.
+### Would you add anything to our list? Make sure to share the GitHub link with us in the comments down below!
