@@ -27,7 +27,7 @@ An IoT project is the act of connecting any physical object to the Internet to c
 
 ## Do you need an IoT project?
 
-Occasionally known as the **Industrial IoT**, the benefits of the IoT for business depend on the particular implementation, but the key is that enterprises should have access to more data about their own products and their own internal systems, and a greater ability to make changes as a result. IoT thrives in improving logistics of transport and production. It helps with tracking inventory, supply, demand and even consumer experience. It’s also extremely useful in developing Smart Cities where it enables monitoring of everything starting with public transport to waste management. It shows immense potential in the field of healthcare - like drug monitoring devices that could ensure patients are taking the correct doses of medication as well as measuring patient’s vitals remotely. IoT is also gaining popularity in agriculture and meteorology where it enables tracking and gathering information in remote places. 
+Occasionally known as the **Industrial IoT**, the benefits of the IoT for business depend on the particular implementation, but the key is that enterprises should have access to more data about their own products and their own internal systems, and a greater ability to make changes as a result. IoT thrives in improving logistics of transport and production. It helps with tracking inventory, supply, demand and even consumer experience. It’s also extremely useful in developing Smart Cities where it enables monitoring of everything starting with public transport to waste management. It shows immense potential in the field of healthcare - like drug monitoring devices that could ensure patients are taking the correct doses of medication as well as measuring patient’s vitals remotely. Another domain where IoT is gaining popularity in agriculture and meteorology where it enables tracking and gathering information in remote places. 
 
 ![smart_city_iot](/assets/images/1.png)
 
@@ -37,12 +37,13 @@ Most of the challenges of developing an IoT project stem from lack of knowledge 
 
 ![iot_project](/assets/images/2.png)
 
-## Step by step How To and what not to forget
+## Step by step how to and what not to forget
 
 There are some differences between IoT solutions. That distinction comes from the fact that companies developing them, knew why and how their products can improve their process and/or the consumer’s life. It might sound trivial but many have failed simply because their idea was cool and smart, while not especially helpful. Therefore, when you figure out the use case of your project, you can start to develop an implementation strategy, set goals that are **realistic** and to put it simply - try your best.
 
-Most common **use cases** for IoT are:
+**Step 1** Find the use case.
 
+Most common use cases for IoT are:
 
 * preventative maintenance
 * remote monitoring
@@ -50,10 +51,17 @@ Most common **use cases** for IoT are:
 * environmental monitoring
 * data gathering
 
-When you establish the use case and audience of your project, you should start researching the software and hardware necessary. Take into account the location of the devices, how often you’ll be able to perform maintenance, its geographic coverage, connectivity, etc. Afterwards make sure you know what features you want it to have and how it should perform.
+When you establish the use case and audience of your project, you should start researching the software and hardware necessary. 
 
-When you know the answers to the above questions it’s time to pick out a team. For your IoT project you will need:
+**Step 2** Research software and hardware.
 
+Take into account the location of the devices, how often you’ll be able to perform maintenance, its geographic coverage, connectivity, etc. Afterwards make sure you know what features you want it to have and how it should perform.
+
+When you know the answers to the above questions it’s time to pick out a team. 
+
+**Step 3** Assemble a team.
+
+For your IoT project you will need:
 
 * mechanical engineers
 * electrical engineers
@@ -63,9 +71,23 @@ When you know the answers to the above questions it’s time to pick out a team.
 
 ![iot_project](/assets/images/3.png)
 
-After you’ve assembled a team it’s time to research some more. Find out what materials you should use for your hardware, the range necessary for the device to connect with the network and only then you can start building a **prototype**. Developing it allows to discover the minimum parameters for your IoT project before the full deploy. A prototype then should be thoroughly tested (both its software and hardware). Then it will probably...fail! But don’t worry, it’s just how the process works. You build something, test it, it fails and then you can improve it. It’s a crucial step to any project.
+**Step 4** Build a prototype.
 
-After you’ve improved and tested the hell out of your device you are ready to build and deploy your first IoT project. However this doesn’t mean you’re done. IoT projects need constant improvement and maintenance to justify their development.
+Only after you've assembled a team or engineers, designer and testers you can start building a **prototype**. Developing it allows to discover the minimum parameters for your IoT project before the full deploy. 
+
+
+**Step 5** Quality Assurance. 
+
+A prototype should be thoroughly tested (both its software and hardware). Then it will probably...fail! But don’t worry, it’s just how the process works. You build something, test it, it fails and then you can improve it. It’s a crucial step to any project.
+
+
+**Step 6** Build and deploy your IoT project.
+
+After you’ve improved and tested the hell out of your device you are ready to build and deploy your first IoT project. However this doesn’t mean you’re done...
+
+**Step 7** Practice makes perfect.
+
+IoT projects need constant improvement and maintenance to justify their development. Plan ahead and reserve time and budget for this specific step because overlooking it may cost you the entire project!
 
 ## Conclusion
 
