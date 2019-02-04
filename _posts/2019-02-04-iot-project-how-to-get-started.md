@@ -19,7 +19,7 @@ text-preview: >-
 tags:
   - IoT
 ---
-So you’re thinking of developing your own IoT (**Internet of Things**) project but have no idea what the process looks like and where you should start? Check out the guide below with all the necessary information that will prepare you for the planning and development process.
+So you’re thinking of developing your own IoT (**Internet of Things**) project but have no idea what the process looks like and where you should start? Check out the guide below with all the necessary steps that will prepare you for the planning and development process.
 
 ## What is IoT?
 
@@ -92,5 +92,7 @@ IoT projects need constant improvement and maintenance to justify their developm
 ## Conclusion
 
 The success of your IoT project depends on its use case, market demand, research, funding and management. The bottom line is - you need an extensive business plan and be certain you can afford to develop an IoT project. Make sure you actually need it and that there’s sufficient benefits to it, that justify implementing an IoT solution (the time and cost it generates). If it does - start building and testing, you need not rush it, otherwise you will lose a lot of time and money.
+
+Look out for more articles about the development stages of an IoT project where we'll explore each step in depth.
 
 If you’d like to learn more or need a team to develop your IoT solution - contact us at **hello@naturaily.com**.
