@@ -33,7 +33,7 @@ Occasionally known as the **Industrial IoT**, the benefits of the IoT for busine
 
 ## The challenges of developing an IoT Project
 
-Most of the challenges of developing an IoT project stem from lack of knowledge and preparation. Some companies decide to develop it on their own to reduce cost and end up failing, in turn increasing the overall cost of development. Management often underestimate the complexity of the project and don’t take into account the necessary research, testing and time it takes to succeed. Like any project, an IoT one takes time and money to get right. So be prepared to invest both if you want to get it right. 
+Most of the challenges of developing an IoT project stem from lack of knowledge and preparation. Some companies decide to develop it on their own to reduce cost and end up failing, in turn increasing the overall cost of development. Management often underestimate the complexity of the project and don’t take into account the necessary research, testing and time it takes to succeed. Like any project, an IoT one takes time and money to develop. So be prepared to invest both if you want to get it right. 
 
 ![iot_project](/assets/images/2.png)
 
@@ -42,20 +42,24 @@ Most of the challenges of developing an IoT project stem from lack of knowledge 
 There are some differences between IoT solutions. That distinction comes from the fact that companies developing them, knew why and how their products can improve their process and/or the consumer’s life. It might sound trivial but many have failed simply because their idea was cool and smart, while not especially helpful. Therefore, when you figure out the use case of your project, you can start to develop an implementation strategy, set goals that are **realistic** and to put it simply - try your best.
 
 Most common **use cases** for IoT are:
-<br> - preventative maintenance
-<br> - remote monitoring
-<br> - asset tracking
-<br> - environmental monitoring
-<br> - data gathering
+
+
+* preventative maintenance
+* remote monitoring
+* asset tracking
+* environmental monitoring
+* data gathering
 
 When you establish the use case and audience of your project, you should start researching the software and hardware necessary. Take into account the location of the devices, how often you’ll be able to perform maintenance, its geographic coverage, connectivity, etc. Afterwards make sure you know what features you want it to have and how it should perform.
 
 When you know the answers to the above questions it’s time to pick out a team. For your IoT project you will need:
-<br> - mechanical engineers
-<br> - electrical engineers
-<br> - software engineers
-<br> - Q/A testing experts
-<br> - UX/UI designers.
+
+
+* mechanical engineers
+* electrical engineers
+* software engineers
+* Q/A testing experts
+* UX/UI designers.
 
 ![iot_project](/assets/images/3.png)
 
