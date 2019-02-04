@@ -1,5 +1,5 @@
 ---
-title: 10 Tools and Components for Vue in 2019
+title: 10 Tools and Components for Vue for 2019
 description: >-
   We guarantee that these tools and components will significantly speed up the
   process of creating an application and at the same time make sure that it will
@@ -11,7 +11,7 @@ date: '2019-01-30 01:36:02 +0200'
 category: Frontend development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
-image: /assets/images/pros-cons-vue-js.jpg
+image: /assets/images/10-vue-tools-components-for-2019.jpg
 text-preview: >-
   We guarantee that these tools and components will significantly speed up the
   process of creating an application and at the same time make sure that it will
