@@ -298,8 +298,8 @@
     }
 
     &-hr {
-      height: 1px;
-
+      grid-row: 2;
+      grid-column: 1 / 5;
       &.small-only {
         display: none;
       }
