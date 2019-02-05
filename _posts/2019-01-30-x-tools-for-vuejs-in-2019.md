@@ -4,7 +4,7 @@ description: >-
   We guarantee that these tools and components will significantly speed up the
   process of creating an application and at the same time make sure that it will
   look awesome.
-slug: 10-tools-vuejs-2019
+slug: tools-components-vuejs-2019
 layout: post
 twitter-card: summary_large_image
 date: '2019-01-30 01:36:02 +0200'
