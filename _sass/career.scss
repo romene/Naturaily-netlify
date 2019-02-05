@@ -18,9 +18,9 @@
     font-size: 2.2rem;
   }
 
-  h3 {
+  p {
     margin: 60px 0 75px 30px;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   .big-point {
@@ -47,8 +47,8 @@
 
 .l-career-container {
 
-  h3 {
-    font-weight: 200;
+  p {
+    font-weight: 300;
   }
 
   &.no-gutters {
@@ -151,65 +151,61 @@
   }
 
   .career-card {
-    background: white;
+    display: inline-block;
+    width: 100%;
     margin-top: 30px;
-    border-radius: 4px;
+    padding: 30px 0;
+    overflow: hidden;
+    background: $color-white;
     box-shadow: 0 8px 32px 0 rgba(0,0,0,0.07);
+    border-radius: 4px;
     font-weight: 300;
     transition: all 0.2s ease-in-out;
-    padding: 30px 0;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    span {
+      display: block;
+      padding: 0 30px;
+      transition: color .2s;
+    }
 
     &-job {
-      display: block;
       height: 80px;
-      padding: 0 30px;
-      font-size: 1.7rem;
+      line-height: 30px;
       color: $color-global-font;
-
-      a {
-        display: inline-block;
-        line-height: 30px;
-      }
+      font-size: 1.7rem;
     }
 
     &-rate {
-      color: grey;
-      opacity: 0.7;
-      font-size: 1rem;
-      display: block;
       margin-top: 25px;
-      padding: 0 30px;
+      color: $color-accent-gold;
+      font-size: 1rem;
     }
 
     &-apply {
       display: block;
-      width: 35%;
-      margin-top: 40px;
-      margin-left: 50px;
+      width: 105px;
+      margin: 40px 0 0 50px;
       padding: 8px 15px;
-      color: #FFFFFF;
+      color: $color-white;
       font-size: 0.8rem;
       text-align: center;
     }
 
     .career-hover-wave {
-      display: none;
-      z-index: -1;
       position: absolute;
       top: 170px;
+      z-index: -1;
+      opacity: 0;
+      transition: opacity .2s;
 
       .wave-tail {
-        background-color: #FDF7EB;
-        width: 100%;
         height: 80px;
-      }
-    }
-
-    span a {
-      color: $color-global-font;
-
-      &:hover {
-        text-decoration: none;
+        width: 100%;
+        background-color: #FDF7EB;
       }
     }
   }
@@ -397,18 +393,17 @@
     margin-top: 0;
 
     &:hover {
+      z-index: 2;
       transform: scale(1.1);
       box-shadow: 0 15px 45px 0 rgba(0, 0, 0, 0.1);
-      text-decoration: none;
-      z-index: 2;
-    }
 
-    &:hover > span a {
-      color: $color-secondary;
-    }
+      span {
+        color: $color-secondary;
+      }
 
-    &:hover > .career-hover-wave {
-      display: block;
+      .career-hover-wave {
+        opacity: 1;
+      }
     }
   }
 }
@@ -487,13 +482,6 @@
 }
 
 @media (max-width: 1199px) {
-  .l-content-offers {
-
-    .l-career-container {
-      padding: 0;
-    }
-  }
-
   .benefits-description {
     font-size: 15px;
   }
@@ -510,7 +498,22 @@
   }
 
   .l-career-header {
-    margin-top: 0;
+
+    .big-point {
+      position: relative;
+
+      &::before {
+        position: absolute;
+      }
+
+      h1 {
+        padding-left: 30px;
+      }
+    }
+
+    .point-where {
+      padding-left: 30px;
+    }
 
     h3 {
       margin: 30px 0 40px;
