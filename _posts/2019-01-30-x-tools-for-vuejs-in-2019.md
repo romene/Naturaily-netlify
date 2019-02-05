@@ -31,7 +31,6 @@ In this post we've gathered some our favorite tools and components we often use 
 
 <iframe src="https://ghbtns.com/github-btn.html?user=vuetifyjs&repo=vuetify&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-
 Vuetify is a widely-loved and praised by developers component framework for Vue. It provides ready-to-use components created according to Google’s Material Design. This framework makes building an application a breeze. Plus, it supports all modern browsers, including IE11 and Safari 9+. 
 
 <br>
@@ -45,6 +44,20 @@ Vuetify is a widely-loved and praised by developers component framework for Vue.
 <iframe src="https://ghbtns.com/github-btn.html?user=bootstrap-vue&repo=bootstrap-vue&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
 Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 components and grid systems for Vue. It allows you to build great looking, responsive web applications with not necessary knowledge of CSS. 
+
+<br>
+
+![null](/assets/images/highcharts.jpg)
+
+### HighCharts
+
+**GitHub**: [HighCharts GitHub](https://github.com/highcharts/highcharts)
+
+**Website**: [HighCharts](https://www.highcharts.com)
+
+<iframe src="https://ghbtns.com/github-btn.html?user=highcharts&repo=highcharts&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+
+One of the most popular JavaScript charting library out there, used by companies such as Facebook, Nokia, Yahoo and Verizon! HighCharts make implementing sophisticated charts in you Vue application a breeze. Plus, it's free for non-commercial use. 
 
 <br>
 
@@ -128,7 +141,7 @@ Quick and easy way to implement drop-down list in your Vue application. jQuery f
 
 <br>
 
-![](/assets/images/veevalidate.jpg)
+![null](/assets/images/veevalidate.jpg)
 
 ### VeeValidate
 
