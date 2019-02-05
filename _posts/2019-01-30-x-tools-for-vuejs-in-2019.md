@@ -1,5 +1,5 @@
 ---
-title: 10 Tools and Components for Vue for 2019
+title: 11 Tools and Components for Vue in 2019
 description: >-
   We guarantee that these tools and components will significantly speed up the
   process of creating an application and at the same time make sure that it will
