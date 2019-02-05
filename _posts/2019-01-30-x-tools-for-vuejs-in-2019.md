@@ -43,7 +43,7 @@ Vuetify is a widely-loved and praised by developers component framework for Vue.
 
 <iframe src="https://ghbtns.com/github-btn.html?user=bootstrap-vue&repo=bootstrap-vue&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 components and grid systems for Vue. It allows you to build great looking, responsive web applications with not necessary knowledge of CSS. 
+Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 components and grid systems for Vue. It allows you to build great looking, responsive web applications with no necessary knowledge of CSS. 
 
 <br>
 
@@ -151,7 +151,7 @@ Quick and easy way to implement drop-down list in your Vue application. jQuery f
 
 <iframe src="https://ghbtns.com/github-btn.html?user=baianat&repo=vee-validate&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-VeeValidate is a validation library that is similar to HTML5 validation. It allows you to valudate HTML5 inputs as well as custom Vue components. On top of that, VeeValidate has some neat features such as async validation, delayed (debounced) validation, form localization and many more! 
+VeeValidate is a validation library that is similar to HTML5 validation. It allows you to validate HTML5 inputs as well as custom Vue components. On top of that, VeeValidate has some neat features such as async validation, delayed (debounced) validation, form localization and many more! 
 
 <br>
 
