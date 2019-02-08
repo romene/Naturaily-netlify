@@ -27,7 +27,7 @@ In this post we've gathered some our favorite tools and components we often use 
 
 ### Vuetify
 
-**GitHub**: [Vuetify](https://github.com/vuetifyjs/vuetify)
+**GitHub**: [Vuetify](https://github.com/vuetifyjs/vuetify){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=vuetifyjs&repo=vuetify&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -39,7 +39,7 @@ Vuetify is a widely-loved and praised by developers component framework for Vue.
 
 ### Bootstrap-vue
 
-**GitHub**: [Boostrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
+**GitHub**: [Boostrap-vue](https://github.com/bootstrap-vue/bootstrap-vue){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=bootstrap-vue&repo=bootstrap-vue&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -51,9 +51,9 @@ Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 comp
 
 ### HighCharts
 
-**GitHub**: [HighCharts GitHub](https://github.com/highcharts/highcharts)
+**GitHub**: [HighCharts GitHub](https://github.com/highcharts/highcharts){:rel=nofollow}
 
-**Website**: [HighCharts](https://www.highcharts.com)
+**Website**: [HighCharts](https://www.highcharts.com){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=highcharts&repo=highcharts&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -65,13 +65,13 @@ One of the most popular JavaScript charting library out there, used by companies
 
 ### Fontawesome
 
-**GitHub**: [Fontawesome GitHub](https://github.com/FortAwesome/vue-fontawesome)
+**GitHub**: [Fontawesome GitHub](https://github.com/FortAwesome/Font-Awesome){:rel=nofollow}
 
-**Website**: [Fontawesome Official Website](https://fontawesome.com)
+**Website**: [Fontawesome Official Website](https://fontawesome.com){:rel=nofollow}
 
-<iframe src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=vue-fontawesome&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+<iframe src="https://ghbtns.com/github-btn.html?user=FortAwesome&repo=Font-Awesome&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-Fontawesome is a great resource to get your icons and SVGs from. It has a wide library of free icons with an even larger pro icons storage. With almost 60 thousands stars on GitHub, it found its way into many technologies from web and mobile applications to desktop apps. If you want a hassle-free icon implementation, you should definitely give it a try in your next project.
+FontAwesome is a great resource to get your icons and SVGs from. It has a wide library of free icons with an even larger pro icons storage. With almost 60 thousands stars on GitHub, it found its way into many technologies from web and mobile applications to desktop apps. If you want a hassle-free icon implementation, you should definitely give it a try in your next project. Check out Font-Awesome repo specifically made for Vue [here](https://github.com/FortAwesome/vue-fontawesome){:rel=nofollow}. 
 
 <br>
 
@@ -79,9 +79,9 @@ Fontawesome is a great resource to get your icons and SVGs from. It has a wide l
 
 ### Bulma
 
-**GitHub**: [Bulma GitHub](https://github.com/jgthms/bulma)
+**GitHub**: [Bulma GitHub](https://github.com/jgthms/bulma){:rel=nofollow}
 
-**Website**: [Bulma](https://bulma.io)
+**Website**: [Bulma](https://bulma.io){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&repo=bulma&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -93,9 +93,9 @@ Bulma is a CSS framework that is based on flexbox meaning that it is essentially
 
 ### SweetModal
 
-**GitHub**: [SweetModal GitHub](https://github.com/adeptoas/sweet-modal)
+**GitHub**: [SweetModal GitHub](https://github.com/adeptoas/sweet-modal){:rel=nofollow}
 
-**Website**: [SweetModal](https://github.com/adeptoas/sweet-modal-vue)
+**Website**: [SweetModal](https://github.com/adeptoas/sweet-modal-vue){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=adeptoas&repo=sweet-modal&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -107,7 +107,7 @@ SweetModal allows for easy implementation of various kind of modals. Good lookin
 
 ### Vue-i18n
 
-**Website**: [Vue-i18n](https://github.com/kazupon/vue-i18n)
+**Website**: [Vue-i18n](https://github.com/kazupon/vue-i18n){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=kazupon&repo=vue-i18n&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -119,9 +119,9 @@ This plugin makes an internalization of your application a breeze. I18n has a si
 
 ### Vue-masonry-css
 
-**GitHub**: [Vue-masonry-css GitHub](https://github.com/paulcollett/vue-masonry-css)
+**GitHub**: [Vue-masonry-css GitHub](https://github.com/paulcollett/vue-masonry-css){:rel=nofollow}
 
-**Website**: [Vue-masonry-css](https://github.com/paulcollett/vue-masonry-css)
+**Website**: [Vue-masonry-css](https://github.com/paulcollett/vue-masonry-css){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=paulcollett&repo=vue-masonry-css&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -133,7 +133,7 @@ Have you ever wanted to implement a masonry layout in your Vue application? With
 
 ### Vue-select
 
-**Website**: [Vue-select](https://github.com/sagalbot/vue-select)
+**Website**: [Vue-select](https://github.com/sagalbot/vue-select){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=sagalbot&repo=vue-select&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -145,9 +145,9 @@ Quick and easy way to implement drop-down list in your Vue application. jQuery f
 
 ### VeeValidate
 
-**GitHub**: [VeeValidate GitHub](https://github.com/baianat/vee-validate)
+**GitHub**: [VeeValidate GitHub](https://github.com/baianat/vee-validate){:rel=nofollow}
 
-**Website**: [VeeValidate](https://baianat.github.io/vee-validate/)
+**Website**: [VeeValidate](https://baianat.github.io/vee-validate/){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=baianat&repo=vee-validate&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -159,7 +159,7 @@ VeeValidate is a validation library that is similar to HTML5 validation. It allo
 
 ### Vue-Parallaxy
 
-**GitHub**: [Vue Parallaxy GitHub](https://github.com/apertureless/vue-parallax)
+**GitHub**: [Vue Parallaxy GitHub](https://github.com/apertureless/vue-parallax){:rel=nofollow}
 
 <iframe src="https://ghbtns.com/github-btn.html?user=apertureless&repo=vue-parallax&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
