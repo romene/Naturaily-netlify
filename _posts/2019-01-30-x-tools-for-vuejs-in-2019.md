@@ -19,7 +19,7 @@ text-preview: >-
 tags:
   - Frontend development
 ---
-In this post we've gathered some our favorite tools and components we often use in development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into 10 Vue.js Tools and Components you should be using in 2019. 
+In this post we've gathered some our favorite tools and components we often use in development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into the 11 Tools and Components for Vue development you should be using in 2019. 
 
 <br>
 
@@ -57,7 +57,7 @@ Bootstrap-vue provides a smooth and complete implementations of Bootstrap 4 comp
 
 <iframe src="https://ghbtns.com/github-btn.html?user=highcharts&repo=highcharts&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
-One of the most popular JavaScript charting library out there, used by companies such as Facebook, Nokia, Yahoo and Verizon! HighCharts make implementing sophisticated charts in you Vue application a breeze. Plus, it's free for non-commercial use. 
+One of the most popular JavaScript charting library out there, used by companies such as Facebook, Nokia, Yahoo and Verizon! HighCharts make implementing sophisticated charts in you Vue application a breeze. Even charts filled with a ton of data load and work surprisingly well! Plus, it's free for non-commercial use. 
 
 <br>
 
