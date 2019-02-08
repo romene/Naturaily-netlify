@@ -7,7 +7,7 @@ description: >-
 slug: tools-components-vuejs-2019
 layout: post
 twitter-card: summary_large_image
-date: '2019-01-30 01:36:02 +0200'
+date: '2019-02-08 10:50:02 +0200'
 category: Frontend development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
