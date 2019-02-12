@@ -5,6 +5,7 @@ description: >-
   they can be solved by patterns! Find out what are the basic design patterns in
   Ruby on Rails.
 slug: ruby-on-rails-design-patterns
+twitter-card: summart_large_image
 date: '2016-08-18 10:38:01 +0000'
 category: Ruby on Rails development
 author: Marcin Mantke
@@ -20,7 +21,7 @@ tags:
 ---
 
 
-Not only as programmers, but in day-to-day life, we encounter some problems. Every person has similiar difficulties, and our society has found universal ways, **_patterns_**, to solve that problems. As programmers we also have problems, which can be solved by patterns. Our beloved *Wikipedia* says, that
+Not only as programmers, but in day-to-day life, we encounter some problems. Every person has similar difficulties, and our society has found universal ways, **_patterns_**, to solve that problems. As programmers we also have problems, which can be solved by patterns. Our beloved *Wikipedia* says, that
 
 > **_software design pattern_** is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can > be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations. Design > > patterns are formalized best practices that the programmer can use to solve common problems when designing an application or system.
 
@@ -82,9 +83,9 @@ Methods initialize and call are a must-have. If call method would be too long or
 
 ## Decorator
 
-In OOP, decorator gives us ability to extend particular object's behaviour by equipping it with some additional methods. In Rails ecosystem I've usually seen this design pattern being used with [draper gem](https://github.com/drapergem/draper).
+In OOP, decorator gives us ability to extend particular object's behavior by equipping it with some additional methods. In Rails ecosystem I've usually seen this design pattern being used with [draper gem](https://github.com/drapergem/draper).
 
-Draper is usefull when we have methods in models, which are used only in views. Using decorator design patter means puting in them every bit of logic which is used only in views. So, if in User model we have method `full_name`, e.g.
+Draper is useful when we have methods in models, which are used only in views. Using decorator design pattern means putting in them every bit of logic which is used only in views. So, if in User model we have method `full_name`, e.g.
 
 ```ruby
 def full_name
@@ -120,4 +121,4 @@ And then, we can use this code in our views:
 
 ## That’s all?
 
-Of course not, you silly! The world of design patterns is a lot lot bigger than that. Not every of them would be applicaple in RoR application, though. Or that particular problem you have. But still, it's very good to know some design patterns, even their main ideas. Because maybe one day, you'll have some problem and it can be solved with design pattern you know or at least heard of. Or maybe you will develop your own design pattern, that will be described in books? ;)
+Of course not, you silly! The world of design patterns is a lot lot bigger than that. Not every of them would be applicable in RoR application, though. Or that particular problem you have. But still, it's very good to know some design patterns, even their main ideas. Because maybe one day, you'll have some problem and it can be solved with design pattern you know or at least heard of. Or maybe you will develop your own design pattern, that will be described in books? ;)
