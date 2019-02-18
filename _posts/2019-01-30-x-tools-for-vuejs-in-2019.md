@@ -1,9 +1,9 @@
 ---
 title: 11 Libraries for Vue Development in 2019
 description: >-
-  We guarantee that these tools and components will significantly speed up the
-  process of creating an application and at the same time make sure that it will
-  look awesome.
+  We guarantee that these JavaScript libraries will significantly speed up the
+  development process of your very own Vue application and at the same time make
+  sure that it will look awesome!
 slug: vuejs-libraries-2019
 layout: post
 twitter-card: summary_large_image
@@ -13,9 +13,9 @@ author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
 image: /assets/images/libraries-vue-2019.jpg
 text-preview: >-
-  We guarantee that these tools and components will significantly speed up the
-  process of creating an application and at the same time make sure that it will
-  look awesome.
+  We guarantee that these JavaScript libraries will significantly speed up the
+  development process of your very own Vue application and at the same time make
+  sure that it will look awesome!
 tags:
   - Frontend development
 ---
