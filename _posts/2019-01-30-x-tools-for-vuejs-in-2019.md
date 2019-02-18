@@ -1,5 +1,5 @@
 ---
-title: 11 Tools and Components for Vue in 2019
+title: 11 Libraries for Vue Development in 2019
 description: >-
   We guarantee that these tools and components will significantly speed up the
   process of creating an application and at the same time make sure that it will
@@ -19,7 +19,7 @@ text-preview: >-
 tags:
   - Frontend development
 ---
-In this post we've gathered some our favorite tools and components we often use in development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into the 11 Tools and Components for Vue development you should be using in 2019. 
+In this post we've gathered some our favorite libraries we often use in Vue development. We guarantee that they will significantly speed up the process of creating an application and at the same time make sure that it will look awesome. So without further ado, let's jump into the 11 libraries for Vue development you should be using in 2019. 
 
 <br>
 
