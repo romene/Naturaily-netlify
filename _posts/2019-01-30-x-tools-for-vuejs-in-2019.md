@@ -11,7 +11,7 @@ date: '2019-02-08 10:50:02 +0200'
 category: Frontend development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
-image: /assets/images/10-vue-tools-components-for-2019.jpg
+image: /assets/images/libraries-vue-2019.jpg
 text-preview: >-
   We guarantee that these tools and components will significantly speed up the
   process of creating an application and at the same time make sure that it will
