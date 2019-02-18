@@ -225,6 +225,7 @@
 /blog/post/biggest-startup-failures-and-successes-of-2017                                                                 /blog/startup-failures-successes-2017
 /blog/post/what-is-design-sprint-and-why-does-your-company-need-it                                                        /blog/what-is-design-sprint
 /blog/post/ruby-on-rails---how-to-create-perfect-enum-in-5-steps                                                          /blog/ruby-on-rails-enum
+/blog/tools-components-vuejs-2019                                                                                         /blog/vuejs-libraries-2019
 
 # Pagination redirects
 
@@ -268,7 +269,7 @@
 /blog/author/Kamil%20Buczel                                  /blog/authors/Kamil-Buczel
 /blog/author/Przemys%C5%82aw%20%C5%9Awiercz                  /blog/authors/Przemysław-Świercz
 
-# Services  redirects
+# Services redirects
 
 /ruby-on-rails-development                                   /services/ruby-on-rails-development
 /vue-js-development                                          /services/vue-js-development
