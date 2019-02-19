@@ -38,19 +38,19 @@ function checkCurrentSection() {
   const $scrollPosition = $(window).scrollTop();
 
   if ($scrollPosition < $secondSection.offset().top) {
-    removeActiveClasses()
+    removeActiveClasses();
     $firstNavOption.addClass('active');
   } else if ($scrollPosition < $thirdSection.offset().top) {
-    removeActiveClasses()
+    removeActiveClasses();
     $secondNavOption.addClass('active');
   } else if ($scrollPosition < $fourthSection.offset().top) {
-    removeActiveClasses()
+    removeActiveClasses();
     $thirdNavOption.addClass('active');
   } else if ($scrollPosition < $fifthSection.offset().top) {
-    removeActiveClasses()
+    removeActiveClasses();
     $fourthNavOption.addClass('active');
   } else {
-    removeActiveClasses()
+    removeActiveClasses();
     $fifthNavOption.addClass('active');
   }
 }
