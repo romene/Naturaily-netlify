@@ -17,6 +17,7 @@
     text-align: center;
 
     .asset {
+
       &-number {
         height: 42px;
         width: 42px;
@@ -27,17 +28,16 @@
         line-height: 42px;
         margin: 20px auto;
       }
+
       &-title {
         font-weight: 500;
         margin: 15px auto;
         width: 120px;
       }
+
       &-text {
         font-weight: 200;
         width: 130px;
-        margin: auto;
-      }
-      i {
         margin: auto;
       }
     }

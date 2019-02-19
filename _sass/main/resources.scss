@@ -22,32 +22,27 @@
     padding-top: 20px;
   }
   &-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+    border-radius: 4px;
     background: $color-white;
     box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
-    border-radius: 4px;
-    font-weight: 300;
-    text-align: center;
-    display: grid;
-    justify-items: center;
-    align-items: end;
-    .tile-text {
-      margin-bottom: 15px;
-    }
   }
   .web-tile {
     grid-column: 3 / 11;
     grid-row: 4 / 5;
-    color: #ff674f;
   }
   .mobile-tile {
     grid-column: 3 / 11;
     grid-row: 5 / 6;
-    color: $color-accent-yellow;
   }
   .ux-tile {
     grid-column: 3 / 11;
     grid-row: 6 / 7;
-    color: $color-accent-purple;
   }
   &-btn {
     grid-column: 1 / 13;

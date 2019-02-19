@@ -14,18 +14,18 @@
     grid-gap: 30px;
 
     &-tile {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      text-align: center;
+      font-weight: 200;
+      border-radius: 4px;
       background: $color-white;
       box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.1);
-      border-radius: 4px;
-      font-weight: 200;
-      text-align: center;
-      display: grid;
-      justify-items: center;
-      align-items: end;
     }
 
     .tile-text {
-      margin-bottom: 15px;
       width: 90px;
     }
   }

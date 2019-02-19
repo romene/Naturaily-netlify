@@ -16,7 +16,7 @@
     top: 55px;
     right: -70px;
     z-index: -1;
-    animation: oval 11s 500ms linear alternate infinite,fade-in 3300ms 0s cubic-bezier(0.68,-0.55,0.265,1.55);
+    animation: oval 11s 500ms linear alternate infinite;
   }
   &-texts {
     .primary {
@@ -26,7 +26,7 @@
     }
     .secondary {
       font-weight: 300;
-      max-width: 450px;
+      max-width: 540px;
       margin-left: 30px;
       margin-top: 43px;
     }
