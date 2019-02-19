@@ -15,7 +15,7 @@ h2 {
 
 .l-main-container {
   position: relative;
-  overflow-x: hidden;
+  overflow: hidden;
   display: grid;
   grid-template-columns: 1fr 320px 1fr;
   grid-template-rows: 100px 1fr;
