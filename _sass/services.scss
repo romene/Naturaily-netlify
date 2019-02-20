@@ -83,7 +83,7 @@
 
   .career-more {
     margin-bottom: 160px;
-    
+
     .tile-text {
       width: 100px;
     }
@@ -129,6 +129,10 @@
     .benefit-4 {
       grid-column: 3;
       grid-row: 4 / 5;
+
+      img {
+        max-width: 60px;
+      }
     }
   }
 
