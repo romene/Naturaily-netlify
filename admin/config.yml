@@ -143,7 +143,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "description", name: "description", widget: "string"}
       - {label: "Twitter card type(summary by default)", name: "twitter-card", widget: "string", required: false}
-      - {label: "Layout", name: "layout", widget: "hidden", default: "tech"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "service"}
       - {label: "permalink", name: "permalink", widget: "string"}
       - {label: "posts-tag", name: "posts-tag", widget: "string"}
       - {label: "heading", name: "heading", widget: "string"}
