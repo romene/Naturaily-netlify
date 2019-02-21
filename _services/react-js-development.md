@@ -4,7 +4,7 @@ description: >-
   Join us in building awesome solutions and great user experience for your
   clients with React JS. 
 twitter-card: summary_large_image
-layout: tech
+layout: service
 permalink: /services/react-js-development
 posts-tag: React.js development
 heading: React.js development
