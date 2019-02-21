@@ -74,7 +74,7 @@ blog-head: React.js is cool! Check out our blog
 blog-desc: Our Vue developers share their knowledge and experience on our blog.
 competences:
   - tech-name: PWA
-  - tech-name: Vue.js
+  - tech-name: Vue
   - tech-name: Ruby on Rails
 competences-text: React.js
 ---
