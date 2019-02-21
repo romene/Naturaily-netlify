@@ -6,7 +6,7 @@ description: >-
 twitter-card: summary_large_image
 layout: service
 permalink: /services/react-js-development
-posts-tag: React.js development
+posts-tag: Frontend development
 heading: React.js development
 desc: >-
   Join us in building awesome solutions and great user experience for your
@@ -27,15 +27,15 @@ tech-logo-second: /assets/images/redux-logo.png
 tech-name-second: Redux
 tech-logo-third: /assets/images/react-native-logo.png
 tech-name-third: React Native
-advantage-head: Advantages of React.js
+advantage-head: React.js
 advantage-subtitle: Why is it worth to choose React.js development?
 advantage-desc-one-title: Efficient
 advantage-desc-one: >-
-  React team is continuously improving their product. The library allows
-  developers to create efficiently create components of an application and reuse
-  them in various slots of the project. This DRY approach pushes higher code
-  quality while reducing the amount of required code, thus making the
-  development process much faster. 
+  The React team is continuously improving their product. The library allows
+  developers to efficiently create components of an application and reuse them
+  in various slots of the project. This DRY approach pushes higher code quality
+  while reducing the amount of required code, thus making the development
+  process much faster. 
 advantage-desc-two-title: Rich user experience
 advantage-desc-two: >-
   React, being a JavaScript library, has found its way onto many modern devices
@@ -48,7 +48,7 @@ advantage-desc-three: >-
   With the right tools and developers, React.js applications can easily become
   SEO friendly. React offers server-side rendering which returns the Virtual DOM
   to the client-side. As Google pushes fast website rendering times to maintain
-  good search (page?) position, this feature ensures high SEO performance. 
+  good SERP rank, this feature ensures high SEO performance. 
 advantage-desc-four-title: Performance
 advantage-desc-four: >-
   React’s goals is to provide the best web rendering performance. Given the
