@@ -1,5 +1,5 @@
 ---
-title: 8 Frameworks for Ruby that aren’t Rails.
+title: 8 Ruby frameworks that aren’t Rails.
 description: >-
   There are many other options out there for Ruby developers, that aren’t Rails.
   The majority of us have heard of Sinatra or Padrino, but there’s a ton of
