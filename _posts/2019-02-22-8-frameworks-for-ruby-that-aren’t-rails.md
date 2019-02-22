@@ -28,12 +28,12 @@ It’s common for a **Ruby** developer to only have experience with Rails and de
 ### Sinatra
 
 Now I know, many of you will be outraged, saying that [Sinatra](https://github.com/sinatra/sinatra){:rel=”nofollow”}
- is technically not a framework but rather a **DSL** (domain-specific language) for building websites, web services and web applications in Ruby. On the other hand, there are also some of you, that will keep insisting that it is widely considered as a framework, and therefore we’ve included it in this list. Sinatra, written in 2000 lines of Ruby, is the biggest of the frameworks on the list, but still it emphasizes the minimalistic approach to development, offering only what is necessary to handle HTTP requests and deliver responses to clients. Sinatra’s syntax is easy to understand and quite straightforward, it allows for rapid API development, site building or creating a Ruby-based web service. 
+ is technically not a framework but rather a **DSL** (domain-specific language) for building websites, web services and web applications in Ruby. On the other hand, there are also some of you, that will keep insisting that it is widely considered as a framework, and therefore we’ve included it in this list. Sinatra, written in 2000 lines of Ruby, is the biggest of the frameworks on the list, but still it emphasizes the minimalistic approach to development, offering only what is necessary to handle HTTP requests and deliver responses to clients. Sinatra’s syntax is easy to understand and quite straightforward, and it allows for rapid API development, site building or creating a Ruby-based web service. 
 
 ### Padrino
 
 [Padrino](https://github.com/padrino/padrino-framework){:rel=”nofollow”}
-is a **full-stack** Ruby framework built upon the Sinatra web library. It might be based on Sinatra but it adds many additional tools, such as having generators, tag helpers, caching, localization, mailers, etc. It is best suited for those who have an existing Sinatra app that is becoming more complex and warranting things that come in a full-stack framework. You can start with Sinatra and graduate to Padrino if needed.
+is a **full-stack** Ruby framework built upon the Sinatra web library. It might be based on Sinatra, but it adds many additional tools, such as having generators, tag helpers, caching, localization, mailers, etc. It is best suited for those who have an existing Sinatra app that is becoming more complex and warranting things that come in a full-stack framework. You can start with Sinatra and graduate to Padrino if needed.
 
 ### Hanami
 
@@ -42,12 +42,12 @@ is a **full-stack** Ruby web framework built by Luca Guidi, made up of small, si
 
 ### Grape
 
-[Grape](https://github.com/ruby-grape/grape){:rel=”nofollow”}, or **Generalized Rapid API Erector**, is a REST-like API micro-framework built to complement existing web application frameworks. It does that by providing a simple domain-specific language and was built to replace the API functionality of bigger frameworks like Rails, and Sinatra.
+[Grape](https://github.com/ruby-grape/grape){:rel=”nofollow”}, or **Generalized Rapid API Erector**, is a REST-like API micro-framework built to complement existing frameworks. It does that, by providing a simple DSL, and was built to replace the API's functionality of bigger frameworks like Rails, and Sinatra.
 
 ### Cuba
 
 [Cuba](https://github.com/cuba-platform/cuba){:rel=”nofollow”}
-is a **microframework** for web development, a tiny but powerful mapper for Rack applications. It is very close to Rack with very low overhead. Its best use is for small endpoints, where speed is important, or for those who want full control over their entire stack, adding additional gems and complexity as needed.
+is a **microframework** for web development, a small but powerful mapper for Rack applications. It is very close to Rack with very low overhead. Its best use is for small endpoints, where speed is important, or for those who want full control over their entire stack, adding additional gems and complexity as needed.
 
 ### Roda
 
@@ -56,7 +56,7 @@ is a web framework built on top of **Rack**, created by Jeremy Evans, that start
 
 ### Ramaze
 
-[Ramaze](https://github.com/Ramaze/ramaze){:rel=”nofollow”} is a very simple and straightforward web-framework. The philosophy of it could be expressed in a mix of **KISS**(Keep It Simple Stupid) and **POLA**(Principle Of Least Astonishment). It’s built to follow the MVC pattern, though it’s possible to ‘deploy’ everything from within a single script. It’s also one of those web frameworks that has managed to stick around for a long time, and in turn has built a good sized community behind it, always there to help and support. It supports all major templating systems, and its heavily focused on modular design.  
+[Ramaze](https://github.com/Ramaze/ramaze){:rel=”nofollow”} is a very simple and straightforward web-framework. The philosophy of it could be expressed in a mix of **KISS**(Keep It Simple Stupid) and **POLA**(Principle Of Least Astonishment). It’s built to follow the MVC pattern, though it’s possible to ‘deploy’ everything from within a single script. It supports all major templating systems, and its heavily focused on modular design.  
 
 ### NYNY
 
