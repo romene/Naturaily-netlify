@@ -34,42 +34,70 @@ layout: default
       <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     </header>
 
-      <div class="post-content" itemprop="articleBody">
-        {{ content }}
-
-        {% include disqus_comments.html %}
+    <div class="post-content" itemprop="articleBody">
+      <div class="post-soc">
+        <div class="tooltip post-soc-copy" onmouseout="mouseOutFn()">
+          <input type="text" value="{{site.url}}{{page.url}}" id="copyUrl" class="custom-input" readonly>
+          <button onclick="copyToClipboard()" class="btn btn-copy"></button>
+          <span class="tooltip-text" id="copyTooltip">Copy to clipboard</span>
+        </div>
+        <a class="post-soc-shr" href="https://twitter.com/intent/tweet?url={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+          <img src="/assets/images/twitter-icon.png" alt="Twitter">
+        </a>
+        <a class="post-soc-shr" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}" target="_blank" rel="nofollow">
+          <img src="/assets/images/facebook-icon.png" alt="Facebook">
+        </a>
       </div>
+      {{ content }}
 
-    </article>
-    <div class="right-column">
-      {% include blog-categories.html %}
-      {% include blog-recentpost-by-category.html %}
-      {% include blog-meetus.html %}
+      {% include disqus_comments.html %}
     </div>
-    <div class="post-navigation">
-      {% if page.next.url %}
-        <a class="next" href="{{page.next.url}}" rel="next">
-          <img src="/assets/images/arrow-brown.png" alt="arrow">
-          {{page.next.title}}
-        </a>
-      {% endif %}
-      {% if page.previous.url %}
-        <a class="prev" href="{{page.previous.url}}" rel="prev">
-          {{page.previous.title}}
-          <img src="/assets/images/arrow-brown.png" alt="arrow">
-        </a>
-      {% endif %}
-    </div>
-    <div class="post-footer">
-      <h2>You’re going to like it!</h2>
-      <p>Do you want to work in calm, family atmosphere, eat bananas and drink craft beer? ;)</p>
-      <span>Join Naturaily!</span>
-      <a href="/careers" type="button" class="btn btn-secondary">
-        see job offers
+  </article>
+  <div class="right-column">
+    {% include blog-categories.html %}
+    {% include blog-recentpost-by-category.html %}
+    {% include blog-meetus.html %}
+  </div>
+  <div class="post-navigation">
+    {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}" rel="next">
+        <img src="/assets/images/arrow-brown.png" alt="arrow">
+        {{page.next.title}}
       </a>
-    </div>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="prev" href="{{page.previous.url}}" rel="prev">
+        {{page.previous.title}}
+        <img src="/assets/images/arrow-brown.png" alt="arrow">
+      </a>
+    {% endif %}
+  </div>
+  <div class="post-footer">
+    <h2>You’re going to like it!</h2>
+    <p>Do you want to work in calm, family atmosphere, eat bananas and drink craft beer? ;)</p>
+    <span>Join Naturaily!</span>
+    <a href="/careers" type="button" class="btn btn-secondary">
+      see job offers
+    </a>
+  </div>
 
 </div>
 <script type="text/javascript">
   {% include blog-sticky.js %}
+
+  function copyToClipboard() {
+    var copyUrl = document.getElementById("copyUrl");
+    copyUrl.select();
+    document.execCommand("copy");
+
+    var tooltip = document.getElementById("copyTooltip");
+    tooltip.innerHTML = "Copied post URL";
+  }
+
+  function mouseOutFn() {
+    var tooltip = document.getElementById("copyTooltip");
+    tooltip.innerHTML = "Copy to clipboard";
+  }
+
+
 </script>

@@ -21,8 +21,8 @@ description: > # this means to ignore newlines until "baseurl:"
   React Native applications for startups and enterprises. Let’s talk!
 baseurl: '' # the subpath of your site, e.g. /blog
 url: 'https://naturaily.com' # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: naturaily
+github_username:  naturaily
 highlighter: rouge
 pagination:
   enabled: true
@@ -108,6 +108,7 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
+  - jekyll-sitemap
 
 
 exclude:
