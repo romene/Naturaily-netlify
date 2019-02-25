@@ -69,13 +69,13 @@ blog-desc: Our Vue developers share their knowledge and experience on our blog.
 competences:
   - competence:
       tech-name: PWA
-      tech-logo: /assets/images/pwa-logo.png
+      tech-image: /assets/images/pwa-logo.png
   - competence:
       tech-name: React
-      tech-logo: /assets/images/react-logo.png
+      tech-image: /assets/images/react-logo.png
   - competence:
       tech-name: Ruby on Rails
       tech-link: https://naturaily.com/services/ruby-on-rails-development
-      tech-logo: /assets/images/ruby-on-rails-logo.png
+      tech-image: /assets/images/ruby-on-rails-logo.png
 competences-text: Vue
 ---

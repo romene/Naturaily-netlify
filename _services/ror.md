@@ -85,13 +85,13 @@ blog-desc: Our Ruby on Rails developers share their knowledge and experience on 
 competences:
   - competence:
       tech-name: PWA
-      tech-logo: /assets/images/pwa-logo.png
+      tech-image: /assets/images/pwa-logo.png
   - competence:
       tech-name: Vue
       tech-link: https://naturaily.com/services/vue-js-development
-      tech-logo: /assets/images/vue-logo.png
+      tech-image: /assets/images/vue-logo.png
   - competence:
       tech-name: React
-      tech-logo: /assets/images/react-logo.png
+      tech-image: /assets/images/react-logo.png
 competences-text: Ruby on Rails
 ---
