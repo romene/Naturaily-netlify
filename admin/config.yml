@@ -191,4 +191,5 @@ collections:
         allow_add: true
         fields:
           - {label: "tech-name", name: "tech-name", widget: "string"}
+          - {label: "tech-link", name: "tech-link", widget: "string"}
       - {label: "competences-text", name: "competences-text", widget: "string"}
