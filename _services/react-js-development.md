@@ -57,8 +57,9 @@ advantage-desc-four: >-
   guaranteed. 
 projects-slogan: >-
   Over 12 years of experience in web development, using good old technologies
-  like Ruby on Rails and revelations like Vue.js. We guarantee our products are
-  simply the best. But don’t take our word for it, see for yourself!
+  like Ruby on Rails and innovative JavaScript frameworks. We guarantee our
+  products are simply the best. But don’t take our word for it, see for
+  yourself!
 projects-head: 'Check out our projects:'
 projects:
   - project:
@@ -71,7 +72,7 @@ projects:
         malfunction as soon as possible.
       link: /project/lvcloud
 blog-head: React.js is cool! Check out our blog
-blog-desc: Our Vue developers share their knowledge and experience on our blog.
+blog-desc: Our JavaScript developers share their knowledge and experience on our blog.
 competences:
   - tech-name: PWA
   - tech-name: Vue
