@@ -191,12 +191,12 @@ layout: services-layout
       {% for competence in page.competences %}
         {% if competence.competence.tech-link %}
           <a href="{{competence.competence.tech-link}}" class="item left" data-reveal-technology=''>
-            <img class="carousel-logo" src="{{competence.competence.tech-logo}}" alt="Tech logo">
+            <img class="carousel-logo" src="{{competence.competence.tech-image}}" alt="Tech logo">
             {{competence.competence.tech-name}}
           </a>
         {% else %}
           <div class="item left" data-reveal-technology=''>
-            <img class="carousel-logo" src="{{competence.competence.tech-logo}}" alt="Tech logo">
+            <img class="carousel-logo" src="{{competence.competence.tech-image}}" alt="Tech logo">
             {{competence.competence.tech-name}}
           </div>
         {% endif %}
