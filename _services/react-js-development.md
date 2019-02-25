@@ -74,9 +74,17 @@ projects:
 blog-head: React.js is cool! Check out our blog
 blog-desc: Our JavaScript developers share their knowledge and experience on our blog.
 competences:
-  - tech-name: PWA
-  - tech-name: Vue
-  - tech-name: Ruby on Rails
+  - competence:
+      tech-image: /assets/images/pwa-logo.png
+      tech-name: PWA
+  - competence:
+      tech-image: /assets/images/ruby-on-rails-logo.png
+      tech-link: 'https://naturaily.com/services/ruby-on-rails-development'
+      tech-name: Ruby on Rails
+  - competence:
+      tech-image: /assets/images/vue-logo.png
+      tech-link: 'https://naturaily.com/services/vue-js-development'
+      tech-name: Vue.js
 competences-text: React.js
 ---
 
