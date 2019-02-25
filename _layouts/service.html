@@ -189,17 +189,10 @@ layout: services-layout
     </div>
     <div class="technology-items">
       {% for competence in page.competences %}
-        {% if competence.tech-link }
-          <a href="{{page.tech-link}}" class="item left" data-reveal-technology=''>
-            <img class="carousel-logo" src="/assets/images/{{competence.tech-name}}-logo.png" alt="Tech logo">
-            {{competence.tech-name}}
-          </a>
-        {% else %}
-          <div class="item left" data-reveal-technology=''>
-            <img class="carousel-logo" src="/assets/images/{{competence.tech-name}}-logo.png" alt="Tech logo">
-            {{competence.tech-name}}
-          </div>
-        {% endif %}
+        <div class="item left" data-reveal-technology=''>
+          <img class="carousel-logo" src="/assets/images/{{competence.tech-name}}-logo.png" alt="Tech logo">
+          {{competence.tech-name}}
+        </div>
       {% endfor %}
     </div>
     <div class="technology-texts">
