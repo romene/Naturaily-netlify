@@ -189,7 +189,7 @@ layout: services-layout
     </div>
     <div class="technology-items">
       {% for competence in page.competences %}
-        {% if page.competence.tech-link }
+        {% if competence.tech-link }
           <a href="{{page.tech-link}}" class="item left" data-reveal-technology=''>
             <img class="carousel-logo" src="/assets/images/{{competence.tech-name}}-logo.png" alt="Tech logo">
             {{competence.tech-name}}
