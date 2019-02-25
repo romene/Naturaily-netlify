@@ -189,10 +189,17 @@ layout: services-layout
     </div>
     <div class="technology-items">
       {% for competence in page.competences %}
-        <div class="item left" data-reveal-technology=''>
-          <img class="carousel-logo" src="/assets/images/{{competence.tech-name}}-logo.png" alt="Tech logo">
-          {{competence.tech-name}}
-        </div>
+        {% if competence.competence.tech-link %}
+          <a href="{{competence.competence.tech-link}}" class="item left" data-reveal-technology=''>
+            <img class="carousel-logo" src="{{competence.competence.tech-logo}}" alt="Tech logo">
+            {{competence.competence.tech-name}}
+          </a>
+        {% else %}
+          <div class="item left" data-reveal-technology=''>
+            <img class="carousel-logo" src="/assets/images/{{competence.competence.tech-name}}-logo.png" alt="Tech logo">
+            {{competence.competence.tech-name}}
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
     <div class="technology-texts">
@@ -209,7 +216,7 @@ layout: services-layout
           <span>
             Let’s talk about <br> how awesome your project <br> is going to be!
           </span>
-          <a href="/#contactForm" class="btn btn-secondary">Let’s talk</a>
+          <a href="/#contactForm" class="btn btn-secondary">Contact Us</a>
         </div>
       </div>
     </div>

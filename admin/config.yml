@@ -185,10 +185,16 @@ collections:
               - {label: "Background Image", name: "bg-image", widget: "image"}
       - {label: "blog-head", name: "blog-head", widget: "string"}
       - {label: "blog-desc", name: "blog-desc", widget: "string"}
-      - label: "competences"
+      - label: "Competences"
         name: "competences"
         widget: "list"
         allow_add: true
         fields:
-          - {label: "tech-name", name: "tech-name", widget: "string"}
+          - label: Competence
+            name: competence
+            widget: object
+            fields:
+              - {label: "Tech image", name: "tech-image", widget: "image"}
+              - {label: "Tech name", name: "tech-name", widget: "string"}
+              - {label: "Tech link", name: "tech-link", widget: "string"}
       - {label: "competences-text", name: "competences-text", widget: "string"}

@@ -83,10 +83,15 @@ projects:
 blog-head: Ruby on Rails is cool! Check out our blog
 blog-desc: Our Ruby on Rails developers share their knowledge and experience on our blog.
 competences:
-  - tech-name: PWA
-  - tech-name: Vue
-  - tech-name: React
-  - tech-name: Ember
+  - competence:
+      tech-name: PWA
+      tech-logo: /assets/images/pwa-logo.png
+  - competence:
+      tech-name: Vue
+      tech-link: https://naturaily.com/services/vue-js-development
+      tech-logo: /assets/images/vue-logo.png
+  - competence:
+      tech-name: React
+      tech-logo: /assets/images/react-logo.png
 competences-text: Ruby on Rails
 ---
-

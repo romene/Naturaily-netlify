@@ -67,8 +67,15 @@ projects:
 blog-head: Vue is cool! Check out our blog
 blog-desc: Our Vue developers share their knowledge and experience on our blog.
 competences:
-  - tech-name: PWA
-  - tech-name: React
-  - tech-name: Ember
+  - competence:
+      tech-name: PWA
+      tech-logo: /assets/images/pwa-logo.png
+  - competence:
+      tech-name: React
+      tech-logo: /assets/images/react-logo.png
+  - competence:
+      tech-name: Ruby on Rails
+      tech-link: https://naturaily.com/services/ruby-on-rails-development
+      tech-logo: /assets/images/ruby-on-rails-logo.png
 competences-text: Vue
 ---
