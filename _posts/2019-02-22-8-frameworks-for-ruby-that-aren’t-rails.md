@@ -46,7 +46,7 @@ is a **full-stack** Ruby web framework built by Luca Guidi, made up of small, si
 
 ### Cuba
 
-[Cuba](https://github.com/cuba-platform/cuba){:rel=”nofollow”}
+[Cuba](https://github.com/soveran/cuba){:rel=”nofollow”}
 is a **microframework** for web development, a small but powerful mapper for Rack applications. It is very close to Rack with very low overhead. Its best use is for small endpoints, where speed is important, or for those who want full control over their entire stack, adding additional gems and complexity as needed.
 
 ### Roda
