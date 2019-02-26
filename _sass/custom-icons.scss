@@ -25,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cookie:before {
+  content: "\e91e";
+}
 .icon-environment:before {
   content: "\e91c";
 }

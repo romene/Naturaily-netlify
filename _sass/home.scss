@@ -77,6 +77,14 @@
   justify-self: left;
 }
 
+@media (min-width: 992px) {
+  .l-content-home {
+    .main-point {
+      margin-left: -35px;
+    }
+  }
+}
+
 @media screen and (max-width: 810px) {
   .main__wave {
     z-index: -2;
