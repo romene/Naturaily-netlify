@@ -91,12 +91,6 @@
       }
     }
 
-    .image-right,
-    .image-left {
-      max-width: 500px;
-      height: auto;
-    }
-
     .step-image {
       display: grid;
       grid-template-columns: .7fr 1fr;
@@ -209,8 +203,17 @@
 }
 
 @media (min-width: 475px) {
-  .deal-step .step .step-image {
-    grid-gap: 20px;
+  .deal-step .step {
+
+    .image-right,
+    .image-left {
+      max-width: 500px;
+      height: auto;
+    }
+
+    .step-image {
+      grid-gap: 20px;
+    }
   }
 }
 

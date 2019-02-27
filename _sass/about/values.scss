@@ -1,10 +1,10 @@
 .about-values-title {
   max-width: 425px;
-  margin: 50px 0 70px 30px;
+  margin: 50px 0 70px;
 }
 
 .about-values {
-  padding: 0px 100px 100px 30px;
+  padding: 0px 100px 100px 0;
 
   .value {
     font-weight: 200;
@@ -71,7 +71,7 @@
       grid-column: 1;
       justify-self: end;
     }
-    
+
     &.second {
       grid-row: 4 / 6;
       grid-column: 1;
