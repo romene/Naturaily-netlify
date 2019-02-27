@@ -6,30 +6,37 @@
   display: grid;
   grid-template-columns: 60px 1fr 50px;
   align-items: center;
+
   .site-nav {
     grid-column: 2 / 4;
     grid-row: 1;
     line-height: 30px;
   }
+
   ul {
-    margin: 35px 0 30px 30px;
+    margin: 35px 0 30px;
     list-style: none;
+
     li {
+
       a {
         color: $color-global-font;
         text-decoration: none;
       }
+
       &.active {
         a {
           color: $color-primary;
         }
       }
+
       &:hover {
         a {
           color: $color-accent-yellow;
         }
       }
     }
+
     .naturaily {
       display: none;
     }
@@ -38,6 +45,7 @@
       display: none;
     }
   }
+
   &-right {
     grid-column: 1 / 2;
     grid-row: 1;
@@ -55,13 +63,16 @@
 @media (min-width: 811px) {
   .header {
     grid-template-columns: 120px 1fr 200px;
+
     &-logo {
-      margin-left: 30px;
       grid-column: 1 / 2;
+      align-self: center;
     }
+
     &-right {
       grid-column: 3 / 4;
     }
+
     .site-nav {
       grid-column: 2 / 3;
 
@@ -73,6 +84,7 @@
         }
       }
     }
+
     ul li {
       margin: 0 15px;
       display: inline;
@@ -92,9 +104,10 @@
 
 @media (min-width: 1175px) {
   .header {
-
-    ul li {
-      margin: 0 40px;
+    ul {
+      li {
+        margin: 0 40px;
+      }
     }
   }
 }
@@ -222,6 +235,7 @@
             left: -30px;
             width: 100%;
             height: 100%;
+            margin-left: 30px;
             background: white;
             text-align: left;
             list-style-type: none;
@@ -236,7 +250,9 @@
 
 
               img {
+                position: relative;
                 width: 100px;
+                z-index: 1;
               }
             }
 
@@ -292,6 +308,25 @@
           .active {
             transform: none;
           }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 810px) {
+  .home-header, .header {
+    .hamb .menuToggle {
+      ul.menu {
+        display: grid;
+        grid-template-columns: repeat(3, 150px);
+        grid-template-rows: 150px repeat(2, 50px);
+        grid-template-areas: "logo logo logo"
+                             "menu menu menu"
+                             "menu menu menu";
+
+        .naturaily {
+          grid-area: logo;
         }
       }
     }

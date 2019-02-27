@@ -30,14 +30,15 @@
     grid-gap: 30px;
 
     .offer {
-      background-color: $color-white;
-      border-radius: 4px;
-      box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
       display: grid;
       justify-items: center;
-      align-items: end;
-      text-align: center;
+      align-items: center;
       margin: 10px 0;
+      padding-top: 20px;
+      text-align: center;
+      background-color: $color-white;
+      box-shadow: 0 8px 32px 0 rgba(179,104,0,0.15);
+      border-radius: 4px;
 
       &-text {
         margin-bottom: 15px;
@@ -125,6 +126,7 @@
   .competence {
 
     &-btn {
+      margin: 50px 0;
       text-align: center;
 
       button {

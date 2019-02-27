@@ -20,7 +20,7 @@
     border-radius: 50%;
     grid-column: 9 / 11;
     grid-row: 1 / 2;
-    animation: oval 11s 500ms linear alternate infinite,fade-in 3300ms 0s cubic-bezier(0.68,-0.55,0.265,1.55);
+    animation: oval 11s 500ms linear alternate infinite;
   }
 
   &-text {

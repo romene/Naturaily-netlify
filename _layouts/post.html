@@ -50,12 +50,13 @@ layout: default
       </div>
       {{ content }}
 
+      {% include blog-recentpost-by-category.html %}
       {% include disqus_comments.html %}
     </div>
   </article>
   <div class="right-column">
     {% include blog-categories.html %}
-    {% include blog-recentpost-by-category.html %}
+    {% include blog-recentpost.html %}
     {% include blog-meetus.html %}
   </div>
   <div class="post-navigation">

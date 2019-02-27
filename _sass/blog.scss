@@ -237,23 +237,6 @@ pre, code {
     padding: 30px;
     margin-bottom: 40px;
 
-    .meetus-social {
-      display: flex;
-      margin: 0 auto;
-
-      img {
-        max-height: 15px;
-        margin: 0 15px;
-        filter: grayscale(100%);
-        opacity: 0.3;
-
-        &:hover {
-          filter: grayscale(0);
-          opacity: 1;
-        }
-      }
-    }
-
     span {
       font-size: 1.7rem;
     }
@@ -267,7 +250,23 @@ pre, code {
       color: $color-primary;
     }
   }
+}
 
+.meetus-social {
+  display: flex;
+  justify-content: center;
+
+  img {
+    max-height: 15px;
+    margin: 0 15px;
+    filter: grayscale(100%);
+    opacity: 0.3;
+
+    &:hover {
+      filter: grayscale(0);
+      opacity: 1;
+    }
+  }
 }
 
 @media (min-width: 576px) {

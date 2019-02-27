@@ -4,6 +4,7 @@
   grid-gap: 30px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  justify-items: end;
   overflow: hidden;
 
   a {
@@ -15,6 +16,10 @@
     button {
       margin: 30px;
     }
+  }
+
+  img {
+    border-radius: 4px;
   }
 
   .small-img {
