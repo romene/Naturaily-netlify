@@ -7,7 +7,7 @@ description: >-
 slug: vue-vs-react-2019-business
 layout: post
 twitter-card: summary_large_image
-date: '2019-03-04 04:08:17 +0200'
+date: '2019-03-05 12:55:17 +0200'
 category: JavaScript development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
