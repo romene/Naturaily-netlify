@@ -4,7 +4,7 @@ description: >-
   At some point you have to choose the technological stack for your application.
   Vue vs React, which JavaScript framework should you use for software
   development?  
-slug: vue-vs-react-2019-business
+slug: vue-vs-react-2019-business-comparison
 layout: post
 twitter-card: summary_large_image
 date: '2019-03-05 12:55:17 +0200'
