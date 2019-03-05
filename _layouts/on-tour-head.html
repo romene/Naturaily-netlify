@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body>
+    {% include seo-tools.html %}
+    <div class="l-main-container" id="mainContainer">
+
+      {{ content }}
+
+    </div>
+
+    <div class="l-footer-container">
+      {% include on-tour-footer.html %}
+    </div>
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript">
+      {% include scroll-tour.js %}
+    </script>
+  </body>
+</html>

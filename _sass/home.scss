@@ -35,6 +35,14 @@
 
 .l-content {
   grid-column: content;
+
+  &-right {
+    grid-column: content;
+
+    @media (min-width: 992px) {
+      grid-column: content / right-sidebar;
+    }
+  }
 }
 
 .l-full-page {
