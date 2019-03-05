@@ -54,7 +54,7 @@ Can you use React and Vue in your commercial projects? The answer is yes. Both V
 
 ## Future of Vue and React 🔮
 
-Both libraries launched quite a while ago. Facebook is continuously improving React with constant updates, new libraries for the ecosystem and new documentations. Their current plans for 2019 includes the release of **React Hooks, which will be a breakthrough feature not found on Vue**, Concurrent Mode that improves responsiveness by rendering component trees without blocking the main threads and Suspense for Data Fetching. All of that shows that the React team is a group of extremely talented and hardworking engineers who ensure a bright future for the library. 
+Both libraries launched quite a while ago. Facebook is continuously improving React with constant updates, new libraries for the ecosystem and new documentations. Their current plans for 2019 include the release of **React Hooks, which will be a breakthrough feature not found on Vue**, Concurrent Mode that improves responsiveness by rendering component trees without blocking the main threads and Suspense for Data Fetching. All of that shows that the React team is a group of extremely talented and hardworking engineers who ensure a bright future for the library. 
 
 What about Vue? Evan You is open about the future of his ‘progressive framework’. He has stated that the next iteration of Vue will bring many groundbreaking changes for his technology. They include an API redesign using TypeScript, significantly improved performance, plans for implementing Hooks that are similar to React’s and many more. Vue’s team is also working hard to improve the library. No wonder it’s the most popular JavaScript project on GitHub! 
 
