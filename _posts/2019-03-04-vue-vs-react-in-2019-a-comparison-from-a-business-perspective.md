@@ -11,7 +11,7 @@ date: '2019-03-04 04:08:17 +0200'
 category: JavaScript development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
-image: /assets/images/10-vue-tools-components-for-2019.jpg
+image: /assets/images/vue-vs-react-business-perspective.jpg
 text-preview: >-
   At some point you have to choose the technological stack for your application.
   Vue vs React, which JavaScript framework should you use for software
@@ -54,7 +54,7 @@ Can you use React and Vue in your commercial projects? The answer is yes. Both V
 
 ## Future of Vue and React 🔮
 
-Both libraries launched quite a while ago. Facebook is continuously improving React with constant updates, new libraries for the ecosystem and new documentations. Their current plans for 2019 include the release of **React Hooks, which will be a breakthrough feature not found on Vue**, Concurrent Mode that improves responsiveness by rendering component trees without blocking the main threads and Suspense for Data Fetching. All of that shows that the React team is a group of extremely talented and hardworking engineers who ensure a bright future for the library. 
+Both libraries launched quite a while ago. Facebook is continuously improving React with constant updates, new libraries for the ecosystem and new documentations. Their current plans for 2019 include the release of **React Hooks, which will be a breakthrough feature not found in Vue**, Concurrent Mode that improves responsiveness by rendering component trees without blocking the main threads and Suspense for Data Fetching. All of that shows that the React team is a group of extremely talented and hardworking engineers who ensure a bright future for the library. 
 
 What about Vue? Evan You is open about the future of his ‘progressive framework’. He has stated that the next iteration of Vue will bring many groundbreaking changes for his technology. They include an API redesign using TypeScript, significantly improved performance, plans for implementing Hooks that are similar to React’s and many more. Vue’s team is also working hard to improve the library. No wonder it’s the most popular JavaScript project on GitHub! 
 
@@ -72,7 +72,7 @@ If reading hundreds of pages of documentation isn’t your cup of tea then you�
 
 ## Do you really need a JavaScript library for your project? 🤔
 
-Some things have to be noted. Developing an application with just vanilla JavaScript makes it more performant than when using JS framework or library, period. But would a user notice a difference in an real-life application? I don’t think so. These differences may seem huge on paper but in reality they are (in almost every case) indistinguishable. 
+Some things have to be noted. Developing an application with only vanilla JavaScript makes it more performant than an app developed using a JS framework or library, period. But would a user notice a difference in an real-life application? I don’t think so. These differences may seem huge on paper but in reality they are (in almost every case) indistinguishable. 
 
 What benefits using Vue or React gives you? Quite a lot actually! Developing an application using a JavaScript library significantly reduces the time required to achieve the same level of complexity and features of an application than using _just_ JavaScript. **They’re highly productive**. You should also consider a library if your application is going to scale in the future. It is possible, thanks to Nuxt (in Vue) and Next (in React), as they (and many other frameworks) allow developers to create Server Side Rendering applications. 
 
@@ -92,12 +92,12 @@ Read more about **pros and cons of Vue [here](https://naturaily.com/blog/pros-co
 
 Both React and Vue teams already have feature release plans for upcoming years. 
 
-Should you be worried that the next iteration of Vue is just around the corner and you are starting development with Vue 2? No, not at all. Previous migration from Vue 1 to 2 were quite painless as around 90% of the API stayed the same while introducing a ton of new features. Plus, migration helper tool was introduced making sure that migrating will be performed smoothly with not many issues. We should be expecting the same kind of support with the upcoming version of Vue, even if the core of Vue will be written entirely in TypeScript. 
+Should you be worried that the next iteration of Vue is just around the corner and you are starting development with Vue 2? No, not at all. Previous migration from Vue 1 to 2 was quite painless as around 90% of the API stayed the same while introducing a ton of new features. Plus, migration helper tool was introduced making sure that migrating will be performed smoothly with not many issues. We should be expecting the same kind of support with the upcoming version of Vue, even if the core of Vue will be written entirely in TypeScript. 
 
 What about React? It offers similar kind of support too! The React team provides a lot of information on how to perform this task correctly. One of the Design Principles of React is the Stability. The React team is rather hesitant towards changing the API as over **50 thousands companies rely on this technology**. It doesn’t mean React is stagnating, if changes are necessary there is always a clear migrating path. Migrations are usually easier with React, especially when tools such as [codemod](https://github.com/reactjs/react-codemod) exist. 
 
 ## Conclusion 🤞
 
-React, a mature technology with a huge number of contributors. No wonder, it’s backed one of the biggest tech giants in the world. It quickly became widely accepted among companies creating a great job market for developers as well as other businesses looking for a dev team. **React is a great option for MVPs and scalable products - it is efficient, modular and allows for quick prototyping.**
+React, a mature technology with a huge number of contributors. No wonder, it’s backed by one of the biggest tech giants in the world. It quickly became widely accepted among companies creating a great job market for developers as well as other businesses looking for a dev team. **React is a great option for MVPs and scalable products - it is efficient, modular and allows for quick prototyping.**
 
 Vue is the new kid in town. It’s a young and fresh technology with no strong backing. It doesn’t mean that the project is not being actively developed - everyday the project is being improved by hundreds of contributors. Statistics don’t lie, Vue is getting more and more popular among large companies, **2018 has been the best year for the framework by far**! Maybe the job market is not as great as React’s but it’s constantly growing, evolving and becoming more competitive. **Vue is a great option is you prefer simplicity and flexibility.**
