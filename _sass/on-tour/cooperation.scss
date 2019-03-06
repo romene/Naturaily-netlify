@@ -115,6 +115,10 @@
 @media (max-width: 991px) {
   .cooperation {
 
+    .headings--h2 {
+      font-size: 37px;
+    }
+
     &-circles {
       width: 600px;
       height: 600px;
@@ -146,6 +150,10 @@
     margin-bottom: 80px;
     padding: 0 30px;
 
+    .headings--h2 {
+      font-size: 36px;
+    }
+
     .tour-numbers {
       margin-bottom: 30px;
     }
@@ -154,10 +162,6 @@
 
 @media (max-width: 469px) {
   .cooperation {
-
-    .headings--h2 {
-      font-size: 28px;
-    }
 
     &-description {
       grid-template-columns: 1fr;
@@ -174,7 +178,7 @@
   .cooperation {
 
     .headings--h2 {
-      font-size: 26px;
+      font-size: 33px;
     }
 
     &-problems {

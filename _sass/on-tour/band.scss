@@ -200,6 +200,10 @@
 @media (max-width: 575px) {
   .band {
     padding: 0 30px;
+
+    .headings--h2 span {
+      display: block;
+    }
   }
 }
 

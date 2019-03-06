@@ -60,12 +60,13 @@
   .form {
 
     .headings--h2 {
-      max-width: 330px;
+      max-width: 350px;
       margin: 30px auto 20px;
     }
 
-    p {
+    & &-description {
       max-width: 400px;
+      margin: 0 auto 20px;
     }
 
     &-circles {
@@ -102,5 +103,17 @@
 @media (max-width: 575px) {
   .form {
     margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 348px) {
+  .form {
+
+    .headings--h2 {
+
+      span {
+        display: block;
+      }
+    }
   }
 }

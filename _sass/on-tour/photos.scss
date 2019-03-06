@@ -24,6 +24,10 @@
   .photos {
     grid-template-columns: 1fr;
     grid-gap: 30px;
+
+    .headings--h2 {
+      margin-top: 0;
+    }
   }
 }
 
@@ -33,6 +37,7 @@
 
     &-instagram {
       margin-bottom: 80px;
+      padding: 0 30px;
     }
   }
 }
@@ -41,7 +46,14 @@
   .photos {
 
     .headings--h2 {
-      font-size: 24px;
+
+      span {
+        display: block;
+      }
+
+      br {
+        display: none;
+      }
     }
   }
 }
