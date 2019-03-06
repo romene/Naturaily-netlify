@@ -21,7 +21,7 @@
 
     &-big {
       position: absolute;
-      top: -250px;
+      top: -320px;
       left: 50%;
       transform: translateX(-30%);
       z-index: -1;
@@ -39,7 +39,7 @@
         animation-timing-function: linear;
 
         &.red {
-          background-color: #ff4e36;
+          background-color: #FF5E45;
           animation-name: red-animation;
         }
 
@@ -79,7 +79,7 @@
           animation-timing-function: linear;
 
           &.red {
-            background-color: #ff4e36;
+            background-color: #FF5E45;
             animation-name: red-min-animation;
           }
 
@@ -120,7 +120,6 @@
   &-numbers {
     color: #D8D8D8;
     font-size: 12px;
-    font-weight: 200;
     word-spacing: 10px;
 
     span {
@@ -130,7 +129,9 @@
 }
 
 .headings--h2 {
-  font-size: 34px;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 50px;
 
   span {
     color: #FF5E45;
@@ -139,7 +140,7 @@
 
 .headings--h3 {
   margin: 0;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 300;
 }
 

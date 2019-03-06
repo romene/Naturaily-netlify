@@ -1,5 +1,6 @@
 .banner {
   position: relative;
+  margin: 0 -52px;
   margin-bottom: 150px;
 
   .shadow {
@@ -8,22 +9,20 @@
       position: absolute;
       z-index: -2;
       top: -20px;
-      right: -15px;
-      opacity: 0.2;
-      color: #FFE0DA;
+      right: 30px;
+      color: #FFF7F1;
       font-size: 50px;
-      font-weight: 200;
+      font-weight: bold;
     }
 
     &-text {
       position: absolute;
       z-index: -2;
       top: -50px;
-      right: -15px;
-      opacity: 0.2;
-      color: #FFE0DA;
-      font-size: 170px;
-      font-weight: 300;
+      width: 100%;
+      color: #FFF7F1;
+      font-size: 175px;
+      font-weight: bold;
       text-align: center;
     }
   }
@@ -31,7 +30,7 @@
   &-box {
     display: flex;
     width: 580px;
-    margin: 240px auto -30px;
+    margin: 200px auto -20px;
   }
 
   &-logo {
@@ -58,10 +57,14 @@
   &-text {
     margin: 0;
     opacity: 0.8;
-    font-size: 22px;
-    font-weight: 200;
+    font-size: 20px;
+    font-weight: 300;
     line-height: 30px;
     text-align: center;
+
+    b {
+      font-weight: 600;
+    }
   }
 }
 
@@ -72,15 +75,24 @@
 
   p {
     opacity: .7;
-    font-weight: 200;
+    font-weight: 300;
+    line-height: 24px;
     text-align: center;
+
+    b {
+      font-weight: 600;
+    }
   }
 
   &-lines {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     text-align: right;
+
+    b {
+      font-weight: 600;
+    }
 
     & > div {
       padding-bottom: 15px;
@@ -98,8 +110,7 @@
 
     span {
       position: relative;
-      font-size: 16px;
-      font-weight: 200;
+      font-weight: 300;
 
       &::after {
         content: '';
@@ -142,12 +153,13 @@
 
     .shadow {
       &-number {
-        top: 0;
+        top: -20px;
+        right: 80px;
       }
 
       &-text {
         top: -30px;
-        font-size: 155px;
+        font-size: 145px;
       }
     }
   }
@@ -155,12 +167,17 @@
 
 @media (max-width: 1199px) {
   .banner {
+    margin: 0 0 150px 0;
 
     .shadow {
+      &-number {
+        top: 0;
+        right: 40px;
+      }
 
       &-text {
-        top: -15px;
-        font-size: 135px;
+        top: 0;
+        font-size: 120px;
       }
     }
   }
@@ -188,14 +205,8 @@
     }
 
     .shadow {
-
-      &-number {
-        top: 10px;
-      }
-
-      &-text {
-        top: 35px;
-        font-size: 75px;
+      &-number, &-text {
+        display: none;
       }
     }
   }
@@ -226,12 +237,6 @@
       max-width: none;
       margin: 0;
       text-align: left;
-    }
-
-    .shadow {
-      &-number, &-text {
-        display: none;
-      }
     }
   }
 

@@ -25,15 +25,21 @@
   &-header {
     display: flex;
     justify-content: space-between;
-    max-width: 750px;
+    max-width: 760px;
 
-    h2 {
+    .headings--h2 {
       margin-right: 50px;
     }
 
     p {
-      margin: 25px 0 50px;
+      margin: 20px 0 50px;
       font-weight: 300;
+      line-height: 24px;
+    }
+
+    a {
+      color: #FF5E45;
+      font-weight: 600;
     }
   }
 
@@ -44,7 +50,11 @@
 
     span {
       font-size: 12px;
-      font-weight: 200;
+      font-weight: 300;
+    }
+
+    p {
+      font-weight: 300;
     }
   }
 
@@ -216,6 +226,13 @@
 
     &-main {
       background-size: cover;
+    }
+
+    &-header {
+
+      p {
+        font-size: 15px;
+      }
     }
 
     &-technology {

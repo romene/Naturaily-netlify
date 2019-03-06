@@ -13,7 +13,7 @@
     margin-right: 15px;
 
     &.red {
-      background-color: #ff4e36;
+      background-color: #FF5E45;
     }
 
     &.orange {
@@ -32,7 +32,6 @@
   .headings--h3 {
     grid-column: 3 / 5;
     grid-row: 3;
-    font-weight: 400;
     text-align: right;
 
     span {
@@ -68,13 +67,12 @@
 
   &-shadow {
     position: absolute;
-    top: 150px;
-    margin: 0 -100px;
+    top: 140px;
+    margin: 0 -160px;
     z-index: -1;
-    opacity: 0.2;
-    color: #FFE0DA;
-    font-size: 170px;
-    font-weight: 400;
+    color: #FFF7F1;
+    font-size: 175px;
+    font-weight: bold;
   }
 
   &-person {
@@ -82,12 +80,13 @@
 
     &-name {
       margin: 25px 0 0;
+      font-weight: 300;
     }
 
     &-role {
       opacity: .5;
-      font-size: 15px;
-      font-weight: 200;
+      font-size: 14px;
+      font-weight: 300;
       margin-bottom: 30px;
     }
 
@@ -96,11 +95,12 @@
       align-items: baseline;
 
       p {
-        opacity: .5;
+        max-width: 190px;
+        margin-bottom: 30px;
         font-size: 14px;
         font-weight: 200;
-        margin-bottom: 30px;
-        max-width: 190px;
+        line-height: 24px;
+        opacity: .5;
       }
     }
   }
@@ -116,6 +116,7 @@
 
     &-shadow {
       top: 110px;
+      margin: 0 -130px;
       font-size: 160px;
     }
   }
