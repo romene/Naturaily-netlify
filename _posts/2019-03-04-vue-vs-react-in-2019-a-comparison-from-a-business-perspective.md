@@ -11,7 +11,7 @@ date: '2019-03-05 12:55:17 +0200'
 category: JavaScript development
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
-image: /assets/images/vue-vs-react-business-perspective.jpg
+image: /assets/images/vue-vs-react-business-perspective-v2.jpg
 text-preview: >-
   At some point you have to choose the technological stack for your application.
   Vue vs React, which JavaScript framework should you use for software
