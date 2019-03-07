@@ -137,7 +137,7 @@
         .menuToggle {
           display: block;
           position: relative;
-          z-index: 1;
+          z-index: 1000;
           user-select: none;
 
           input {
@@ -316,17 +316,18 @@
 
 @media only screen and (orientation: landscape) and (max-width: 810px) {
   .home-header, .header {
-    .hamb .menuToggle {
+    .site-nav .hamb .menuToggle {
       ul.menu {
         display: grid;
-        grid-template-columns: repeat(3, 150px);
-        grid-template-rows: 150px repeat(2, 50px);
-        grid-template-areas: "logo logo logo"
-                             "menu menu menu"
-                             "menu menu menu";
+        grid-template-columns: repeat(4, 150px);
+        grid-template-rows: 100px repeat(2, 50px);
+        grid-template-areas: "logo logo logo logo"
+                             "menu menu menu menu"
+                             "menu menu menu menu";
 
         .naturaily {
           grid-area: logo;
+          margin: 60px 0 0 30px;
         }
       }
     }
