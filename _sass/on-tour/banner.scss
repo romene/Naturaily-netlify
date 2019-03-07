@@ -246,6 +246,10 @@
 }
 
 @media (max-width: 469px) {
+  .banner {
+    margin-bottom: 0;
+  }
+
   .hangover {
     display: none;
   }
