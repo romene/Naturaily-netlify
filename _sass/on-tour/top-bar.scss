@@ -1,143 +1,184 @@
-.header {
-  grid-area: header;
-  position: relative;
-  font-weight: 200;
-  text-align: center;
-  display: grid;
-  grid-template-columns: 60px 1fr 50px;
-  align-items: center;
+.tour {
 
-  .site-nav {
-    grid-column: 2 / 4;
-    grid-row: 1;
-    line-height: 30px;
+  &-menu {
+    width: 100%;
+
+    &.fixed {
+      position: fixed;
+      top: 0;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-bottom: 1px solid #f5f5f5;
+      z-index: 1000;
+
+      .tour-top-bar {
+        margin: 0;
+        padding: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 1260px;
+      }
+    }
   }
 
-  ul {
-    margin: 35px 0 30px;
-    list-style: none;
+  &-top-bar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1260px;
+    margin: 56px auto;
+    transition: margin .3s linear,
+                background-color .3s linear,
+                padding .3s linear;
 
-    li {
+    ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
 
-      a {
-        color: $color-global-font;
-        text-decoration: none;
-      }
+      li {
+        margin: 0 25px;
 
-      &.active {
-        a {
-          color: $color-primary;
+        &:first-child {
+          margin-left: 0;
         }
-      }
 
-      &:hover {
         a {
-          color: $color-accent-yellow;
-        }
-      }
-    }
+          color: $color-global-font;
+          font-weight: 300;
+          text-decoration: none;
+          transition: color .3s;
 
-    .naturaily {
-      display: none;
-    }
+          &:hover {
+            color: $color-accent-yellow;
+          }
 
-    .header-social {
-      display: none;
-    }
-  }
-
-  &-right {
-    grid-column: 1 / 2;
-    grid-row: 1;
-    align-self: center;
-
-    .header-btn {
-      position: relative;
-      z-index: 2;
-      font-size: 12px;
-      padding: 14px 40px;
-    }
-  }
-}
-
-@media (min-width: 811px) {
-  .header {
-    grid-template-columns: 120px 1fr 200px;
-
-    &-logo {
-      grid-column: 1 / 2;
-      align-self: center;
-    }
-
-    &-right {
-      grid-column: 3 / 4;
-    }
-
-    .site-nav {
-      grid-column: 2 / 3;
-
-      .hamb {
-        .menuToggle {
-          input {
-            display: none;
+          &.active {
+            color: $color-primary;
           }
         }
       }
     }
-
-    ul li {
-      margin: 0 10px;
-      display: inline;
-    }
   }
 }
 
-@media (min-width: 992px) {
-  .header {
-    grid-template-columns: 120px 1fr 200px;
+.social-icons {
 
-    ul li {
-      margin: 0 25px;
+  a {
+    margin: 0 20px;
+    text-decoration: none;
+
+    &:last-child {
+      margin-right: 0;
     }
-  }
-}
 
-@media (min-width: 1175px) {
-  .header {
-    ul {
-      li {
-        margin: 0 40px;
+    img {
+      filter: grayscale(1);
+      opacity: 0.3;
+      transition: all .2s;
+    }
+
+    .facebook, .github {
+      opacity: 0.2;
+    }
+
+    &:hover {
+      img {
+        filter: none;
+        opacity: 1;
       }
     }
   }
 }
 
+.header {
+  display: none;
+}
+
+@media (max-width: 1399px) {
+  .tour {
+
+    &-top-bar {
+
+      ul li {
+        margin: 0 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1299px) {
+  .tour {
+
+    &-menu {
+
+      .tour-top-bar.fixed {
+        width: 960px;
+      }
+    }
+
+    &-top-bar {
+      max-width: 960px;
+
+      ul li {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .l-tour-header .social-icons {
+    margin: 0 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tour {
+
+    &-menu {
+
+      .tour-top-bar.fixed {
+        width: 800px;
+        padding: 20px 20px 0;
+      }
+    }
+
+    &-top-bar {
+      flex-direction: column;
+      max-width: 800px;
+
+      ul {
+        justify-content: space-between;
+        margin: 0 20px;
+      }
+    }
+
+  }
+
+  .l-tour-header .social-icons {
+    align-self: flex-end;
+    margin: 20px 30px;
+  }
+}
+
 @media screen and (max-width: 810px) {
+  .tour-top-bar {
+    display: none;
+  }
+
   .header {
+    display: block;
     text-align: left;
 
     .site-nav .triger{
       visibility: hidden;
     }
 
-    &-logo {
-      display: none;
-    }
-
-    &-right {
-      display: none;
-    }
-
     .site-nav {
-      grid-column: 1 / 4;
 
       .hamb {
-        display: block;
 
         .menuToggle {
-          display: block;
           position: relative;
-          z-index: 1;
+          z-index: 1000;
           user-select: none;
 
           input {
@@ -231,50 +272,38 @@
 
           .menu {
             position: fixed;
-            top: -35px;
-            left: -30px;
+            top: 0;
+            left: 0;
             width: 100%;
             height: 100%;
-            margin-left: 30px;
+            margin: 0;
             background: white;
-            text-align: left;
-            list-style-type: none;
             transform-origin: 0% 0%;
             transform: translate(-100%, 0);
             transition: transform 0.7s;
-
-            .naturaily {
-              display: list-item;
-              margin: 80px 0 20px;
-              margin-left: 30px;
-
-
-              img {
-                position: relative;
-                width: 100px;
-                z-index: 1;
-              }
-            }
+            list-style: none;
 
             li {
-              padding: 5px 30px;
               position: relative;
+              height: 32px;
+              padding: 5px 30px;
               z-index: 2;
+
+              &:first-child {
+                margin-top: 50px;
+              }
 
               a {
                 display: block;
+                color: $color-global-font;
+                font-weight: 200;
               }
             }
 
             .header-social {
-              display: block;
               position: fixed;
               bottom: 10px;
               left: 20px;
-
-              .header-github {
-                opacity: 0.18;
-              }
 
               img {
                 max-height: 15px;
@@ -320,14 +349,8 @@
       ul.menu {
         display: grid;
         grid-template-columns: repeat(3, 150px);
-        grid-template-rows: 150px repeat(2, 50px);
-        grid-template-areas: "logo logo logo"
-                             "menu menu menu"
-                             "menu menu menu";
-
-        .naturaily {
-          grid-area: logo;
-        }
+        grid-template-rows: 120px repeat(2, 50px);
+        align-items: end;
       }
     }
   }
