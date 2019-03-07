@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-color: transparent;
-    background-size: contain;
+    background-size: cover;
     border-radius: 4px;
   }
 
@@ -43,41 +43,10 @@
     }
   }
 
-  &-title {
-    position: absolute;
-    left: 40px;
-    bottom: 28px;
-
-    span {
-      font-size: 12px;
-      font-weight: 300;
-    }
-
-    p {
-      font-weight: 300;
-    }
-  }
-
   &-main {
-    height: 420px;
+    height: 480px;
     margin: 0 -100px;
     background-image: url(/assets/images/background-phone.png);
-
-    .videos-title {
-      left: 100px;
-    }
-
-    &-number {
-      color: #ffac07;
-    }
-
-    .tour-circle {
-      left: 40px;
-      bottom: 70px;
-      width: 10px;
-      height: 10px;
-      background-color: #ffac07;
-    }
   }
 
   &-other {
@@ -92,6 +61,7 @@
     }
 
     .videos-technology {
+      background-position-x: -40px;
       background-image: url(/assets/images/background-technology.png);
     }
   }
@@ -102,26 +72,14 @@
     padding: 0 60px;
 
     &-main {
-      height: 375px;
+      height: 420px;
       margin: 0 -60px 20px;
-
-      .videos-title {
-        left: 60px;
-      }
-
-      .tour-circle {
-        left: 20px;
-      }
     }
 
     &-other {
       grid-template-columns: 585px 515px;
       height: 375px;
       margin: 0 -60px;
-    }
-
-    &-cooperation, &-technology {
-      background-size: cover;
     }
   }
 }
@@ -130,12 +88,16 @@
   .videos {
 
     &-main {
-      height: 320px;
+      height: 370px;
     }
 
     &-other {
       grid-template-columns: 552px 388px;
       height: 280px;
+    }
+
+    .btn-youtube {
+      bottom: 15px;
     }
   }
 }
@@ -152,26 +114,19 @@
     }
 
     &-main {
-      height: 180px;
-    }
-
-    &-title {
-      left: 60px;
-      bottom: 5px;
+      height: 200px;
     }
 
     &-other {
       grid-template-columns: 1fr;
       grid-row-gap: 20px;
       height: initial;
-    }
 
-    &-cooperation, &-technology {
-      height: 180px;
-    }
-
-    .tour-circle {
-      bottom: 50px;
+      .videos-cooperation, .videos-technology {
+        height: 200px;
+        background-position-x: 0;
+        background-position-y: -40px;
+      }
     }
 
     .btn-youtube {
@@ -194,7 +149,6 @@
     padding: 0 30px;
 
     &-main {
-      height: 150px;
       margin: 0 -30px 20px;
 
       .videos-title {
@@ -202,21 +156,8 @@
       }
     }
 
-    &-title {
-      left: 30px;
-    }
-
     &-other {
       margin: 0 -30px;
-    }
-
-    &-cooperation, &-technology {
-      height: 150px;
-    }
-
-    .tour-circle {
-      bottom: 55px;
-      left: 8px;
     }
   }
 }
@@ -224,8 +165,12 @@
 @media (max-width: 469px) {
   .videos {
 
-    &-main {
-      background-size: cover;
+    &-other {
+
+      .videos-cooperation, .videos-technology {
+        background-position-x: 0;
+        background-position-y: 0;
+      }
     }
 
     &-header {
