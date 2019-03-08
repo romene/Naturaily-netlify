@@ -78,6 +78,10 @@
     max-width: none;
     padding: 40px 60px;
 
+    .headings--h2 {
+      margin-left: 0;
+    }
+
     &-background {
 
       &::before {
@@ -118,7 +122,6 @@
 
     .headings--h2 {
       margin-bottom: 50px;
-      margin-left: 0;
       text-align: left;
     }
 
