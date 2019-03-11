@@ -237,7 +237,7 @@ Going back to our methods:
 
 *Conclusion*: This is the actual distinction between private and protected. **Private methods cannot be called with an explicit receiver and protected ones can**. Based on my experience, protected methods are rarely used among Ruby code lines, but they can be useful while comparing parameters, for example, when we want to restrict access to the attribute but still want to use it in the comparison method.
 
-I hope that the access control rules are much more clearer now. I encourage you to get your hands dirty with the [code](https://github.com/blazeP/ruby-access-control) if you hadn’t done it already. Theory tends to get forgotten if it isn't proofed.   
+I hope that the access control rules are much more clear now. I encourage you to get your hands dirty with the [code](https://github.com/blazeP/ruby-access-control) if you hadn’t done it already. Theory tends to get forgotten if it isn't proofed.   
 
 In the end, as I promised - answers to the statements:
 
