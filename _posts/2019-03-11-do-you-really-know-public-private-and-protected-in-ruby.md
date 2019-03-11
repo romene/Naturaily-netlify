@@ -11,7 +11,7 @@ date: '2019-03-11 01:50:43 +0200'
 category: Ruby on Rails development
 author: Błażej Pichur
 avatar: /assets/images/blazej.png
-image: /assets/images/ruby-is-cool.png
+image: /assets/images/public-private-protected-ruby.jpg
 text-preview: >-
   Public, private and protected access - all of the programmers are familiar
   with that concept. Nothing special, we work with them on a daily basis.
