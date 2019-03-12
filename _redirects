@@ -275,3 +275,5 @@
 /vue-js-development                                          /services/vue-js-development
 
 # General redirects
+
+/tos                                                         /terms-of-service
