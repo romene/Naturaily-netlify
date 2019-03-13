@@ -45,6 +45,8 @@ Vue was built with an intention to organize and simplify web development by an e
 
 * There are many extensive development tools available for Vue and React as well as resources and guidelines to make coding more productive.
 
+## Read: [Vue vs React in 2019 - a comparison from a business perspective](https://naturaily.com/blog/vue-vs-react-2019-business-comparison)
+
 As you can see, when it comes to features, Vue and React are quite similar. **What are the differences?**
 
 **Vue is a progressive framework, React is a JavaScript Library** - meaning that usually, you will need more libraries with React to form a solution. As a result, React is not as constraining as other JavaScript frameworks and gives more freedom to developers because they can manually add libraries you want and need in your project. React focuses on one very specific thing - building User Interfaces - and does it very well.
