@@ -61,7 +61,7 @@ The list of javascript frameworks can't be complete without Node.js. It is the m
 
 Many consider that GraphQL is the replacement for the REST APIs in 2019. Since GraphQL integrates with React (a forementioned most popular JS framework) it is becoming an important competitor for Relay.
 
-“_In my opinion GraphQL, might be the feature to look out for in 2019. As seen based on npm downloads, more and more developers tend to use it in their projects. Its power comes from the fact, that GraphQL allows client to fetch only the data that it wants, and that means no more over or under-fetching!_” - Andrzej Gatkowski, intern at Naturaily.
+“_In my opinion GraphQL, might be the feature to look out for in 2019. As seen based on npm downloads, more and more developers tend to use it in their projects. Its power comes from the fact, that GraphQL allows client to fetch only the data that it wants, and that means no more over or under-fetching!_” - Andrzej Gatkowski, JavaScript developer at Naturaily.
 
 ## Conclusion
 
