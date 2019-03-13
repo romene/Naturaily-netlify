@@ -4,6 +4,7 @@ description: >-
   Both React and Vue have gained a lot of attention and interest from developers
   in the past 3 years. Here's a brief comparison based on our experience.
 slug: react-vue-similarities-and-differences
+twitter-card: summary_large_image
 date: '2017-11-28 10:38:01 +0000'
 category: JavaScript development
 author: Wojciech Miśta
@@ -44,6 +45,8 @@ Vue was built with an intention to organize and simplify web development by an e
 * They both utilize **Virtual DOM** - a set of libraries and algorithms that allow you to improve front-end performance by avoiding work with heavy DOM. It lets you work with a lightweight JavaScript object that imitates the DOM tree. [3]
 
 * There are many extensive development tools available for Vue and React as well as resources and guidelines to make coding more productive.
+
+## Read: [Vue vs React in 2019 - a comparison from a business perspective](https://naturaily.com/blog/vue-vs-react-2019-business-comparison)
 
 As you can see, when it comes to features, Vue and React are quite similar. **What are the differences?**
 
