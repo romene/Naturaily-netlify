@@ -4,6 +4,7 @@ description: >-
   Both React and Vue have gained a lot of attention and interest from developers
   in the past 3 years. Here's a brief comparison based on our experience.
 slug: react-vue-similarities-and-differences
+twitter-card: summary_image_large
 date: '2017-11-28 10:38:01 +0000'
 category: JavaScript development
 author: Wojciech Miśta
