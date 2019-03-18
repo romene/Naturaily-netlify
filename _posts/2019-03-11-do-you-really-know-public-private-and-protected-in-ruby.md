@@ -19,8 +19,6 @@ text-preview: >-
 tags:
   - Ruby on Rails development
 ---
-# Do you **really** know public, private and protected in Ruby?
-
 **Public, private and protected access** - all of the programmers are familiar with that concept. Nothing special, we work with them on a daily basis. However, as Ruby programmers, do we **really** know the details?
 
 You can check yourself with these five statements. Try to answer: TRUE or FALSE.
