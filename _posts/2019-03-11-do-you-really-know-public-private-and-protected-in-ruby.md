@@ -7,7 +7,7 @@ description: >-
 slug: public-private-protected-ruby
 layout: post
 twitter-card: summary_large_image
-date: '2019-03-11 01:50:43 +0200'
+date: '2019-03-18 09:30:43 +0200'
 category: Ruby on Rails development
 author: Błażej Pichur
 avatar: /assets/images/blazej.png
