@@ -3,6 +3,15 @@
   grid-template-columns: 1fr 540px 1fr;
   display: none;
   background: #FEFBF5;
+  grid-area: header;
+  position: relative;
+  z-index: 1;
+  top: 61px;
+  transition: top .4s ease;
+
+  .scrolled & {
+    top: 0;
+  }
 
   .topbar {
     grid-column: 2;
