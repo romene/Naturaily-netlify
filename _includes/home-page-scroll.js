@@ -67,7 +67,3 @@ $(document).ready(function(){
     window.onresize = resizeForm;
     resizeForm();
 });
-
-$(window).scroll(function() {
-  $("body").addClass("scrolled");
-});
