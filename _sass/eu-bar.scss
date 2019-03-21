@@ -51,6 +51,11 @@
 }
 
 @media (max-width: 810px) {
+  .eu-bar {
+    .scrolled & {
+      top: -200px;
+    }
+  }
   .eu-bar-wrapp {
     flex-direction: column;
   }
