@@ -24,7 +24,7 @@
   }
 
   img {
-    height: 25px;
+    max-height: 25px;
     width: auto;
     padding-left: 15px;
   }
@@ -47,6 +47,18 @@
 
   .scrolled & {
     padding-top: 0;
+  }
+}
+
+@media (max-width: 810px) {
+  .eu-bar-wrapp {
+    flex-direction: column;
+  }
+
+  .eu-bar-text {
+    padding-bottom: 20px;
+    width: 80%;
+    text-align: center;
   }
 }
 

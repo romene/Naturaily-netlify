@@ -64,6 +64,10 @@
           filter: grayscale(0);
           opacity: 1;
         }
+
+        a:last-child & {
+          margin-right: 0;
+        }
       }
     }
 
