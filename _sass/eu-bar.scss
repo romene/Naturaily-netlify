@@ -71,17 +71,26 @@
 @media (min-width: 992px) {
   .eu-bar-wrapp {
     width: 960px;
+    .l-tour-header & {
+      max-width: 1260px;
+    }
   }
 }
 
 @media (min-width: 1200px) {
   .eu-bar-wrapp {
     width: 1140px;
+    .l-tour-header & {
+      max-width: 1260px;
+    }
   }
 }
 
 @media (min-width: 1400px) {
   .eu-bar-wrapp {
     width: 1320px;
+    .l-tour-header & {
+      max-width: 1260px;
+    }
   }
 }
