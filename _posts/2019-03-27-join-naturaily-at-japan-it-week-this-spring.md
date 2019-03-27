@@ -30,7 +30,7 @@ Mid-spring Tokio is a perfect time and place to learn the newest and hottest tec
 
 Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec=DDES) and learn about how you can implement IoT technology in agriculture, medicine, factories, and logistics, how network and sensors construction is done by the professionals. Also, you will have a chance to check out novelties in the field of RFID and recognition technologies.
 
-We will be presenting our own Internet of Things project - LVCloud. It's a 
+We will be presenting our own Internet of Things project - [LVCloud](https://naturaily.com/project/lvcloud). It's an application that monitors and takes care of the electrical grid. We have combined latest IoT technologies and tools with Machine Learning into a sophisticated app that solves problems with electric networks before anyone knew they existed. You can learn more about LVCloud in the [Portfolio](https://naturaily.com/portfolio) section on our website. 
 
 Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour). 
 ![Naturaily on Tour Map](/assets/images/natu_on_tour_map.jpeg)
