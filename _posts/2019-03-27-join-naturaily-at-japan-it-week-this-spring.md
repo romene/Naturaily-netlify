@@ -22,15 +22,29 @@ tags:
 As a part of our [ongoing tour](https://naturaily.com/on-tour), we’re pleased to announce that we will be attending the Japan IT Week this Spring! 
 (It's just 3 weeks away!)
 
-## What is the Japan IT week?
+## Japan IT Week
 
-Japan IT Week is a trade show where you can find all kinds of the latest Internet of Things and Machine to Machine systems and technology. The 28th Spring edition includes two expos. We’re extremely excited to be an exhibitor during the [IoT / M2M Expo](https://www.japan-it-spring.jp/en-gb/about/iot.html){:rel="nofollow"}!
+**Japan IT Week** is a trade show where you can find all kinds of the latest Internet of Things and Machine to Machine systems and technology. The 28th Spring edition includes two expos. **We’re extremely excited to be an exhibitor during the [IoT / M2M Expo](https://www.japan-it-spring.jp/en-gb/about/iot.html){:rel="nofollow"}**!
 
-Mid-spring Tokio is a perfect time and place to learn the newest and hottest technologies, especially IoT solutions from hundreds of talented and creative teams that will be attending the Expo this edition! 
+Come and say hi!
 
-Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec=DDES) and learn about how you can implement IoT technology in agriculture, medicine, factories, and logistics, how network and sensors construction is done by the professionals. Also, you will have a chance to check out novelties in the field of RFID and recognition technologies.
+**Date:** 10 - 12 April 2019
 
-We will be presenting our own Internet of Things project - [LVCloud](https://naturaily.com/project/lvcloud). It's an application that monitors and takes care of the electrical grid. We have combined latest IoT technologies and tools with Machine Learning into a sophisticated app that solves problems with electric networks before anyone knew they existed. You can learn more about LVCloud in the [Portfolio](https://naturaily.com/portfolio) section on our website. 
+**Location:** Booth No. 19 - 25!
+
+Mid-spring Tokio is a perfect time and place to learn the newest and hottest technologies, especially **IoT solutions** from hundreds of talented and creative teams that will be attending the Expo this edition! 
+
+Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec=DDES) and learn about how you can implement IoT technology in agriculture, medicine, factories, and logistics, how network and sensors construction is done by the *professionals*. Also, you will have a chance to check out novelties in the field of RFID and recognition technologies.
+
+## LVCloud
+
+![LVCloud](/assets/images/lvcloud.png)
+
+We will be presenting our own Internet of Things project - [LVCloud](https://naturaily.com/project/lvcloud). It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
+
+You can learn more about LVCloud in the [Portfolio](https://naturaily.com/portfolio) section on our website. 
+
+## Naturaily on Tour
 
 Our Naturaily On Tour is not stopping here! Find out where we’re going next [here](https://naturaily.com/on-tour). 
 ![Naturaily on Tour Map](/assets/images/natu_on_tour_map.jpeg)
