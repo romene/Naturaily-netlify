@@ -20,7 +20,7 @@ tags:
   - Events
 ---
 As a part of our [ongoing tour](https://naturaily.com/on-tour), we’re pleased to announce that we will be attending the Japan IT Week this Spring! 
-(It's just 3 weeks away!)
+(It's just 2 weeks away!)
 
 ## Japan IT Week
 
@@ -32,7 +32,7 @@ Come and say hi!
 
 **Location:** Booth No. 19 - 25!
 
-Mid-spring Tokio is a perfect time and place to learn the newest and hottest technologies, especially **IoT solutions** from hundreds of talented and creative teams that will be attending the Expo this edition! 
+Mid-spring Tokyo is a perfect time and place to learn the newest and hottest technologies, especially **IoT solutions** from hundreds of talented and creative teams that will be attending the Expo this edition! 
 
 Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec=DDES) and learn about how you can implement IoT technology in agriculture, medicine, factories, and logistics, how network and sensors construction is done by the *professionals*. Also, you will have a chance to check out novelties in the field of RFID and recognition technologies.
 
