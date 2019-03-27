@@ -42,7 +42,7 @@ Get your ticket [here](https://contact.reedexpo.co.jp/expo/DDES/?lg=en&tp=inv&ec
 
 We will be presenting our own Internet of Things project - [LVCloud](https://naturaily.com/project/lvcloud). It's an application that monitors and takes care of the electrical grid. We have combined **latest IoT technologies** and tools with **Machine Learning** into a sophisticated app that solves problems with electric networks before anyone knew they existed. 
 
-You can learn more about LVCloud in the [Portfolio](https://naturaily.com/portfolio) section on our website. 
+You can learn more about LVCloud and our other projects in the [Portfolio](https://naturaily.com/portfolio) section on our website. 
 
 ## Naturaily on Tour
 
