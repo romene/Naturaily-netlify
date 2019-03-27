@@ -7,7 +7,7 @@ description: >-
 slug: naturaily-on-tour-japan-it-week
 layout: post
 twitter-card: summary_large_image
-date: '2019-03-27 10:31:12 +0200'
+date: '2019-03-27 12:30:12 +0200'
 category: Events
 author: Wojciech Miśta
 avatar: /assets/images/wojciech.jpg
