@@ -6,48 +6,30 @@ description: >-
   of Naturaily? Of course, we did!
 slug: wrocloverb-2019-highlights
 layout: post
-twitter-card: ''
+twitter-card: summary_large_image
 date: '2019-03-29 04:05:01 +0200'
 category: Events
 author: Beata Twardowska
-avatar: /assets/images/zrzut-ekranu-2019-03-15-o-14.48.02.png
+avatar: /assets/images/beata.jpg
 image: /assets/images/wrocloverb_highlights.jpeg
 text-preview: >-
   Wroclove.rb’s main goal is to help Ruby professionals get better at what they
   do. How could we miss such an opportunity and not send a strong representation
   of Naturaily? Of course, we did!
 tags:
-  - wrocloverb
-  - ruby
-  - ruby on rails
-  - Markus Schirp
-  - Andrzej Krzywda
-  - Ethan Garofolo
-  - Janko Marohnić
-  - Martin Gamsjaeger
-  - Norbert Wójtowicz
-  - Dmitry Salahutdinov
-  - Victor Shepelev
-  - Michał Matyas
-  - Chris Seaton
-  - Anton Davydov
-  - Mutation Testing
-  - Business Logic in Ruby
-  - Building UIs for Microservices
-  - Autoloading
-  - Orchestrating video transcoding in Ruby
+  - Events
 ---
-**You know you’re dealing with good developers when it’s the first, sunny weekend of spring, the thermometer hits the magical 21 degrees Celsius mark – and yet they still prefer to spend the three consecutive days within the cold walls, broadening the knowledge of their trade: Mutation Testing, Business Logic in Ruby, Building UIs for Microservices, Autoloading or Orchestrating video transcoding in Ruby. **
+You know you’re dealing with good developers when it’s the first, sunny weekend of spring, the thermometer hits the magical 21 degrees Celsius mark – and yet they still prefer to spend the three consecutive days within the cold walls, broadening the knowledge of their trade: **Mutation Testing, Business Logic in Ruby, Building UIs for Microservices, Autoloading or Orchestrating video transcoding in Ruby**.
 
 As the organizers say: Wroclove.rb’s main goal is to help Ruby professionals get better at what they do. How could we miss such an opportunity and not send a strong representation of Naturaily? Of course, we did!
 
-![Naturaily team](/assets/images/image-from-ios-34-.jpg)
+![Naturaily team](/assets/images/naturaily-team-wroclove-rb.jpg)
 
 Wroclove.rb in a nutshell:
 
-Date: 22-24 March 2019
+**Date:** 22-24 March 2019
 
-Speakers: Markus Schirp, Andrzej Krzywda, Ethan Garofolo, Janko Marohnić, Martin Gamsjaeger, Norbert Wójtowicz, Dmitry Salahutdinov, Victor Shepelev, Michał Matyas, Chris Seaton, Anton Davydov and Dávid Halász
+**Speakers:** Markus Schirp, Andrzej Krzywda, Ethan Garofolo, Janko Marohnić, Martin Gamsjaeger, Norbert Wójtowicz, Dmitry Salahutdinov, Victor Shepelev, Michał Matyas, Chris Seaton, Anton Davydov and Dávid Halász
 
 How was it? What were the most interesting topics? Check out what Błażej, Stefan and Adam have to say about it.
 
@@ -67,19 +49,11 @@ Definitely, the most noteworthy talks were:
 >
 > The idea discussed by Markus is very interesting, but the process itself is quite resource-intensive, which is why it is gaining popularity now when developers have sufficient computing power at hand. 
 >
-> Introduction of mutational tests to the project increases the development time of new functionalities – that's a fact. However, in the long-term perspective, it certainly pays off. I encourage you to familiarize yourself with the 
->
-> [tool](https://github.com/mbj/mutant)
->
->  proposed by Markus.
+> Introduction of mutational tests to the project increases the development time of new functionalities – that's a fact. However, in the long-term perspective, it certainly pays off. I encourage you to familiarize yourself with the [tool](https://github.com/mbj/mutant) proposed by Markus.
 
 **2. Business logic in Ruby without frameworks, libraries and persistence - Andrzej Krzywda**
 
-> Andrzej's speech was devoted to business logic, but he also delved into technicalities a bit. Among other things, Andrzej presented Arkency's idea for the implementation of the State Machine and made public 
->
-> [the following repository](https://github.com/arkency/aggregates)
->
-> . 
+> Andrzej's speech was devoted to business logic, but he also delved into technicalities a bit. Among other things, Andrzej presented Arkency's idea for the implementation of the State Machine and made public [the following repository](https://github.com/arkency/aggregates).
 >
 > The creators assumed that a state can be presented as a class. Andrzej decided to use Duck Typing. We are also dealing with metaprogramming (that is all that should satisfy Ruby programmers). It all fits the DDD (Domain Driven Design) approach and CQRS (Command Query Responsibility Segregation), which Arkency advocates. 
 >
@@ -87,35 +61,15 @@ Definitely, the most noteworthy talks were:
 
 **3. Handling file uploads for a modern developer - Janko Marohnic**
 
-> Janko devoted his speech to 
+> Janko devoted his speech to [Shrine](https://github.com/shrinerb/shrine), his own solution enabling file uploads.
 >
-> [Shrine](https://github.com/shrinerb/shrine)
+> At Naturaily, we haven't had the opportunity to use it yet, but it looks promising. If you're wondering what sets it apart from other solutions, I recommend that you look  [here](https://github.com/shrinerb/shrine/blob/v2.16.0/doc/advantages.md#readme).
 >
-> , his own solution enabling file uploads.
->
-> At Naturaily, we haven't had the opportunity to use it yet, but it looks promising. If you're wondering what sets it apart from other solutions, I recommend that you look 
->
-> [here](https://github.com/shrinerb/shrine/blob/v2.16.0/doc/advantages.md#readme)
->
-> .
->
-> For managing uploads on the frontend, Janko recommended 
->
-> [Uppy](https://uppy.io/)
->
-> , which can be used independently of Shrine. Modularity of this solution is a big advantage.
+> For managing uploads on the frontend, Janko recommended [Uppy](https://uppy.io/), which can be used independently of Shrine. Modularity of this solution is a big advantage.
 
 **4. The TruffleRuby Compilation Pipeline (Chris Seaton)**
 
->
->
-> [TruffleRuby](https://github.com/oracle/truffleruby)
->
->  is an Oracle project whose idea is to speed up Ruby without affecting its syntax. TruffleRuby is part of a much wider project (more about it 
->
-> [here](https://www.graalvm.org/)
->
-> ), the aim of which is to improve and preserve current languages, so that programmers choose those that they like, rather than those that are the fastest. 
+> [TruffleRuby](https://github.com/oracle/truffleruby) is an Oracle project whose idea is to speed up Ruby without affecting its syntax. TruffleRuby is part of a much wider project (more about it [here](https://www.graalvm.org/)), the aim of which is to improve and preserve current languages, so that programmers choose those that they like, rather than those that are the fastest. 
 
 **5. Development with Axioms (Martin Gamsjaeger)**
 
@@ -133,22 +87,6 @@ Definitely, the most noteworthy talks were:
 
 ## Adam:
 
-> Optimistic UI is also worth mentioning here. According to this approach, after each action performed by the user, we do not have to wait for the response from the back end, but immediately send the message that the action was successful. We assume that this will be the case, as statistically 98% of requests are successful. You can find more information about Optimistic UI 
->
-> [here](https://uxplanet.org/optimistic-1000-34d9eefe4c05)
->
-> .
-
-
+> Optimistic UI is also worth mentioning here. According to this approach, after each action performed by the user, we do not have to wait for the response from the back end, but immediately send the message that the action was successful. We assume that this will be the case, as statistically 98% of requests are successful. You can find more information about Optimistic UI [here](https://uxplanet.org/optimistic-1000-34d9eefe4c05).
 
 If you've also been to Wroclove.rb, be sure to share your opinion in a comment and let them know what you found the most interesting. 
-
-
-
-
-
-
-
-
-
-##
