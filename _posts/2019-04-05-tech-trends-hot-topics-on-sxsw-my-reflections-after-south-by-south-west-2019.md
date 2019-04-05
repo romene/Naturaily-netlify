@@ -16,7 +16,7 @@ date: '2019-04-05 10:41:22 +0200'
 category: Events
 author: Marcin Sulikowski
 avatar: /assets/images/marcin.jpg
-image: /assets/images/5-reasons-to-work-at-naturaily.jpg
+image: /assets/images/naturaily-blog-sxsw.jpg
 text-preview: >-
   South by South West 2019 was the 1st stop on Naturaily’s Tour through the
   biggest tech conferences around the world. Check out Marcin’s our CEO
