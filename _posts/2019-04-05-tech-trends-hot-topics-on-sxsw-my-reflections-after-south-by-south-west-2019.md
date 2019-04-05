@@ -26,7 +26,7 @@ tags:
 ---
 **Each year for few days, Austin, Texas, also known as Silicon Hills, becomes the global capital of the entertainment and technology industry.**
 
-**We were at the heart of these events, we talked and listened. Between March 7 and 14, 2019, we participated in the South by South West 2019 festival (SXSW 2019). When jetlag dropped off, and the task-list enlargead by the absence at the company shortened, the time came to make a short summary.**
+We were at the heart of these events, we talked and listened. Between March 7 and 14, 2019, we participated in the South by South West 2019 festival (SXSW 2019). When jetlag dropped off, and the task-list enlargead by the absence at the company shortened, the time came to make a short summary.
 
 ## Diversity trends
 
