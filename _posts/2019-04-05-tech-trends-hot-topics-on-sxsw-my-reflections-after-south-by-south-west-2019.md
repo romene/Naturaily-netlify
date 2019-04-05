@@ -40,7 +40,7 @@ One of the most interesting lectures I was able to attend was also a panel organ
 
 ## Great opportunity to network with interesting open-minded people
 
-Implementing the whole year's [Naturaily on Tour](https://naturaily.com/on-tour), at South by South West 2019, we also appeared as exhibitors and at our stand we had plenty of opportunities to have brief and prolonged conversations with the fair visitors. SXSW is a huge festival focused on the entertainment, cultural and technological industries in a broad sense. For over a week, the whole city becomes a huge stage for thousands of events, concerts, meet-ups, and events in companies that have their headquarters in Austin. Open Doors Days in company offices of the start-up technology industry was a great opportunity for fantastic meetings. We would like to give special thanks to [ObjectRocket](https://www.objectrocket.com/) {:rel="nofollow"}, [Skaffolder](https://www.skaffolder.com/#/home) {:rel="nofollow"} and [Alpha](https://alphahq.com/) {:rel="nofollow"} for a very kind reception and to Emmalyn Shaw (Managing Partner at Flourish) for a nice talk.
+Implementing the whole year's [Naturaily on Tour](https://naturaily.com/on-tour), at South by South West 2019, we also appeared as exhibitors and at our stand we had plenty of opportunities to have brief and prolonged conversations with the fair visitors. SXSW is a huge festival focused on the entertainment, cultural and technological industries in a broad sense. For over a week, the whole city becomes a huge stage for thousands of events, concerts, meet-ups, and events in companies that have their headquarters in Austin. Open Doors Days in company offices of the start-up technology industry was a great opportunity for fantastic meetings. We would like to give special thanks to [ObjectRocket](https://www.objectrocket.com/){:rel="nofollow"}, [Skaffolder](https://www.skaffolder.com/#/home){:rel="nofollow"} and [Alpha](https://alphahq.com/){:rel="nofollow"} for a very kind reception and to Emmalyn Shaw (Managing Partner at Flourish) for a nice talk.
 
 The festival takes place in almost every possible urban space, and local bars and clubs become a meeting place for specific tech-scenes from all over the world. BerlinSaloon convinced us with its exceptional hospitality and became our main networking base. Thanks to a multitude of side events and the presence of interesting people, also from the European technological scene, we often visited the BerlinSaloon, which was also co-organized by Mazovia Cluster ICT.
 
@@ -48,7 +48,7 @@ The festival takes place in almost every possible urban space, and local bars an
 
 [Internet of Things industrial application development](https://naturaily.com/services) is one of the main areas of our expertise. Therefore, we particularly remembered Aashish Mehta and his project www.transferfi.com that we were able to get to know during the Innovation Competition. We keep our fingers crossed for further development!
 
-We also had the opportunity to have a great conversation with the representatives of the platform that enables the design of IoT products - [Clearblade](https://www.clearblade.com/) {:rel="nofollow"} – a start-up company based in Austin, whose office we had the chance to visit. Industry level IoT products is the field that is particularly close to us. We are happy to see interesting solutions developed by specialists all over the world.
+We also had the opportunity to have a great conversation with the representatives of the platform that enables the design of IoT products - [Clearblade](https://www.clearblade.com/){:rel="nofollow"} – a start-up company based in Austin, whose office we had the chance to visit. Industry level IoT products is the field that is particularly close to us. We are happy to see interesting solutions developed by specialists all over the world.
 
 ## Nice to hear you – a podcast era
 
@@ -56,4 +56,4 @@ Last but not least, I recommend you a recording from the panel discussion about 
 
 If the topic is close to you – they are worth listening to:
 
-[The Second Golden Age of Audio: Podcasting | SXSW 2019](https://www.youtube.com/watch?v=1OZq_Zo8Hc4) {:rel="nofollow"}
+["The Second Golden Age of Audio - Podcasting | SXSW 2019"](https://www.youtube.com/watch?v=1OZq_Zo8Hc4){:rel="nofollow"}
