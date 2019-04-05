@@ -56,4 +56,4 @@ Last but not least, I recommend you a recording from the panel discussion about 
 
 If the topic is close to you – they are worth listening to:
 
-[The Second Golden Age of Audio - Podcasting | SXSW 2019](https://www.youtube.com/watch?v=1OZq_Zo8Hc4) {:rel="nofollow"}
+[The Second Golden Age of Audio: Podcasting | SXSW 2019](https://www.youtube.com/watch?v=1OZq_Zo8Hc4) {:rel="nofollow"}
