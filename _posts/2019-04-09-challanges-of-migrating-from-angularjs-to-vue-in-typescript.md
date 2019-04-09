@@ -1,9 +1,9 @@
 ---
-title: Challanges of migrating from AngularJS to Vue in TypeScript
+title: Challenges of migrating from AngularJS to Vue in TypeScript
 description: >-
   Migrating an app from AngularJS to Vue in TypeScript is not an easy task. In
   fact, we've come across many caveats everyone intrested should know about.
-slug: challanges-migrating-angularjs-vue-typescript
+slug: challenges-migrating-angularjs-vue-typescript
 layout: post
 twitter-card: summary_large_image
 date: '2019-04-09 11:30:30 +0200'
