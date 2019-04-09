@@ -6,7 +6,7 @@ description: >-
 slug: challanges-migrating-angularjs-vue-typescript
 layout: post
 twitter-card: summary_large_image
-date: '2019-04-09 09:26:30 +0200'
+date: '2019-04-09 11:30:30 +0200'
 category: JavaScript development
 author: Bartek Zienkiewicz
 avatar: /assets/images/bartek.jpg
