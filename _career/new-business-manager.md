@@ -16,8 +16,8 @@ who_we_are: >
   still excited by new technologies&#44; creative solutions and overcoming
   challenges. We pride ourselves in knowledge of Vue.js&#44; Ruby on Rails&#44;
   Node.js and Internet of Things.
-type: Business Development
-salary: salary from 6000 PLN net + VAT (B2B)
+type: Business
+salary: from 6000 PLN net + VAT (B2B)
 responsibilities:
   - >-
     Conduct market research to define landscape within target industry segments
