@@ -49,7 +49,7 @@ collections:
       - label: "Offer type"
         name: "type"
         widget: "select"
-        options: ["Development", "UX/UI", "Sales&Marketing", "Business Development", "Operations", "Other"]
+        options: ["Development", "UX/UI", "Sales&Marketing", "Business", "Operations", "Other"]
       - {label: "Salary", name: "salary", widget: "string", default: "salary from XXXX pln net"}
       - label: "Responsibilities"
         name: "responsibilities"

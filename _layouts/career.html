@@ -221,13 +221,13 @@ layout: default
         {% endfor %}
       </div>
     {% endif %}
-    {% if carrer_type contains "Business Development" %}
+    {% if carrer_type contains "Business" %}
       <div class="l-career-container">
         <div class="main-point">
           Business Development
         </div>
         {% for job in site.career %}
-          {% if job.type contains "Business Development" %}
+          {% if job.type contains "Business" %}
             {% include career-box.html %}
           {% endif %}
         {% endfor %}

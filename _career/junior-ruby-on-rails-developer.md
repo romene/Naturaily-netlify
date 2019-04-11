@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js to craft great digital experiences. We work with startups and grown-up
   companies.
 type: Development
-salary: 'from 3300 pln net'
+salary: 'from 3300 PLN net'
 responsibilities:
   - >-
     Programming Ruby (on Rails) applications together with more experienced

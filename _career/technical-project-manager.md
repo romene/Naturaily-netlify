@@ -12,7 +12,7 @@ who_we_are: >-
   Vue.js craft great digital experiences. We work with startups and grown-up
   companies.
 type: Other
-salary: from 5000 pln net
+salary: from 5000 PLN net
 responsibilities:
   - 'Being in direct contact with clients (e-mail&#44; Skype&#44; Slack)'
   - Managing tasks
@@ -50,4 +50,3 @@ offer:
 salary-range:
   - 5 000 - 10 000 PLN + VAT B2B
 ---
-
