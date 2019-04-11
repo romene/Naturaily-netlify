@@ -47,7 +47,6 @@ requirements:
   - Coordination of the offering process and its delivery
   - Contracts negotiation
   - Fluent English
-  - ''
 nicehave:
   - Ability to build long-term relationships with the Clients
   - Understanding of the Clients business
