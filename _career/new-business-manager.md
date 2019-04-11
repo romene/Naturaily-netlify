@@ -48,7 +48,7 @@ requirements:
   - Contracts negotiation
   - Fluent English.
 nicehave:
-  - Ability to build long-term relationships with the Clients
+  - Building long-term relationships with the Clients
   - Understanding of the Clients business
   - Being target orientated
   - Continuous persistence.
